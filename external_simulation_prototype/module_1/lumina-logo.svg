@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Dark slate rounded square matching the UI -->
+    <rect width="64" height="64" rx="16" fill="#191c26" />
+    
+    <!-- Outer Glow for the L -->
+    <path d="M 23 14 A 3 3 0 0 1 26 17 V 44 H 41 A 3 3 0 0 1 41 50 H 23 A 3 3 0 0 1 20 47 V 17 A 3 3 0 0 1 23 14 Z" fill="url(#gradL)" opacity="0.6" filter="blur(4px)" />
+
+    <!-- The Tall Perfect 'L' -->
+    <path d="M 23 14 A 3 3 0 0 1 26 17 V 44 H 41 A 3 3 0 0 1 41 50 H 23 A 3 3 0 0 1 20 47 V 17 A 3 3 0 0 1 23 14 Z" fill="url(#gradL)"/>
+
+    <defs>
+        <linearGradient id="gradL" x1="20" y1="14" x2="41" y2="50" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#3b82f6"/>   <!-- Vibrant Blue -->
+            <stop offset="55%" stop-color="#e37b42"/>  <!-- Soft Orange Transition -->
+            <stop offset="100%" stop-color="#fca211"/> <!-- Bright Yellow/Orange -->
+        </linearGradient>
+    </defs>
+</svg>
