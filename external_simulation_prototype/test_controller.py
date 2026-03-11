@@ -7,7 +7,7 @@ import time
 
 # CONFIGURATION
 PORT = 8765
-HOST = "localhost"
+HOST = "0.0.0.0"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INSTRUCTIONS_PATH = os.path.join(SCRIPT_DIR, "current_show.json")
 
