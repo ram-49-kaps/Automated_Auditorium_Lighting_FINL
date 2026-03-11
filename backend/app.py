@@ -573,7 +573,7 @@ async def launch_simulation(job_id: str):
     
     return {
         "status": "launched", 
-        "url": f"http://localhost:8081/?job_id={job_id}&t={timestamp}",
+        "url": f"http://16.171.153.178:8081/?job_id={job_id}&t={timestamp}",
         "controller_status": "active"
     }
 
