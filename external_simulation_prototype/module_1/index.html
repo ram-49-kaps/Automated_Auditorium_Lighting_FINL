@@ -822,8 +822,10 @@
                         document.getElementById("fb_status").style.display = 'block';
                         btn.style.display = 'none';
                         setTimeout(() => {
-                            document.getElementById("feedbackOverlay").style.display = 'none';
-                        }, 3000);
+                            // Instead of just hiding, redirect to the main Vercel app
+                            const appDomain = window.location.hostname === 'localhost' ? 'http://localhost:5173' : 'https://automated-auditorium-lightning-final.vercel.app';
+                            window.location.href = `${appDomain}/?feedback=success`;
+                        }, 2000);
                     } else {
                         btn.innerText = "ERROR, TRY AGAIN";
                         btn.disabled = false;

@@ -1,10 +1,24 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import ParticleBackground from '../components/ui/ParticleBackground'
 import Header from '../components/layout/Header'
-import { BrainCircuit, Lightbulb, MonitorPlay, FileText, Sparkles, Rocket, ArrowDown } from 'lucide-react'
+import { BrainCircuit, Lightbulb, MonitorPlay, FileText, Sparkles, Rocket, ArrowDown, CheckCircle2 } from 'lucide-react'
 
 export default function LandingPage() {
     const navigate = useNavigate()
+    const location = useLocation()
+    const [showSuccess, setShowSuccess] = useState(false)
+
+    useEffect(() => {
+        const params = new URLSearchParams(location.search)
+        if (params.get('feedback') === 'success') {
+            setShowSuccess(true)
+            // Clean up the URL
+            window.history.replaceState({}, '', '/')
+            // Hide after 5 seconds
+            setTimeout(() => setShowSuccess(false), 5000)
+        }
+    }, [location])
 
     const features = [
         {
@@ -40,6 +54,17 @@ export default function LandingPage() {
 
             {/* Hero Section */}
             <section className="relative z-10 flex flex-col items-center justify-center min-h-screen px-6 text-center">
+
+                {/* Success Toast */}
+                <div className={`fixed top-24 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 transform ${showSuccess ? 'translate-y-0 opacity-100 visible' : '-translate-y-8 opacity-0 invisible'}`}>
+                    <div className="bg-emerald-500/10 border border-emerald-500/30 backdrop-blur-md px-6 py-3 rounded-full flex items-center gap-3 shadow-[0_0_20px_rgba(16,185,129,0.2)]">
+                        <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+                        <span className="font-mono text-xs uppercase tracking-widest text-emerald-100 font-semibold">
+                            TELEMETRY RECEIVED & CALIBRATED
+                        </span>
+                    </div>
+                </div>
+
                 {/* Status Badge */}
                 <div className="animate-fade-in mb-8">
                     <div className="inline-flex items-center gap-3 px-4 py-1.5 rounded-md
