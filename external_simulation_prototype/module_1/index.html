@@ -595,10 +595,10 @@
 
     <!-- FEEDBACK / RLHF OVERLAY -->
     <div id="feedbackOverlay"
-        style="position:fixed; top:0; left:0; width:100%; height:100%; background:radial-gradient(circle at center, rgba(20,20,30,0.85) 0%, rgba(5,5,10,0.98) 100%); z-index:9999; display:none; flex-direction:column; align-items:center; justify-content:flex-start; color:#ffffff; overflow-y:auto; padding:40px 20px; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; backdrop-filter: blur(8px);">
+        style="position:fixed; top:0; left:0; width:100%; height:100%; background:radial-gradient(circle at center, rgba(10,10,15,0.7) 0%, rgba(5,5,10,0.95) 100%); backdrop-filter: blur(12px); z-index:9999; display:none; flex-direction:column; align-items:center; justify-content:center; color:#ffffff; overflow-y:auto; padding:40px 20px; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
 
         <div
-            style="background: rgba(25, 25, 35, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 212, 255, 0.1); padding: 2rem 3rem; border-radius: 20px; width: 100%; max-width: 750px; display: flex; flex-direction: column; gap: 20px; position:relative; overflow:visible; margin: auto 0; flex-shrink: 0;">
+            style="background: rgba(20, 25, 35, 0.4); border: 1px solid rgba(0, 212, 255, 0.15); box-shadow: inset 0 0 20px rgba(0,212,255,0.05), 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 212, 255, 0.1); padding: 2.5rem 3.5rem; border-radius: 24px; width: 100%; max-width: 750px; display: flex; flex-direction: column; gap: 24px; position:relative; overflow:visible; margin: auto 0; flex-shrink: 0; backdrop-filter: blur(20px);">
 
             <!-- Glow effect behind -->
             <div
@@ -659,10 +659,18 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    background: rgba(0, 0, 0, 0.2);
-                    padding: 15px 25px;
-                    border-radius: 12px;
-                    border: 1px solid rgba(255, 255, 255, 0.03);
+                    background: rgba(255, 255, 255, 0.02);
+                    padding: 18px 25px;
+                    border-radius: 16px;
+                    border: 1px solid rgba(255, 255, 255, 0.05);
+                    transition: all 0.3s ease;
+                }
+
+                .metric-row:hover {
+                    background: rgba(255, 255, 255, 0.04);
+                    border-color: rgba(0, 212, 255, 0.2);
+                    transform: translateX(4px);
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
                 }
 
                 .metric-label {
@@ -744,9 +752,17 @@
             </div>
 
             <style>
+                textarea#fb_text {
+                    background: rgba(0, 0, 0, 0.4) !important;
+                    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+                    border-radius: 12px !important;
+                    transition: all 0.3s ease !important;
+                }
+
                 textarea#fb_text:focus {
-                    border-color: rgba(0, 212, 255, 0.5);
-                    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(0, 212, 255, 0.1);
+                    border-color: rgba(0, 212, 255, 0.6) !important;
+                    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 212, 255, 0.15) !important;
+                    background: rgba(0, 0, 0, 0.6) !important;
                 }
 
                 #btnSubmitFeedback {
@@ -781,12 +797,14 @@
             </style>
 
             <button id="btnSubmitFeedback"
-                style="margin-top:10px; padding: 18px; font-size: 1.1rem; background: linear-gradient(135deg, #00d4ff 0%, #0088ff 100%); color: #fff; border: none; border-radius: 12px; cursor: pointer; font-weight: 700; letter-spacing: 1px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 4px 6px -1px rgba(0, 212, 255, 0.2);">
+                style="margin-top:20px; padding: 20px; font-size: 1.15rem; background: linear-gradient(135deg, #00d4ff 0%, #2563eb 100%); color: #fff; border: 1px solid rgba(0,212,255,0.4); border-radius: 16px; cursor: pointer; font-weight: 800; letter-spacing: 2px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 10px 30px -5px rgba(0, 212, 255, 0.3); text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
                 INITIALIZE RLHF INJECTION ⚡
             </button>
             <div id="fb_status"
-                style="text-align:center; padding: 10px; background: rgba(0, 204, 68, 0.1); border: 1px solid rgba(0, 204, 68, 0.3); color:#4ade80; border-radius: 8px; font-weight:600; font-size:0.9rem; display:none; letter-spacing:0.5px;">
-                ✓ Model weights queued for update sequence.</div>
+                style="text-align:center; padding: 16px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); color:#6ee7b7; border-radius: 12px; font-weight:700; font-size:1rem; display:none; letter-spacing:1px; box-shadow: 0 0 20px rgba(16,185,129,0.1); backdrop-filter: blur(5px);">
+                <span style="display:inline-block; animation: pulse 2s infinite;">✨</span> TELEMETRY RECEIVED &
+                CALIBRATED
+            </div>
         </div>
     </div>
     <script>
