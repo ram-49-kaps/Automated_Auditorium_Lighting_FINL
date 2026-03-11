@@ -557,7 +557,7 @@ async def launch_simulation(job_id: str):
     # We use a simple check or just try to start it.
     if "sim_web" not in simulation_processes:
         # python -m http.server 8081 --directory external_simulation_prototype/module_1
-        cmd = ["python", "-m", "http.server", "8081", "--directory", str(MODULE_1_DIR)]
+        cmd = ["python3", "-m", "http.server", "8081", "--directory", str(MODULE_1_DIR)]
         proc = subprocess.Popen(cmd)
         simulation_processes["sim_web"] = proc
         print(f"🚀 Started Simulation Web Server (PID {proc.pid})")
@@ -575,7 +575,7 @@ async def launch_simulation(job_id: str):
 
     # python test_controller.py
     ctrl_script = "test_controller.py"
-    cmd = ["python", ctrl_script] 
+    cmd = ["python3", ctrl_script] 
     
     proc = subprocess.Popen(cmd, cwd=SIMULATION_DIR)
     simulation_processes["sim_controller"] = proc
