@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isLanding ? 'bg-transparent' : 'bg-stage-bg/80 backdrop-blur-md border-b border-white/5'
             }`}>
-            <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div className="max-w-7xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
                 <Link to="/" className="flex items-center gap-3 group">
                     <div className="relative w-10 h-10 bg-black/40 border border-[#00d4ff]/30 flex items-center justify-center
                           shadow-[0_0_15px_rgba(0,212,255,0.15)] transition-all duration-300 overflow-hidden group-hover:border-[#00d4ff]/60">
@@ -36,7 +36,7 @@ export default function Header() {
 
                 {/* Nav */}
                 {!isLanding && (
-                    <nav className="flex items-center gap-1">
+                    <nav className="flex items-center gap-1 overflow-x-auto mx-4 no-scrollbar">
                         <NavPill to="/" label="Home" active={location.pathname === '/'} />
                         <NavPill
                             to="/upload"
