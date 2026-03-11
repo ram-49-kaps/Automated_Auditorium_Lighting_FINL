@@ -136,39 +136,44 @@ class CueEngine:
                 
                 time_str = f"{start_time:.0f}s – {end_time:.0f}s"
 
-                # 4. Get Script Text (The Fix!)
+                # 4. Get Script Text
                 # Try to find matching script scene by ID or Index
                 script_text = ""
+                script_full = ""
                 scene_id = scene.get("scene_id")
                 
                 # Find matching scene in script_data
                 matching_script_scene = next((s for s in script_data if s.get("scene_id") == scene_id), None)
                 
                 dialogue_lines = []
-                if matching_script_scene:
-                    content_obj = matching_script_scene.get("content", {})
-                    header = content_obj.get("header", "").strip()
-                    raw_text = content_obj.get("text", "").strip()
-                    
-                    # Prepend header if it's significant (like FADE IN, INT., CUT TO)
-                    full_text = f"[{header}] {raw_text}" if header else raw_text
-                    
-                    # Short preview for cue list, full text stored separately
-                    script_text = (full_text[:55] + '...') if len(full_text) > 55 else full_text
-                    script_full = full_text
-                    
-                    dialogue_lines = matching_script_scene.get("dialogue_lines", [])
-                else:
-                    # Fallback to index if no ID match (risky but better than nothing)
-                    if i < len(script_data):
-                        content_obj = script_data[i].get("content", {})
+                
+                def extract_text_from_scene(s):
+                    """Extract text from scene dict - handles both formats."""
+                    # Format 1: nested content dict {"content": {"text": "...", "header": "..."}}
+                    content_obj = s.get("content", {})
+                    if isinstance(content_obj, dict) and content_obj.get("text"):
                         header = content_obj.get("header", "").strip()
                         raw_text = content_obj.get("text", "").strip()
-                        
-                        full_text = f"[{header}] {raw_text}" if header else raw_text
+                        return f"[{header}] {raw_text}" if header else raw_text
+                    # Format 2: flat text field {"text": "..."}
+                    if s.get("text"):
+                        return s.get("text", "").strip()
+                    # Format 3: content is a string
+                    if isinstance(content_obj, str) and content_obj:
+                        return content_obj.strip()
+                    return ""
+                
+                if matching_script_scene:
+                    full_text = extract_text_from_scene(matching_script_scene)
+                    script_text = (full_text[:55] + '...') if len(full_text) > 55 else full_text
+                    script_full = full_text
+                    dialogue_lines = matching_script_scene.get("dialogue_lines", [])
+                else:
+                    # Fallback to index if no ID match
+                    if i < len(script_data):
+                        full_text = extract_text_from_scene(script_data[i])
                         script_text = (full_text[:55] + '...') if len(full_text) > 55 else full_text
                         script_full = full_text
-                        
                         dialogue_lines = script_data[i].get("dialogue_lines", [])
                     else:
                         script_full = script_text
