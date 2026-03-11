@@ -1,152 +1,98 @@
-# Automated Auditorium Lighting System
+<div align="center">
+  <img src="frontend/public/lumina-logo.svg" alt="Lumina Logo" width="120" />
+  <h1>Automated Auditorium Lighting System</h1>
+  <p><em>An intelligent, AI-driven pipeline that transcribes scripts, analyzes emotional arcs, and automatically orchestrates dynamic stage lighting cues.</em></p>
+  
+  [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](#)
+  [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](#)
+  [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](#)
+  [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](#)
+  [![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?style=for-the-badge&logo=OpenAI&logoColor=white)](#)
+</div>
 
-AI-driven system that reads time-stamped play or event scripts and produces lighting cue sequences matching each scene's mood.
+<hr />
 
-## Features
+## 🌟 Overview
 
-- 🎭 Multi-format script support: **.txt, .pdf, .docx**
-- 🤖 ML-based emotion detection using DistilRoBERTa
-- ⏱️ Automatic timestamp generation or extraction
-- 📊 Comprehensive JSON output with metadata
-- 🎨 Genre classification
-- 🔄 Modular pipeline architecture
+The **Automated Auditorium Lighting System** bridge the gap between human storytelling and technical stage production. By ingesting raw theatrical scripts or event schedules, the system leverages advanced Natural Language Processing (NLP) to segment scenes, analyze emotional sentiment, cross-reference professional stage lighting principles (via RAG), and dynamically generate highly accurate lighting cues (DMX values, fixtures, colors, and transitions) that perfectly match the mood of the performance.
 
-## Supported File Formats
+## 🏗️ Architecture & Pipeline Phases
 
-| Format | Extension | Status | Notes |
-|--------|-----------|--------|-------|
-| Plain Text | `.txt` | ✅ Full Support | Best for manual scripts |
-| PDF | `.pdf` | ✅ Full Support | Requires PyPDF2 |
-| Word | `.docx` | ✅ Full Support | Requires python-docx |
-| Legacy Word | `.doc` | ❌ Not Supported | Convert to .docx first |
+The project is structured into a rigorous multi-phase pipeline, orchestrated by a highly concurrent FastAPI backend and presented via a sleek React frontend.
 
-## Installation
+| Phase | Component | Description | Technologies |
+| :--- | :--- | :--- | :--- |
+| **Phase 1** | **Ingestion & Segmentation** | Parses `.pdf`, `.docx`, and `.txt`. Uses LLMs to cleanly segment unstructured text into JSON scenes with timestamp estimations. | `PyPDF2`, `python-docx` |
+| **Phase 2** | **Emotion Enrichment** | Analyzes dialogue and action lines to detect core emotions, valance, and arousal. Includes multi-lingual sentiment support. | `DistilRoBERTa`, `PyTorch` |
+| **Phase 3** | **Dual RAG Knowledge** | Retrieves rules from standard stage lighting handbooks and maps semantic narrative states to valid lighting paradigms. | `FAISS`, `SentenceTransformers` |
+| **Phase 4** | **Decision Engine** | Synthesizes emotional data and RAG rules into concrete lighting instructions (Color HEX, Intensity %, Transitions). | Custom Heuristics |
+| **Phase 5** | **Simulation** | Real-time WebGL/Three.js 3D visualization mapping the generated cues to a virtual stage environments. | `Three.js`, `React Three Fiber` |
+| **Phase 6** | **Orchestration** | Validates internal cue consistency, ensuring smooth DMX transitions and resolving conflicting fixture instructions. | `Pydantic` |
+| **Phase 7** | **Evaluation & Metrics** | Benchmarks generated cues against industry standards, reporting on stability, coverage, and narrative congruence. | Custom Evaluation Suite |
+
+## 🛠️ Technology Stack
+
+### Frontend (Client)
+- **Framework:** React 18, Vite
+- **Styling:** TailwindCSS, Framer Motion (Micro-animations)
+- **Data Visualization:** Recharts, WebGL (Phase 5)
+- **Communication:** Axios, WebSockets (for real-time simulation)
+
+### Backend (Server)
+- **API Framework:** FastAPI (Python 3)
+- **AI/ML:** PyTorch, HuggingFace Transformers (`DistilRoBERTa`), OpenAI API
+- **Vector Database:** FAISS (Facebook AI Similarity Search)
+- **Validation:** Pydantic
+
+## 🚀 Getting Started
+
+Ensure you have Python 3.10+ and Node.js 18+ installed on your machine.
+
+### 1. Backend Setup
+
 ```bash
-# Clone repository
-git clone <repository-url>
-cd Automated_Auditorium_Lighting
+# Navigate to the project root
+cd Automated_Auditorium_Lighting_Ram
 
-# Create virtual environment
+# Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install ALL dependencies (including PDF and DOCX support)
+# Install dependencies
 pip install -r requirements.txt
 
-# OR install selectively:
-# For text only:
-pip install transformers torch
-
-# For PDF support:
-pip install transformers torch PyPDF2
-
-# For DOCX support:
-pip install transformers torch python-docx
+# Start the FastAPI server (runs on port 8000)
+uvicorn main:app --reload
 ```
 
-## Quick Start
+### 2. Frontend Setup
+
 ```bash
-# Process a text file
-python main.py data/raw_scripts/my_script.txt
+# Open a new terminal and navigate to the frontend directory
+cd frontend
 
-# Process a PDF
-python main.py data/raw_scripts/screenplay.pdf
+# Install dependencies
+npm install
 
-# Process a Word document
-python main.py data/raw_scripts/play.docx
-
-# Specify custom output location
-python main.py data/raw_scripts/my_script.pdf data/standardized_output/output.json
+# Start the Vite development server (runs on port 5173)
+npm run dev
 ```
 
-## File Format Examples
+### 3. Environment Variables
+Create a `.env` file in the root directory and add any required API keys (e.g., `OPENAI_API_KEY` for advanced scene segmentation).
 
-### Text File (.txt)
-```
-[00:00] SCENE 1 - INTERIOR CASTLE
-Romeo enters the grand hall...
-```
+## 💡 Usage
 
-### PDF File (.pdf)
-- Standard screenplay PDFs
-- Exported scripts from Final Draft, Celtx, etc.
-- Scanned scripts (text must be OCR'd)
+1. Open your browser and navigate to `http://localhost:5173`.
+2. Upload a script file (`.pdf`, `.txt`, `.docx`) via the modern drag-and-drop interface.
+3. Watch the real-time processing pipeline extract scenes, analyze sentiment, and apply RAG models.
+4. View the generated lighting cues in the Results Dashboard.
+5. *(Optional)* Launch the Phase 5 visualization to see the lights simulated on a 3D stage.
 
-### Word Document (.docx)
-- Scripts formatted in Microsoft Word
-- Google Docs exported as .docx
-- LibreOffice Writer documents
+## 🤝 Contributing
 
-## Troubleshooting
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request. Ensure all new ML models or dependencies are properly documented in the `requirements.txt`.
 
-### PDF Issues
-```bash
-# If PDF extraction fails
-pip install --upgrade PyPDF2
+## 📄 License
 
-# Try alternative PDF library
-pip install pypdf
-```
-
-### DOCX Issues
-```bash
-# If DOCX reading fails
-pip install --upgrade python-docx
-```
-
-### Legacy .doc Files
-Legacy `.doc` format is not supported. Convert to `.docx`:
-- Open in Microsoft Word → Save As → .docx
-- Use LibreOffice Writer → Save As → .docx
-- Online converter: doc2docx.com
-
-## Configuration
-
-Edit `config.py` to customize:
-
-- Speaking speed (WORDS_PER_MINUTE)
-- Scene segmentation parameters
-- Emotion detection thresholds
-- Output formats
-
-## Project Structure
-```
-Automated_Auditorium_Lighting/
-├── data/
-│   ├── raw_scripts/          # Input: .txt, .pdf, .docx
-│   ├── cleaned_scripts/      # Intermediate cleaned data
-│   ├── segmented_scripts/    # Intermediate segmented data
-│   └── standardized_output/  # Final JSON outputs
-├── pipeline/                 # Core processing modules
-├── utils/                    # File I/O with format support
-├── config.py                # Configuration settings
-└── main.py                  # Main pipeline script
-```
-
-## Output Format
-
-The pipeline produces JSON with:
-```json
-{
-  "metadata": {
-    "generated_at": "2026-01-27T...",
-    "total_scenes": 10,
-    "source_format": ".pdf",
-    "format_detected": "screenplay",
-    "emotion_distribution": {...}
-  },
-  "scenes": [...]
-}
-```
-
-## Next Steps
-
-This processed output can be used for:
-1. Lighting cue generation (Phase 2)
-2. DMX/Art-Net control
-3. 3D visualization
-4. Real-time hardware control
-
-## License
-
-[Your License]
+This project is licensed under the MIT License.
