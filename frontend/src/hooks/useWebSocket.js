@@ -1,7 +1,7 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 
-const WS_BASE_URL = 'ws://localhost:8000/ws/progress';
+const WS_BASE_URL = 'ws://16.171.153.178:8000/ws/progress';
 
 export function useWebSocket(jobId) {
     const [status, setStatus] = useState('disconnected'); // 'connecting', 'connected', 'disconnected', 'error'
