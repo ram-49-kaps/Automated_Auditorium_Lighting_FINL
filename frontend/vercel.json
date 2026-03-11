@@ -5,12 +5,12 @@
             "destination": "http://16.171.153.178:8000/api/:path*"
         },
         {
-            "source": "/ws/:path*",
-            "destination": "http://16.171.153.178:8000/ws/:path*"
-        },
-        {
             "source": "/health",
             "destination": "http://16.171.153.178:8000/health"
+        },
+        {
+            "source": "/((?!assets/).*)",
+            "destination": "/index.html"
         }
     ]
 }
