@@ -728,7 +728,7 @@
                 const jobId = urlParams.get('job_id') || 'manual_test_run';
 
                 try {
-                    const res = await fetch(`http://localhost:8000/api/feedback/${jobId}`, {
+                    const res = await fetch(`http://16.171.153.178:8000/api/feedback/${jobId}`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
