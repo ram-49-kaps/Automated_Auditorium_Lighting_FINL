@@ -1,0 +1,2284 @@
+[
+    {
+        "context_type": "scene_function",
+        "context_value": "general_visibility",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.9,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    0.8
+                ]
+            },
+            "color": {
+                "temperature": "neutral"
+            },
+            "beam_angle": {
+                "type": "medium"
+            }
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "mccandless_system",
+        "source": "McCandless - A Method of Lighting the Stage, p.55",
+        "priority": 0.95,
+        "conflict_priority": 9,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "mode": "static"
+            },
+            "color": {
+                "palettes": [
+                    "amber",
+                    "blue"
+                ],
+                "temperature": "neutral"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "joy",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.8,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "amber",
+                    "yellow",
+                    "pink"
+                ]
+            },
+            "movement": {
+                "pattern": "ballyhoo",
+                "speed": "medium"
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "fear",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.85,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.1,
+                    0.4
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "dark_blue",
+                    "cold_white",
+                    "green"
+                ]
+            },
+            "gobo": {
+                "pattern": "sharp_breakup",
+                "focus": "sharp"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "anger",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.8,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "red",
+                    "deep_red",
+                    "orange"
+                ]
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut",
+                    "snap"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "sadness",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.75,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "lavender",
+                    "blue",
+                    "grey"
+                ]
+            },
+            "gobo": {
+                "pattern": "rain",
+                "rotation": false
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "mystery",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.7,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "multiply",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.0,
+                    0.3
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "uv",
+                    "dark_blue"
+                ]
+            },
+            "gobo": {
+                "pattern": "fog",
+                "focus": "soft"
+            },
+            "transitions": {
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "romantic",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.7,
+        "conflict_priority": 3,
+        "layer_compatibility": [
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "rose",
+                    "peach"
+                ]
+            },
+            "gobo": {
+                "pattern": "leaves",
+                "focus": "soft"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "nostalgia",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.65,
+        "conflict_priority": 2,
+        "layer_compatibility": [
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "sepia",
+                    "amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "wash"
+            }
+        }
+    },
+    {
+        "context_type": "script_type",
+        "context_value": "formal_event",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.95,
+        "conflict_priority": 10,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.8,
+                    1.0
+                ],
+                "mode": "static"
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "white"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "cut"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "transition",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 1.0,
+        "conflict_priority": 10,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.0,
+                    0.1
+                ]
+            },
+            "color": {
+                "palettes": [
+                    "blackout",
+                    "dark_blue"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "surprise",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.85,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary",
+            "accent"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.8,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "white",
+                    "cyan"
+                ]
+            },
+            "transitions": {
+                "speed": "instant",
+                "preferred_types": [
+                    "cut",
+                    "flash"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "anticipation",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.6,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "movement": {
+                "pattern": "sweep",
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "hope",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.7,
+        "conflict_priority": 3,
+        "layer_compatibility": [
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "color": {
+                "palettes": [
+                    "cyan",
+                    "gold",
+                    "white"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    0.7
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "triumph",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.9,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "color": {
+                "palettes": [
+                    "gold",
+                    "white",
+                    "orange"
+                ]
+            },
+            "intensity": {
+                "preferred_range": [
+                    0.8,
+                    1.0
+                ]
+            },
+            "movement": {
+                "pattern": "ballyhoo",
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "climax",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.95,
+        "conflict_priority": 9,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.9,
+                    1.0
+                ]
+            },
+            "transitions": {
+                "speed": "fast"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "disgust",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.7,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "sickly_green",
+                    "yellow_green",
+                    "green"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "smooth"
+                ]
+            },
+            "beam_angle": {
+                "type": "medium"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "neutral",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.5,
+        "conflict_priority": 2,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    0.8
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "warm_white",
+                    "white"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wash"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "horror",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.05,
+                    0.3
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "dark_blue",
+                    "blood_red",
+                    "green",
+                    "cold_white"
+                ]
+            },
+            "gobo": {
+                "pattern": "sharp_breakup",
+                "focus": "sharp"
+            },
+            "haze": {
+                "level": 0.7,
+                "type": "low_lying"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "comedy",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.8,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "amber",
+                    "peach",
+                    "light_pink",
+                    "warm_white"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "crossfade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "tragedy",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "steel_blue",
+                    "lavender",
+                    "grey",
+                    "cold_white"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "gobo": {
+                "pattern": "abstract",
+                "focus": "soft"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "musical",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary",
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "magenta",
+                    "cyan",
+                    "gold",
+                    "amber",
+                    "violet"
+                ]
+            },
+            "movement": {
+                "pattern": "ballyhoo",
+                "speed": "medium"
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "crossfade"
+                ]
+            },
+            "beam_angle": {
+                "type": "varied"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "thriller",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.8,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.15,
+                    0.45
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "steel_grey",
+                    "cold_white",
+                    "dark_blue"
+                ]
+            },
+            "gobo": {
+                "pattern": "venetian_blind",
+                "focus": "sharp"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade",
+                    "cut"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "drama",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.75,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.7
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "warm_white",
+                    "light_amber",
+                    "steel_blue"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "crossfade"
+                ]
+            },
+            "beam_angle": {
+                "type": "medium"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "fantasy",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.75,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.8
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "violet",
+                    "magenta",
+                    "cyan",
+                    "gold",
+                    "emerald"
+                ]
+            },
+            "gobo": {
+                "pattern": "organic",
+                "focus": "soft"
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "atmospheric"
+            },
+            "movement": {
+                "pattern": "slow_sweep",
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "genre",
+        "context_value": "period_classical",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    0.7
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "amber",
+                    "gold",
+                    "warm_white",
+                    "candlelight"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "medium"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "interior_domestic",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "amber",
+                    "light_amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "medium"
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "crossfade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "exterior_night",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.05,
+                    0.25
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "moonlight_blue",
+                    "dark_blue",
+                    "steel_blue"
+                ]
+            },
+            "haze": {
+                "level": 0.3,
+                "type": "atmospheric"
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "gobo": {
+                "pattern": "tree_branch",
+                "focus": "soft"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "exterior_day",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.75,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "daylight_white",
+                    "light_blue",
+                    "warm_white"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "basement_cellar",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.05,
+                    0.2
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "cold_white",
+                    "sickly_yellow",
+                    "dark_green"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "gobo": {
+                "pattern": "breakup",
+                "focus": "sharp"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "forest_garden",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "green",
+                    "dappled_gold",
+                    "emerald",
+                    "light_amber"
+                ]
+            },
+            "gobo": {
+                "pattern": "leaf_breakup",
+                "focus": "soft"
+            },
+            "haze": {
+                "level": 0.4,
+                "type": "atmospheric"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "church_cathedral",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.75,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "gold",
+                    "amber",
+                    "candlelight",
+                    "deep_red"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "atmospheric"
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "office_institution",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.65,
+        "conflict_priority": 3,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    0.9
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "fluorescent_white",
+                    "cool_white"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "location",
+        "context_value": "bar_nightclub",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.4
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "red",
+                    "magenta",
+                    "amber",
+                    "neon_blue"
+                ]
+            },
+            "haze": {
+                "level": 0.6,
+                "type": "atmospheric"
+            },
+            "movement": {
+                "pattern": "slow_pan",
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "time_of_day",
+        "context_value": "dawn",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "peach",
+                    "pale_gold",
+                    "light_pink",
+                    "lavender"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "time_of_day",
+        "context_value": "sunset",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.7
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "deep_orange",
+                    "red_orange",
+                    "gold",
+                    "magenta"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "time_of_day",
+        "context_value": "midnight",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.02,
+                    0.15
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "deep_blue",
+                    "moonlight_blue",
+                    "black"
+                ]
+            },
+            "haze": {
+                "level": 0.3,
+                "type": "low_lying"
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "time_of_day",
+        "context_value": "afternoon",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.6,
+        "conflict_priority": 3,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    0.9
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "light_amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "time_of_day",
+        "context_value": "stormy",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.1,
+                    0.4
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "grey",
+                    "dark_blue",
+                    "cold_white"
+                ]
+            },
+            "gobo": {
+                "pattern": "rain",
+                "focus": "sharp"
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut"
+                ]
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "atmospheric"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "monologue",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    0.7
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "chase_action",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.9,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "white",
+                    "red",
+                    "blue"
+                ]
+            },
+            "movement": {
+                "pattern": "fast_sweep",
+                "speed": "fast"
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "revelation",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.9,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary",
+            "accent"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.8,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "bright_white",
+                    "cyan"
+                ]
+            },
+            "transitions": {
+                "speed": "instant",
+                "preferred_types": [
+                    "cut"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "death_scene",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.9,
+        "conflict_priority": 9,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.1,
+                    0.3
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "dark_blue",
+                    "steel_blue",
+                    "cold_white"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "haze": {
+                "level": 0.3,
+                "type": "low_lying"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "dream_sequence",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "lavender",
+                    "soft_blue",
+                    "violet",
+                    "pale_pink"
+                ]
+            },
+            "gobo": {
+                "pattern": "organic",
+                "focus": "very_soft"
+            },
+            "haze": {
+                "level": 0.6,
+                "type": "atmospheric"
+            },
+            "movement": {
+                "pattern": "slow_drift",
+                "speed": "slow"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "flashback",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "sepia",
+                    "amber",
+                    "warm_gold"
+                ]
+            },
+            "gobo": {
+                "pattern": "soft_edge",
+                "focus": "very_soft"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "crossfade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "opening_curtain",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.95,
+        "conflict_priority": 9,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.0,
+                    0.8
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "amber",
+                    "gold"
+                ]
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "finale_curtain_call",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 1.0,
+        "conflict_priority": 10,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.9,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "amber",
+                    "gold"
+                ]
+            },
+            "transitions": {
+                "speed": "medium",
+                "preferred_types": [
+                    "fade"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "interrogation",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "cold_white",
+                    "harsh_white"
+                ]
+            },
+            "beam_angle": {
+                "type": "very_narrow"
+            },
+            "gobo": {
+                "pattern": "window_bars",
+                "focus": "sharp"
+            }
+        }
+    },
+    {
+        "context_type": "scene_function",
+        "context_value": "battle_fight",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.9,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    0.9
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "red",
+                    "orange",
+                    "cold_white"
+                ]
+            },
+            "movement": {
+                "pattern": "fast_sweep",
+                "speed": "fast"
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut"
+                ]
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "smoke"
+            }
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "rembrandt_lighting",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_amber",
+                    "gold"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "notes": "Strong key from 45-degree angle, minimal fill. Creates triangle of light on shadow side of face."
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "chiaroscuro",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.1,
+                    0.9
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "notes": "Extreme contrast between light and shadow. strong directional source, minimal ambient."
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "silhouette",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "cyan",
+                    "deep_blue",
+                    "magenta"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "notes": "Strong backlight, no front wash. Subjects appear as dark shapes against bright background."
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "followspot_isolation",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.9,
+        "conflict_priority": 8,
+        "layer_compatibility": [
+            "primary",
+            "accent"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.7,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "warm_white",
+                    "white"
+                ]
+            },
+            "beam_angle": {
+                "type": "very_narrow"
+            },
+            "notes": "Tight spot on performer, ambient at 10-20%. Draws focus to single performer."
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "color_wash_blend",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.7,
+        "conflict_priority": 4,
+        "layer_compatibility": [
+            "secondary"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.6
+                ]
+            },
+            "color": {
+                "palettes": [
+                    "complementary_pair"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "notes": "Two complementary color washes blended. warm from one side, cool from other."
+        }
+    },
+    {
+        "context_type": "technique",
+        "context_value": "practical_motivated",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.75,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "candlelight",
+                    "warm_amber",
+                    "firelight"
+                ]
+            },
+            "beam_angle": {
+                "type": "medium"
+            },
+            "notes": "Lighting motivated by on-stage sources: candles, lamps, fireplaces. Realistic, not theatrical."
+        }
+    },
+    {
+        "context_type": "script_type",
+        "context_value": "dance_performance",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary",
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    0.9
+                ]
+            },
+            "color": {
+                "palettes": [
+                    "magenta",
+                    "cyan",
+                    "amber",
+                    "deep_blue"
+                ]
+            },
+            "movement": {
+                "pattern": "follow_choreography",
+                "speed": "varied"
+            },
+            "beam_angle": {
+                "type": "varied"
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "atmospheric"
+            }
+        }
+    },
+    {
+        "context_type": "script_type",
+        "context_value": "spoken_word_poetry",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "warm",
+                "palettes": [
+                    "warm_white",
+                    "amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "script_type",
+        "context_value": "graduation_ceremony",
+        "source": "Shelley - A Practical Guide to Stage Lighting",
+        "priority": 0.9,
+        "conflict_priority": 9,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.8,
+                    1.0
+                ],
+                "mode": "static"
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "daylight_white",
+                    "warm_white"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "script_type",
+        "context_value": "concert_live",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.85,
+        "conflict_priority": 7,
+        "layer_compatibility": [
+            "primary",
+            "secondary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.5,
+                    1.0
+                ]
+            },
+            "color": {
+                "palettes": [
+                    "vivid_red",
+                    "electric_blue",
+                    "magenta",
+                    "green",
+                    "white"
+                ]
+            },
+            "movement": {
+                "pattern": "ballyhoo",
+                "speed": "fast"
+            },
+            "haze": {
+                "level": 0.8,
+                "type": "full"
+            },
+            "beam_angle": {
+                "type": "varied"
+            },
+            "transitions": {
+                "speed": "fast",
+                "preferred_types": [
+                    "cut"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "tension",
+        "source": "McCandless - A Method of Lighting the Stage",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.2,
+                    0.45
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "steel_blue",
+                    "cold_white",
+                    "amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "despair",
+        "source": "Pilbrow - Stage Lighting Design",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.05,
+                    0.2
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "dark_blue",
+                    "grey",
+                    "black"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "serenity",
+        "source": "Francis Reid - The Stage Lighting Handbook",
+        "priority": 0.6,
+        "conflict_priority": 3,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "average",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.4,
+                    0.6
+                ]
+            },
+            "color": {
+                "temperature": "neutral",
+                "palettes": [
+                    "light_blue",
+                    "soft_white",
+                    "pale_lavender"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "confusion",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.7,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.6
+                ]
+            },
+            "color": {
+                "palettes": [
+                    "conflicting_colors",
+                    "green",
+                    "magenta",
+                    "amber"
+                ]
+            },
+            "gobo": {
+                "pattern": "abstract",
+                "focus": "soft"
+            },
+            "movement": {
+                "pattern": "erratic",
+                "speed": "varied"
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "awe",
+        "source": "Rosenthal - The Magic of Light",
+        "priority": 0.8,
+        "conflict_priority": 6,
+        "layer_compatibility": [
+            "primary",
+            "accent"
+        ],
+        "blending_mode": "add",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.6,
+                    1.0
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "deep_blue",
+                    "gold",
+                    "white"
+                ]
+            },
+            "beam_angle": {
+                "type": "wide"
+            },
+            "haze": {
+                "level": 0.5,
+                "type": "atmospheric"
+            },
+            "transitions": {
+                "speed": "slow",
+                "preferred_types": [
+                    "fade"
+                ]
+            }
+        }
+    },
+    {
+        "context_type": "emotion",
+        "context_value": "jealousy",
+        "source": "Clifton Taylor - Color and Light",
+        "priority": 0.7,
+        "conflict_priority": 5,
+        "layer_compatibility": [
+            "primary",
+            "secondary"
+        ],
+        "blending_mode": "override",
+        "rules": {
+            "intensity": {
+                "preferred_range": [
+                    0.3,
+                    0.5
+                ]
+            },
+            "color": {
+                "temperature": "cool",
+                "palettes": [
+                    "green",
+                    "yellow_green",
+                    "deep_amber"
+                ]
+            },
+            "beam_angle": {
+                "type": "narrow"
+            }
+        }
+    }
+]

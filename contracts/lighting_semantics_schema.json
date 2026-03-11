@@ -1,0 +1,140 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LightingSemantics",
+  "description": "Design-oriented lighting tendencies based on context, stored in Phase 3 knowledge base.",
+  "type": "object",
+  "required": [
+    "context_type",
+    "context_value",
+    "rules"
+  ],
+  "properties": {
+    "context_type": {
+      "type": "string",
+      "enum": [
+        "emotion",
+        "script_type",
+        "scene_function",
+        "event_phase"
+      ]
+    },
+    "context_value": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string",
+      "description": "Origin of this rule (e.g. theatrical_convention, color_theory)"
+    },
+    "priority": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Relative importance when multiple semantics apply"
+    },
+    "conflict_priority": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Priority for conflict resolution between overlapping rules"
+    },
+    "layer_compatibility": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Which other context_types this rule can blend with"
+    },
+    "blending_mode": {
+      "type": "string",
+      "enum": [
+        "override",
+        "blend",
+        "layer"
+      ],
+      "description": "How this rule combines with other active rules"
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "intensity": {
+          "type": "object",
+          "properties": {
+            "preferred_range": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            },
+            "default": {
+              "type": "number",
+              "description": "Default intensity percentage"
+            }
+          }
+        },
+        "color": {
+          "type": "object",
+          "properties": {
+            "palette": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Ordered list of preferred colors"
+            },
+            "temperature": {
+              "type": "string",
+              "enum": [
+                "warm",
+                "neutral",
+                "cool"
+              ]
+            },
+            "primary_colors": {
+              "type": "array",
+              "description": "Primary color objects with name and hex"
+            },
+            "secondary_colors": {
+              "type": "array",
+              "description": "Secondary color objects with name and hex"
+            },
+            "accent_colors": {
+              "type": "array",
+              "description": "Accent color objects with name and hex"
+            }
+          }
+        },
+        "transition": {
+          "type": "object",
+          "properties": {
+            "preferred_types": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "cut",
+                  "fade",
+                  "crossfade"
+                ]
+              }
+            }
+          }
+        },
+        "beam_angle": {
+          "type": "object",
+          "description": "Beam angle preferences for fixture types"
+        },
+        "haze": {
+          "type": "object",
+          "description": "Atmospheric haze settings"
+        },
+        "movement": {
+          "type": "object",
+          "description": "Moving head movement preferences"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

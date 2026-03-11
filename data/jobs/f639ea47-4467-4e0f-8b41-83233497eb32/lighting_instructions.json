@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "source_file": "Conflict-Test-Script.txt",
+    "doc_type": "theatrical_script",
+    "genre": "drama",
+    "total_scenes": 2,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1,
+      "sadness": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 24,
+        "duration": 24
+      },
+      "content": {
+        "text": "1]\n(Alan enters the stage from stage left, looking absolutely furious.)\nALAN: I am so angry right now! I hate everything about this! This rage inside me is completely uncontrollable! I am furious!\nEVE: Calm down, there is no need to be this incredibly angry! I hate arguments!\nALAN: No, my anger will destroy us both! I hate you! \n\n[",
+        "word_count": 60,
+        "type": "screenplay_scene",
+        "header": "SCENE",
+        "location": "SCENE"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.988,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.988,
+          "disgust": 0.003,
+          "fear": 0.003,
+          "neutral": 0.002,
+          "surprise": 0.002
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 26,
+        "end_time": 58,
+        "duration": 32
+      },
+      "content": {
+        "text": "2]\n(The lights flicker as a terrifying noise is heard. Eve cowers downstage, shaking.)\nEVE: Oh my god! What was that? I am so scared! This is terrifying!\nALAN: Help! The fear is overwhelming. I am frightened for my life!\nEVE: Run! Run away! We are in terrible danger! I am scared! \n\n[\n\n3]\n(They sit down together, looking incredibly depressed.)\nALAN: I am so sad...\nEVE: Me too. Let us cry together in sadness.\nALAN: Indeed, so much sorrow.",
+        "word_count": 80,
+        "type": "screenplay_scene",
+        "header": "SCENE",
+        "location": "SCENE"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.593,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.378,
+        "all_scores": {
+          "sadness": 0.593,
+          "fear": 0.378,
+          "neutral": 0.013,
+          "surprise": 0.008,
+          "disgust": 0.004
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 24.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 26.0,
+        "end_time": 58.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

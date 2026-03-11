@@ -1,0 +1,1137 @@
+{
+  "metadata": {
+    "source_file": "Script-2.txt",
+    "doc_type": "theatrical_script",
+    "genre": "thriller",
+    "total_scenes": 10,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "tension": 2,
+      "fear": 3,
+      "anger": 2,
+      "neutral": 2,
+      "sadness": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 180,
+        "duration": 180
+      },
+      "content": {
+        "text": "A confined space thick with denial and fragile memory.\n\nA bare room. One wooden chair. A metal table. A door with peeling paint that looks as though it has been shut for years.\n\nARIN grips the handle, rattling it with restless urgency.\n\nARIN:\nIt was open. I remember the way the air moved through it, the way it didnt resist when I pushed it, the way it felt like there was still somewhere to go. We did not lock it. I would remember locking it. I would remember the sound. I would remember the weight of the key turning. You dont just forget something like that.\n\nHe pulls again, harder, as though force could undo fact.\n\nARIN:\nWe never locked it. Not that day. Not after everything that happened. I wouldnt have done that.\n\nMEERA sits quietly in the chair, composed, watching him with a stillness that feels practiced.\n\nMEERA:\nYou did. You stood exactly where youre standing now. Your hand was shaking, but you still turned the key. You didnt look at me when you did it. You just stared at the door like it was something dangerous.\n\nA faint electrical hum begins to vibrate through the space.\n\nARIN:\nAfraid? Thats what youre going to say next, isnt it? That I was afraid? Afraid of what exactly? Of a door? Of a room? Of you?\n\nMEERA:\nOf remembering.\n\nSilence settles like dust.",
+        "word_count": 233,
+        "type": "timestamped_scene",
+        "header": "Scene (00:00 \u2013 03:00)",
+        "speakers": [
+          "ARIN",
+          "MEERA"
+        ],
+        "speaker_count": 2
+      },
+      "emotion": {
+        "primary_emotion": "tension",
+        "primary_score": 0.675,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.373,
+        "all_scores": {
+          "fear": 0.422,
+          "neutral": 0.373,
+          "disgust": 0.092,
+          "surprise": 0.065,
+          "anger": 0.023
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 180,
+        "end_time": 360,
+        "duration": 180
+      },
+      "content": {
+        "text": "The air tightens as accusation begins to splinter reality.\n\nARIN begins pacing in restless circles.\n\nARIN:\nYou always speak like youre narrating something thats already finished. Like its written down somewhere and I just havent read the right page yet. But memory doesnt work like that. It shifts. It blurs. It protects you from things youre not ready to carry.\n\nHe drags his hand across the wall flakes of paint fall like ash.\n\nARIN:\nThis place isnt real. None of this is. It feels staged, like something built to trap me inside a version of events that only makes sense to you.\n\nMEERA rises slowly.\n\nMEERA:\nIf it isnt real, then why does it feel heavy in your chest? Why does your breathing change when you look at that door? Why do your hands shake when you pretend not to recognize it?\n\nThe hum deepens, almost imperceptibly.\n\nARIN slams his fist against the wall.\n\nARIN:\nStop twisting it! Stop reshaping things until they fit your narrative. I was there. I stayed. I did everything I could.\n\nMEERA steps closer.\n\nMEERA:\nYou did what you could live with.\n\nA childs faint laugh echoes somewhere unseen.\n\nBoth freeze.",
+        "word_count": 196,
+        "type": "timestamped_scene",
+        "header": "Scene (03:00 \u2013 06:00)",
+        "speakers": [
+          "ARIN",
+          "MEERA"
+        ],
+        "speaker_count": 2
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.665,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.665,
+          "anger": 0.181,
+          "neutral": 0.091,
+          "disgust": 0.023,
+          "surprise": 0.023
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 360,
+        "end_time": 480,
+        "duration": 120
+      },
+      "content": {
+        "text": "Innocence intrudes, soft but impossible to ignore.\n\nThe laugh returns, distant yet intimate.\n\nARIN (whispering):\nYou heard that. Tell me you heard that. Because if you didnt, then that means its only in my head, and if its only in my head, then maybe youre right about everything else too.\n\nMEERA:\nI heard it. And you know who it belongs to.\n\nThe laugh shifts into a small cough.\n\nARIN steps back.\n\nARIN:\nNo. Thats not fair. Thats not fair to bring that here. We agreed we wouldnt do this. We agreed we wouldnt dig it up like this.\n\nMEERA:\nYou dont get to choose which parts survive.\n\nThe door handle rattles violently on its own.",
+        "word_count": 115,
+        "type": "timestamped_scene",
+        "header": "Scene (06:00 \u2013 08:00)",
+        "speakers": [
+          "ARIN",
+          "MEERA"
+        ],
+        "speaker_count": 2
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.39,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.446,
+        "all_scores": {
+          "neutral": 0.446,
+          "anger": 0.39,
+          "disgust": 0.085,
+          "fear": 0.025,
+          "surprise": 0.024
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 480,
+        "end_time": 630,
+        "duration": 150
+      },
+      "content": {
+        "text": "The world opens into something deeper than denial.\n\nThe wall behind the table cracks and splits open, revealing a narrow corridor stretching into darkness.\n\nCold air spills into the room like a held breath released.\n\nARIN:\nThat wasnt there before. I would have seen it. I would have noticed something like that.\n\nMEERA:\nIt has always been there. You just never allowed yourself to walk far enough to find it.\n\nA faint melody hums from within the darkness.\n\nARIN hesitates, then steps forward.\n\nEach footstep echoes too long, as though the corridor remembers more than it shows.",
+        "word_count": 97,
+        "type": "timestamped_scene",
+        "header": "Scene (08:00 \u2013 10:30)",
+        "speakers": [
+          "ARIN",
+          "MEERA"
+        ],
+        "speaker_count": 2
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.355,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.355,
+          "surprise": 0.231,
+          "neutral": 0.204,
+          "disgust": 0.104,
+          "sadness": 0.08
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 630,
+        "end_time": 750,
+        "duration": 120
+      },
+      "content": {
+        "text": "Time stretches sound fractures into accusation.\n\nThe corridor feels endless.\n\nARIN:\nHow long does this go on? How far do you expect me to walk before something changes? Before this becomes manageable? Before I wake up?\n\nMEERA:\nAs long as it needs to be. Memory doesnt measure itself in distance.\n\nThe hum returns, layered with static.\n\nTHE VOICE (distorted):\nYou promised.\n\nARIN spins.\n\nARIN:\nStop using that voice. Stop making it sound like that. Thats not how it sounded. Thats not how they said it.\n\nTHE VOICE:\nYou promised.\n\nThe walls pulse faintly.",
+        "word_count": 93,
+        "type": "timestamped_scene",
+        "header": "Scene (10:30 \u2013 12:30)",
+        "speakers": [
+          "ARIN",
+          "THE VOICE",
+          "MEERA"
+        ],
+        "speaker_count": 3
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.671,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.671,
+          "anger": 0.126,
+          "surprise": 0.071,
+          "disgust": 0.057,
+          "sadness": 0.042
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 750,
+        "end_time": 960,
+        "duration": 210
+      },
+      "content": {
+        "text": "Images surface truth refuses distortion.\n\nThe corridor walls flicker with projections.\n\nA hospital hallway.\nRain streaking down glass.\nA small hand gripping ARINs finger.\n\nARIN:\nThats not how it happened. Youre showing it wrong. I didnt leave like that. I didnt walk away. I stayed until they told me to go. I stayed until I couldnt breathe in that room anymore.\n\nMEERA:\nYou left before the end. Thats the part you never let yourself see.\n\nCHILD (offstage, clearer now):\nYou said youd come back.\n\nARIN collapses against the wall.",
+        "word_count": 89,
+        "type": "timestamped_scene",
+        "header": "Scene (12:30 \u2013 16:00)",
+        "speakers": [
+          "ARIN",
+          "MEERA"
+        ],
+        "speaker_count": 2
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.298,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.392,
+        "all_scores": {
+          "neutral": 0.392,
+          "anger": 0.298,
+          "surprise": 0.12,
+          "fear": 0.084,
+          "disgust": 0.069
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 960,
+        "end_time": 1110,
+        "duration": 150
+      },
+      "content": {
+        "text": "Judgment stands silent at the end of the path.\n\nAt the far end stands the OLD MAN, unmoving.\n\nARIN:\nWho are you supposed to be? Another version of me? Another witness? Another accusation?\n\nMEERAs voice softens.\n\nMEERA:\nLook at him.\n\nThe OLD MAN raises his trembling hand. A small brass key rests in his palm.\n\nARIN:\nThats not mine. I never carried that. I never wanted that responsibility.\n\nTHE VOICE:\nYou locked it.\n\nARIN:\nI locked nothing!\n\nThe corridor flickers violently.",
+        "word_count": 81,
+        "type": "timestamped_scene",
+        "header": "Scene (16:00 \u2013 18:30)",
+        "speakers": [
+          "ARIN",
+          "THE VOICE",
+          "MEERA"
+        ],
+        "speaker_count": 3
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.578,
+        "secondary_emotion": "anger",
+        "secondary_score": 0.373,
+        "all_scores": {
+          "fear": 0.578,
+          "anger": 0.373,
+          "disgust": 0.017,
+          "neutral": 0.015,
+          "surprise": 0.01
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1110,
+        "end_time": 1230,
+        "duration": 120
+      },
+      "content": {
+        "text": "Grief finally pierces through defiance.\n\nThe CHILD now stands between ARIN and the OLD MAN.\n\nCHILD:\nWhy didnt you come back?\n\nARINs voice breaks.\n\nARIN:\nI tried. I stood outside the door for hours after. I couldnt face what was inside. I thought if I waited long enough, it would undo itself. I thought if I didnt look at it directly, it wouldnt be final.\n\nCHILD:\nYou left.\n\nMEERA:\nYou chose distance over pain.\n\nARIN screams, the sound stretching endlessly.",
+        "word_count": 80,
+        "type": "timestamped_scene",
+        "header": "Scene (18:30 \u2013 20:30)",
+        "speakers": [
+          "ARIN",
+          "CHILD",
+          "MEERA"
+        ],
+        "speaker_count": 3
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.294,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.294,
+          "neutral": 0.28,
+          "anger": 0.167,
+          "fear": 0.143,
+          "disgust": 0.077
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1230,
+        "end_time": 1290,
+        "duration": 60
+      },
+      "content": {
+        "text": "Silence returns, heavier but honest.\n\nThe corridor dissolves.\n\nThe room reforms.\n\nOnly ARIN remains.\n\nThe key lies on the table.\n\nHe picks it up slowly.",
+        "word_count": 25,
+        "type": "timestamped_scene",
+        "header": "Scene (20:30 \u2013 21:30)",
+        "speakers": [],
+        "speaker_count": 0
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.901,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.901,
+          "disgust": 0.048,
+          "surprise": 0.015,
+          "anger": 0.013,
+          "sadness": 0.012
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1290,
+        "end_time": 1312,
+        "duration": 22
+      },
+      "content": {
+        "text": "A final choice stands between fear and release.\n\nThe door now stands slightly open.\n\nA thin line of light spills through.\n\nTHE VOICE (gentle):\nYou can unlock it.\n\nARIN grips the key tightly.\n\nARIN (softly):\nIf I open it it wont undo anything, will it?\n\nSilence.\n\nHe closes his eyes.\n\nHe turns the key.\n\nBlackout.",
+        "word_count": 55,
+        "type": "timestamped_scene",
+        "header": "Scene (21:30 \u2013 22:30)",
+        "speakers": [],
+        "speaker_count": 0
+      },
+      "emotion": {
+        "primary_emotion": "tension",
+        "primary_score": 0.85,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.945,
+          "neutral": 0.034,
+          "anger": 0.008,
+          "sadness": 0.005,
+          "disgust": 0.004
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "tension",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 180.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 32.0,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 19.2,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 22.4,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 16.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.6,
+            "color": "amber",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 180.0,
+        "end_time": 360.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 360.0,
+        "end_time": 480.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 37.5,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.5,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 480.0,
+        "end_time": 630.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 630.0,
+        "end_time": 750.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 750.0,
+        "end_time": 960.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 37.5,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.5,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 960.0,
+        "end_time": 1110.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 1110.0,
+        "end_time": 1230.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1230.0,
+        "end_time": 1290.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "tension",
+      "time_window": {
+        "start_time": 1290.0,
+        "end_time": 1312.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 32.0,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 19.2,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 22.4,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 16.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.6,
+            "color": "amber",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Auditorium Fixture Schema (Phase 3)",
+  "description": "Contracts for physical lighting fixtures. Strictly physical data only.",
+  "type": "object",
+  "required": [
+    "fixture_id",
+    "group_id",
+    "fixture_type",
+    "position",
+    "capabilities"
+  ],
+  "properties": {
+    "fixture_id": {
+      "type": "string",
+      "description": "Unique identifier for the fixture (e.g., FOH_PAR_3)"
+    },
+    "group_id": {
+      "type": "string",
+      "description": "Logical grouping (e.g., FOH_WASH)"
+    },
+    "fixture_type": {
+      "type": "string",
+      "description": "Physical classification (e.g., par, moving_head, spot)"
+    },
+    "position": {
+      "type": "object",
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      },
+      "required": ["x", "y", "z"],
+      "description": "Physical 3D coordinates in the auditorium"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["dim", "rgb", "cmy", "pan_tilt", "zoom", "strobe", "gobo"]
+      },
+      "minItems": 1,
+      "description": "List of physical capabilities"
+    },
+    "constraints": {
+      "type": "object",
+      "properties": {
+        "max_intensity": { "type": "number" },
+        "restricted_colors": { "type": "array", "items": { "type": "string" } }
+      },
+      "description": "Physical limits (optional)"
+    }
+  },
+  "additionalProperties": false
+}

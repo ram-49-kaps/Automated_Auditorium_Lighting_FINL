@@ -1,0 +1,923 @@
+[
+    {
+        "fixture_id": "FOH_FRESNEL_01",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": -8.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_PROFILE_01",
+        "group_id": "FOH_SPOT",
+        "fixture_type": "profile",
+        "position": {
+            "x": -7.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "focus"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_02",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": -6.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_MOVING_01",
+        "group_id": "FOH_INTELLIGENT",
+        "fixture_type": "moving_head",
+        "position": {
+            "x": -5.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "pan_tilt",
+            "zoom",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_03",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": -4.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_04",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": -3.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_MOVING_02",
+        "group_id": "FOH_INTELLIGENT",
+        "fixture_type": "moving_head",
+        "position": {
+            "x": -2.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "pan_tilt",
+            "zoom",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_05",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": -1.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_06",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": 1.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_MOVING_03",
+        "group_id": "FOH_INTELLIGENT",
+        "fixture_type": "moving_head",
+        "position": {
+            "x": 2.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "pan_tilt",
+            "zoom",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_07",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": 3.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_08",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": 4.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_MOVING_04",
+        "group_id": "FOH_INTELLIGENT",
+        "fixture_type": "moving_head",
+        "position": {
+            "x": 5.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "pan_tilt",
+            "zoom",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_09",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": 6.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_PROFILE_02",
+        "group_id": "FOH_SPOT",
+        "fixture_type": "profile",
+        "position": {
+            "x": 7.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "focus"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "FOH_FRESNEL_10",
+        "group_id": "FOH_WASH",
+        "fixture_type": "fresnel",
+        "position": {
+            "x": 8.0,
+            "y": 10.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_01",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -8.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_02",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -8.0,
+            "y": -2.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_03",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -8.0,
+            "y": -4.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_04",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -4.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_05",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -4.0,
+            "y": -2.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_06",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": -4.0,
+            "y": -4.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_07",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 4.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_08",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 4.0,
+            "y": -2.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_09",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 4.0,
+            "y": -4.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_10",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 8.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_11",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 8.0,
+            "y": -2.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_BLINDER_12",
+        "group_id": "STAGE_BLINDERS",
+        "fixture_type": "blinder",
+        "position": {
+            "x": 8.0,
+            "y": -4.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "fast_response"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_01",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -4.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_02",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -4.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_03",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -4.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_04",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -4.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_05",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -2.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_06",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -2.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_07",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -2.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_08",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": -2.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_09",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_10",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 0.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_11",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 0.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_12",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 0.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_13",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 2.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_14",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 2.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_15",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 2.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_16",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 2.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_17",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 4.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_18",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 4.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_19",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 4.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_20",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 4.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_21",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 5.0,
+            "y": 0.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_22",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 5.0,
+            "y": -1.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_23",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 5.0,
+            "y": -3.0,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_RGB_PAR_24",
+        "group_id": "STAGE_WASH_COLOR",
+        "fixture_type": "par",
+        "position": {
+            "x": 5.0,
+            "y": -4.5,
+            "z": 6.0
+        },
+        "capabilities": [
+            "dim",
+            "rgb"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    },
+    {
+        "fixture_id": "STAGE_SMOKE_01",
+        "group_id": "ATMOSPHERICS",
+        "fixture_type": "smoke_machine",
+        "position": {
+            "x": -8.0,
+            "y": -8.0,
+            "z": 0.0
+        },
+        "capabilities": [
+            "toggle"
+        ],
+        "constraints": {
+            "on_states": [
+                "0",
+                "1"
+            ]
+        }
+    },
+    {
+        "fixture_id": "STAGE_FLOOR_MOVING_01",
+        "group_id": "STAGE_INTELLIGENT",
+        "fixture_type": "moving_head",
+        "position": {
+            "x": 8.0,
+            "y": -8.0,
+            "z": 0.0
+        },
+        "capabilities": [
+            "dim",
+            "pan_tilt",
+            "zoom",
+            "rgb",
+            "strobe"
+        ],
+        "constraints": {
+            "max_intensity": 1.0
+        }
+    }
+]

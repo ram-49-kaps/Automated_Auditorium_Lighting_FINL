@@ -1,0 +1,556 @@
+{
+  "metadata": {
+    "source_file": "AccountStatement_01-Feb-2026_21-Feb-2026.pdf",
+    "doc_type": "theatrical_script",
+    "genre": "drama",
+    "total_scenes": 5,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 5
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 4,
+        "duration": 4
+      },
+      "content": {
+        "text": "ive\nNominee Registered Yes\nCurrency INDIAN RUPEE\nSavings Account Trans",
+        "word_count": 10,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.903,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.903,
+          "surprise": 0.054,
+          "joy": 0.015,
+          "sadness": 0.014,
+          "anger": 0.007
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 6,
+        "end_time": 130,
+        "duration": 124
+      },
+      "content": {
+        "text": "ions\n Date Description Chq/Ref. No. Withdrawal (Dr.) Deposit (Cr.) Balance\n- - Opening Balance - - - 914.71\n1 01 Feb 2026 UPI/MANJUNATHA R/603236833564/UPI UPI-603241426101 75.00 839.71\n2 01 Feb 2026 UPI/RISHI RAJA/603261889361/UPI UPI-603279363482 420.00 419.71\n3 02 Feb 2026 UPI/Mathi Aashish J/603381571685/UPI UPI-603305962802 80.00 339.71\n4 02 Feb 2026 UPI/MANJUNATHA R/603304344594/UPI UPI-603328233245 65.00 274.71\n5 02 Feb 2026 UPI/TANVEER PASHA/603329485383/Pay to\nBharatPeUPI-603351547680 100.00 174.71\n6 03 Feb 2026 UPI/Mrs GEETHA B M/603404602733/UPI UPI-603429931558 102.00 72.71\n7 04 Feb 2026 UPI/VIRANI MEET SUR/977050160356/UPI UPI-603565224941 50.00 122.71\n8 04 Feb 2026 UPI/CHAKKAPPAN FRUI/603556629154/UPI UPI-603584934682 11.00 111.71\n9 05 Feb 2026 UPI/NISHIT ASHISH D/118201354348/UPI UPI-603665991620 8,500.00 8,611.71\n10 05 Feb 2026 UPI/Mr JAMIS KIRITK/640244560836/UPI UPI-603692452586 8,500.00 17,111.71\n11 05 Feb 2026 UPI/Master RAM KALP/118220153722/UPI UPI-603692863506 8,500.00 25,611.71\n12 05 Feb 2026 SentIMPS603621561889ARUL\nKUMAR/FDRLX9941/IMPSIMPS-603621848529 25,500.00 111.71\n13 06 Feb 2026 UPI/PRANAY TAK/603708916725/Paid via\nSuperMUPI-603783759383 72.00 183.71\n14 07 Feb 2026 UPI/KARUNAKARSHETTY/603867113100/Pay\nto BharatPeUPI-603819555493 60.00 123.71\n15 10 Feb 2026 UPI/CCD Express Ch/604181820967/UPI UPI-604139627795 55.00 68.71\n16 12 Feb 2026 UPI/JASH NARESHBHAI/604367707025/UPI UPI-604377553247 40.00 28.71\n17 14 Feb 2026 UPI/RAJANNA RAJSHEK/604517901306/UPI UPI-604562388369 2.00 26.71\n18 15 Feb 2026 UPI/Abdul Gafoor Mo/604647039631/UPI UPI-604644249178 10.00 16.71\n19 16 Feb 2026 UPI/RAJANNA RAJSHEK/604796457774/UPI UPI-604708884448 2.00 14.71\n20 16 Feb 2026 UPI/NEW AMBUR DUM B/604701737463/UPI UPI-604724853396 10.00 4.71\n21 17 Feb 2026 UPI/RAJANNA RAJSHEK/604854203476/UPI UPI-604885229404 2.00 2.71\n22 20 Feb 2026 UPI/MAA YASH FAB/641723156757/UPI UPI-605111827737 5,000.00 5,002.71\n23 21 Feb 2026 UPI/SWIGGY/605240432209/UPI UPI-605288742685 523.00 4,479.71\nStatement Generated on 21 Feb 2026, 20:30 Page 1 of \n3\n\n \n \n \nEnd of Statement \nAny discrepancy in the statement should be brought to the notice of Kotak Mahindra Bank Ltd. within \none month from the date of receipt of the statement. \nThis is a system generated report and does not require signature and stamp. \nAccount Summary\n Particulars Opening Balance Closing Balance\n Savings Account (SA): 914.71 4,479.71\n \nFor assistance, reach out to us at:\n \nCont",
+        "word_count": 311,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.848,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.848,
+          "surprise": 0.08,
+          "sadness": 0.027,
+          "anger": 0.017,
+          "joy": 0.014
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 132,
+        "end_time": 298,
+        "duration": 166
+      },
+      "content": {
+        "text": "Us\n1860 266 0811\n(local call charges apply)\n \nBranch Address\nK. G. Point, Ghod Dod Road, Near Ganga Palace,Surat, Surat-395007, Gujarat, India,\n8655776544\n Remember!\n Never share personal/sensitive information like PIN, CVV, OTP\n or passwords with anyone.\n Scan for\nmore safe\nbanking tips\nKotak Mahindra Bank Ltd.  CIN: L65110MH1985PLC038137\nRegistered Office: 27 BKC, C 27, G Block, Bandra Kurla Complex, Bandra (E), Mumbai - 400 051. www.kotak.bank.inRam Kalpesh Kapadia\nAccount No. 6050076040\nAccount Statement 01 Feb 2026 - 21 Feb 2026\nStatement Generated on 21 Feb 2026, 20:30 Page 2 of \n3\n\n \n \n \n \nImportant Information\n RBI mandates Positive Pay for high-value cheques from Jan 1, 2021. Customers must submit cheque details via Net/Mobile Banking or at the branch on\nthe day of issuance or before handing it to the beneficiary. For more details, visit www.kotak.bank.in.\n From October 4, 2025, same-day cheque clearing will be implemented across all banks. Cheques will be credited or debited within a few hours of\nissuance.\n Complimentary insurance cover on Kotak Debit Cards (linked to Saving and Current accounts) will be discontinued w.e.f. July 20, 2025. All claims will be\naccepted until July 20, 2025, as per the existing process. Salary account holders may view their insurance covers under Debit Card Services in the Cards\n FASTag section on the web portal. For any queries related to Debit Card insurance, write to dc.insurancekotak.com or visit\nhttps://www.kotak.bank.in/en/personal-banking /cards/debit-cards/debit-card-services/insurnace-on-debit-card.html\n In order to avail TDS exemption (if eligible) on existing/new Fixed Deposits for the Financial Year 2023\u201324, fresh Form 15G (15H for senior citizens) must\nbe submitted by furnishing the details of all Fixed Deposits held, at the earliest. Form 15G/15H can now be submitted conveniently through Net Banking\nas well. From FY 2019\u201320, the TDS exemption threshold is increased to Rs. 50,000 (Rs. 1,00,000 for senior citizens) hence, filing of 15G/15H is not\nrequired up to Rs. 50,000 (Rs. 1,00,000 for senior citizens) of the aggregate interest earned on bank deposits in a financial year. Please ignore this\nmessage if already submitted.\n RBI guidelines on unauthorised foreign exchange trans\n\nions dated April 24, 2024, state that unauthorised entities offering foreign exchange (forex)\ntrading facilities to Indian residents with promises of disproportionate/exorbitant returns are providing options to remit/deposit funds in Rupees for\nundertaking unauthorised forex trans\n\nions using various digital channels. Refer to the 'Alert List' containing names of such entities (this list is\nindicative and not exhaustive). Vigilance and caution are advised. Liaison must be with 'Authorised Persons' and on 'Authorised ETPs' for\nprocessing/routing any forex trans",
+        "word_count": 416,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.745,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.745,
+          "fear": 0.129,
+          "anger": 0.055,
+          "surprise": 0.026,
+          "disgust": 0.022
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 300,
+        "end_time": 436,
+        "duration": 136
+      },
+      "content": {
+        "text": "ion\n As per the RBI Master Direction for Credit and Debit Card Issuance (RBI/2022-23/92 DoR.AUT.REC. No.27/24.01.041/2022-23), issuance of debit cards on\nOverdraft accounts is not permissible.\n RBI, vide its circular DOR.CRE.REC.23/21.08.008/2022-23 dated April 19, 2022, has issued guidelines pertaining to the opening and maintenance of\nCurrent Account(s) of customers who have availed various credit facilities from the banking system. The term \"banking system\" refers to Scheduled\nCommercial Banks and Payments Banks. Banks (whether lending banks or otherwise) are required to monitor all Current Account, Overdraft, and Cash\nCredit accounts on a regular basis, at least on a half-yearly frequency. This monitoring must specifically consider the aggregate exposure of the banking\nsystem to the borrower vis-\u00e0-vis the individual bank's share in that exposure, in order to ensure compliance with the said instructions. Detailed\nguidelines are available in the aforementioned circular.\n Deposits of up to 5,00,000 per depositor are fully insured by the Deposit Insurance and Credit Guarantee Corporation, under the Deposit Insurance\nScheme.\n Goods and Services Tax (GST), at the applicable rate of 18, is levied on relevant service charges.\n Please note: This statement/ advice should not be construed as a Tax Invoice under the Goods and Services Tax\n\n.\nCommonly Used Narrations\nAP - Autopay for Billpay Netcard - Netcrd trans\n\nion\nATL - ATM withdrawal done from other bank ATM machine OS - Online Shopping trans\n\nion\nATW - ATM withdrawal done from Kotak ATM machine OT - Online Trading trans\n\nion via Payment Gateway\nBP - Bill Pay trans\n\nion PB - Trans\n\nion done through Phone Banking (IVR)\nCDM - Kotak Cash Deposit Machine PCI/PCD - POS trans\n\nion\nCMS - Cash Management Service RTGS - Real Time Gross Settlement\nIB - Trans\n\nion done on Kotak Net Banking UPI - Unified Payment Interface\nIMPS - Immediate Payment Service VISACCPAY - Visa Credit Card Payment\nIMT - Instant Money Transfer VMT - VISA Money Transfer\nKB - Billpay trans\n\nion via Keya Chatbot WB - Billpay trans\n\nion via WhatsApp Banking\nMB - Trans\n\nion done on Mobile banking",
+        "word_count": 342,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.816,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.816,
+          "anger": 0.053,
+          "surprise": 0.047,
+          "disgust": 0.028,
+          "sadness": 0.021
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 438,
+        "end_time": 462,
+        "duration": 24
+      },
+      "content": {
+        "text": "Pd. - Interest credited on your savings account balance\nNACH - National Automated Clearing House Sweep transfer to - Booking new Term Deposit\nNEFT - National Electronic Funds Transfer Sweep transfer from - Broken existing Term DepositRam Kalpesh Kapadia\nAccount No. 6050076040\nAccount Statement 01 Feb 2026 - 21 Feb 2026\nStatement Generated on 21 Feb 2026, 20:30 Page 3 of \n3",
+        "word_count": 62,
+        "type": "screenplay_scene",
+        "header": "Int.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.653,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.653,
+          "surprise": 0.224,
+          "sadness": 0.072,
+          "anger": 0.027,
+          "fear": 0.012
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 4.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 6.0,
+        "end_time": 130.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 132.0,
+        "end_time": 298.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 300.0,
+        "end_time": 436.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 438.0,
+        "end_time": 462.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditorium Sim | Phase 5</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #0f172a; font-family: 'Inter', sans-serif; }
+        #canvas-container { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 0; }
+        #ui-layer { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); z-index: 10; width: 90%; max-width: 800px; }
+        
+        /* Glassmorphism Panel */
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+    </style>
+    
+    <!-- Three.js -->
+    <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.150.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.150.0/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <div id="ui-layer">
+        <div class="glass-panel text-white">
+            <div class="flex justify-between items-center mb-4">
+                <h1 class="text-xl font-bold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+                    PHASE 5 // PLAYBACK ENGINE
+                </h1>
+                <div class="flex gap-2 text-xs text-gray-400 font-mono">
+                    <span id="time-display">00:00.00</span> / <span id="duration-display">00:00.00</span>
+                </div>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="relative w-full h-8 bg-gray-800 rounded-full mb-6 cursor-pointer group" id="timeline-track">
+                <!-- Progress -->
+                <div id="timeline-bar" class="absolute top-0 left-0 h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full w-0 transition-all duration-75"></div>
+                <!-- Handle -->
+                <div id="timeline-handle" class="absolute top-0 h-8 w-8 bg-white rounded-full shadow-lg transform -translate-x-1/2 scale-75 group-hover:scale-100 transition-transform" style="left: 0%"></div>
+            </div>
+
+            <!-- Controls -->
+            <div class="flex justify-center gap-6">
+                <button onclick="sendCommand('stop')" class="p-3 rounded-full bg-gray-700 hover:bg-red-500/20 hover:text-red-400 transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h12v12H6z"/></svg>
+                </button>
+                <button onclick="togglePlay()" id="play-btn" class="p-3 rounded-full bg-white text-gray-900 hover:bg-indigo-400 hover:text-white transition-all shadow-lg hover:shadow-indigo-500/50">
+                    <svg id="icon-play" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                    <svg id="icon-pause" class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                </button>
+            </div>
+            
+            <div class="mt-4 flex justify-between items-center text-xs text-gray-500">
+                <div id="status-text" class="font-mono">Ready.</div>
+                <div class="flex gap-2">
+                   <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> Connected
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        
+        // --- 1. Three.js Setup ---
+        const container = document.getElementById('canvas-container');
+        const scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x0f172a, 0.02);
+        
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+        camera.position.set(0, 15, 20);
+        camera.lookAt(0, 0, 0);
+        
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.shadowMap.enabled = true;
+        renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+        container.appendChild(renderer.domElement);
+        
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        
+        // --- 2. Environment ---
+        
+        // Stage Floor
+        const floorGeometry = new THREE.PlaneGeometry(30, 20);
+        const floorMaterial = new THREE.MeshStandardMaterial({ 
+            color: 0x111111, 
+            roughness: 0.1, 
+            metalness: 0.1 
+        });
+        const floor = new THREE.Mesh(floorGeometry, floorMaterial);
+        floor.rotation.x = -Math.PI / 2;
+        floor.receiveShadow = true;
+        scene.add(floor);
+        
+        // Grid Helper (subtle)
+        const grid = new THREE.GridHelper(30, 30, 0x333333, 0x111111);
+        grid.position.y = 0.01;
+        scene.add(grid);
+        
+        // Ambient Light
+        const ambient = new THREE.AmbientLight(0xffffff, 0.1); // Dim base
+        scene.add(ambient);
+        
+        // Volumetric Haze (Fake with Sprite or Global Box? using strict fog for now)
+        
+        // --- 3. Light Management ---
+        const fixtures = {}; // ID -> { mesh, light, helper }
+        
+        function updateFixture(data) {
+            const { id, x, y, z, intensity, color, target } = data;
+            
+            if (!fixtures[id]) {
+                // Create new fixture
+                const group = new THREE.Group();
+                group.position.set(x, y, z);
+                
+                // Physical Housing
+                const housingGeo = new THREE.CylinderGeometry(0.3, 0.4, 0.6, 16);
+                const housingMat = new THREE.MeshStandardMaterial({ color: 0x222222 });
+                const housing = new THREE.Mesh(housingGeo, housingMat);
+                housing.rotation.x = Math.PI / 2;
+                group.add(housing);
+                
+                // Actual Light Source
+                const spotLight = new THREE.SpotLight(new THREE.Color(color));
+                spotLight.angle = Math.PI / 6;
+                spotLight.penumbra = 0.2;
+                spotLight.decay = 2;
+                spotLight.distance = 50;
+                spotLight.castShadow = true;
+                spotLight.intensity = intensity * 10; // Scale up for Three.js
+                
+                // Target
+                const targetObj = new THREE.Object3D();
+                targetObj.position.set(x, 0, z); // Default to straight down
+                scene.add(targetObj);
+                spotLight.target = targetObj;
+                
+                group.add(spotLight);
+                
+                // Volumetric Cone (Fake)
+                const coneGeo = new THREE.ConeGeometry(2, 10, 32, 1, true);
+                const coneMat = new THREE.MeshBasicMaterial({
+                    color: color,
+                    transparent: true,
+                    opacity: 0.0,
+                    side: THREE.DoubleSide,
+                    depthWrite: false,
+                    blending: THREE.AdditiveBlending
+                });
+                const cone = new THREE.Mesh(coneGeo, coneMat);
+                cone.position.y = -5; // Below light
+                cone.visible = false; // Only visible if intense
+                group.add(cone);
+                
+                scene.add(group);
+                fixtures[id] = { group, light: spotLight, target: targetObj, cone: cone, coneMat: coneMat };
+            }
+            
+            // Update Existing
+            const f = fixtures[id];
+            const hexColor = new THREE.Color(color);
+            
+            f.light.intensity = THREE.MathUtils.lerp(f.light.intensity, intensity * 2, 0.2); // Smooth lerp
+            f.light.color.lerp(hexColor, 0.2);
+            
+            // Cone effect
+            f.cone.visible = intensity > 0.05;
+            f.coneMat.color.lerp(hexColor, 0.2);
+            f.coneMat.opacity = THREE.MathUtils.lerp(f.coneMat.opacity, intensity * 0.15, 0.2);
+            
+            // Focus Area (Simple logic for demo)
+            // If target is specific string, maybe move targetObj?
+            // Ignoring 'target' string for now, just pointing down.
+        }
+        
+        // --- 4. WebSocket ---
+        const ws = new WebSocket(`ws://${location.host}/ws`);
+        
+        let isPlaying = false;
+        let duration = 0;
+        
+        ws.onmessage = (event) => {
+            const data = JSON.parse(event.data);
+            
+            if (data.visuals && data.visuals.lights) {
+                data.visuals.lights.forEach(updateFixture);
+            }
+            
+            if (data.status) {
+                updateUI(data.status);
+            }
+        };
+        
+        function updateUI(status) {
+            isPlaying = status.is_playing && !status.is_paused;
+            duration = status.total_duration;
+            
+            // Play/Pause Icon
+            document.getElementById('icon-play').classList.toggle('hidden', isPlaying);
+            document.getElementById('icon-pause').classList.toggle('hidden', !isPlaying);
+            
+            // Time Display
+            document.getElementById('time-display').innerText = formatTime(status.elapsed_time);
+            document.getElementById('duration-display').innerText = formatTime(status.total_duration);
+            
+            // Timeline
+            const pct = status.progress * 100;
+            document.getElementById('timeline-bar').style.width = `${pct}%`;
+            document.getElementById('timeline-handle').style.left = `${pct}%`;
+            
+            document.getElementById('status-text').innerText = isPlaying ? "PLAYING" : "PAUSED/STOPPED";
+        }
+        
+        function formatTime(s) {
+            const mins = Math.floor(s / 60);
+            const secs = (s % 60).toFixed(2);
+            return `${mins.toString().padStart(2, '0')}:${secs.padStart(5, '0')}`;
+        }
+        
+        // --- 5. Controls ---
+        window.sendCommand = (type, data = {}) => {
+            ws.send(JSON.stringify({ type, ...data }));
+        };
+        
+        window.togglePlay = () => {
+            if (isPlaying) sendCommand('pause');
+            else sendCommand('play');
+        };
+        
+        // Timeline Click
+        const timeline = document.getElementById('timeline-track');
+        timeline.addEventListener('click', (e) => {
+            if (duration <= 0) return;
+            const rect = timeline.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const pct = Math.max(0, Math.min(1, x / rect.width));
+            const time = pct * duration;
+            sendCommand('seek', { time });
+        });
+        
+        // Animation Loop
+        function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        animate();
+        
+        // Resize
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+</body>
+</html>

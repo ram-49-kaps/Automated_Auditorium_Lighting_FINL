@@ -1,0 +1,2326 @@
+{
+  "metadata": {
+    "source_file": "Script-18.pdf",
+    "doc_type": "event_schedule",
+    "genre": "drama",
+    "total_scenes": 22,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 22
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "1 This text is made available to read free of charge. However, an authorisation must be requested from the author prior to any public performance, whether by professional or amateur companies. To get in touch with Jean-Pierre Martinez and to request an authorisation to represent one of his works: https://comediatheque.net The Joker Jean-Pierre Martinez Translation by the author A screenwriter tackling both a creative block and a computer breakdown gets a surprise visit from a strange repairman. Everyone deserves a wild card to play for a second chance. Characters Alex The Joker 2 men or 2 women For a version with 2 women, simply invert the genders of all the characters in the play. \u00a9 La Com\u00e9diath\u00e8que 2 A messy office. Alex is dozing off at his desk, his head resting on the keyboard of his computer. The ringing of his mobile phone startles him awake. He answers it. Alex (half-asleep)\u2013 Yeah... Who is it...? (Fully waking up) No, no, of course, excuse me, I... No, no, I wasn't sleeping. Not at all, I... I was just thinking, actually... Yes, I know, it's not the time to think anymore, but I mean... Before tomorrow morning at eight, absolutely... As agreed... Yes, I know, I already told you that yesterday, but this time, I promise... The filming starts next week, I know... And it's difficult to broadcast a special Christmas episode in early February, I understand your point of view... No, no, I'm almost done. All I need is the final scene and... I'll stay up all night if I have to, but you'll have the complete script by tomorrow morning, without fail. Maybe even sooner if I finish it tonight... Okay, tomorrow morning if you prefer... Alright... Otherwise, I'm fired, I know... Thanks for reminding me, I think it'll help... So, see you soon! He hangs up and sighs, feeling depressed. Alex \u2013 Damn... What an idiot... (He gets up and looks at his watch.) But I really need to get started, don't I... Instead of starting to work, however, he gets up and turns on the TV before collapsing into an armchair. He grabs a packet of crips and starts eating them while a popular show plays on the TV. Alex \u2013 I should stop with the TV... If I only work during the commercial breaks, it won't progress... A ringtone sounds from his computer. Alex \u2013 Oh, for",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 322.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "God's sake... If I keep getting interrupted like this, I'll never make it... He turns off the TV and goes back to sit at his desk in front of the computer. Alex \u2013 Yes, Fred, how are you, darling? Fred (off) \u2013Hello, Alex. So, I'm always the one who has to call you... What are you doing? Alex \u2013 Well, you see, I'm glued to my desk here, I'm working... Fred \u2013Are you coming over later? I bought this big bed for you at IKEA. And I'm sleeping in it on my own. Alex \u2013 Listen, tonight, I think it's going to be tough... Fred \u2013 Tough? You say that every time! It's starting to get hurtful... Is it that difficult to spend the night with me? Alex \u2013 I have a script to finish, you know, and... Fred \u2013 Ah yes, this damned script... Alex \u2013 What does that mean? 3 Fred \u2013You've been talking about this script for months... You could at least come up with something else... I don't know... Imagination is your job, isn't it? Alex \u2013 Yeah, well, precisely, I'm not very inspired at the moment, you see... I'd rather spend the evening in your IKEA bed with you, believe me... Fred \u2013 Finish that blasted script and then come over! Alex \u2013 Okay, I'll try... but I can't promise anything. Fred \u2013 Come on... Alex \u2013 Alright, I'll dive right back into it and give you a call once when I'm done, okay? Fred \u2013 Promise? Alex \u2013 Promise. Fred \u2013 Well, I'll let you work. I miss you... Alex \u2013 I miss you too. Fred \u2013 I'll be waiting... Can I count on you? Alex \u2013 Okay...(Alex ends the conversation and sighs again.) Why is it that everyone depends on me like that? You can't trust me! Even I have never been able to trust myself... I'm not the type of person you can rely on, plain and simple. When will they finally understand that? Alex leans over his computer and places his hand on it. Alex \u2013 Blimey, this laptop is getting a bit too warm... I wonder if I did the right thing by unplugging the fan, but it was making such a racket. Louder than an Airbus taking off.I need some proper peace and quiet to crack on with me work! Oh no... The keyboard's heating up as well. I'm",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 324.0,
+        "end_time": 484.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "not going to melt the keys just by typing, am I? Please don't let me down now! Can I count on you, huh? Well, if I want make it through the night, I could use a little pick-me-up... Alex turns on a coffee machine and then sits back down at his desk. Alex \u2013 So, where was I... (Reading what's on the screen) This can't be possible! Did I really write this before falling asleep? Three lines! I think I would've been better off never waking up... His mobile phone rings again. Alex \u2013 Yes... Ah yes... Yes, hello, sir... Yes, yes, I understand... No, but rest assured, I'll quickly cover this small overdraft... How much did you say? Oh, quite a substantial amount indeed. I realize it may be causing some concern... Yes, yes, I share that concern, of course, but... Listen, I'm just about to submit a script, and I'll have a big check to deposit first thing tomorrow morning... Yes... Absolutely... Precisely... Thank you... Yes, without fail tomorrow morning, I promise you... Good 4 evening to you... And a big thanks to Credit Union, which truly fosters a strong sense of community among its customers, standing in solidarity with its members in times of temporary need. (He puts away his mobile phone.) I don't think coffee will be enough... He gets up and sniffs a small line of cocaine. After that, he heads towards the coffee machine. Alex \u2013 Is that what I've just snorted or is there a burnt smell coming from the coffee machine? Alex realises that it's the computer that starts to smoke. Alex \u2013 Shit, it's not the coffee maker, it's the computer... Distraught, he hesitates for a moment, not knowing what to do. Then he grabs the coffee pot and throws its contents on the computer to put out the fire. Alex \u2013 Phew... Luckily I had the right reflex... He approaches the computer to examine it. Alex \u2013 I wonder if it was really the right reflex, after all... (He presses several keys on the keyboard) It's not working anymore... Earlier, when I pressed on it, letters appeared on the screen, but now no bugger all... (He stands up) Lucky in a way that I hadn't written anything yet, or I'd have lost the lot... Guess you could say I had a bit of luck in my misfortune... Well, with what's",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 486.0,
+        "end_time": 646.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "left in me bank account, I can't afford to buy another computer. And, more importantly, I don't have the time. (He leans over the computer again) Oh boy... Fire and flood... It's like Fukushima in there... I hope it's fixable though... (He grabs a phone book and checks it) Let's see... Computers... Repair... Troubleshooting... Ah, here it is! Joker Repair... That or something else... (He dials the number on his mobile phone) Yes... Yes, hello, I... I have a small issue with my computer and... It shouldn't be a big deal, but... Right away? Perfect... Yes, I'm at 9 Trafalgar Street... That's the one, yeah... Oh, you know it? Brilliant, I'll be waiting for you... (He puts away his mobile phone) I don't think it was the right time either to quit smoking... (He takes out the last cigarette from a pack and puts it between his lips) This will be my last cigarette... (Crushing the empty pack) The condemned man's cigarette... Until now, I've always managed to scrape by at the last minute, but now... Why do I have the unpleasant feeling that this time, I've hit rock bottom? I feel like a poker player who has already played all his best cards and doesn't have a joker left... Yes, I know, there are no joker in the poker game, but you get what I mean... He takes out a revolver from a drawer and presses the barrel against his temple. Suddenly, a man appears abruptly in front of him. Some details in his appearance remind one of Alex, but older, with a touch of delirium that also evokes the idea of a jester. He wears a joker-style hat and a T-shirt with \"Joker\" written on it. Joker \u2013 No, don't do that! Alex startles. 5 Alex \u2013 Are you out of your mind? I almost had a heart attack... Joker \u2013 Exactly... I'm here to prevent you from doing something foolish. Alex \u2013 Something foolish? I didn't need you for that... He points the gun towards the intruder. Alex \u2013 But by the way, who are you? And how did you get in? Joker \u2013 The door was open... I'm here to help you, believe me. I'm your joker... Alex \u2013 My joker? Joker \u2013 Joker Repair! I'm the computer technician... Alex \u2013 The repairman? Already? Joker \u2013 I thought it was an emergency... Alex \u2013 You scared",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 648.0,
+        "end_time": 808.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "me... Alex lights his cigarette with the gun, which turns out to be a lighter... Joker \u2013 You scared me too... Maybe I got carried away a bit... Alex \u2013 No, no, it's an emergency, I assure you... (Alex glances at his gun lighter and understands)Oh, I see, you thought... But you don't commit suicide over a computer problem, come on... Joker \u2013 You know, in my line of work, I've seen it all... Alex looks at him suspiciously. Alex \u2013 Aren't you a bit too old to be a computer guy... I was expecting a geek who looks like my nephew to show up... But you look more like my father... Joker \u2013 Yes, I hear that often... Alex \u2013 Often? Joker \u2013 Shall we take a look at this computer? Alex \u2013 You're right... But I warn you, it's not a pretty sight... (Showing it to him) Here it is... The Joker approaches the computer to examine it. Joker \u2013 Oh my... What happened to this poor machine? Did it attempt to set itself on fire? Alex \u2013 Before trying to drown itself, yes... Is it serious, doctor? Joker \u2013 I won't hide the fact that my prognosis is rather reserved. Alex \u2013 But can you do something to save it? 6 Joker \u2013 The vital organs are still powered, but at first glance, this computer is brain dead. I'm afraid its memory might be lost forever... Alex \u2013 But all my work is on there! Joker \u2013 What do you do for a living? Alex \u2013 I write dumb TV series. Joker \u2013 That must be exciting. Alex \u2013 I think you missed the adjective \"dumb\" in my answer... Joker \u2013 I always try to find the silver lining... Alex \u2013 And what would be the optimistic version for my computer then? Joker \u2013 I'm not Jesus Christ, after all... I can't work miracles... Alex \u2013 I thought computer repairmen were like modern-day wizards... I must say I'm disappointed... So how do I recover my script? Joker \u2013 Apparently, this machine suffered from ventilatory failure, which caused a fatal rise in temperature. I'm not sure if we'll be able to salvage the hard drive and transplant it onto another CPU. Alex \u2013 A transplant... I've never heard of such operations for a computer before... Joker \u2013 It would be a delicate operation, to say the least. This",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 810.0,
+        "end_time": 970.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "computer was already on its last legs. A family heirloom, perhaps? Alex \u2013 Let's just say... a sentimental attachment combined with a concern for saving money. Joker \u2013 And you had your script on this antique? Alex \u2013 Yes... Well, the one I was supposed to write... Truth is, I haven't even started yet... That's the story of my life... Joker \u2013 It was an autofiction... Alex \u2013 No, I mean never being able to start something... That's the story of my life... Joker \u2013 Ah, I understand... Alex \u2013 I have to submit this script tomorrow morning at the latest... Unfortunately, it's not just the computer that's broken. It's me too... Joker \u2013 Writer's block... Alex \u2013 I would even call it burnout... Just like this computer, actually. Overheating, you know?(Pointing to his head) It's smoking in there... It's Chernobyl... The cooling system is malfunctioning... And the hard drive is on the verge of nuclear fusion... Joker \u2013 I can see that. 7 Alex \u2013 I guess Joker Repair can't help me out after all... Joker \u2013 Have you ever considered about a career change? I mean... still within the realm of writing... Maybe something like working for the theatre? Alex \u2013 Theatre? Not until I submit my last script, at least... Joker \u2013 I understand... Keeping your word is important... You made a commitment to this script, and you can't let down all those people who put their trust in you... Alex \u2013 Yes... And especially since they've already paid me half of the fee to write that damn script... Joker \u2013 In that case, you'll just have to refund them. Alex \u2013 Yes... But I've already spent the half I received... plus the amount I'll only get upon delivery. Joker \u2013 Ah... Alex \u2013 Not to mention my last provisional tax installment that I forgot to set aside. There might be one solution left... Joker \u2013 Writing that script? Alex \u2013 Getting into bed and turning on the gas... Joker \u2013 I sense there's a \"but\" as well... Alex \u2013 The gas company just cut off my supply because I didn't pay the bill. Joker \u2013 I see... Alex \u2013 Now you understand why I would have preferred if you knew how to perform miracles... I don't know, maybe you brought one of those African charms with you that make you invisible and bulletproof? Alex's phone rings",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 972.0,
+        "end_time": 1132.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "and he answers it. Alex \u2013 Yes, darling... No, I don't have a connection anymore. My computer just attempted suicide... Yes, I know, it was on its last legs. It probably chose to go out with dignity while it still had the choice... I don't know, I have to admit that until now, I knew nothing about computer psychology, but I think it was already very depressed. Nervous breakdown, exactly... And I'm not far from it myself... Listen, it's going to be difficult right now. I'm with the computer repairman and... Well, it's not at all certain that it can be fixed... No, I'm really sorry, but unless there's a miracle... Yes, I know, I'm unreliable. My mother used to tell me that all the time too... Listen, I'm doing my best and I'll call you back, okay? (He puts away his phone) So, is there no hope? Joker \u2013 It's true that the easiest solution would be to buy a new one. 8 Alex \u2013 With what? I've already taken advantage of the Credit Union'solidarity so much... Even the gas company refuses to provide me the gas that would allow me to go out with dignity too. With my hand on the keyboard of my most faithful companion: my old computer. To depart together, wouldn't that be beautiful? To avoid the sorrow of being separated after so many years of coexistence... Joker \u2013 Come on, there's always a light at the end of the tunnel. Alex \u2013 When you're dead, you mean? Joker \u2013 You're not the optimistic type, are you... Alex \u2013 Give me one reason why, right now, I should be optimistic! Joker \u2013 It was you who said it earlier! We don't commit suicide because of a minor computer problem. Alex \u2013 Well, I wonder if it's not good news that this computer is permanently dead. Joker \u2013 Oh, really? Alex \u2013 At least now I have a valid excuse for not submitting my script tomorrow morning... Joker \u2013 Obviously, when you look at it that way... Alex \u2013 I'll say that the computer caught fire just as I was putting the finishing touches on my script. Joker \u2013 And you think people will believe you? Alex \u2013 It's the truth, isn't it? Except that I hadn't written anything yet... But I could very well have written a complete script, and the end result would have",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1134.0,
+        "end_time": 1294.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "been exactly the same. What difference does it make, after all? Joker \u2013 Nothing, you're right. Unfortunately, as you know, even the truth is not always believable. Alex \u2013 Unless you give me a certificate! Joker \u2013 A certificate? Alex \u2013 Like a medical certificate, but for a computer. In this case, a death certificate. I'll say that my script was on it and that I lost everything. You know, like those people they interview in front of their ruined house after a fire or a flood... Don't fool yourself: even they, to get better compensation, don't hesitate to declare to their insurance the loss of belongings they didn't even own... Joker \u2013 Are you sure it wouldn't be easier to write that screenplay? Alex \u2013 Honestly, given the circumstances... At this point, even if I wanted to, I couldn't... 9 Joker \u2013 You know what? I'm starting to wonder if you're not a bit indecisive and procrastinating. Alex \u2013 Are you an IT specialist or a psychologist? Joker \u2013 To be a repairman, you need to be a bit of a psychologist. Alex \u2013 It's crazy... Procrastinator... I could almost hear my father saying that. By the way, it's incredible how much you resemble him... Did I already tell you that? Joker \u2013 Yes... Alex \u2013 Exceptionally, we won't see each other for Christmas this year... My parents used to own a toy store, so you can imagine they could never take vacations during Christmas. But they retired six months ago. To celebrate, they decided to take a trip this year... Joker \u2013 The honeymoon they couldn't afford when they got married forty years ago... Alex \u2013 How do you know that? Joker \u2013 I just said it... I mean... Forty years ago, people didn't go on honeymoons like they do now. We settled for a meal at the local restaurant or a weekend in Brighton... Alex \u2013 Are you married? Joker \u2013 Not yet... Alex (staring at his interlocutor) \u2013 Anyway, I hope I won't resemble my father as I get older. Joker \u2013 With time, we all end up looking more and more like our parents more and more... And less and less like ourselves. You'll see, at a certain age, when you look in the mirror, you won't even recognise yourself anymore... Alex takes a mirror and looks into it. Alex \u2013 You're right about what",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1296.0,
+        "end_time": 1456.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "you're saying... There are mornings when I look in the mirror before shaving, and I have trouble putting a name to my face... Alex suddenly realises that the repairman, who is right behind him, doesn't appear in the mirror. Alex \u2013 Well, that's curious... Joker (embarrassed) \u2013 What do you mean? He moves the mirror to try to capture the image of the other person, who seems to elude it. Alex \u2013 Come over here and have a look... I can't see you in the mirror! Joker \u2013 Just an optical illusion, I suppose... And your mirror there... You should think about giving it a wipe from time to time... 10 Alex \u2013 This is incredible! Stand over there, I'm telling you! Joker \u2013 Are you sure you're ready to do that? The other person finally agrees to stand in front of the mirror. Alex \u2013 Your reflection doesn't appear in this mirror! Joker \u2013 No, indeed... Not yet... Alex \u2013 Not yet? Joker \u2013 For now, you're the only one who can see me. I would even say anticipate me, my dear Alex... Alex \u2013 So we're on a first-name basis now? Anticipate you? But who the hell are you? Joker \u2013 I am... You're going to have a hard time believing it. Alex \u2013 You're my father's ghost, aren't you? I knew there was a family resemblance... Dad, is that you? Joker \u2013 It's a bit more complicated than that... Alex \u2013 That already seems complicated enough, doesn't it? So what is it? An imaginary friend? Some kind of guardian angel? Joker \u2013 Actually, it's more like you being my father. After all, the child is in a way the father of the adult he will become. And he bears the responsibility for his future, just as a father is responsible for the future of his child. Alex \u2013 Okay, can we stop with the riddles now? Joker \u2013 I am you... but older. Alex \u2013 Me? Joker \u2013 The one you will become if you don't make an irreversible mistake... You'll understand that it's in my interest to dissuade you. In a moment of hesitation, Alex mechanically takes out a pack of cigarettes from a drawer and is about to light one. Alex (in a dazed state) \u2013 Have you got a light? I really need to smoke one... Joker (coughing) \u2013 If you could also quit",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1458.0,
+        "end_time": 1618.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "smoking... I don't want to get throat cancer! I mean, do you ever look at the pictures on cigarette packets? Alex \u2013 I think I should also give up coke too... I'm delirious, aren't I? I'm having a bad trip... And you're here to... I'm here! You're a doctor and you've come to treat me? Joker \u2013 I'm here to help you, at least. Alex \u2013 But are you a doctor or not? Who sent you? NHS 111 or Ghostbusters? 11 Joker \u2013 In a way, it was you who called me. You wanted a joker. Well, here I am... Alex \u2013 Wait a minute, when I said that, I was thinking more of a genie coming out of a bottle. Even a whiskey bottle. Or I don't know... Zorro... Joker \u2013 I think you watch too much TV... At your age, you should know that superheroes don't exist... Alex \u2013 Me, older... But how can that help me? We're far from Superman, that's for sure... So that's what I'll look like in thirty years? Joker \u2013 If you started doing some exercise, maybe I'd be in better shape. And I'm not even talking about my cholesterol. You should try eating something other than crips and Nutella... Have you ever heard of the five-a-day rule? Alex \u2013 IT repairman? So that's how I'm going to end up? And you don't want me to kill myself with Nutella? Joker \u2013 Well, I'm not necessarily an IT repairman. Alex \u2013 Given the state of my computer, though, it would have been convenient if you were... Joker \u2013 What I am depends on you, actually. Everything I am depends on you, in fact... Alex \u2013 I see... And could you give me a small advance on my retirement pension so I can get the gas turned back on? Joker \u2013 Retirement... If only you knew... Alex \u2013 Oh, so I won't even have a pension... I thought you were here to help me? Is that how you plan to cheer me up? Joker \u2013 Don't worry, I came, a bit like Jesus Christ, to bring good news. Alex \u2013 Jesus Christ? Good news? I don't know if that makes me feel any better... In those times, all the members of his fan club ended up nailed to a cross or eaten by lions in a circus. So what's your good news? Joker \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1620.0,
+        "end_time": 1780.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "I sent one of your plays to a producer, and he's interested. A new life is about to begin for you! No more dumb TV series, as you say! You're finally going to become a real author! Alex \u2013 A play? What play? Joker \u2013 The one you wrote a few years ago, and you never dared to send to anyone. Do you remember it? Alex \u2013 My play? But it's also on my computer! The one you can't fix, remember? Joker \u2013 Luckily, you made a backup on a floppy disk. 12 Alex \u2013 A floppy disk? Why not a vinyl record while you're at it? Where would you even find a floppy disk drive... Especially if you're living in 2050! Joker \u2013 You also made a printed copy on recycled paper that I managed to retrieve. I found it in a drawer in your desk... This very desk, actually. He opens a drawer and takes out a bound document. Alex \u2013 The Lovers of The Ritz... And does anyone care about that? Joker \u2013 A renowned London theatre is interested in staging it. They have their eyes on two young rising stars at the moment. Alex \u2013 Let me guess... Joker \u2013 Actually... they're more famously known as finalists from a reality TV show. Alex \u2013 Two young stars... But it's the story of an elderly couple deciding to commit suicide together in a luxury hotel room to avoid one of them outliving the other! Joker \u2013 They haven't finalized the cast yet... And with makeup and special effects nowadays, miracles can happen... Alex \u2013 Are you kidding me by any chance? Joker \u2013 Cross my heart and hope to die if I'm lying. Alex \u2013 This is incredible... And are you sure that...? Joker \u2013 They're thrilled... Alex \u2013 So much so that they're signing me up for a good deal right now? Joker \u2013 Their only concern is that another theatre might make you a better offer... Alex \u2013 No way? Well, I always thought my play deserved better than ending up at the bottom of a drawer... But I thought the audience wasn't ready yet... Joker \u2013 Well, you see... Times are changing... It's a new career opening up for you, I assure you. Alex \u2013 Playwright... Why not, after all... So I'll finally get my own Wikipedia page too? His phone rings and he",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1782.0,
+        "end_time": 1942.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "answers. Alex \u2013 Yes... No... No, I haven't written that damn script, I haven't even started, and I won't write it, that's it. I've decided I'm worth more than that! No, you're not firing me, I'm resigning! That's right! Go to hell... and Merry Christmas! He hangs up. Alex \u2013 That was my producer... Damn, that felt good! I've wanted to do that for so long... Joker \u2013 Oh, really... 13 Alex \u2013 I'll reimburse him the money he already gave me with my advance on the play... Joker \u2013 Of course... Alex \u2013 I'm not in it for the money, damn it! I'm an artist, not a mercenary! Joker \u2013 Bravo! But... Alex \u2013 You used to criticise me for being an eternal pessimist and never making decisions, well, now I'm taking control of my life! Joker \u2013 Oh, yes, absolutely... Alex \u2013 I am the master of my own destiny! I am the captain of my soul! Damn it! Am I not right? Joker \u2013 Yes, yes, of course... Alex's phone rings again. Alex \u2013 Yes? No! No, Fred, I'm not coming over to your place tonight. Not tomorrow night, not the night after that. Listen, I've thought long and hard about it, and I think we're not meant to live together after all. You used to criticize me for never making any decisions? Well, now I've made one \u2013 I'm leaving you! I have work to write, you see! And I feel like my talent is finally going to be recognized. Listen, without wanting to hurt you, I'm not meant to sleep in an IKEA bed. I am such stuff as dreams are made on, and I see the canopy of my bed filled with stars! Not cobwebs! That's right. So do I. Goodnight to you as well! He puts away his phone. Alex \u2013 And there you go! No more boss, and no more girl to annoy me! Am I not right? Joker \u2013 Yes, yes, of course... All of this is going in the right direction, obviously. But there's still something I need to clarify for you... Alex \u2013 What? Joker \u2013 What I just told you... The good news... Alex \u2013 Yeah? Joker \u2013 It's not entirely true. Well, not yet... Alex \u2013 What do you mean, not yet? What's not true? Joker \u2013 Well... that play that the producer accepted, you haven't actually",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1944.0,
+        "end_time": 2104.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "sent it to him yet... Alex \u2013 What? But I thought you sent it! Joker \u2013 I did send it, yes, when I was a few years older than you. But you're not me yet... 14 Alex \u2013 You're insane! Joker \u2013 Well, I have to admit that they weren't exactly thrilled with your play as it is... It's quite dark and depressing. You might need to rework it a bit, maybe add some comedic elements, you know. Alex \u2013 Comedy? Seriously? Two old people committing suicide together in a hotel room, so that one doesn't have to face the pain of losing the other to cancer? Joker \u2013 Even in thirty years, there will still be a need for laughter, you know. When people go to the theatre, they want to be entertained! Alex \u2013 Entertained? I feel like strangling you right now... Alex grabs the Joker by the neck and starts choking him. The Joker manages to break free and escapes to the other side of the desk. Joker \u2013 Come on, calm down... Try to look at things from a different perspective... Alex \u2013 But why? Why did you feed me such nonsense? Joker \u2013 I wanted to jolt you into action! To make you react! Alex \u2013 Well, congratulations, it worked perfectly. Look at me, I'm completely shaken up, as you intended. Happy now? Joker \u2013 I sensed that you were going through a rough patch... You need to believe in yourself, my friend! Alex \u2013 Can you stop calling me \"my friend\"? Joker \u2013 I'm going to help you regain your confidence! Alex \u2013 Is this some kind of sick joke? Help me? Before you came along, my life was just fine, with a few exceptions! Now I'm unemployed, and single... Thanks for your help! Joker \u2013 Let's not forget that I saved you from taking your own life... Alex \u2013 It was just a lighter, not a gun! Now I actually have more reasons to consider it! Joker \u2013 Come on, don't be so negative... Alex \u2013 There must be a way to fix this... I'll call my producer. And my girlfriend. I can say that someone drugged me or that I was under the influence. That I wasn't in my right mind. Joker \u2013 I'm not sure if that will work, unfortunately... Alex \u2013 Thanks for the encouragement, really... So, what do I",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 2106.0,
+        "end_time": 2266.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "do now? Joker \u2013 It's true, your first play was a disaster... But you can write another one! A comedy! People love comedies! 15 Alex \u2013 A comedy! How can I write a comedy when, thanks to you, all I can think about is throwing myself under a train? It's insane... Joker \u2013 Make an effort, for heaven's sake! And between us, if you could manage to keep a girlfriend for more than six months... I don't want to end up all alone for the rest of my life... You know, once you hit fifty, new faces become scarce... Except at funerals, where you meet the deceased's grandchildren... Alex \u2013 I'm going to kill him... Joker \u2013 Which would be another form of suicide... Alex remains devastated for a moment. Alex \u2013 But I mean, if you're from the future, there must be things you know that we could monetise today... Joker \u2013 Like what? Alex \u2013 Lottery results, stock market trends, real estate price movements... Did you happen to bring tomorrow's newspaper with the winning numbers for the next Lottery? Joker \u2013 No, it's not that kind of future... Alex \u2013 Are there multiple interpretations of being from the future? Joker \u2013 I mean, it's not time travel either. We're not in a TV movie. Alex \u2013 Seriously? Joker \u2013 How can I explain it... I'm just a virtuality, you see? A virtuality that can change at any moment based on the choices you make in the present. I mean... Let's not overstate it... I don't come from a fixed future that one could rely on... Alex \u2013 I see... So if I understand correctly, you're not reliable either! We can't count on you! Joker \u2013 You're not going to give me a hard time, are you? Not you! Alex \u2013 Alright, fine... So what do you suggest then? Since you're here to help me... Joker \u2013 There's not fifty different solutions, you know. You have to write that play! Alex \u2013 What play? Joker \u2013 The one that this famous London theatre is willing to stage! Alex \u2013 But I'm a failure! You know that better than anyone! I'm a loser! I can't even write an episode of the worst soap opera... I'll never be able to write a play! Joker \u2013 Don't be so hard on yourself... 16 Alex \u2013 You say that because you don't want",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 2268.0,
+        "end_time": 2428.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "to end up alone in a rundown retirement home for penniless screenwriters. Sorry, but I can't do anything for you, you old wreck! Joker \u2013 That's not nice... I'm older than you... You owe me some respect, after all... And let me remind you that in a few years, you'll be the old wreck... Alex \u2013 A play, between us... You want to become a playwright? Are you kidding me? When they have the honour of staging a play in a real theatre, it's usually half-empty, filled with guests, and the author earns less money than the usher. Joker \u2013 Don't be so down-to-earth... I don't know, maybe... Don't you want to leave a legacy? Alex \u2013 This can't be true! I must be dreaming! Legacy now! But when they talk about a play on the 8 o'clock news, they don't even mention the author's name! Joker \u2013 I like theatre, you know... Alex \u2013 Perfect... Why don't you write the play yourself then! Or even better, write the screenplay that I have to turn in tomorrow morning! At least it will save me from having to repay the money I've already received... Joker \u2013 And why not? Alex \u2013 Well, go ahead then. He sits down at the desk . Joker \u2013 I would have helped, but... It won't be easy without a computer... Alex opens a drawer and takes out a notepad and a pen, throwing them on the desk. Alex \u2013 Just do it old-school! With a pen and paper... Joker \u2013 Oh yes, that's true, why not? After all, Macbeth was written before Macintosh! Alex \u2013 Great... Joker \u2013 Alright, here I go... He starts thinking and tries to write, while the other paces back and forth. Joker \u2013 Could you stop pacing around? I can't concentrate... Alex \u2013 You see? Not so easy, huh? It's a profession. Joker \u2013 Come on, give me five minutes, alright? Alex \u2013 Okay, in the meantime, I'll have a cigarette, to nurture your cancer... Alex takes out a cigarette without lighting it. The Joker sighs. Joker \u2013 Alright, I don't have any ideas either... 17 Alex \u2013 We're screwed, my friend! I owe 30,000 pounds to Barclays, and I'm out of a job! Joker \u2013 I thought it was Credit Union? Alex \u2013 Yes, but before Credit Union, I left a debt with Barclays... Joker \u2013 Come on... You'll",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2430.0,
+        "end_time": 2590.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "figure it out, right? Alex \u2013 If I don't figure it out, you won't either! We will both end up at the soup kitchen... Silence. Joker \u2013 What if we both work on it? I'll be your muse... Alex \u2013 Some muse you are! More like a fool! And I don't even have a computer anymore. I don't write by hand. We're not in the Middle Ages. You couldn't even manage to fix my computer! Joker \u2013 I'm not really a computer repairman. Alex \u2013 Fine, I'll try to fix it myself then... It can't be that complicated... Once, my electric coffee maker broke down, and I managed to give it a second life... He approaches the computer and starts tinkering with it. Joker \u2013 Are you sure about what you're doing? Alex \u2013 You said it was still powered on, right? Joker \u2013 I just said that casually... Alex reaches into the computer's casing and suddenly contorts as if he's being electrocuted. Joker \u2013 Apparently, I was right. It was still powered on... Alex collapses, struck. Joker \u2013 Oh my God, no? He rushes to Alex to help him. Joker \u2013 If that jerk doesn't get over it, I'm dead! He slaps him. Joker \u2013 Wake up! The other doesn't move. Joker \u2013 Well, I don't have a choice... He performs mouth-to-mouth resuscitation. Alex jolts awake, horrified. Alex \u2013 Are you out of your mind? You narcissistic old pervert! 18 Joker \u2013 Alright, you could at least thank me. I just saved your life for the second time... Alex \u2013 You mean... save your own life... They both gather their thoughts once again. Alex \u2013 So what do we do now? Joker \u2013 First of all, I think it's best if you stop tinkering... Alex \u2013 You're right... Joker \u2013 What if you enrol in a computer training program? Alex \u2013 Ah yes, that's a good idea. Especially since we have all the time in the world, right? In six months or a year, I should be able to disassemble and reassemble this machine with my eyes closed... Joker \u2013 Not you, but me! Alex \u2013 Sorry? Joker \u2013 Remember! I am you, but older! What I become depends on what you do. If you enrol in a computer training program today, I'll know how to fix this computer right now! Alex \u2013 Ah, that makes sense... Do you",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2592.0,
+        "end_time": 2752.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "think it can work? Joker \u2013 Logically, it should work. Alex \u2013 I remind you that when this computer was working, I was the one lacking inspiration... I'm self-taught, my friend! An impostor! I got my first job because I was sleeping with the producer's secretary, and it went on from there. But I have no formal training! I could be arrested at any moment for illegal practice of dramatic writing! Joker \u2013 What if you enrol in a screenwriting school? Alex \u2013 Sorry? Joker \u2013 That way, I become a real screenwriter and I can write this screenplay on your behalf! Alex \u2013 At this point, what do we have to lose? Joker \u2013 Ideally, we should find a combined computer technician-screenwriter program... So that I can also fix the computer... Alex \u2013 Maybe we shouldn't expect too much... (He types on his laptop) American Conservatory of Television Writing... That sounds a bit sketchy, doesn't it? Joker \u2013 Well, we don't have much choice... Alex dials the number. 19 Alex \u2013 Hello... Yes, I would like to enrol in the... Two years? Oh, wow... Oh, because there's also a competition... Yes, I'll wait... Joker \u2013 A competition... That's unfortunate... I hope you're not going to miss it... Alex \u2013 I thought you had faith in me... Yes? Ah... Alright... So, there's also an age limit... Unfortunately, I'm afraid I've already passed the best-before date... Thank you anyway... Alex hangs up his phone. Joker \u2013 I should have come to see you before you got too old... I wonder if it's already too late... Alex \u2013 We have to face the facts, I don't think I'll ever be a great Hollywood screenwriter... Joker \u2013 There must be other programs... Maybe we just need to lower our expectations... Alex looks at his laptop screen. Alex \u2013 Joker Screenwriting... It's a three-week script doctor training program... Joker \u2013 Script doctor? Alex \u2013 A doctor for scripts, if you prefer... It's a bit like a computer troubleshooter, but you help out writers who are stuck with their inspiration... Joker \u2013 At this point... Alex dials the number. Alex \u2013 Hello? Yes, I'd like to enrol in your next Script Doctoring training session... Alright... Okay... How much did you say? Oh, I see... My name? Alex Dumas... Alright, I'll send you the check in the mail... (He hangs up his phone) Thank you... There,",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2754.0,
+        "end_time": 2914.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "I'm enrolled... Joker \u2013 But? Alex \u2013 It costs 8,000 pounds... Joker \u2013 I think I haven't finished paying off your debts... I hope it's a worthwhile investment... Alex \u2013 That's for you to tell us... Do you have any ideas now? Joker \u2013 It's just a script doctor training... Alex \u2013 You could try adapting my play... Joker \u2013 \"The Lovers of The Ritz\"? Alex \u2013 You wanted us to rewrite that as a comedy. We could attempt to turn it into a pilot for a series. The one I have to submit by tomorrow morning... 20 Joker \u2013 The story of the two old people who commit suicide? Alex \u2013 Are you a script doctor or not? Joker \u2013 I hope it's a good training... Show me anyway... Alex hands him the bound text. Alex \u2013 Here... Joker \u2013 I don't know... Imagine if the two old people consistently fail in all their suicide attempts. It could be funny... Alex \u2013 Mmm... Comic repetition... But they're still old and suicidal... It's not very Christmassy... Joker \u2013 I can feel it coming... I have a better idea... After taking a lethal dose of poison, they lie down on the bed and watch TV to pass the time while waiting for the poison to take effect. It's the lottery draw, and they learn that the number they have been playing unsuccessfully for forty years has just been drawn. They've won 300 million pounds. Alex \u2013 And that's supposed to be funny? Joker \u2013 You're right... It's not going to be easy to turn it into a comedy... Alex \u2013 You know what? I'm starting to question whether this 8,000 pounds script doctor training is worth it... A pause. Joker \u2013 Or maybe we should accept that it's a drama and make something deeply moving out of it, with a message about the loneliness of the elderly and the right to die with dignity... It could be truly beautiful... Alex \u2013 Oh my... Drama depresses me... Joker \u2013 Yes, but maybe that's where you need to take a leap, you know... Accepting that life is utterly depressing... Alex \u2013 Thankfully, you're here to cheer me up... The phone rings. Alex \u2013 Yes... It's me, yes... No? That's not possible! When did it happen? Well... Thank you for letting me know... Alex hangs up the phone. Joker \u2013 What's going on? Alex",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2916.0,
+        "end_time": 3076.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "\u2013 You were right, life is a tragedy... My parents just died together in the hotel where they were celebrating their second wedding night... Joker \u2013 Dead? But how? 21 Alex \u2013 They were found lying on the bed, hand in hand, with the TV still on. And there was a lottery ticket on the bedside table... Joker \u2013 Ah, yes, that's hitting the jackpot... A pause. Joker \u2013 I have to admit, even I am starting to struggle to see the light at the end of the tunnel... Alex \u2013 We need a sign from God... Joker \u2013 Something to give us a reason to hope... A pause. Alex \u2013 Do you smell sulphur? It seems to be coming from the kitchen... Joker \u2013 Maybe that's the sign we've been waiting for... Alex disappears into the kitchen. Alex (off) \u2013 It's a miracle! The gas company has restored our gas! Joker \u2013 I believe God has shown us the solution clearly... The old man disappears, leaving his joker hat on the desk. Alex returns and doesn't see anyone. He is perplexed. Fade out. Ambient music. 22 Epilogue Alex is sleeping on the computer as at the beginning. The phone rings. He answers. Alex (half asleep) \u2013 Yeah... Who is it...? ( Fully waking up ) No, no, of course, excuse me, I... No, no, I wasn't sleeping. Not at all, I... I was just thinking, actually... Yes, I know, it's not the time to think anymore, but I mean... Before tomorrow morning at eight, absolutely... As agreed... Yes, I know, I already told you that yesterday, but this time, I promise... The filming starts next week, I know... And it's difficult to broadcast a special Christmas episode in early February, I understand your point of view... No, no, I'm almost done. All I need is the final scene and... I'll stay up all night if I have to, but you'll have the complete script by tomorrow morning, without fail. Maybe even sooner if I finish it tonight... Okay, tomorrow morning if you prefer... Alright... Otherwise, I'm fired, I know... Thanks for reminding me, I think it'll help... So, see you soon! He puts away his phone. Alex \u2013 Why do I feel like I've had this conversation before... The doorbell rings. Alex \u2013 Well, who could that be? He goes to open the door. Alex (off) \u2013 Dad? What",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 3078.0,
+        "end_time": 3238.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "are you doing here? I thought you were dead? Alex returns accompanied by the man who played the joker, dressed more conventionally, and carrying a large gift package. Father \u2013 I know we haven't seen each other in a while, but still... I was passing by, so since we won't be here for Christmas, your mother and I, I thought I'd bring you your gift... Alex \u2013 Oh yeah... Funny thing, I was actually thinking about you. Well, to be honest, it was more like a dream... Father \u2013 A dream? Alex \u2013 Or a nightmare, I'm not quite sure. In the dream, you and mom were actually dead, then you reappeared as a computer repairman. And in the end, I realised that the repairman was me. But older... Father \u2013 Dreams, you know... Alex \u2013 Wow! It looks quite bulky, though! Can I open it now? Father \u2013 Of course... Alex unwraps the gift. 23 Alex \u2013 A computer! Father \u2013 Since you told me yours was on its last legs... Alex \u2013 Oh, definitely... You couldn't have come at a better time with this... Father \u2013 If it can help you out, all the better... Alex \u2013 It's great to see you, you know, because right now, I'm feeling a bit down... I feel like I need to make important decisions if I don't want to end up a grumpy old man, but I can't seem to make up my mind. Father \u2013 What do you want? Like your mother says, you've always been indecisive and a procrastinator. But do you want me to give you some advice? Alex \u2013 I know your advice, you've repeated it to me a hundred times already. When you have an important decision to make in life, ask yourself if the old person you'll become one day can say, \"I'm proud of you.\" Father \u2013 You might end up making a mistake, but at least you would have tried. Alex \u2013 Yeah... But right now, I feel like I don't have the right cards in my hand. Father \u2013 We all have the right to a joker... However, remember one thing... Alex \u2013 We only get one chance. Father \u2013 Alright, I'll let you get back to work... Alex \u2013 I'll walk you out. So, where are you going for your second honeymoon? Father \u2013 Instead of going away for a week",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 3240.0,
+        "end_time": 3400.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "somewhere sunny, we decided to splurge on a night in a luxury hotel! It was your mother's idea... She wants to have a real wedding night... Alex \u2013 In London? Father \u2013 At the Ritz! Alex \u2013 Oh yeah... Father \u2013 To end things on a high note... Alex \u2013 To end things on a high note? Father \u2013 I was talking about our retirement! Are you sure you're okay? Alex \u2013 Yes, yes... Alright then... Well, have a nice trip... Okay, goodbye dad. And give mom my regards. (Father exits, leaving Alex deeply unsettled) Well, I guess this time, I really need to get started... (He plugs in his new computer and sits in front of it, when the phone rings) Yes? Yes, Fred, listen... No, I'm the one who's sorry for earlier when you called... I got carried away... You didn't call? Oh... Well, I must have dreamt it... Actually, it was more like a nightmare... My computer had fried and... It would take too long to explain, but trust me, it would make a good play... No, my father stopped by and gave me a new computer. Yeah, yeah, I'm fine, they're 24 going on their honeymoon... I hope everything goes well... What do you think, if I wrote a play? You really think so? Okay... Thanks for your encouragement, anyway. Yeah... Take care... Okay, I'll call you back... (He hangs up. His gaze falls on his old broken computer. Then on the joker's hat, which he takes in his hand, thoughtful) Alright then... See you in thirty years, old friend... I hope you'll be proud of me... (He starts typing on his new computer. At first hesitantly, then more rapidly.) Blackout. The End. 25 About the author Born in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer for several rock bands before becoming a semiologist in advertising. He then began a career writing television scripts before turning to theatre and writing plays. He has written close to a hundred scripts for television and as many plays, some of which have already become classics ( Friday the 13th ,Strip Poker). He is one of the most produced contemporary playwrights in France and in other francophone countries. Several of his plays are also available in Spanish and English, and are regularly produced in the United States and Latin America. Amateur and professional theatre groups looking for",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_022",
+      "timing": {
+        "start_time": 3402.0,
+        "end_time": 3493.2,
+        "duration": 91.2
+      },
+      "content": {
+        "text": "plays to perform can download Jean-Pierre Martinez's plays for free from his website La Comediath\u00e8que (https://comediatheque.net/ ). However, public productions are subject to SACD filing. For those who prefer reading or working from books, printed versions of his plays can be purchased from Amazon for a price similar to that of photocopying this document. 26 Other plays by the same author translated in English: A Cuckoo's nest A simple business dinner An innocent little murder Casket for two Cheaters Crisis and Punishment Critical but stable Four stars Friday the 13th Heads or Tails Him and Her Is there a pilot in the audience? Is there an author in the audience? Just a moment before the end of the world Lovestruck at Swindlemore Hall New Year's Eve at the Morgue One marriage out of two Quarantine Running on Empty Surviving Mandkind Strip Poker The Ideal Son-in-Law The Smell of Money The Window across the courtyard The Worst Village in England Welcome aboard! 27 This text is protected under copyright laws. Criminal copyright infringement will be investigated and may result in a maximum penalty of up to 3 years in prison and a EUR 300.000 fine. Avignon \u2013 June 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-956-0 https://comediatheque.net/ Play available for free download 28 Avignon \u2013 May 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-956-0 https://comediatheque.net/ Play available for free download 29",
+        "word_count": 228,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 322.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 324.0,
+        "end_time": 484.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 486.0,
+        "end_time": 646.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 648.0,
+        "end_time": 808.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 810.0,
+        "end_time": 970.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 972.0,
+        "end_time": 1132.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1134.0,
+        "end_time": 1294.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1296.0,
+        "end_time": 1456.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1458.0,
+        "end_time": 1618.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1620.0,
+        "end_time": 1780.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1782.0,
+        "end_time": 1942.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1944.0,
+        "end_time": 2104.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2106.0,
+        "end_time": 2266.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2268.0,
+        "end_time": 2428.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2430.0,
+        "end_time": 2590.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2592.0,
+        "end_time": 2752.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2754.0,
+        "end_time": 2914.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2916.0,
+        "end_time": 3076.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3078.0,
+        "end_time": 3238.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_021",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3240.0,
+        "end_time": 3400.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_022",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3402.0,
+        "end_time": 3493.2
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    }
+  ]
+}

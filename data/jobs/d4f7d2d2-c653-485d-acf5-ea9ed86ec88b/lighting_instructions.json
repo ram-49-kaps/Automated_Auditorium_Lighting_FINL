@@ -1,0 +1,2511 @@
+{
+  "metadata": {
+    "source_file": "Script-65-Rules-Test.txt",
+    "doc_type": "theatrical_script",
+    "genre": "drama",
+    "total_scenes": 23,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 3,
+      "nostalgia": 1,
+      "serenity": 1,
+      "tension": 1,
+      "romantic": 1,
+      "mystery": 2,
+      "anger": 5,
+      "sadness": 5,
+      "triumph": 1,
+      "neutral": 1,
+      "surprise": 1,
+      "jealousy": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 28,
+        "duration": 28
+      },
+      "content": {
+        "text": "GRAND THEATRE - NIGHT - OPENING CURTAIN\n\n[Approx. Timestamp: 00:00:00]\n\nThe heavy velvet curtains slowly part, revealing an empty stage bathed in a single warm amber spotlight. The STAGE MANAGER's voice echoes through the house speakers.\n\nSTAGE MANAGER (V.O.)\nLadies and gentlemen... welcome to the Meridian Theatre. Tonight's performance is dedicated to every soul that has ever dreamed under the stars.\n\nThe orchestra swells. Golden light fills the proscenium arch.\n\n:",
+        "word_count": 71,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "joy",
+        "primary_score": 0.421,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "joy": 0.421,
+          "neutral": 0.29,
+          "sadness": 0.122,
+          "surprise": 0.122,
+          "fear": 0.024
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 30,
+        "end_time": 63,
+        "duration": 33
+      },
+      "content": {
+        "text": "VICTORIAN PARLOUR - EVENING - FLASHBACK\n\n[Approx. Timestamp: 00:01:30]\n\nCandlelight flickers across antique wallpaper. ELEANOR, 65, sits in a high-backed chair, clutching a faded photograph of her late husband. Sepia-toned memories wash over her. A grandfather clock ticks. \n\nELEANOR\nWe danced in this very room, Thomas. Forty years ago. The candles burned just like this... you held my hand and said forever wasn't long enough.\n\nShe smiles through tears. The pr\n\nical light of the candelabra casts warm shadows across her weathered face.\n\n:",
+        "word_count": 84,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "nostalgia",
+        "primary_score": 0.78,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.394,
+          "sadness": 0.233,
+          "joy": 0.222,
+          "surprise": 0.073,
+          "disgust": 0.043
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 65,
+        "end_time": 96,
+        "duration": 31
+      },
+      "content": {
+        "text": "ENCHANTED FOREST - TWILIGHT - DREAM SEQUENCE\n\n[Approx. Timestamp: 00:03:30]\n\nSoft fog rolls between ancient trees. Bioluminescent flowers pulse with ethereal violet and cyan light. YOUNG ELEANOR, 25, walks barefoot through the misty garden, her white dress flowing behind her.\n\nYOUNG ELEANOR\n(whispering, awestruck)\nIt's... it's beautiful. Every star in the sky came down to bloom.\n\nFireflies swirl around her in slow spirals. The light shifts from lavender to pale blue \u2014 a dreamscape of wonder and serenity.\n\n:",
+        "word_count": 79,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "serenity",
+        "primary_score": 0.646,
+        "secondary_emotion": "surprise",
+        "secondary_score": 0.41,
+        "all_scores": {
+          "joy": 0.468,
+          "surprise": 0.41,
+          "fear": 0.052,
+          "neutral": 0.039,
+          "sadness": 0.026
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 98,
+        "end_time": 138,
+        "duration": 40
+      },
+      "content": {
+        "text": "POLICE INTERROGATION ROOM - NIGHT\n\n[Approx. Timestamp: 00:05:30]\n\nA single harsh bulb hangs above a metal table. DETECTIVE ROSS, 45, paces behind the one-way mirror's cold reflection. The suspect, MARCUS, 30, sits handcuffed, sweating.\n\nDETECTIVE ROSS\n(cold, measured)\nYou were seen at the warehouse at midnight. Three witnesses. Your fingerprints on the lock. Start talking, Marcus. Now.\n\nMARCUS\n(nervous, tense)\nI didn't do anything! You've got the wrong guy! I was at the bar \u2014 ask anyone!\n\nThe fluorescent tube overhead buzzes and flickers. Shadows cut sharp lines across Marcus's face \u2014 chiaroscuro in its purest, most uncomfortable form.\n\n:",
+        "word_count": 100,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "tension",
+        "primary_score": 0.85,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.653,
+          "disgust": 0.284,
+          "neutral": 0.023,
+          "anger": 0.02,
+          "surprise": 0.012
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 140,
+        "end_time": 176,
+        "duration": 36
+      },
+      "content": {
+        "text": "CITY ROOFTOP - SUNSET\n\n[Approx. Timestamp: 00:07:30]\n\nThe sky blazes with deep orange, magenta, and gold. SARAH, 28, and JAMES, 30, stand at the edge of the rooftop, the city sprawled below them in warm twilight.\n\nSARAH\n(romantic, tender)\nI never thought I'd find someone who made the sunset feel inadequate.\n\nJAMES\n(smiling)\nThat's either the most romantic thing anyone's ever said to me, or you just really hate sunsets.\n\nThey laugh. He takes her hand. Rose-colored light bathes them as the sun descends. The city below fades to warm silhouettes.\n\n:",
+        "word_count": 92,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "romantic",
+        "primary_score": 0.85,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.416,
+          "joy": 0.261,
+          "neutral": 0.206,
+          "disgust": 0.066,
+          "anger": 0.031
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 178,
+        "end_time": 224,
+        "duration": 46
+      },
+      "content": {
+        "text": "ABANDONED BASEMENT - MIDNIGHT\n\n[Approx. Timestamp: 00:09:30]\n\nComplete darkness. Then \u2014 a flashlight clicks on. OFFICER CHEN, 35, descends crumbling concrete stairs into a flooded cellar. Water drips. Something scuttles in the shadows.\n\nOFFICER CHEN\n(whispering into radio)\nDispatch, I'm in the sub-level. It's... God, it smells like death down here. There's something in the water. I can see \u2014 \n\nA shape moves in the murky water. Officer Chen's flashlight catches a pair of eyes reflecting back \u2014 animal or human, impossible to tell. Pure horror. The sickly green of mold covers every wall.\n\nSFX: A guttural GROWL echoes through the chamber.\n\nOFFICER CHEN (CONT'D)\n(terrified)\nWHAT THE \u2014 DISPATCH, I NEED BACKUP! NOW!\n\n:",
+        "word_count": 115,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "mystery",
+        "primary_score": 0.85,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.626,
+          "disgust": 0.203,
+          "surprise": 0.113,
+          "neutral": 0.03,
+          "anger": 0.015
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 226,
+        "end_time": 258,
+        "duration": 32
+      },
+      "content": {
+        "text": "COURTROOM - AFTERNOON\n\n[Approx. Timestamp: 00:11:30]\n\nBright, clinical daylight streams through tall windows. The formal institution of justice. JUDGE MORRISON presides over a packed gallery. The DEFENSE ATTORNEY stands.\n\nDEFENSE ATTORNEY\nYour Honor, my client has served this community for thirty years. He has a family. A clean record until this... this travesty of an accusation.\n\nThe neutral institutional lighting reveals every face in the gallery \u2014 some sympathetic, some furious, some confused. The fluorescent overheads hum with indifference.\n\n:",
+        "word_count": 80,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.493,
+        "secondary_emotion": "disgust",
+        "secondary_score": 0.408,
+        "all_scores": {
+          "anger": 0.493,
+          "disgust": 0.408,
+          "neutral": 0.068,
+          "fear": 0.014,
+          "sadness": 0.008
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 260,
+        "end_time": 296,
+        "duration": 36
+      },
+      "content": {
+        "text": "BATTLEFIELD - DAWN - STORMY\n\n[Approx. Timestamp: 00:13:30]\n\nThunder cracks across a grey sky. Rain hammers a muddy field. SOLDIERS crouch behind sandbags as explosions light up the horizon in bursts of red and white.\n\nSERGEANT WILLIAMS\n(screaming over the storm)\nHOLD THE LINE! NOBODY FALLS BACK! THIS IS WHERE WE STAND!\n\nA shell explodes nearby. Orange fire and cold white flash illuminate the chaos. Smoke and rain merge into a wall of grey. The battle rages \u2014 anger and fear and desperation woven together.\n\n:\n\nHOSPITAL ROOM - NIGHT - DEATH",
+        "word_count": 92,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.666,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.666,
+          "fear": 0.244,
+          "neutral": 0.037,
+          "disgust": 0.028,
+          "sadness": 0.015
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 298,
+        "end_time": 339,
+        "duration": 41
+      },
+      "content": {
+        "text": "[Approx. Timestamp: 00:15:30]\n\nA single bedside lamp casts a small pool of warm light in an otherwise dark room. THOMAS, 70, lies in the hospital bed, his breathing shallow. ELEANOR holds his hand. Their children stand at the doorway, silhouettes against the hallway light.\n\nTHOMAS\n(barely audible)\nEleanor... don't cry. We had... we had every sunset. Every one.\n\nELEANOR\n(breaking down)\nYou promised me forever, Thomas.\n\nTHOMAS\n(faint smile)\nForever... was never long enough...\n\nThe heart monitor flatlines. The room falls into deep blue darkness. A single note from the orchestra sustains \u2014 then silence. The loss is devastating, the sadness absolute.\n\n:",
+        "word_count": 103,
+        "type": "screenplay_scene",
+        "header": "SCENE",
+        "location": "SCENE"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.637,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.637,
+          "disgust": 0.119,
+          "neutral": 0.102,
+          "fear": 0.086,
+          "surprise": 0.039
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 341,
+        "end_time": 370,
+        "duration": 29
+      },
+      "content": {
+        "text": "JAZZ BAR - NIGHT\n\n[Approx. Timestamp: 00:17:30]\n\nSmoky, intimate. Red and amber neon glows behind rows of bottles. A SAXOPHONE PLAYER wails a mournful melody on a tiny stage. ELEANOR, 65, sits alone at the bar, nursing whiskey.\n\nBARTENDER\nRough night?\n\nELEANOR\nRough decade.\n\nShe watches the musician, lost in the music. The atmosphere is thick with nostalgia, the pr\n\nical lights of the bar casting pools of warm amber across weathered wood.\n\n:",
+        "word_count": 74,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.617,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.617,
+          "disgust": 0.221,
+          "neutral": 0.073,
+          "anger": 0.063,
+          "fear": 0.013
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 372,
+        "end_time": 406,
+        "duration": 34
+      },
+      "content": {
+        "text": "MOUNTAIN PEAK - DAWN\n\n[Approx. Timestamp: 00:19:30]\n\nFirst light breaks over snow-capped peaks. MAYA, 22, stands at the summit, arms outstretched, her silhouette stark against the rising sun. Behind her, the trail stretches miles down.\n\nMAYA\n(breathless, triumphant)\nI MADE IT! DO YOU HEAR ME, WORLD? I MADE IT!\n\nThe dawn light paints the sky in peach, gold, and pale pink. Her figure \u2014 a perfect silhouette against infinite light. Triumph radiates from every pore. She drops to her knees and weeps with joy.\n\n:",
+        "word_count": 85,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "triumph",
+        "primary_score": 0.75,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.353,
+          "joy": 0.25,
+          "sadness": 0.226,
+          "anger": 0.073,
+          "surprise": 0.05
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 408,
+        "end_time": 446,
+        "duration": 38
+      },
+      "content": {
+        "text": "OFFICE BUILDING - AFTERNOON\n\n[Approx. Timestamp: 00:21:00]\n\nFluorescent lights. Cubicles. Beige carpet. DAVID, 40, stares at his computer screen, his face reflected ghostly in the monitor. His colleague RACHEL, 35, approaches.\n\nRACHEL\nDavid, did you see the email? They're letting the whole department go.\n\nDAVID\n(numb, neutral)\nYeah. I saw it.\n\nRACHEL\nAnd? You're not even going to fight it?\n\nDAVID\n(monotone)\nWhat's the point? This place was already dead. I was just too comfortable to notice the smell.\n\nThe office hums with indifference. Flat, institutional light. No shadows, no drama \u2014 just quiet despair.\n\n:",
+        "word_count": 96,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.419,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.419,
+          "disgust": 0.185,
+          "neutral": 0.135,
+          "surprise": 0.111,
+          "anger": 0.099
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 448,
+        "end_time": 485,
+        "duration": 37
+      },
+      "content": {
+        "text": "ENGLISH GARDEN - SUNSET - PERIOD CLASSICAL\n\n[Approx. Timestamp: 00:22:30]\n\nA formal English garden in golden hour. Hedgerows trimmed to geometric perfection. A string quartet plays Vivaldi near a stone fountain. LADY PEMBERTON, 50, walks arm-in-arm with LORD ASHFORD, 55.\n\nLORD ASHFORD\nThe garden has never looked more beautiful, Catherine.\n\nLADY PEMBERTON\n(smiling mysteriously)\nGardens have a way of hiding things, my Lord. Secrets bloom beneath the roses.\n\nWarm amber and gold fill every corner. The light is painterly, Rembrandt-esque \u2014 rich shadows carving depth into every leaf and fold of fabric.\n\n:",
+        "word_count": 93,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "mystery",
+        "primary_score": 0.719,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.44,
+          "disgust": 0.219,
+          "surprise": 0.169,
+          "joy": 0.112,
+          "sadness": 0.031
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 487,
+        "end_time": 530,
+        "duration": 43
+      },
+      "content": {
+        "text": "CHURCH CATHEDRAL - NIGHT\n\n[Approx. Timestamp: 00:24:30]\n\nVaulted ceilings disappear into darkness. Hundreds of candles line the nave, casting flickering golden light across stone pillars. A CHOIR sings a Latin hymn in perfect harmony.\n\nFATHER DOMINIC steps to the pulpit. His voice echoes through the vast space.\n\nFATHER DOMINIC\n(resonant)\nIn our darkest hours, we are not alone. The light does not abandon us \u2014 we abandon the light. Tonight, we choose to return.\n\nThe pr\n\nical candlelight creates a sacred atmosphere. Beam angles of narrow golden shafts pierce the haze from stained glass windows. Hope fills the cathedral \u2014 a warm glow against centuries of cold stone.\n\n:",
+        "word_count": 109,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.421,
+        "secondary_emotion": "joy",
+        "secondary_score": 0.301,
+        "all_scores": {
+          "sadness": 0.421,
+          "joy": 0.301,
+          "neutral": 0.152,
+          "fear": 0.084,
+          "disgust": 0.022
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 532,
+        "end_time": 572,
+        "duration": 40
+      },
+      "content": {
+        "text": "DANCE STUDIO - NIGHT - DANCE PERFORMANCE\n\n[Approx. Timestamp: 00:26:30]\n\nA mirrors-lined studio. DANCERS in black rehearse an intense contemporary piece. Moving heads sweep magenta and cyan across the floor. Haze catches every beam.\n\nThe CHOREOGRAPHER watches from the corner, her silhouette reflected endlessly in the mirrors.\n\nLEAD DANCER\n(mid-leap, to the music)\n\nShe spins \u2014 three rotations, landing perfectly in a pool of amber light. The other dancers freeze in blue. A moment of anticipation suspended in time.\n\nThe music builds. And builds. And EXPLODES \u2014 and they all move as one, a storm of bodies and light and color.\n\n:",
+        "word_count": 102,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.741,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.741,
+          "fear": 0.108,
+          "surprise": 0.053,
+          "anger": 0.053,
+          "disgust": 0.022
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 574,
+        "end_time": 604,
+        "duration": 30
+      },
+      "content": {
+        "text": "HIGHWAY - NIGHT - CHASE\n\n[Approx. Timestamp: 00:28:30]\n\nHeadlights scream through darkness. ALEX, 25, floors the accelerator, his knuckles white on the steering wheel. In the rearview mirror \u2014 flashing red and blue.\n\nALEX\n(panicked)\nCome on, come on, COME ON!\n\nTires screech. The car drifts around a corner. Streetlights strobe past \u2014 white, orange, white, orange. It's pure adrenaline, pure surprise, pure speed. The road ahead splits and he makes his choice in a heartbeat.\n\n:",
+        "word_count": 77,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.506,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.322,
+        "all_scores": {
+          "surprise": 0.506,
+          "neutral": 0.322,
+          "fear": 0.067,
+          "anger": 0.046,
+          "sadness": 0.034
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 606,
+        "end_time": 669,
+        "duration": 63
+      },
+      "content": {
+        "text": "GRAND THEATRE - STAGE - CLIMAX\n\n[Approx. Timestamp: 00:30:30]\n\nBack to the theatre. ELEANOR, now on stage, faces the audience. Every light in the house points at her. The moment of truth. The climax of everything.\n\nELEANOR\n(powerful, to the audience)\nI have walked through fire and flood. Through grief and rage. Through forests of light and basements of shadow. I have buried love and birthed it again from nothing but memory. And I stand here \u2014 not broken, but BURNING!\n\nFull stage wash. Every fixture at maximum. Front wash, back light, side fill, specials, ambient \u2014 every group firing. Gold and white and amber consume the stage. The audience gasps.\n\nThis is triumph. This is hope. This is the revelation of a life fully lived.\n\nTRANSITION TO BLACK:\n\n[Approx. Timestamp: 00:31:30]\n\nThe stage plunges into total darkness. A blackout. Two seconds of silence. The audience holds its breath. Then \u2014 a single pin spot fades up.\n\n:",
+        "word_count": 158,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.401,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.368,
+        "all_scores": {
+          "anger": 0.401,
+          "neutral": 0.368,
+          "surprise": 0.089,
+          "disgust": 0.064,
+          "sadness": 0.044
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 671,
+        "end_time": 713,
+        "duration": 42
+      },
+      "content": {
+        "text": "GRAND THEATRE - ELEANOR'S MONOLOGUE\n\n[Approx. Timestamp: 00:32:00]\n\nA single followspot finds ELEANOR center stage. Everything else is dark. She speaks directly to the audience in an intimate monologue \u2014 a dramatic confession that is both tragedy and catharsis.\n\nELEANOR\n(quiet, then building)\nYou want to know what grief really is? It's not the crying. It's the Tuesday mornings when you pour two cups of coffee and realize... there's no one to drink the second one. That's tragedy. That's the quiet kind of dying that nobody writes plays about. But I'm writing one now.\n\nThe narrow beam holds her. One voice. One light. Pure drama.\n\n:",
+        "word_count": 106,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.828,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.828,
+          "neutral": 0.059,
+          "surprise": 0.057,
+          "fear": 0.034,
+          "disgust": 0.013
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 715,
+        "end_time": 741,
+        "duration": 26
+      },
+      "content": {
+        "text": "CITY PARK - NIGHT\n\n[Approx. Timestamp: 00:34:00]\n\nA moonlit park. Blue-silver light filters through bare branches. SARAH stands in shadow, watching JAMES across the path talking to ANOTHER WOMAN, laughing intimately. Sarah's fists clench.\n\nSARAH\n(bitter, jealous)\nSo that's how it is. While I dream of sunsets, you find someone else to watch them with.\n\nThe cold moonlight makes everything look like a photograph of betrayal.\n\n:",
+        "word_count": 67,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "jealousy",
+        "primary_score": 0.7,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.717,
+          "disgust": 0.227,
+          "sadness": 0.027,
+          "neutral": 0.02,
+          "fear": 0.006
+        },
+        "method": "ml_chunked+keyword_enriched"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 743,
+        "end_time": 767,
+        "duration": 24
+      },
+      "content": {
+        "text": "CAMPUS LAWN - DAY - GRADUATION CEREMONY\n\n[Approx. Timestamp: 00:35:30]\n\nBrilliant daylight pours across an outdoor stage. Rows of students in caps and gowns. Families cheer. The UNIVERSITY PRESIDENT stands at the podium.\n\nUNIVERSITY PRESIDENT\nClass of 2026 \u2014 you have earned this moment. Go forward. Build something extraordinary.\n\nCaps fly into the air against a perfect blue sky.\n\n:",
+        "word_count": 60,
+        "type": "screenplay_scene",
+        "header": "EXT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "joy",
+        "primary_score": 0.946,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "joy": 0.946,
+          "neutral": 0.037,
+          "surprise": 0.006,
+          "anger": 0.005,
+          "disgust": 0.002
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 769,
+        "end_time": 802,
+        "duration": 33
+      },
+      "content": {
+        "text": "CONCERT HALL - NIGHT - LIVE MUSICAL PERFORMANCE\n\n[Approx. Timestamp: 00:37:00]\n\nThe BAND explodes into their final number. Moving head lights sweep vivid red, electric blue, and magenta across a packed crowd. Haze fills the venue. The SINGER belts the chorus.\n\nSINGER\nWE ARE THE FIRE AND THE RAIN AND THE THUNDER \u2014 WE ARE ALIVE!\n\nThe crowd screams. Strobe lights flash. Bass shakes the floor. This is concert energy at its peak \u2014 musical, chaotic, and intoxicating. Every color imaginable crashes together.\n\n:",
+        "word_count": 84,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.428,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.396,
+        "all_scores": {
+          "anger": 0.428,
+          "fear": 0.396,
+          "surprise": 0.055,
+          "sadness": 0.052,
+          "neutral": 0.042
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_022",
+      "timing": {
+        "start_time": 804,
+        "end_time": 844,
+        "duration": 40
+      },
+      "content": {
+        "text": "SMALL STAGE - NIGHT - SPOKEN WORD POETRY\n\n[Approx. Timestamp: 00:39:00]\n\nIntimate. A microphone. A single warm spotlight. POET, 24, stands alone, her words filling the hushed room.\n\nPOET\nI built a house out of hesitation,\nfurnished it with almost-good-enough,\nand called it home until the walls\nstarted whispering back.\nComedy, they said, is just tragedy\nwith better timing.\nSo I laughed.\nI laughed until the punchline hit me.\n\nThe audience is silent. Then \u2014 eruption of snaps and applause. The warm, narrow beam never wavers. Spoken word at its most powerful \u2014 comedy and tragedy sharing the same breath.\n\n:",
+        "word_count": 101,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.43,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.343,
+        "all_scores": {
+          "anger": 0.43,
+          "neutral": 0.343,
+          "fear": 0.115,
+          "sadness": 0.042,
+          "disgust": 0.032
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    },
+    {
+      "scene_id": "scene_023",
+      "timing": {
+        "start_time": 846,
+        "end_time": 886,
+        "duration": 40
+      },
+      "content": {
+        "text": "GRAND THEATRE - CURTAIN CALL\n\n[Approx. Timestamp: 00:41:00]\n\nThe full cast takes the stage for the finale. Warm white light fills every corner. The audience stands, applauding. ELEANOR takes center stage, bows. Flowers are thrown.\n\nThe lights slowly rise to their warmest, fullest setting. Every face visible. Every smile radiant. The orchestra plays the theme one final time.\n\nSTAGE MANAGER (V.O.)\n(warmly)\nThank you for joining us at the Meridian Theatre. Drive safely. Dream boldly. And never \u2014 ever \u2014 forget to look at the sunset.\n\nThe curtain descends. The house lights warm. The audience files out into the night.\n\n.",
+        "word_count": 101,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "joy",
+        "primary_score": 0.479,
+        "secondary_emotion": "neutral",
+        "secondary_score": 0.473,
+        "all_scores": {
+          "joy": 0.479,
+          "neutral": 0.473,
+          "surprise": 0.018,
+          "anger": 0.009,
+          "fear": 0.008
+        },
+        "method": "ml_chunked"
+      },
+      "doc_type": "theatrical_script"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "joy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 28.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 85.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 51.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 59.49999999999999,
+            "color": "yellow",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 42.5,
+            "color": "pink",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.5,
+            "color": "pink",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "nostalgia",
+      "time_window": {
+        "start_time": 30.0,
+        "end_time": 63.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "sepia",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "amber",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "serenity",
+      "time_window": {
+        "start_time": 65.0,
+        "end_time": 96.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "light_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "soft_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "soft_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "pale_lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "pale_lavender",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "tension",
+      "time_window": {
+        "start_time": 98.0,
+        "end_time": 138.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 32.0,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 19.2,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 22.4,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 16.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.6,
+            "color": "amber",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "romantic",
+      "time_window": {
+        "start_time": 140.0,
+        "end_time": 176.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "rose",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "peach",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "peach",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "peach",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "peach",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "mystery",
+      "time_window": {
+        "start_time": 178.0,
+        "end_time": 224.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "uv",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 9.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 4.5,
+            "color": "dark_blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 226.0,
+        "end_time": 258.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 260.0,
+        "end_time": 296.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 298.0,
+        "end_time": 339.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 341.0,
+        "end_time": 370.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "triumph",
+      "time_window": {
+        "start_time": 372.0,
+        "end_time": 406.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "gold",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 408.0,
+        "end_time": 446.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "mystery",
+      "time_window": {
+        "start_time": 448.0,
+        "end_time": 485.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "uv",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 9.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 4.5,
+            "color": "dark_blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 487.0,
+        "end_time": 530.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 532.0,
+        "end_time": 572.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 574.0,
+        "end_time": 604.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 606.0,
+        "end_time": 669.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 671.0,
+        "end_time": 713.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "grey",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "emotion": "jealousy",
+      "time_window": {
+        "start_time": 715.0,
+        "end_time": 741.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 24.0,
+            "color": "yellow_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 28.0,
+            "color": "yellow_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "deep_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "deep_amber",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "emotion": "joy",
+      "time_window": {
+        "start_time": 743.0,
+        "end_time": 767.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 85.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 51.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 59.49999999999999,
+            "color": "yellow",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 42.5,
+            "color": "pink",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.5,
+            "color": "pink",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_021",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 769.0,
+        "end_time": 802.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_022",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 804.0,
+        "end_time": 844.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_023",
+      "emotion": "joy",
+      "time_window": {
+        "start_time": 846.0,
+        "end_time": 886.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 85.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 51.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 59.49999999999999,
+            "color": "yellow",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 42.5,
+            "color": "pink",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.5,
+            "color": "pink",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

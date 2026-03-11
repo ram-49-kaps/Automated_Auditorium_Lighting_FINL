@@ -1,0 +1,2326 @@
+{
+  "metadata": {
+    "source_file": "Script-16.pdf",
+    "doc_type": "event_schedule",
+    "genre": "drama",
+    "total_scenes": 22,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 22
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "1 This text is made available to read free of charge. However, an authorisation must be requested from the author prior to any public performance, whether by professional or amateur companies. To get in touch with Jean-Pierre Martinez and to request an authorisation to represent one of his works: https://comediatheque.net Preliminaries Jean-Pierre Martinez Translation by the author A man and a woman encounter each other daily at a caf\u00e9, discreetly observing one another from separate tables, filled with curiosity but hesitant to initiate conversation. Will they yield to the longing for a rendezvous, uncertain if reality will match their mutual fantasies? While exploring the potential of deepening their connection, they also face the inevitable narrowing of options. Holding onto the preliminary stage of their interaction means risking missing out on what truly matters. Characters Him Her \u00a9 La Com\u00e9diath\u00e8que 2 Scene 1 A man and a woman are sitting in a caf\u00e9, each at a separate table. Between them, slightly set back, is a third unoccupied table with some newspapers. Both the man and the woman have a notebook in front of them and occasionally scribble some notes. They both avoid making eye contact with each other but occasionally steal glances in each other's direction. The man stands up and addresses the audience while the woman remains seated, unchanged, and ignoring him. Him \u2013 Do you see that woman sitting at that table? She's here every morning. She arrives a little before me, or sometimes a little after. Around eight o'clock. She orders a coffee. She stays for about three-quarters of an hour. Always alone. She seems lost in her thoughts. From time to time, she writes something in her notebook. What? I don't know. This woman is a mystery. Every woman is a mystery until we speak to her and she answers us, if she agrees. A mystery, and therefore a promise. The promise of a journey. An adventure. A leap into the unknown. The thrill of that exhilarating but perilous encounter with the other... Of course, I could get up and go talk to her. But to be honest, it's not just shyness that holds me back. It\u2019s the fear of being rejected. You can always find an excuse to approach a stranger without immediately venturing onto the slippery slope of ordinary flirting... He takes a tiny object out of his pocket, approaches her, and shows her something",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 322.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "in the palm of his hand. Him \u2013 Excuse me, miss... or madam, perhaps? I found an earring yesterday morning under the table you usually occupy. I was wondering if you might have lost it...? She gives him a offended look, quickly glances at the earring, shakes her head slightly with a disdainful expression, and goes back to her notebook. He addresses the audience again. Him \u2013 At worst, she would politely tell me that she hasn't lost anything like that, and that would be the end of it. I would know where I stand and keep my dignity. At best, if I'm not completely indifferent to her, she might take the opportunity to seize the lifeline I'm extending and start a conversation. He turns to her again, with his palm open. She takes the earring, examines it, before giving it back to him with a big smile. Her \u2013 No... Unfortunately, it's not mine. Too bad, it's very pretty... If you happen to find the other one... But please, have a seat... We cross paths every day, and we've never had a chance to talk... He moves away and turns to the audience again, while she goes back to her notebook, ignoring him once more. Him \u2013 No, what holds me back from approaching her is not the fear of getting a cold shoulder. Connection failure, as it said today. No, it's more like... the fear of being disappointed. Well, I'm sure this charming young woman's conversation is absolutely 3 fascinating, but... once I find out exactly who she is, what her name is, what she does for a living, whether she's married or not, and above all what she writes in her little notebook... Well, there you have it... Suddenly, she won't be the mysterious stranger in the caf\u00e9 anymore, the object of all fantasies and bearer of all promises. She'll be Louise, an elementary school teacher, divorced, and mother of a three-year-old boy, writing evaluations for her next parent-teacher conference... Or Justine, an actress, single, jotting down ideas that come to her for the one-woman show she has been dreaming of writing for years, which would finally make her famous. Or Marina, a Romanian who recently arrived in France to marry an old pharmacist, and who, to distract herself from boredom, still reluctant to cheat on her husband, puts her desires on paper before choosing whom to",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 324.0,
+        "end_time": 484.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "sleep with to fulfil them. Yes. For now, she is all these women, and many more besides. She is every woman. But once we introduce ourselves, she will be just one woman, who will already make me regret all the women she will never be. He takes a newspaper from the middle table, goes back to his seat, and starts flipping through it. She glances at him discreetly, then gets up and addresses the audience. Her \u2013I wonder who this guy could be... I can tell he's looking at me from below when he thinks I don't see him. He must be shy. We've been crossing paths here every day for months, and he has never dared to speak to me. Unless I don't interest him, plain and simple... Maybe I'm not good enough for him, that's it. Who does he think he is? He's not that sexy either. And if he had more important things to do in life, he definitely wouldn't spend so much time in this caf\u00e9 every morning. What is he looking at in that newspaper? His horoscope? Job offers? Yes, he seems rather idle. Maybe he's unemployed... Idle but not exactly desperate. Always a faint ironic smile at the corner of his lips. A hint of superiority. Like... I don't say anything, but I think otherwise. I don't know what he could be writing in his notebook with that inspired look. Probably his deepest thoughts... I would be curious to see that... Earlier, I thought he was going to get up and say something to me. But no, he chickened out again. Or maybe he's a writer. Taking notes for his next novel. Perhaps his heroine will be a bit like me. That's it. He prefers to keep our story virtual. I don't know what he can imagine when he looks at me... She takes a pocket mirror out of her bag and looks at herself for a moment. Her \u2013If I met myself in a caf\u00e9, what would I imagine? ( She puts away her mirror ) I don't know... Do I really look like who I am? Do I have the slightest chance of passing for someone else? If he comes up to me, I've got a good mind to lie to him. To invent another life for myself. Just to see if I could deceive him. It's true, when a stranger approaches",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 486.0,
+        "end_time": 646.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "you, by definition, you know nothing about him. He could be anyone, and tell you anything. But he doesn't know anything about you either. For a few moments at least, before being shamelessly unmasked, you have the freedom to choose who you will be that day. With the wild hope of gradually becoming who you've decided to be. Another life... Yes, but which one? To make this work, I would need to improve my character. Invent a name. A profession. An age too. I wouldn't mind looking a bit younger, just for the fun. Not too much though, it has to remain 4 believable, but just for pleasure. Two or three years. Come on, five, that'll do. What about a foreign accent? No, that would be too difficult to maintain over time. Besides, I can be a foreigner and speak French perfectly. Alright, but for me to bring this new existence to life, he would first have to decide to talk to me. What if I smiled at him? That might encourage him. At the same time, I can't see myself looking him straight in the eye and smiling stupidly. Who does he think I am? Or maybe, I approach him. I can always find an excuse. I don't know... She discreetly takes off her earrings, puts one in her bag, and keeps the other in her palm. Then she looks under the table as if searching for something. Finally, she stands up and walks towards him. He puts down his newspaper and watches her approach, a bit puzzled. Her \u2013Excuse me, I lost an earring like this one yesterday. I cared about it a lot. It was a gift from... Well, I cared about it a lot. You didn't happen to find it, did you? Him \u2013 An earring...? I... No, I haven't found anything... I'm really sorry, but... Her \u2013 But? Him \u2013 No, no, nothing, I... No, I didn't see anything. Her \u2013 Well, thank you. She returns to her seat and addresses the audience. Her \u2013Can you imagine if I make an approach like that, and he responds with such a silly look... A writer, you bet... Honestly, I'd rather not risk of a banal encounter and hold onto my illusions a bit longer. Well, at the same time, maybe he's not as dumb as he seems. I mean, I caught him off guard. Men are",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 648.0,
+        "end_time": 808.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "so used to being the ones who make the first move... When we take the initiative, they panic.They're paralysed... Did you see that? As soon as I laid my eyes on him... He looked like a rabbit caught in the headlights of a car, and he was already thinking about going to the pot once he got home. Poor thing... I scared him, that's it. I hope I didn't traumatize him, at least... It's true that this earring story... it's a bit far-fetched. I'll try to come up with something better for tomorrow... She starts scribbling in her notebook again. He goes back to reading his newspaper. Blackout 5 Scene 2 She is the one reading the newspaper, and he is the one scribbling in his notebook. He stops and looks at her for a moment. Then he addresses the audience again. Him \u2013Every day I tell myself that this time, I absolutely have to talk to her. And yet, here I am. Postponing it until tomorrow. I make the pleasure last. Platonic love is nice, but being in love with a stranger is even better, isn't it? It's the certainty of never being disappointed, at least. The problem with love is that we often project onto them an image that isn't truly their own. And then we blame them for not living up to that ideal. With a woman we don't know, at least we can keep dreaming. To mistake reality for our desires. Yes, undoubtedly, the ideal woman is the one we haven't met yet. I see her enter this caf\u00e9 every morning. Or perhaps she's already here if I'm a bit late. It lasts for a little while, and then she leaves. She has no existence for me outside this here and now. It's a bit like theatre. I choose the role she will play that day based on my current mood. And when she leaves the stage, having played a different character each time, she returns to nothingness. Any actor is smaller than the smallest character they have to interpret. The costume is always too big, and the stage is the only place where it doesn't show too much. So I wait... I constantly postpone the moment of breaking the spell, of getting to know her. Yes... but what if she's not here tomorrow? Or the day after? And if she never sets foot in this",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 810.0,
+        "end_time": 970.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "caf\u00e9 again? After having been all women, she'd be none forever. Just a vague memory that gradually fades away. Do you know that wonderful song by Georges Brassens, \"Les Passantes\"... All those beautiful passers-by whom we couldn't hold back. No, I won't let this one pass. Too bad, I'm taking the plunge. Without a safety net. I'm stepping onto the stage too, except I haven't learned any lines. I have no idea what I'm going to say to her. That way, at least it will seem more natural. More sincere. My clumsiness might work in my favour. No, because this earring business... It's better to improvise. Anyway, no matter what I say, if I don't interest her, she'll make it clear. And if I do interest her... He approaches her. She looks up when she sees him coming, but her face remains impassive. Him \u2013 Excuse me, I... Her \u2013 Yes...? Him \u2013 I see you sitting there in front of me every day, and I was thinking that... Her \u2013 What...? Him \u2013 Well, maybe we could... get to know each other. Her \u2013 Get to know each other? Him \u2013I'm sorry, I can see that I'm bothering you. It was really stupid of me. Excuse me, I'll leave you alone... Her (firmly) \u2013 Sit down. 6 He sits down. Her \u2013 My name is Eve, and yours? Him \u2013 Uh... Adam. Her \u2013 Alright... Adam and Eve, then. Him \u2013 Uh... Yes... Her \u2013 And what do you do for a living, Adam? Him \u2013 I'm... a writer. Her \u2013 Oh, really? Him \u2013 Does that surprise you? Her \u2013 That's precisely what I had imagined. That's what surprises me. Him \u2013 So, you had already imagined something... Her \u2013 Don't get carried away too quickly, though... Him \u2013 Do I really look like a writer? Her \u2013I don't know. Maybe. And I see you always writing things in that little notebook. Him \u2013Alright, but... you also take notes in a notebook. Don't tell me you're a writer too? Her \u2013 Well, yes! Him \u2013 Really? Her \u2013 Why not? Him \u2013 Of course... Novels? Her \u2013 More like plays, actually. And you? Him \u2013 Short stories. Her \u2013 I see... Him \u2013 I know what you're thinking. Her \u2013 What? Him \u2013 He writes short stories because he's not capable of writing a whole novel. Her \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 972.0,
+        "end_time": 1132.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Not at all! And you could say the same thing about me. Him \u2013 Oh yeah? Her \u2013 She writes plays because she's incapable of writing a novel. 7 Him \u2013 That's true... Her \u2013 Actually, I don't really write plays. Him \u2013 Oh no? Her \u2013 More like sketches. Him \u2013 Sketches are to theatre what short stories are to novels. Her \u2013 Yes... A subgenre... (Pause) Are you really a writer? Him \u2013 Maybe not. And you? Her \u2013 Neither am I. Him \u2013 So you lied to me. Her \u2013 You started it, didn't you? Him \u2013 Yes... but you didn't know that. Her \u2013 Why a writer? Him \u2013 I don't know... I guess I was afraid of disappointing you. Her \u2013We don't even know each other yet, and you're already afraid of disappointing me. I think you lack a bit of self-confidence, Adam. Him \u2013 Or maybe I tend to overestimate people I don't know. Her \u2013 That's kind of you... Him \u2013 I'm sorry, that's not exactly what I meant... Well... not exactly. Her \u2013And what do you do for a living that's so shameful that you feel the need to invent another job for yourself? Are you a tax inspector? Him \u2013 No. Her \u2013 Do you do telemarketing? Him \u2013 No, not that either. Her \u2013 Do you work at a funeral service company? Him \u2013 Definitely not. Her \u2013 But you're not really proud of what you do. Him \u2013 No. And you? Her \u2013 Me neither. Him \u2013 Well... maybe we should keep our part of mystery. Her \u2013 I think that's preferable. 8 Him \u2013 What if we stick with being writers? Her \u2013 Alright. Him \u2013 I might as well say that I write 600-page novels, and you write three-hour plays without an intermission. Her \u2013 If you're going to lie, why start by belittling yourself... A pause. Him \u2013 So, I'm a novelist. Her \u2013 And I'm a playwright. Him \u2013 And are you married? Her \u2013Now that's not like the job, it's a closed question, as they say in polling institutes. You're either married or you're not. Him \u2013 You can always lie about the answer... Her \u2013 Yes... but it leaves little room for imagination. Him \u2013 Still... an affair is always more romantic. Her \u2013 That's true. Him \u2013Besides, the answer isn't necessarily binary...",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1134.0,
+        "end_time": 1294.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "You could also be divorced. Or widowed... Her \u2013 Widowed... Him \u2013 Why not? Her \u2013 Yes... Him \u2013 Are you a widow? Her \u2013 I am a widow. Him \u2013 I'm truly sorry. Her \u2013You couldn't have known. And it's not your fault, is it? It wasn't you who murdered my husband. Him \u2013 Oh, so he was murdered? Her \u2013 Did I say that? Him \u2013 You said, \"It wasn't you who murdered him.\" Her \u2013 I only meant to say that you weren't responsible for his death. Him \u2013 So your husband wasn't murdered. Her \u2013 No, he died in a much more ordinary way. Almost stupidly, if I may say so... 9 Him \u2013 Dying is always a bit stupid. Her \u2013 Oh yes, but in this case... Him \u2013 I don't want to be nosy, but I must say you've piqued my curiosity a bit. Her \u2013 It happened during our honeymoon in the Maldives. Him \u2013You're right, it starts off in a very ordinary way. Like a cheesy romance novel. I hope it gets better afterwards... Her \u2013 May I continue? Him \u2013 Please... Her \u2013 We had spent the afternoon on a paradise beach, in glorious sunshine. We were about to head back to the hotel when suddenly, the weather turned stormy... Paul... Him \u2013 His name was Paul? Her \u2013 Yes, why? Him \u2013 No, no reason... Her \u2013Would you have preferred a different name for him? Steven, perhaps? Or Kevin? Him \u2013 Paul is just fine. So, the weather turned stormy... Her \u2013The wind started blowing very hard. Paul grabbed the handle of the umbrella, which the storm was about to carry away, and it was at that precise moment that... Her hesitates, overcome by emotion. Him \u2013 Yes? Her \u2013 A bolt of lightning struck him... Him \u2013 No? An alien attack... Her \u2013 I told you it was a very ordinary death. Him \u2013 Oh yes, sorry... I always tend to... Her \u2013 The umbrella attracted that lightning, like a lightning rod. Paul died instantly... Him \u2013 Ah, shit. Her \u2013 In the end, I have been married only for a week... Him \u2013If it were a cheesy romance novel, it could have titled it \"Lovestruck in the Maldives\"... Her \u2013But cheesy romance novels always have a happy ending... I never got over Jean-Louis's death... She seems on the",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1296.0,
+        "end_time": 1456.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "verge of tears. He seems hesitant. 10 Him \u2013 But... is it true? She suddenly becomes impassive again. Her \u2013 What do you think? Him \u2013 I don't know... It's just so... Her \u2013 Stupid? I told you, it was a stupid death. Him \u2013 Well, the main thing is that now you're free. Her \u2013 And you? Him \u2013 Me? Her \u2013 Are you free? Him \u2013 Yes... Well... I'm married, but I'm free. Her \u2013 Now you've intrigued me... Him \u2013 It's very simple, you'll see. Her \u2013 I'm listening. Him \u2013 Well, here it is... I'm free, but my wife isn't. Her \u2013 Your wife isn't free. Him \u2013 She's in prison. Her \u2013 Alright... Him \u2013 So she's not free, but I... Her \u2013 Yes, I understood, but... how long is she in prison for? Him \u2013 If all goes well, ten years. Her \u2013 If all goes well? Him \u2013 With the reduced sentence... for good behaviour. Her \u2013 I don't want to pry, but... what did she do to end up in prison? Him \u2013 Attempted homicide. Her \u2013 I see... Him \u2013 She tried to kill me. Her \u2013 Alright... Him \u2013 Luckily for her... and incidentally for me, I survived. Her \u2013 And how did she try to kill you...? Him \u2013 Oh, in a very ordinary way... With a revolver. 11 Her \u2013 And so, she missed you. Him \u2013 It didn't exactly happen like that. Her \u2013 Tell me about it... Him \u2013I was already a bit suspicious... I searched through her things and found the gun she was hiding in her handbag. Her \u2013 And you took it from her. Him \u2013 No. Her \u2013 And why not? Him \u2013That would have made her suspicious. And she could have used another method to kill me, like... I don't know, poison. Her \u2013 Yes, poison is much more feminine. Him \u2013So, to avoid arousing her suspicions, I preferred to replace the bullets in the revolver with blanks. That way, I kept control of the situation without arousing her suspicions... Her \u2013 Very clever... Him \u2013Yes... Except that... I don't know how I managed it. I must have mixed things up a bit... I did replace the first five bullets, but the sixth... Her \u2013 The sixth? Him \u2013 It went into my shoulder. Her \u2013 Oh dear... Him \u2013She wasn't",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1458.0,
+        "end_time": 1618.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "supposed to empty the entire magazine on me either... Well, I was lucky... Her \u2013 You call that luck...? Him \u2013 A bullet in the shoulder is still better than a bullet in the heart... Her \u2013Women are often very clumsy with firearms. That's why poison... But if I may ask, what could you have possibly done to this poor woman that made her want to empty a full magazine on you? Him \u2013 That's also a very ordinary story... a bit like yours... Her \u2013 Oh no, don't be too modest... I admit I'm way outclassed... So, what happened? Him \u2013 I was cheating on her, plain and simple. Her \u2013 You were cheating on her... And with whom? Him \u2013A stranger I met in a caf\u00e9... This caf\u00e9, actually. It's strange, she always used to sit at the same place that you're sitting in now. 12 Her \u2013 But not at the same time, I imagine. Him \u2013 No, she used to come in the late afternoon, around five or six o'clock... Her \u2013 And when is she getting out of prison... Him \u2013 My wife? Her \u2013 Yes, your wife. Him \u2013Well... I hope she will have forgiven me for my infidelity. Just as I forgive her for trying to kill me. Her \u2013 So, as long as she stays locked up, you're free... Him \u2013 That's right. Her \u2013 Well, why not? That still leaves us with about ten years... Him \u2013 Maybe even a bit more... If she doesn't have exemplary behaviour... A pause. Her \u2013 And you say you're not a writer. Him \u2013Who knows... I must have lied. When I said I was, or when I implied that I might not be. What do you think? Her \u2013 I think if you're not a writer, you should consider becoming one... Him \u2013 Thank you. And what about you? Her \u2013 Me? Him \u2013 Are you really a playwright? She looks at her watch. Her \u2013 I'm sorry, I have to go. Him \u2013 Of course. It's the time you usually leave. Her \u2013 Yes... Him \u2013 To go where? Mystery... She stands up. Her \u2013 See you tomorrow... maybe. Him \u2013 Perhaps... Her \u2013As long as you have a good story to tell me, I'll never miss one of our meetings..... Him \u2013 That reminds me of another story... Her \u2013 Ours could",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1620.0,
+        "end_time": 1780.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "be called \"One Thousand and One Mornings.\" 13 Him \u2013 But I couldn't see myself in the role of Scheherazade... Her \u2013 If you prefer being the sultan, we can switch roles from time to time. Him \u2013 Well... we're going to need a lot of imagination then. Her \u2013 I'm sure you still have many other stories in your little notebook. Him \u2013 And you in yours. She exits. He watches her leave. Then he turns towards the audience. Him \u2013 Excuse me, but... I have to get back to it. He sits back down, reflects, and starts scribbling something in his notebook. Blackout. 14 Scene 3 He is still sitting at his table, busy taking notes in his notebook. She enters. Her \u2013 Adam? He looks up, recognises her, and smiles. Him \u2013 Hello! She takes out a gun from her bag and points it at him. The man's smile freezes. Her \u2013 Did you think you could get away with this? Him \u2013 What on earth... ? Her \u2013 Is she the one you had a rendezvous with? Him \u2013 Her? Her \u2013 Eve, isn't that her name? Him \u2013 No, not at all! I don't know any Eve, I assure you... Her \u2013 Of course... But this time, you won't get away with just a bullet in the shoulder, I guarantee it. Him \u2013 Please, darling, don't do anything foolish! Her \u2013 This one is loaded, believe me, and not with blanks! Him \u2013But come on... You were sentenced to ten years! Have they already released you? Her \u2013 I escaped. Him \u2013 Escaped? How? Her \u2013I carved a revolver out of bread crumbs, dried it, and coated it with shoe polish. Him \u2013 A revolver made of bread crumbs? Her \u2013 Exactly. Him \u2013 And... is this the one? She hesitates for a moment. Her \u2013 Yes... She lowers her weapon, places it on the table, and sits down. He takes the gun and examines it. Him \u2013 Bravo, it's well done... Her \u2013 I took a guard hostage, they didn't suspect a thing... Where is she? 15 Him \u2013 Who? Her \u2013 Don't play dumb with me! That bitch you're cheating on me with... Him \u2013 I don't know... She didn't come today... Her \u2013 She must have suspected something. Him \u2013 Yes, maybe... Her \u2013 Too bad, I could have killed both of",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1782.0,
+        "end_time": 1942.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "you in one shot. Him \u2013 With a gun made of breadcrumbs? Her \u2013 But what does she have that I don't? At least, tell me... Him \u2013 I don't know her. Her \u2013 What? Him \u2013 What she has more than you is that I don't know her. Her \u2013 She's your mistress, but you don't know her? Him \u2013We meet here every day. Every time we meet, she gives me a different name. She invents a character for herself. She has even pretended to be you... Her \u2013 But you still fuck her, right? Him \u2013 Fucking her, as you put it... that would already be knowing her a bit too much. Her \u2013 Don't try to confuse me. Is she your mistress or not? Him \u2013 I don't know... Yes, I suppose... We can put it that way. Her \u2013Poor Adam... Why bother making up such stories? When all of this is so banal... Him \u2013You're right... No matter how hard you try... Even when we're lying, everything we say is so far below what we'd like to be able to express. Words are always disappointing, that's why, as a general rule, it's better not to talk to anyone. Her \u2013I don't understand a word you're saying... You worry me, Adam. II wonder if you're not the one who should be locked up. Him \u2013 Yes, maybe... She stands up. Her \u2013In any case, if you see her, tell her that I'm looking for her. And even though my gun is made of breadcrumbs, this time, is loaded with real bullets. Him \u2013 Where are you going? Her \u2013 I remind you that I'm on the run. I can't stay here. Him \u2013 Is there anything I can do ? 16 Her \u2013 Have you got any money on you? Him \u2013 Yes... Her \u2013 Give it to me. He searches his pockets and hands her a few bills. Him \u2013 That's all I have... Her \u2013 Don't worry, I'll give them back to you. Him \u2013 It's not about the money that I'm worried... Will we see each other again? Her \u2013Who knows... In ten years, maybe... Or a bit more, because at the moment, getting a reprieve for good behaviour is not guaranteed. Him \u2013 I will come to visit you, I promise. Her \u2013 In the visiting room? Him \u2013When you talk to someone,",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1944.0,
+        "end_time": 2104.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "it's always a bit like being in a visiting room, right? We talk, we lie, we pretend to understand each other, we pretend to believe each other, and when we're done talking, each one returns to their inner prison... Her \u2013 It's still better than sharing the same cell and having only one person to talk to. Him \u2013 You're right... In the end, prison is a bit like marriage. Her \u2013 And there, it's often a life sentence. Even with good behaviour. Him \u2013 Especially with good behaviour. Her \u2013Yes... People do get married in prison, but strangely enough, it's never with their cellmate. Him \u2013 Ten years... Use that time to write a novel... Her \u2013 What kind of novel can you write in prison? Him \u2013 A novel about freedom, I imagine. Her \u2013 Right, I'll think about it. He watches her leave. She exits. He examines the gun on the table, then addresses the audience. Him \u2013 I did rather well, didn't I? Blackout. 17 Scene 4 She is sitting at her table, scribbling in her notebook. He enters and approaches her. Him \u2013 Excuse me... You are Paul's wife...? I mean... his widow. She looks up at him. Her \u2013 Who are you? Him \u2013Unfortunately, I cannot tell you my name. All you need to know is that I was one of your husband's colleagues.. Her \u2013 My husband worked at the Central Post Office in London. Him \u2013 Yes, that's indeed where we were both supposed to work. Her \u2013 Supposed to? Him \u2013 It was a cover. Her \u2013 A cover? So my husband... Him \u2013I can't tell you anything more specific. I just wanted you to know that your husband didn't die as stupidly as you think. Her \u2013 Didn't he? Him \u2013 No. Her \u2013 In any case, it's very kind of you to try to convince me otherwise. Him \u2013 Madam, your husband died for country. Her \u2013My husband was struck by lightning while trying to fold an umbrella to prevent it from being carried away by the wind. Him \u2013 That's indeed the official version. Her \u2013 Are you suggesting there could be another version? Him \u2013 Paul was indeed struck by lightning, but not because of a thunderstorm. Her \u2013 I'm listening... Him \u2013 He was hit by a laser beam from a high-altitude fighter jet. Her \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 2106.0,
+        "end_time": 2266.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "A fighter jet? Him \u2013 A jet belonging to a foreign power. Her \u2013 But why would a foreign power want to eliminate my husband? Him \u2013 Because he was a special agent, like me. Her \u2013 A secret agent, you mean? Like James Bond... 18 Him \u2013 If you like, yes... Her \u2013 And here I thought I was the widow of a petty civil servant. Him \u2013Believe me, dear lady, your husband was not just an ordinary employee at the Central Post Office. He died on a mission, like a hero, defending his country. Her \u2013 On a beach in the Maldives? Him \u2013 Great Britain has enemies everywhere. Even in the Maldives. Her \u2013 And why are you telling me all this now? Him \u2013To honour his memory... and to ease your grief a little, which I know is immense. Your husband didn't fall victim to a stupid accident. He fell in the line of duty. And if he didn't receive a posthumous decoration... or rather, if he didn't have a national funeral, it was to preserve his anonymity... and to protect you as well. Her \u2013 Do you think I'm in danger? Him \u2013I can't tell you anything more. But if it eases your mind, know that you are under permanent police protection, very discreet but very effective. Her \u2013 That's quite reassuring, indeed. Him \u2013 I must leave now. Her \u2013 Will I see you again? Him \u2013Don't worry. Even if you can't see me, I'll never be far from you, ready to intervene at the slightest danger. I'll be your guardian angel, so to speak. Her \u2013 Thank you. Him \u2013 Have a good day, dear lady. He walks away and sits at his table, acting as if nothing happened. She observes him for a moment, intrigued, before immersing herself in her notebook. Blackout. 19 Scene 5 He arrives, looks for her but doesn't see her. Him \u2013And there you go... She is not here... I don't have her phone number, and I don't even know her real name... Not Eve, anyway. Nor Scheherazade. (Addressing the audience) I suppose no one here knows her either, right? So many people come and go in caf\u00e9s. Even if I had to describe her, I wouldn't know what to say exactly... She has beautiful eyes... A lovely smile... A unique way of walking... Running her hand through",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 2268.0,
+        "end_time": 2428.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "her hair... And she leaves a mysterious perfume in her wake... It's a bit thin for a sketch. I'm not sure a private detective would get very far with that... I'm going mad. What am I saying? I'm not going to hire a detective to track down a stranger I met in a caf\u00e9... or go to the police to report the worrying disappearance of a table neighbour I don't even know. Or maybe she comes at a different time... Her schedule was changed, and she starts working a little later. It's crazy. How can someone you don't even know be missed so much? Whereas most people you know, when they go away for a few days, you feel like you're the one going on holiday. Well... If I don't see her again, or if she only comes once in a while, I'll have to find a replacement for her. At least part-time. A temp, so to speak. After all, her or someone else. Since I don't know her, I shouldn't have too much trouble finding a stand-in. He scans the room, stopping on a woman located towards the back so that it's not clear exactly who he's talking to. Him \u2013Well, she's not too bad... Can't really say she looks much like her, but... Yes, she could do... Do you mind, madam, if I fantasise a bit about you from afar? No, but don't worry... You too, sir... I'll never speak to you again. I'd be too afraid you wouldn't live up to my expectations. And vice versa, actually. No, our relationship will remain completely platonic. What shall I say? Totally virtual. Never a lingering gaze, let alone an inappropriate one. Respect for safe distances. Social distancing. Mandatory muzzle wearing... You won't even realise you have a secret admirer. Is that okay? Fine, then I'll go sit over there and continue to watch you discreetly out of the corner of my eye, imagining things... and when you're no longer here, I'll think of you from time to time. He sits down and takes out his notebook, jotting down a few notes. From time to time, he glances at the woman with a more or less steady gaze. Blackout. 20 Scene 6 She enters and looks around, searching for him. Her \u2013I didn't come yesterday, to avoid him starting to consider our chance encounters, as regular as they may be,",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2430.0,
+        "end_time": 2590.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "as a daily rendezvous. To keep alive in him that delicious, painful feeling of lack, and therefore of dependence... But today, he's the one who's not there... He must be tired of this purely imaginary affair. (Looking towards the back of the room, in the direction of the woman to whom he spoke earlier) Or maybe he has met someone else, who in the extreme poverty of his reality, at least allows him to satisfy his most mediocre desires. Too bad. I was starting to get attached, but well... Can you really build a romantic relationship while actively avoiding getting to know each other? Even when we lie, we still reveal a little of ourselves. In the end, the character we invent is even more revealing than who we truly are. He must have been scared. Or maybe he's on vacation, plain and simple. Perhaps he's sick. Or even dead. After all, he doesn't owe me any explanations. And neither do I. We are a free couple. We don't even know each other! Oh well, I'll come back tomorrow... She is about to leave but notices a notebook on the table he usually occupies. Her \u2013 Oh, he forgot his notebook. (She seems to hesitate) What should I do? Should I take it? And I'll return it when I see him. Or should I leave it there, so he can find it himself more easily? I'll leave it... (She is about to leave) But I could take a quick look... No, that wouldn't be right, it would be very intrusive. It might be his diary or something like that... Yes, but if someone else finds it instead of me and takes it... (She grabs the notebook) I'll take it anyway... I'm sure his notebook means a lot to him.. But I promise, I'll resist the urge to read it... She walks away. Blackout. 21 Scene 7 She is sitting at her usual table, scribbling in her notebook. He arrives and walks towards her. Him \u2013 Hello... I had to be away for a few days. I hope you didn't miss me too much... She feigns surprise. Her \u2013 Oh, really...? Well, don't worry, I wasn't here either... Him \u2013 Well, anyway, I'm glad to see you again. Her \u2013 Yes... Slight awkwardness. Him \u2013 Excuse me, I'll let you work... Her \u2013No, no, I'm not working... Well, I am, but...",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2592.0,
+        "end_time": 2752.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "it's hard for me to consider it as work... Him \u2013 Writing... Her \u2013 Yes... Him \u2013 Inspiration... Her \u2013If only we knew where to find it... we wouldn't waste so much time searching for it elsewhere. Him \u2013Inspiration is like lightning. You never know where and when it will strike you... Sorry, I didn't mean to bring up painful memories... Her \u2013 So you've run out of inspiration ? Him \u2013 For now, it's actually you who inspire me. Her \u2013 You know nothing about me. Him \u2013 Exactly, I can imagine anything. An unknown person is like a blank page. Her \u2013 A story yet to be written... ( Slightly embarrassed ) By the way... I found this. She hands him the notebook. Him \u2013 Oh yes... Her \u2013 It's yours, isn't it? Him \u2013 Did you open it? Her \u2013 No! Who do you think I am? Him \u2013 Sorry... He takes the notebook. 22 Her \u2013 I opened it... Him \u2013 Of course... Her \u2013 Are you angry with me? Him \u2013How can one resist temptation? It's a bit like the story of Eve and the lost paradise. We would damn ourselves to know. Her \u2013 And when we know, we're always a little disappointed. Him \u2013We realise that by choosing knowledge, you've given up on the marvels of the unknown. Her \u2013 Yes... But the apple can also be a trap. Him \u2013 So, you would be Snow White. Him \u2013 And if you\u2019d left this notebook there, on purpose, so that I'd find it... Him \u2013 That's a possibility... Her \u2013So, what's written in this notebook could be yet another illusion. An invention to conceal your own reality. If you have one... Him \u2013 In any case , we're no longer on equal footing. You know what's in my notebook, I don't know what's in yours. Her \u2013 That's true. (She hands him her notebook) Here... He takes the notebook. Him \u2013 You could have made everything up as well. Her \u2013 In that case, we would be on equal footing again. He opens the notebook, glances at it, then looks at her with an enigmatic smile. Blackout. 23 Scene 8 He is sitting at his table. He is writing in his notebook. She arrives and speaks to him. Her \u2013 So, how's the novel coming along? Him \u2013 It's almost finished... All that's",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2754.0,
+        "end_time": 2914.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "missing is the title... Her \u2013 That's sometimes the hardest part. Him \u2013 Yes... A bit like choosing a name for a child. Her \u2013But with the novel you've written, you already know it\u2019s about. You just need to find a title that suits it. With a child, you have to choose a name even though you don't know them yet. Him \u2013 At the risk of projecting an image onto them that won't match. Her \u2013 Maybe we should let children choose their own names. Him \u2013 Yes... But at what age? Her \u2013 I don't know. Him \u2013Or maybe we should be able to change our names several times during our lives. Her \u2013 Above all, we should have the right to change our lives several times in the course of our lives... So, what's this novel about? Him \u2013It's the story of a man who encounters a beautiful stranger in a caf\u00e9 every day. He would like to approach her, but... Her \u2013If he speaks to her, she will lose all her mystery, and therefore much of her charm... Him \u2013On the other hand... if he doesn't approach her, he will miss out on a beautiful story, and he will lose her forever. Her \u2013 So he hesitates... And what's her name? Your beautiful stranger... Him \u2013 Like with the title, I haven't given her a name yet... And what about your play? Her \u2013 It's still too early to talk about it... Him \u2013 I see... Have you read the newspaper? Her \u2013 Not yet... Any interesting news? Him \u2013As an author, I'm mostly interested in the news stories... It's usually in that section that Humanity reveals its worst, and more rarely its best. Her \u2013 Small stories are often more interesting than History with a capital 'H'. 24 Him \u2013The newspaper is to the caf\u00e9 what the Bible is to the church. In fact, the Bible probably started out as a collection of miscellaneous facts that were gradually transformed and embellished to make up myths. Her \u2013 So? Was the fishing good this morning? He takes a newspaper from the table and shows her an article. Him \u2013Here, at random... a woman, imprisoned for attempting to murder her husband, escapes by threatening her guards with a fake gun... Her \u2013 Ah yes... A good writer could turn that into a novel. Him \u2013 Or a",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2916.0,
+        "end_time": 3076.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "play. She takes the newspaper and shows him another article. Her \u2013Here's another one that might interest you: the peaceful employee of the Central Post Office was in fact a secret agent. Him \u2013 Reality often surpasses fiction. Her \u2013I won't distract you any longer from your writing... I wouldn't want your readers to be deprived of a masterpiece because of me. She goes to sit down. They both start writing in their notebooks. Blackout. 25 Scene 9 She is sitting at her table. He approaches and hands her a book. Him \u2013 Here, it's for you... Her \u2013 What is it? Him \u2013 My first novel. She takes the book and looks at the cover. Her \u2013 You finally found the title. Him \u2013 What do you think of it? Her \u2013 \"Preliminaries\"... It's an exciting title... Him \u2013 It's the story of an encounter. Her \u2013 Every encounter has the same rhythm as an act of love . Him \u2013 There are the preliminaries, during which we imagine and explore in silence... Her \u2013 As long as possible. Him \u2013Then comes that brief moment when we finally engage in conversation to enter the intimacy of the other person. Her \u2013Followed by that endless moment of fulfilment and boredom, tinged with a slight disappointment that we try to conceal with insignificant chatter... Him \u2013 Waiting for desire to explore the unknown to return with forgetting. Her \u2013 And this time, may the preliminaries last an eternity... Thank you for the book. Him \u2013 It's partly thanks to you that I wrote it. Her \u2013 Does it talk about me? Him \u2013 About you... About us... Her \u2013 Us? Him \u2013 Mostly about me. And you, how's the play coming along? Her \u2013 It's finished. Him \u2013 Could I see it...? Her \u2013 I don't think so, no. Him \u2013 Why not? Her \u2013 Because we just performed it. They smile at each other. Blackout. 26 Scene 10 The man and the woman are sitting together at the same table in the centre, with a few newspapers still on it. They have coffee, not speaking to each other or making eye contact. They each pick up a newspaper and flip through it. He puts his down first and stares at someone at the back of the room. Him \u2013 Have you noticed that girl over there? She puts her newspaper",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 3078.0,
+        "end_time": 3238.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "down and looks in the same direction. Her \u2013 Which girl? Him \u2013She's always here at the caf\u00e9 at the same time as us. Exactly at the same hour. Always sitting at the same table. Her \u2013 So what? Him \u2013 Nothing... I wonder who she might be... Her \u2013 What do you mean, who she might be...? Him \u2013 I don't know... What her name is... What she does for a living... Her \u2013 Just go ask her. Him \u2013 I don't know what she might be writing in her little notebook. Her \u2013 It could be a shopping list... Him \u2013 Yes, that's possible. Her \u2013 Cotton swabs, disposable tissues, toilet paper, sanitary pads... Him \u2013 I was thinking of something more romantic... Her \u2013 Are you that interested in her? Him \u2013Her in particular? No... It's just curiosity. I observe people. I try to imagine their lives... A pause. Her \u2013 That's how we met, remember? Him \u2013 Yes. When you were still a stranger to me... Her \u2013 It was in a caf\u00e9. Him \u2013 In this caf\u00e9. Her \u2013 Feels like it was yesterday. Him \u2013 You were sitting at this table. Her \u2013 You came up to me and said... that you found an earring. 27 A pause. Him \u2013 I still have it. Her \u2013 What? He takes something out of his pocket and shows it to her. Him \u2013 The earring. Her \u2013 And do you still use it sometimes? Him \u2013 No... Her \u2013 It's beautiful. Him \u2013I'll never know who it belongs to. Somewhere on this earth, there's a girl walking around with the other one. A girl I'll never meet. Maybe that girl... A pause. Her \u2013 It was mine. Him \u2013 Sorry? Her \u2013 That earring, it was mine. Him \u2013 I don't believe you. She takes something out of her pocket and shows him. Her \u2013 Look, I still have the other one with me. Him \u2013 Why didn't you tell me at that time? Her \u2013 So that you could keep searching, I suppose. He hands her the earring he's holding. Him \u2013 Well, here, I'll give it to you... Her \u2013 Thank you. Slight awkwardness. Him \u2013 Aren't you going to wear them? She puts on both earrings. He looks at her and smiles. Him \u2013 They're not... quite the same. Her \u2013 No, I've",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 3240.0,
+        "end_time": 3400.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "never managed to find exactly the same ones . Him \u2013 They do suit you, though... They gaze at each other. Her \u2013 Excuse me, but... 28 Him \u2013 Yes? Her \u2013We see each other every day in this caf\u00e9, and we've never really talked... We could get to know each other... He takes her hand. Him \u2013 I prefer for you to keep your sense of mystery a little longer. Their lips draw closer for a kiss. Fade to black. The End. 29 About the author Born in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer for several rock bands before becoming a semiologist in advertising. He then began a career writing television scripts before turning to theatre and writing plays. He has written close to a hundred scripts for television and as many plays, some of which have already become classics ( Friday the 13th ,Strip Poker). He is one of the most produced contemporary playwrights in France and in other francophone countries. Several of his plays are also available in Spanish and English, and are regularly produced in the United States and Latin America. Amateur and professional theatre groups looking for plays to perform can download Jean-Pierre Martinez's plays for free from his website La Comediath\u00e8que (https://comediatheque.net/ ). However, public productions are subject to SACD filing. For those who prefer reading or working from books, printed versions of his plays can be purchased from Amazon for a price similar to that of photocopying this document. 30 Other plays by the same author translated in English: A Cuckoo's nest A simple business dinner An innocent little murder Casket for two Cheaters Crisis and Punishment Critical but stable Four stars Friday the 13th Heads or Tails Him and Her Is there a pilot in the audience? Is there an author in the audience? Just a moment before the end of the world Lovestruck at Swindlemore Hall New Year's Eve at the Morgue One marriage out of two Quarantine Running on Empty Strip Poker Surviving Mankind The Ideal Son-in-Law The Smell of Money The Window across the courtyard The Worst Village in England Welcome aboard! 31 This text is protected under copyright laws. Criminal copyright infringement will be investigated and may result in a maximum penalty of up to 3 years in prison and a EUR 300.000 fine. Avignon \u2013 June 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-955-3",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_022",
+      "timing": {
+        "start_time": 3402.0,
+        "end_time": 3407.0,
+        "duration": 5.0
+      },
+      "content": {
+        "text": "https://comediatheque.net/ Play available for free download 32",
+        "word_count": 7,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 322.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 324.0,
+        "end_time": 484.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 486.0,
+        "end_time": 646.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 648.0,
+        "end_time": 808.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 810.0,
+        "end_time": 970.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 972.0,
+        "end_time": 1132.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1134.0,
+        "end_time": 1294.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1296.0,
+        "end_time": 1456.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1458.0,
+        "end_time": 1618.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1620.0,
+        "end_time": 1780.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1782.0,
+        "end_time": 1942.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1944.0,
+        "end_time": 2104.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2106.0,
+        "end_time": 2266.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2268.0,
+        "end_time": 2428.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2430.0,
+        "end_time": 2590.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2592.0,
+        "end_time": 2752.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2754.0,
+        "end_time": 2914.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2916.0,
+        "end_time": 3076.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3078.0,
+        "end_time": 3238.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_021",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3240.0,
+        "end_time": 3400.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "AUDIENCE_QNA"
+      }
+    },
+    {
+      "scene_id": "scene_022",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3402.0,
+        "end_time": 3407.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    }
+  ]
+}

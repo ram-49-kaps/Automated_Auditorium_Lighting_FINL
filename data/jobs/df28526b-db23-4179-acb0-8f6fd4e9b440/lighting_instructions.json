@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "source_file": "Event-Schedule-Test.txt",
+    "doc_type": "event_schedule",
+    "genre": "drama",
+    "total_scenes": 1,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 540,
+        "end_time": 613,
+        "duration": 73
+      },
+      "content": {
+        "text": "MERIDIAN TECH INNOVATION CONFERENCE 2026\nMain Stage Schedule - Day 1\n\n09:00 AM - Registration and Walk-in Ambient Music\nAttendees arrive and find their seats. Soft music playing over the speakers. 09:30 AM - Opening Keynote Speaker\nCEO Sarah Jenkins takes the stage to present the company's vision for 2027. She will be center stage using the main podium. 10:45 AM - Morning Coffee Break\nAttendees leave the auditorium for the lobby. 11:15 AM - Panel Discussion: The Future of AI\nA 4-person panel discussion with industry experts. They will be seated at a table spanning the width of the stage. 12:30 PM - Lunch Break\nAuditorium closed. 01:30 PM - Afternoon Walk-in\nAttendees return from lunch. 02:00 PM - Audience QA Session\nOpen microphone session where the audience asks questions to the morning panelists. The moderator walks around the stage. 03:30 PM - Tech Award Ceremony\nThe annual employee awards are handed out. High energy, fast-paced, celebratory atmosphere as winners walk across the stage. 05:00 PM - Closing Remarks\nBrief final words from the organizers. Walk out music begins as attendees exit.",
+        "word_count": 183,
+        "type": "segment"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 540.0,
+        "end_time": 613.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1243 @@
+{
+  "metadata": {
+    "source_file": "Script-2.txt",
+    "genre": "drama",
+    "total_scenes": 18,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 10,
+      "surprise": 1,
+      "fear": 5,
+      "disgust": 1,
+      "sadness": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 2,
+        "duration": 2
+      },
+      "content": {
+        "text": "Descriptions)\n\nChar",
+        "word_count": 2,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.884,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.884,
+          "surprise": 0.036,
+          "disgust": 0.031,
+          "anger": 0.025,
+          "sadness": 0.011
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 4,
+        "end_time": 11,
+        "duration": 7
+      },
+      "content": {
+        "text": "ers:\n ARIN  late 20s\n MEERA  early 30s\n THE VOICE  unseen\n OLD MAN  silent presence\n CHILD  heard, later seen",
+        "word_count": 18,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.681,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "surprise": 0.681,
+          "neutral": 0.186,
+          "sadness": 0.089,
+          "fear": 0.027,
+          "joy": 0.011
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 13,
+        "end_time": 61,
+        "duration": 48
+      },
+      "content": {
+        "text": "1  The Locked Room\n00:00  03:00\nA confined space thick with denial and fragile memory.\n\nA bare room. One wooden chair. A metal table. A door with peeling paint that looks as though it has been shut for years.\n\nARIN grips the handle, rattling it with restless urgency.\n\nARIN:\nIt was open. I remember the way the air moved through it, the way it didnt resist when I pushed it, the way it felt like there was still somewhere to go. We did not lock it. I would remember locking it. I would remember the sound. I would remember the weight of the key turning. You dont just forget something like that.\n\nHe pulls again, harder, as though force could undo f",
+        "word_count": 122,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.812,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.812,
+          "neutral": 0.105,
+          "surprise": 0.032,
+          "anger": 0.027,
+          "disgust": 0.015
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 63,
+        "end_time": 76,
+        "duration": 13
+      },
+      "content": {
+        "text": ".\n\nARIN:\nWe never locked it. Not that day. Not after everything that happened. I wouldnt have done that.\n\nMEERA sits quietly in the chair, composed, watching him with a stillness that feels pr",
+        "word_count": 34,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.76,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.76,
+          "sadness": 0.084,
+          "disgust": 0.065,
+          "fear": 0.03,
+          "anger": 0.025
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 78,
+        "end_time": 80,
+        "duration": 2
+      },
+      "content": {
+        "text": "iced.\n\nMEERA:\nYou did. You stood ex",
+        "word_count": 7,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.864,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.864,
+          "surprise": 0.058,
+          "anger": 0.031,
+          "disgust": 0.018,
+          "sadness": 0.014
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 82,
+        "end_time": 107,
+        "duration": 25
+      },
+      "content": {
+        "text": "ly where youre standing now. Your hand was shaking, but you still turned the key. You didnt look at me when you did it. You just stared at the door like it was something dangerous.\n\nA faint electrical hum begins to vibrate through the space.\n\nARIN:\nAfraid? Thats what youre going to say next, isnt it? That I was afraid? Afraid of what ex",
+        "word_count": 64,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.985,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.985,
+          "surprise": 0.004,
+          "anger": 0.004,
+          "neutral": 0.003,
+          "disgust": 0.002
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 109,
+        "end_time": 115,
+        "duration": 6
+      },
+      "content": {
+        "text": "ly? Of a door? Of a room? Of you?\n\nMEERA:\nOf remembering.\n\nSilence settles like dust.",
+        "word_count": 16,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "primary_score": 0.464,
+        "secondary_emotion": "surprise",
+        "secondary_score": 0.315,
+        "all_scores": {
+          "disgust": 0.464,
+          "surprise": 0.315,
+          "neutral": 0.093,
+          "anger": 0.064,
+          "fear": 0.049
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 117,
+        "end_time": 119,
+        "duration": 2
+      },
+      "content": {
+        "text": "2  Fr",
+        "word_count": 2,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.591,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.591,
+          "surprise": 0.123,
+          "fear": 0.091,
+          "sadness": 0.078,
+          "anger": 0.057
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 121,
+        "end_time": 200,
+        "duration": 79
+      },
+      "content": {
+        "text": "ures\n03:00  06:00\nThe air tightens as accusation begins to splinter reality.\n\nARIN begins pacing in restless circles.\n\nARIN:\nYou always speak like youre narrating something thats already finished. Like its written down somewhere and I just havent read the right page yet. But memory doesnt work like that. It shifts. It blurs. It protects you from things youre not ready to carry.\n\nHe drags his hand across the wall flakes of paint fall like ash.\n\nARIN:\nThis place isnt real. None of this is. It feels staged, like something built to trap me inside a version of events that only makes sense to you.\n\nMEERA rises slowly.\n\nMEERA:\nIf it isnt real, then why does it feel heavy in your chest? Why does your breathing change when you look at that door? Why do your hands shake when you pretend not to recognize it?\n\nThe hum deepens, almost imperceptibly.\n\nARIN slams his fist against the wall.\n\nARIN:\nStop twisting it! Stop reshaping things until they fit your narrative. I was there. I stayed. I did everything I could.\n\nMEERA steps closer.\n\nMEERA:\nYou did what you could live with.\n\nA childs faint laugh echoes somewhere unseen.\n\nBoth freeze.",
+        "word_count": 199,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.812,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.812,
+          "anger": 0.08,
+          "neutral": 0.059,
+          "disgust": 0.018,
+          "surprise": 0.015
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 202,
+        "end_time": 250,
+        "duration": 48
+      },
+      "content": {
+        "text": "3  The Laugh\n06:00  08:00\nInnocence intrudes, soft but impossible to ignore.\n\nThe laugh returns, distant yet intimate.\n\nARIN (whispering):\nYou heard that. Tell me you heard that. Because if you didnt, then that means its only in my head, and if its only in my head, then maybe youre right about everything else too.\n\nMEERA:\nI heard it. And you know who it belongs to.\n\nThe laugh shifts into a small cough.\n\nARIN steps back.\n\nARIN:\nNo. Thats not fair. Thats not fair to bring that here. We agreed we wouldnt do this. We agreed we wouldnt dig it up like this.\n\nMEERA:\nYou dont get to choose which parts survive.\n\nThe door handle rattles violently on its own.",
+        "word_count": 120,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.582,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.582,
+          "fear": 0.108,
+          "surprise": 0.094,
+          "disgust": 0.094,
+          "anger": 0.063
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 252,
+        "end_time": 293,
+        "duration": 41
+      },
+      "content": {
+        "text": "4  The Corridor Appears\n08:00  10:30\nThe world opens into something deeper than denial.\n\nThe wall behind the table cracks and splits open, revealing a narrow corridor stretching into darkness.\n\nCold air spills into the room like a held breath released.\n\nARIN:\nThat wasnt there before. I would have seen it. I would have noticed something like that.\n\nMEERA:\nIt has always been there. You just never allowed yourself to walk far enough to find it.\n\nA faint melody hums from within the darkness.\n\nARIN hesitates, then steps forward.\n\nEach footstep echoes too long, as though the corridor remembers more than it shows.",
+        "word_count": 103,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.286,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.286,
+          "fear": 0.233,
+          "surprise": 0.225,
+          "disgust": 0.127,
+          "sadness": 0.068
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 295,
+        "end_time": 298,
+        "duration": 3
+      },
+      "content": {
+        "text": "5  Distortion\n10:30  12:30\nTime stretches sound fr",
+        "word_count": 8,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.45,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.45,
+          "surprise": 0.222,
+          "sadness": 0.117,
+          "anger": 0.088,
+          "joy": 0.064
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 300,
+        "end_time": 336,
+        "duration": 36
+      },
+      "content": {
+        "text": "ures into accusation.\n\nThe corridor feels endless.\n\nARIN:\nHow long does this go on? How far do you expect me to walk before something changes? Before this becomes manageable? Before I wake up?\n\nMEERA:\nAs long as it needs to be. Memory doesnt measure itself in distance.\n\nThe hum returns, layered with static.\n\nTHE VOICE (distorted):\nYou promised.\n\nARIN spins.\n\nARIN:\nStop using that voice. Stop making it sound like that. Thats not how it sounded. Thats not how they said it.\n\nTHE VOICE:\nYou promised.\n\nThe walls pulse faintly.",
+        "word_count": 90,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.41,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.41,
+          "anger": 0.275,
+          "disgust": 0.158,
+          "sadness": 0.059,
+          "fear": 0.054
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 338,
+        "end_time": 376,
+        "duration": 38
+      },
+      "content": {
+        "text": "6  Memory Bleeds In\n12:30  16:00\nImages surface truth refuses distortion.\n\nThe corridor walls flicker with projections.\n\nA hospital hallway.\nRain streaking down glass.\nA small hand gripping ARINs finger.\n\nARIN:\nThats not how it happened. Youre showing it wrong. I didnt leave like that. I didnt walk away. I stayed until they told me to go. I stayed until I couldnt breathe in that room anymore.\n\nMEERA:\nYou left before the end. Thats the part you never let yourself see.\n\nCHILD (offstage, clearer now):\nYou said youd come back.\n\nARIN collapses against the wall.",
+        "word_count": 95,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.475,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.475,
+          "surprise": 0.208,
+          "fear": 0.118,
+          "anger": 0.079,
+          "disgust": 0.061
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 378,
+        "end_time": 412,
+        "duration": 34
+      },
+      "content": {
+        "text": "7  The Old Man\n16:00  18:30\nJudgment stands silent at the end of the path.\n\nAt the far end stands the OLD MAN, unmoving.\n\nARIN:\nWho are you supposed to be? Another version of me? Another witness? Another accusation?\n\nMEERAs voice softens.\n\nMEERA:\nLook at him.\n\nThe OLD MAN raises his trembling hand. A small brass key rests in his palm.\n\nARIN:\nThats not mine. I never carried that. I never wanted that responsibility.\n\nTHE VOICE:\nYou locked it.\n\nARIN:\nI locked nothing!\n\nThe corridor flickers violently.",
+        "word_count": 87,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.926,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.926,
+          "anger": 0.03,
+          "disgust": 0.021,
+          "neutral": 0.011,
+          "sadness": 0.008
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 414,
+        "end_time": 448,
+        "duration": 34
+      },
+      "content": {
+        "text": "8  The Breakdown\n18:30  20:30\nGrief finally pierces through defiance.\n\nThe CHILD now stands between ARIN and the OLD MAN.\n\nCHILD:\nWhy didnt you come back?\n\nARINs voice breaks.\n\nARIN:\nI tried. I stood outside the door for hours after. I couldnt face what was inside. I thought if I waited long enough, it would undo itself. I thought if I didnt look at it directly, it wouldnt be final.\n\nCHILD:\nYou left.\n\nMEERA:\nYou chose distance over pain.\n\nARIN screams, the sound stretching endlessly.",
+        "word_count": 85,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.886,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.886,
+          "neutral": 0.044,
+          "surprise": 0.024,
+          "anger": 0.02,
+          "fear": 0.015
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 450,
+        "end_time": 462,
+        "duration": 12
+      },
+      "content": {
+        "text": "9  Stillness After Collapse\n20:30  21:30\nSilence returns, heavier but honest.\n\nThe corridor dissolves.\n\nThe room reforms.\n\nOnly ARIN remains.\n\nThe key lies on the table.\n\nHe picks it up slowly.",
+        "word_count": 31,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.628,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.628,
+          "sadness": 0.134,
+          "fear": 0.1,
+          "surprise": 0.07,
+          "disgust": 0.036
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 464,
+        "end_time": 488,
+        "duration": 24
+      },
+      "content": {
+        "text": "10  The Door\n21:30  22:30\nA final choice stands between fear and release.\n\nThe door now stands slightly open.\n\nA thin line of light spills through.\n\nTHE VOICE (gentle):\nYou can unlock it.\n\nARIN grips the key tightly.\n\nARIN (softly):\nIf I open it it wont undo anything, will it?\n\nSilence.\n\nHe closes his eyes.\n\nHe turns the key.\n\nBlackout.",
+        "word_count": 60,
+        "type": "screenplay_scene",
+        "header": "Scene",
+        "location": "Scene"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.944,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.944,
+          "neutral": 0.028,
+          "anger": 0.01,
+          "sadness": 0.01,
+          "surprise": 0.004
+        },
+        "method": "ml"
+      }
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 2.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 4.0,
+        "end_time": 11.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 13.0,
+        "end_time": 61.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 63.0,
+        "end_time": 76.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 78.0,
+        "end_time": 80.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 82.0,
+        "end_time": 107.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 109.0,
+        "end_time": 115.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "rose",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "rose",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 117.0,
+        "end_time": 119.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 121.0,
+        "end_time": 200.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 202.0,
+        "end_time": 250.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 252.0,
+        "end_time": 293.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 295.0,
+        "end_time": 298.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 300.0,
+        "end_time": 336.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 338.0,
+        "end_time": 376.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 378.0,
+        "end_time": 412.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 414.0,
+        "end_time": 448.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 450.0,
+        "end_time": 462.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 464.0,
+        "end_time": 488.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Fixture",
+  "description": "Semantic description of a physical lighting fixture in the auditorium.",
+  "type": "object",
+  "required": [
+    "fixture_id",
+    "group_id",
+    "fixture_type",
+    "position",
+    "capabilities"
+  ],
+  "properties": {
+    "fixture_id": {
+      "type": "string",
+      "description": "Unique identifier for the fixture"
+    },
+    "group_id": {
+      "type": "string",
+      "description": "Logical group this fixture belongs to (e.g. FOH_WASH)"
+    },
+    "fixture_type": {
+      "type": "string",
+      "enum": ["par", "wash", "spot", "beam", "fresnel"]
+    },
+    "position": {
+      "type": "object",
+      "required": ["x", "y", "z"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "z": { "type": "number" }
+      }
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["dim", "rgb", "cmy", "pan", "tilt", "zoom"]
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "description": "Optional physical or safety constraints",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

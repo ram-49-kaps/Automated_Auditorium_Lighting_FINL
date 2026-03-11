@@ -1,0 +1,741 @@
+{
+  "metadata": {
+    "source_file": "Script-4.txt",
+    "doc_type": "screenplay",
+    "genre": "thriller",
+    "total_scenes": 6,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 4,
+      "anger": 1,
+      "surprise": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 58.0,
+        "duration": 58.0
+      },
+      "content": {
+        "text": "INT. NEXUS-7 - DOCKING BAY - CONTINUOUS\n\n[Approx. Timestamp: 00:01:00]\nCAPTAIN ELARA (35, sharp-eyed, no-nonsense explorer) steps out with her team: DR. KAI (42, brilliant but arrogant scientist), TECHIE LENA (28, optimistic gadget whiz), and ROOKIE MARCUS (22, wide-eyed newbie).\n\nELARA\n(adjusting suit comms)\nAlright, team. Scans show life support's holding\u2014barely. We're here for the artifact. In, out, no heroics.\n\nKAI\n(scoffing, checking his scanner)\nHeroics? This station was experimenting with quantum entanglement. If the artifact's real, it could rewrite physics. We're talking doorways to alternate realities.\n\nLENA\n(excited, fiddling with a drone)\nCool! Like, parallel universes where I'm a rock star?\n\nMARCUS\n(nervous)\nOr where we're all dead. Guys, the logs said the crew vanished. Poof.\n\nELARA\nFocus. Kai, lead on the artifact chamber. Lena, get systems online. Marcus, stick with me\u2014watch for anomalies.\n\nThey move through dim corridors, lights humming erratically.\n\nCUT TO:\n",
+        "word_count": 145,
+        "type": "screenplay_scene",
+        "header": "INT. NEXUS-7 - DOCKING BAY - CONTINUOUS",
+        "location": "NEXUS"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.822,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.133
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.019
+          }
+        ],
+        "sentiment_score": 0.822,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.822
+        },
+        "primary": "fear",
+        "primary_confidence": 0.822,
+        "secondary": "neutral",
+        "secondary_confidence": 0.133,
+        "accent": "surprise",
+        "accent_confidence": 0.019,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 60.0,
+        "end_time": 114.8,
+        "duration": 54.8
+      },
+      "content": {
+        "text": "INT. CORRIDOR ALPHA - MOMENTS LATER\n\n[Approx. Timestamp: 00:03:30]\nEchoes of distant machinery. The team passes holographic logs flickering on walls\u2014ghostly crew members mid-sentence.\n\nHOLO-CREW MEMBER (projection)\n...the entanglement field is stable. But the echoes... they're not ours...\n\nKAI\n(stopping, intrigued)\nEchoes? That's new. The artifact must be creating temporal feedback loops.\n\nLENA\n(activating a panel)\nPower's at 20%. I can reroute from auxiliary\u2014wait, there's a signal. Incoming?\n\nA low HUM builds. The walls shimmer like water.\n\nMARCUS\nUh, Captain? The floor's... vibrating.\n\nSuddenly, a RIPPLE in reality\u2014a shadowy figure appears at the corridor's end, mirroring Elara's stance.\n\nELARA\nWhat the hell?\n\nThe figure vanishes. Alarms blare softly.\n\nKAI\nThat's it! Quantum echo. The artifact's bleeding alternate versions of us into this reality.\n\nLENA\nSo, like doppelgangers? Awesome... or terrifying?\n\nELARA\nTerrifying wins. Move faster.\n\nCUT TO:\n",
+        "word_count": 137,
+        "type": "screenplay_scene",
+        "header": "INT. CORRIDOR ALPHA - MOMENTS LATER",
+        "location": "CORRIDOR ALPHA"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.547,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.199
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.178
+          }
+        ],
+        "sentiment_score": 0.547,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.547
+        },
+        "primary": "fear",
+        "primary_confidence": 0.547,
+        "secondary": "surprise",
+        "secondary_confidence": 0.199,
+        "accent": "neutral",
+        "accent_confidence": 0.178,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 116.8,
+        "end_time": 205.6,
+        "duration": 88.8
+      },
+      "content": {
+        "text": "INT. ARTIFACT CHAMBER - LATER\n\n[Approx. Timestamp: 00:07:00]\nA vast room with a glowing crystalline ARTIFACT at the center, pulsing blue energy. Consoles spark. The team enters cautiously.\n\nKAI\n(awestruck, approaching)\nBeautiful. It's a nexus point\u2014connecting infinite timelines.\n\nHe touches a console. The artifact HUMS louder. Holographic displays activate, showing fractured images: alternate teams succeeding, failing, dying.\n\nLENA\n(hacking in)\nLogs confirm: Crew activated it, then... merged with echoes. Became something else.\n\nMARCUS\nMerged? Like, body horror?\n\nELARA\nKai, don't touch it yet. We extract data first.\n\nKAI\n(ignoring, scanning)\nToo late. Look\u2014these readings... we could control it. Jump timelines. Fix mistakes.\n\nELARA\nThat's not our mission. Corporate wants the artifact contained, not played with.\n\nKAI\nCorporate? They're idiots. Imagine: A world without the war. Or one where my family didn't die in the colony collapse.\n\nLENA\n(sympathetic)\nKai... that's heavy. But messing with timelines? Butterfly effect city.\n\nMARCUS\nYeah, like, what if we erase ourselves?\n\nThe artifact pulses brighter. More echoes appear\u2014translucent versions of the team, arguing in parallel.\n\nECHO-ELARA (faint, overlapping)\n...don't touch it...\n\nECHO-KAI\n...we must...\n\nA surge\u2014 the room shakes. Marcus trips, his hand brushes the artifact.\n\nMARCUS\nOops\u2014\n\nReality GLITCHES. The team freezes, then duplicates briefly.\n\nELARA\nMarcus! What did you do?\n\nMARCUS\nNothing! It just... pulled me.\n\nKAI\n(excited)\nIt's responding. We're linked now.\n\nCUT TO:\n",
+        "word_count": 222,
+        "type": "screenplay_scene",
+        "header": "INT. ARTIFACT CHAMBER - LATER",
+        "location": "ARTIFACT CHAMBER"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.798,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.099
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.059
+          }
+        ],
+        "sentiment_score": 0.798,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.798
+        },
+        "primary": "fear",
+        "primary_confidence": 0.798,
+        "secondary": "neutral",
+        "secondary_confidence": 0.099,
+        "accent": "surprise",
+        "accent_confidence": 0.059,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 207.6,
+        "end_time": 298.4,
+        "duration": 90.8
+      },
+      "content": {
+        "text": "INT. ARTIFACT CHAMBER - ESCALATING CHAOS\n\n[Approx. Timestamp: 00:12:00]\nThe glitches worsen. Echoes solidify, interacting.\n\nECHO-LENA (to real Lena)\nIn my timeline, you invented this. But it consumed you.\n\nLENA\n(stunned)\nMe? No way. I fix things, not break universes.\n\nKAI\n(to Elara)\nCaptain, think bigger. We could merge timelines\u2014create a perfect one.\n\nELARA\nNo. That's playing god. Lena, shut it down.\n\nLENA\n(working frantically)\nTrying! But it's rewriting code on its own. AI-level intelligence?\n\nMARCUS\nGuys, look\u2014more echoes. And they're... us, but wrong.\n\nEchoes multiply: One team fights aliens (wait, aliens?), another dances absurdly, a third melts into goo.\n\nECHO-MARCUS (melting one)\nHelp... it's infinite...\n\nThe real team backs away.\n\nELARA\nThis is spiraling. Evac protocol\u2014back to the shuttle!\n\nKAI\n(rebellious)\nWait! I can control it. Just one command...\n\nHe inputs something. The artifact ROARS. A portal opens\u2014swirling void.\n\nFrom it, bizarre entities emerge: Tentacled shadows, clockwork beings, cartoonish figures.\n\nLENA\nWhat the\u2014? That's not sci-fi; that's nightmare fuel!\n\nMARCUS\n(panicking)\nAliens? Robots? Why is there a dancing pineapple echo?!\n\nELARA\nKai, you idiot! You've cracked the multiverse!\n\nKAI\n(realizing horror)\nI... thought I could select timelines. But it's all of them. Every possibility.\n\nThe room fills with chaos: Echoes clash\u2014laser fights, philosophical debates, slapstick comedy.\n\nECHO-ELARA (to real Elara)\nIn my world, you're a pirate queen. Arrr!\n\nReal Elara shoots a confused look.\n\nCUT TO:\n",
+        "word_count": 227,
+        "type": "screenplay_scene",
+        "header": "INT. ARTIFACT CHAMBER - ESCALATING CHAOS",
+        "location": "ARTIFACT CHAMBER"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.517,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.132
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.132
+          }
+        ],
+        "sentiment_score": 0.517,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.517
+        },
+        "primary": "fear",
+        "primary_confidence": 0.517,
+        "secondary": "anger",
+        "secondary_confidence": 0.132,
+        "accent": "surprise",
+        "accent_confidence": 0.132,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 300.4,
+        "end_time": 350.4,
+        "duration": 50.0
+      },
+      "content": {
+        "text": "INT. CORRIDOR ALPHA - FLEEING\n\n[Approx. Timestamp: 00:18:00]\nThe team runs, dodging merging realities: Walls turn to jelly, gravity flips briefly.\n\nLENA\n(panting)\nThe shuttle's this way! But the station's destabilizing.\n\nMARCUS\nAnd the echoes are following!\n\nBehind: A horde of alternate selves\u2014heroic, villainous, ridiculous\u2014chase them.\n\nECHO-KAI (villainous)\nJoin us! Become infinite!\n\nKAI\nThat's me? I look evil.\n\nELARA\nKeep moving! Lena, can you seal doors?\n\nLENA\n(using gadget)\nOn it\u2014plasma lock!\n\nDoors slam, but echoes phase through.\n\nMARCUS\nThey ghost-mode now?!\n\nA super-crazy echo appears: A giant, mecha-version of the team fused into one robot.\n\nMECHA-ECHO\n(booming)\nWe are Legion! Surrender to the void!\n\nIt fires confetti lasers\u2014harmless but disorienting.\n\nELARA\nThis is insane! Shoot it!\n\nThey fire stun guns\u2014confetti explodes everywhere.\n\nCUT TO:\n",
+        "word_count": 125,
+        "type": "screenplay_scene",
+        "header": "INT. CORRIDOR ALPHA - FLEEING",
+        "location": "CORRIDOR ALPHA"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "confidence": 0.67,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.131
+          },
+          {
+            "emotion": "fear",
+            "score": 0.119
+          }
+        ],
+        "sentiment_score": 0.67,
+        "theatrical_context": {
+          "predicted_theme": "anger",
+          "confidence": 0.67
+        },
+        "primary": "anger",
+        "primary_confidence": 0.67,
+        "secondary": "disgust",
+        "secondary_confidence": 0.131,
+        "accent": "fear",
+        "accent_confidence": 0.119,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 352.4,
+        "end_time": 431.2,
+        "duration": 78.8
+      },
+      "content": {
+        "text": "INT. DOCKING BAY - CLIMAX\n\n[Approx. Timestamp: 00:22:00]\nThey reach the shuttle. The artifact's influence spreads: The gas giant below warps into a smiley face.\n\nKAI\nI can fix this! Reverse the entanglement!\n\nHe hacks a console remotely.\n\nELARA\nNo more experiments!\n\nBut too late\u2014the void portal expands, sucking in echoes.\n\nLENA\nIt's collapsing! We have seconds!\n\nMARCUS\nGoodbye, crazy mes!\n\nThey board. The shuttle detaches as the station implodes.\n\nBut twist: As they escape, the void follows\u2014reality fractures ship-wide.\n\nSUPER CRAZY ENDING:\n\n[Approx. Timestamp: 00:24:00]\nInside the shuttle: Everything merges. Elara becomes a pirate, Kai a dancing pineapple, Lena a robot, Marcus a tentacled alien\u2014all swapping bodies mid-sentence.\n\nPIRATE-ELARA (with eyepatch, arrr-ing)\nYarrr, set course for the quantum horizon!\n\nPINEAPPLE-KAI (bouncing)\nBut I'm fruity! This is bananas!\n\nROBOT-LENA (beeping)\nError: Logic overload. Dance protocol activated!\n\nThey all break into absurd dance as tentacles flail.\n\nALIEN-MARCUS\n(tentacles waving)\nIn my timeline, this is normal Tuesday!\n\nThe shuttle spins into the void\u2014screen fills with rainbow glitches, cartoon explosions, philosophical quotes scrolling like credits.\n\nVOICEOVER (overlapping echoes)\nInfinity... is... party time!\n\nThe ship vanishes into a black hole that burps confetti.\n\nFADE TO BLACK WITH A COMIC \"BOING\" SOUND.",
+        "word_count": 197,
+        "type": "screenplay_scene",
+        "header": "INT. DOCKING BAY - CLIMAX",
+        "location": "DOCKING BAY"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.316,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.253
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.22
+          }
+        ],
+        "sentiment_score": 0.316,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.316
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.316,
+        "secondary": "anger",
+        "secondary_confidence": 0.253,
+        "accent": "neutral",
+        "accent_confidence": 0.22,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "INT-NEXUS-7-DOCKING-BAY",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 58.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "cold_white",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "INT. CORRIDOR ALPHA - MOMENTS LATER",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 60.0,
+        "end_time": 114.8
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "dark_blue",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "cold_white",
+            "focus_area": "downstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "dark_blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "INT. ARTIFACT CHAMBER - LATER",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 116.8,
+        "end_time": 205.6
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "cold_white",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 207.6,
+        "end_time": 298.4
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 300.4,
+        "end_time": 350.4
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 352.4,
+        "end_time": 431.2
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

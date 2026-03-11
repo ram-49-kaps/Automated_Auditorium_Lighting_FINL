@@ -1,0 +1,2116 @@
+{
+  "metadata": {
+    "source_file": "Script-15.pdf",
+    "doc_type": "event_schedule",
+    "genre": "drama",
+    "total_scenes": 20,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 20
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "1 This text is made available to read free of charge. However, an authorization must be requested from the author prior to any public performance, whether by professional or amateur companies. To get in touch with Jean-Pierre Martinez and to request an authorization to represent one of his works: https://comediatheque.net New Year's Eve at the Morgue Jean-Pierre Martinez Translation by the author On New Year's Eve, a man is on duty at the Forensic Institute. One hour before midnight, a woman appears in front of him, covered only by a sheet. She doesn't know who she is or where she comes from. And what was shaping up to be a deadly dull New Year's Eve at the morgue turns out to be full of surprises... A comedy with multiple twists and turns, absurdly romantic and darkly humorous. Characters Man Woman \u00a9 La Com\u00e9diath\u00e8que 2 A furnished room with only a desk and two chairs. On the desk, an outdated computer and an old phone. Above the desk, a sign that reads \"Forensic Institute \u2013 Reception.\" Next to the desk, a hastily decorated Christmas tree. A man is sitting behind the desk, asleep. The phone rings, and he wakes up abruptly. Man \u2013 Forensic Institute, speaking? Oh, mom, it's you... No, no, I... I was working. No worries, I'm not carving a turkey... And I don't plan on bringing work home for New Year's either... Listen, for now, it's pretty quiet. I have to say, my neighbours aren't very bothersome. Yes, I know, I would have preferred to be with you for New Year's Eve, but what can you do... I'm still on duty... Just like on Christmas, right. Being the only single nurse in the department, it's not all advantages. They must think that I have nothing better to do during the holidays... Yes, mom, you've already told me, if I wanted to, you could introduce me to plenty of well-mannered young women... I know, a morgue is the perfect place to meet widows, but come on... just after they've identified their deceased husband's body, it's not the best time to ask a widow out for a drink... And I'm not going to get married just to avoid being on duty on New Year's Eve! ( Thunder is heard, the lights go out for a brief moment and a flash of lightning is seen, then the lights come back on",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 322.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": ".) Yes, there's a storm brewing, it seems. We're already almost fully booked... I can tell that tonight we'll be turning people away. The holiday season is always lively around here. And with bad weather... People get completely drunk. They struggle to breathe with an oyster or a turkey bone. Or they stab their turkey with the oyster knife after catching her in the arms of their best friend. Or they fall off their balcony while trying to hang up a garland. Or they crash into a plane tree on their way back from the party... In short, the end of the year often means a massacre. Yes, mom, I brought the meal basket you prepared for me for New Year's Eve. Cold cuts, right... It'll be a change for me... Of course, I will also think of you. Yes, I will be careful not to choke on a fish bone. Well, I have to let you go, Mom... I'll send my regards as well. That's right, we'll talk again of you too. Yes, I'll be careful not to choke on a fishbone. Alright, mom, I have to go now... I love you too. Yes, we'll talk again... He puts down the receiver. He opens a drawer, prepares a line of coke, and snorts it. Man \u2013 Phew... That would wake the dead... Another thunderclap. The lights go out again, but this time they don't come back on. More lightning. Man \u2013 Oh, damn... If the power doesn't come back on soon, we risk a break in the cold chain, and the meat will spoil. It must be a blown fuse. But where is the electrical cabinet? If I could find the flashlight, already... He gropes his way in the darkness. Eerie music plays. Still in the darkness, a woman arrives, draped in a sheet like a shroud. She looks disoriented. She walks around the scene, then sits down at the desk on the chair previously occupied by the night nurse. The man returns with a flashlight turned on, but he doesn't see her. 3 Man \u2013 It's a nightmare... Where is that bloody meter...? This can't be real... I'm going to flip my lid... ( He also walks around the scene without noticing the woman, then disappears momentarily backstage. ) Ah, there it is! So... Oh, yes, that's it... It's tripped... It's okay, it could be worse... Just need",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 324.0,
+        "end_time": 484.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "to reset it... ( The lights come back on) And there was light...! He comes back with a satisfied smile, but his smile freezes as he notices the ghostly woman sitting in his place. He startles. Man \u2013 What the hell are you doing here? Are you okay? I almost had a heart attack. Woman \u2013 I'm really sorry... Man \u2013 Dying in a morgue on Christmas Eve, that would be a stupid death. Woman \u2013 A morgue...? Man \u2013 What are you wearing? Did you just get out of bed? She seems to only now notice that she is dressed only in a sheet. Woman \u2013 Oh yes... You're right... Man \u2013 Are you dressed up as a ghost or something? Are you going to a costume party? Woman \u2013 No, I don't think so... Man \u2013 Well, who are you anyway? Woman \u2013 I... I don't know... Man \u2013 You don't know? Woman \u2013 No. I have no idea. Man \u2013 Well, you have no business being here, that's for sure. And I'm asking you to leave. Woman \u2013 Leave? Where should I go? Man \u2013 Where? I don't know. Go back where you came from, that's a good start. Woman \u2013 I would like to, but... I don't know where I came from. Man \u2013 You don't know who you are, you don't know where you came from... But you certainly know where you are, right? Woman \u2013 No. Where are we? Man \u2013 You're at the reception of the Forensic Institute, dear madam. ( Pointing to the sign) You see, it's written right there. So if you're looking for the emergency room, you're on the wrong floor. Woman \u2013 The emergency room? No, I'm not looking for the emergency room. 4 Man \u2013 You don't seem to be in your right state... Have you been drinking too much? It's not even eleven o'clock yet. Usually, it's around six in the morning that we come across people like you on New Year's Day. Woman \u2013 Oh, because it's New Year's Eve? Man \u2013 Well, in any case, you can't stay here. Woman \u2013 I'm thirsty. Man \u2013 Ah, yes... You're as pale as a dead person, by the way. Are you okay? Woman \u2013 I'm okay... but I'm thirsty. Man \u2013 I'll go get you a glass of water, and then you'll leave... But in the meantime,",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 486.0,
+        "end_time": 646.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "you don't move, understood...? Because here, it's a bit like Bluebeard's house. There are certain doors... and certain drawers that are better left unopened. Woman \u2013 Do you have a mirror? Man \u2013 A mirror? Woman \u2013 Yes. Man \u2013 I must have one somewhere. ( He opens several drawers .) In the past, in morgues, they used a mirror to check if people were really not breathing anymore. It's still used occasionally... From the last drawer, he takes out a mirror and hands it to the woman. Woman \u2013 Thank you. Man \u2013 But you know, before fixing yourself up, you'd better go get dressed again... He exits. She looks at herself in the mirror, seeming not to recognize herself. She gets up, dazed, and looks around the scene again. The phone rings. She answers. Woman \u2013 Yes...? Good evening, madam... Yes, yes, you've reached... ( looking at the sign above the desk ) the Forensic Institute. No, I'm not the nurse on duty... At least, I don't think so... Your son? I don't know. I think he just left. Okay... I'll tell him... Alright, happy New Year to you too. Goodbye, madam... She hangs up. He returns with a glass of water, which he hands to her. Man \u2013 Here you go... Woman \u2013 Thank you. She drinks the water in one gulp. He watches her with a worried look, remaining cautious. Man \u2013 Feeling better? Woman \u2013 I'm fine... (She looks at him ) And you? Man \u2013 Me? 5 Woman \u2013 You seem a bit disturbed too. Man \u2013 No, no, I'm fine... Woman \u2013 Oh, yes, the phone rang... Man \u2013 And? Woman \u2013 You should call your mother back. Man \u2013 You answered? Woman \u2013 Yes... Shouldn't I have...? Sorry... The phone rang... It was a reflex... Man \u2013 You're at the morgue, here. You're not supposed to answer the phone. Woman \u2013 It was your mother... Man \u2013 Yes, I got that. Woman \u2013 You seem... agitated. What's going on? Man \u2013 You show up like this, in the middle of a storm, in the dark, wrapped in a sheet... We're at the morgue... And you're asking me what's going on? Woman \u2013 I'm really sorry... Man \u2013 Sorry... Yes, you can say that. Woman \u2013 I should probably go... She makes a move to leave. He stops her. Man \u2013 Wait... Excuse",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 648.0,
+        "end_time": 808.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "me... You're right... I shouldn't get so worked up like this. Woman \u2013 I don't know what's happening to me... ( Seeing his puzzled expression ) Do you have something to tell me, is that it? Man \u2013 It's just that... it's a bit difficult to say, actually... Woman \u2013 I'm listening... Man \u2013 To get a glass of water, I crossed the cold room... Well, the room where they keep... Woman \u2013 And? Man \u2013 One of the drawers is open... Drawer number 99.... And it's empty. Woman \u2013 Empty... Man \u2013 Empty. (A pause) Is it possible that you came out of that drawer, by any chance? Silence. Woman \u2013 Are you saying... that I would be dead? 6 Man \u2013 I don't know... It's just a hypothesis... A body disappeared... You appear right after... wrapped in a sheet. You don't remember anything... Put yourself in my shoes... Woman \u2013 Right now, I'd rather be in yours than mine, believe me. Man \u2013 Yes, obviously. Woman \u2013 So I would be dead... and I would have come back to life? Man \u2013 I'm trying to understand. Woman \u2013 Do you think it's possible? Man \u2013 Theoretically, no. Woman \u2013 But has it ever happened before? Man \u2013 To my knowledge, apart from in the Bible, no. Well, I don't know, after all. You see so many things... In any case, I've never seen that in this morgue... Woman \u2013 Are you sure? Man \u2013 Believe me, I've seen many people arrive here feet first, and nobody has ever walked out on their own two legs. Woman \u2013 So...? Man \u2013 No, it can't be that... Woman \u2013 But...? Man \u2013 But I'm still missing the client from drawer 99. Woman \u2013 Do you know all of them? Man \u2013 Who? Woman \u2013 Your... clients. Man \u2013 Not personally, no. But it's true that when I have nothing else to do, I sometimes consult their files. We also get celebrities, you know... Woman \u2013 Yes... Sooner or later, everyone ends up in the morgue. Man \u2013 It's even rarer to come out of here and go somewhere other than the cemetery. Pause. Woman \u2013 What if other dead people woke up? Man \u2013 You're really determined to ruin my holiday... It's not a joke, is it? Woman \u2013 A joke? Man \u2013 In the healthcare sector, we're used to",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 810.0,
+        "end_time": 970.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "macabre jokes, you know. We call them med student jokes. I admit that this one would be very funny... if it's a joke. 7 Woman \u2013 It's not a joke, I assure you. ( Pause) Do you believe in ghosts? Man \u2013 If I believed in them, do you really think I would have chosen this job? By the way, when I say \"chosen\"... Don't imagine that it's a vocation either. Woman \u2013 So maybe I'm... a living dead. A zombie... Man \u2013 A living dead or a zombie... I'm not sure which one I prefer. Woman \u2013 Don't be afraid... I don't mean any harm. I could actually use some help... Man \u2013 Besides the sheet, you don't really look like a ghost. ( He approaches her .) Do you mind? He takes her hand. She recoils. Woman \u2013 What are you doing? He checks her pulse. Man \u2013 Your hand is cold. It is not surprising if you just came out of the fridge. But your pulse is normal. No, definitely, you're not a ghost. Woman \u2013 Then what am I? Man \u2013 I don't know. Woman \u2013 If it was a true resurrection... it would be a miracle. Man \u2013 Behind every miracle, there's often a misdiagnosis, you know. In Lourdes, they mainly cure imaginary patients. Woman \u2013 I'm not sure I follow you... Man \u2013 They could have declared you dead when you weren't. Woman \u2013 Does that happen? Man \u2013 It shouldn't, but yes, I suppose it has happened before. Woman \u2013 It doesn't explain why I can't remember anything... What if I'm just crazy? Man \u2013 Or maybe I'm hallucinating. Woman \u2013 You? Man \u2013 Maybe I'm imagining all of this, and none of it is real. ( Pause) Pinch me! Woman \u2013 Excuse me? Man \u2013 Pinch me! If I'm asleep, I'll wake up, and this nightmare will be over. Woman \u2013 Well... She pinches him. Man \u2013 Ouch... 8 Woman \u2013 So? Man \u2013 Apparently, it's not a nightmare. Woman \u2013 Or maybe you're dreaming that someone is pinching you. Man \u2013 Yes, that's also a possibility, unfortunately. And you really have no memory? Woman \u2013 None... Man \u2013 Yet you haven't lost the ability to speak... You must remember something... Make an effort. Concentrate. What's the first image that comes to your mind? She appears to concentrate. Woman \u2013 A cake.",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 972.0,
+        "end_time": 1132.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Man \u2013 A cake? Woman \u2013 A birthday cake. Man \u2013 A birthday... Yours? Woman \u2013 Yes, I suppose. Man \u2013 What's the name on the cake? She concentrates again. Woman \u2013 Cristina! Happy birthday Cristina! Man \u2013 And are you sure it's your birthday? Woman \u2013 I think so. Man \u2013 How many candles are on the cake? She closes her eyes to concentrate better. Woman \u2013 Three! Man \u2013 Ah, yes... That's not going to help us much... Silence. Woman \u2013 Maybe when you die, there's an automatic update. You forget everything, so you can be reborn as someone else. Like a newborn, for example. Man \u2013 And something went wrong this time, you mean? A bug, in a way. Woman \u2013 And instead of being reincarnated, I'm reborn in the same body... Man \u2013 Still remembering your life until the age of three. Silence. Woman \u2013 Do you know the identity of this woman? 9 Man \u2013 Number 99...? Yes, it's in the file. But it's confidential. Woman \u2013 Well, if it's me... Man \u2013 You're right. If it is indeed you, we can't talk about medical confidentiality. (He sits in front of the computer and types on the keyboard .) Let's see, 96, 97, 98... Here it is, 99. Woman \u2013 So? Man \u2013 Her name is indeed Cristina... Cristina Wagner... Woman \u2013 Like on the cake! Man \u2013 Like on the cake, yes. Woman \u2013 What else? Maybe it will help me remember... He checks his computer screen again. Man \u2013 She was born in 1989... on December 31st. Woman \u2013 So... today would be my birthday! Man \u2013 Happy birthday, Cristina. Sorry, I didn't bring a cake... Woman \u2013 What else? Man \u2013 Occupation, psychotherapist... Woman \u2013 Psychotherapist? Man \u2013 Do you not remember that either? Woman \u2013 No. And... am I married? Man \u2013 Yes... to a certain Richard. Woman \u2013 Richard Wagner... Man \u2013 Does that ring a bell? Woman \u2013 Vaguely... Man \u2013 Deceased on... It was yesterday. Woman \u2013 And how did I die? Man \u2013 Cause of death... medication poisoning. Autopsy requested. Woman \u2013 Is there a photo? Man \u2013 Yes... but I warn you, it's not very pleasant to look at. Woman \u2013 Is the photo really that ugly? Man \u2013 It's a post-mortem photo. 10 Woman \u2013 Show me anyway... She takes a glance at the computer",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1134.0,
+        "end_time": 1294.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "screen. Man \u2013 I had warned you. It's not a flattering photo of you. Woman \u2013 Yes, I don't look very well. Man \u2013 Trust me, based on my experience, the deceased rarely look good... Woman \u2013 Maybe we should inform my family... My husband... Man \u2013 At the same time... We're not just a few minutes late, right? Because it's going to shock them, obviously. Woman \u2013 That's for sure. Man \u2013 I don't know if I can take the responsibility of informing your loved ones. We should first verify all this. Make sure we're not mistaken. Not give them false hopes. In short, officially validate your resurrection. Woman \u2013 Validate? Like with miracles, you mean? Man \u2013 The forensic pathologist would need to re-examine you. Admit that he made a mistake. That you weren't really dead. But you know how doctors are. If there's one thing they hate, it's admitting they were wrong. Woman \u2013 We need to call the forensic doctor! Right away! Man \u2013 Unfortunately, I don't have his personal number. I'm on duty tonight. It's New Year's Eve. He's probably out partying somewhere. Woman \u2013 So, nothing is planned in case of an emergency? Man \u2013 You know, it's extremely rare to have emergencies at the morgue... Woman \u2013 I don't know, maybe we should at least alert the police? Man \u2013 They'll take it as a bad joke... It's New Year's Day... Everyone's drunk. I myself have taken some banned substances to forget that I'll be celebrating New Year's Eve with a hundred corpses. I'd rather not be tested right away... Woman \u2013 So what do we do? Man \u2013 At this point, we can wait until tomorrow morning. My shift ends at six o'clock... I'll inform my replacement and see with him what we can do. Woman \u2013 I'm sorry to cause you all this trouble. Man \u2013 The main thing is that you're alive. But if you're really an undead , it won't be easy for you either, you know... Woman \u2013 I thought that getting out of this drawer was the hardest part... Man \u2013 Believe me, that's just the beginning of your troubles. When you've been declared dead, and people have already come to terms with that idea... 11 Woman \u2013 You may be right, unfortunately. Man \u2013 Not to mention the rest. When the administration has decided that someone",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1296.0,
+        "end_time": 1456.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "is dead, it's not always easy to change their mind. Woman \u2013 I wonder if it wouldn't be easier for me to go back into my drawer. Man \u2013 How do you feel? Woman \u2013 Fine. Man \u2013 No, because if you insist, I can still have you examined by a resident doctor. Woman \u2013 You're a nurse, right? You examined me... Man \u2013 At the same time, I'm not a specialist in the undead. She looks around. Woman \u2013 So this is where you work... Man \u2013 Yes. Woman \u2013 And... does everyone go through the Forensic Institute? Man \u2013 No, generally people end up in a simple funeral room. If you're here, it's because it's a suspicious death. Woman \u2013 Suspicious? Man \u2013 Let's say... a death where the circumstances are not clearly established. A suicide... or a homicide. Woman \u2013 Do you think someone could have poisoned me? Man \u2013 That... The investigation will reveal... after the autopsy. Woman \u2013 Autopsy? Man \u2013 Well, I think in your case, it won't be an autopsy, obviously. Woman \u2013 Who could have wanted to murder me? Man \u2013 That... Woman \u2013 My husband? Man \u2013 That's why you should think twice before notifying him. If he's the one who comes to pick you from the morgue... Woman \u2013 Why would my husband want to murder me? Man \u2013 The reasons for murdering a spouse are not in short supply, you know... Woman \u2013 I hope you're not speaking from experience... Are you married? Man \u2013 No. 12 Woman \u2013 With such a view of marriage, I understand why. Man \u2013 Besides, it's not certain that it's a murder. And even if it is a murder, there's no guarantee that your husband is the culprit. Woman \u2013 A suicide, then? But why? Man \u2013 Who knows... Woman \u2013 I have a feeling you're going to tell me that there's no shortage of reasons to commit suicide... You're not naturally optimistic, are you? Man \u2013 With the job I do, you know... I tend to see everything in black. Woman \u2013 Yet even at the morgue, there are sometimes pleasant surprises. Proof... Man \u2013 On the other hand, you seem to be a naturally optimistic person. So I think we can rule out suicide. Woman \u2013 So it must be a murder... Man \u2013 You must have some memories, though? Woman",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1458.0,
+        "end_time": 1618.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "\u2013 Just vague impressions. Flashes from time to time. The sensation that my mind is floating above my own body... Man \u2013 Wow... I was thinking more of memories from your life before. But this sounds like an out-of-body experience... Although, in reality, it sounds a lot like how I feel when I've smoked a joint. Woman \u2013 Well, I don't remember an old man with a white beard waiting for me at the gates of heaven. Man \u2013 And your last moments? Just before your death? Woman \u2013 No... Nothing... Man \u2013 Well, if it was a murder, remembering could help the police. Woman \u2013 Yes, I suppose it's very rare to be able to gather testimony from the victim of a murder... Man \u2013 Too bad... It could help solve a lot of cold cases. Woman \u2013 Unfortunately, I have no memory of the circumstances of my death... or even my life, for that matter... Strangely enough, I seem to remember my birth the most. I can see myself in that incubator at the maternity ward. Man \u2013 Unless you also remember the name that was written on the little bracelet, that won't help us much. Woman \u2013 No, unfortunately... And besides, I was only three days old, I couldn't read yet. Silence. 13 Man \u2013 In any case, you could always write a book. Woman \u2013 A book? Man \u2013 To tell the story of your journey to the afterlife! Woman \u2013 I told you, they're just vague impressions. Man \u2013 You could embellish a bit... People write books for less than that, you know. Some people write a 400-page tome just to tell you how they lost a few pounds with a miracle diet. So an near-death experience... I'm sure it would be a hit. Woman \u2013 Do you think so? Man \u2013 Or maybe a play... A pause. Woman \u2013 I can't take it anymore... I'm going to get out of here... She prepares to leave. He stops her. Man \u2013 Wait... Woman \u2013 I've just spent over a day in a drawer. I'm suffocating here. Do you want to prevent me from going outside to get some fresh air? Man \u2013 No, but I strongly advise against it. Woman \u2013 What if all of this is just temporary? Maybe I'm some kind of zombie Cinderella. I have permission until midnight, and when the clock",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1620.0,
+        "end_time": 1780.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "strikes twelve, I'll return to nothingness. Definitely, this time. So in the meantime, if you don't mind, I prefer to go to the ball instead of staying at the morgue. After all, it's New Year's Eve, the whole world is celebrating. I'll find a party where they'll let me in without an invitation. Man \u2013 Wrapped in a shroud? Woman \u2013 There are also costume parties... Man \u2013 Cases of resurrection are very rare, it's true. But nothing says that yours might not be temporary. Woman \u2013 Even for Jesus, it only lasted forty days. So for a mere mortal like me... Let me pass! She tries to leave again, but he stops her. Man \u2013 Be reasonable... You were declared dead. You no longer have any legal existence. No rights. According to the law and society, you no longer exist. You're like a newborn who hasn't been registered yet. Woman \u2013 Registered? 14 Man \u2013 I mean declared, obviously. If we were in a maternity ward and I was a midwife, would I let a baby go out into the street before being registered with the civil registry by its parents? Woman \u2013 A baby...? I'm not sure I follow you... Man \u2013 If you leave here, you won't have any kind of protection... Woman \u2013 What do I risk? Dying a second time? Man \u2013 And you don't remember anything... You have no money. You would be an easy prey, I assure you. If someone kills you, no one will be questioned. You're already dead. Your death certificate is here... Woman \u2013 On the other hand, since I don't exist anymore, I can do whatever I want. Rob a bank or... even kill someone, especially you... Man \u2013 Let's avoid getting to that point. If that's really what you want, I won't stop you from leaving. Woman \u2013 I'm joking, don't worry. Man \u2013 See, you can be dead and still keep a sense of humour. Woman \u2013 I've never killed anyone, well, I think so. It's not now that I'm dead that I'm going to start. Man \u2013 Stay with me, please... Woman \u2013 Very well... I wouldn't want to cause you any more trouble. Man \u2013 Thank you. It really relieves me... A pause. Woman \u2013 But I have the feeling that something else was bothering you about the idea of one of your residents leaving...",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1782.0,
+        "end_time": 1942.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Don't tell me that you've already grown attached to me... Man \u2013 If a body is missing tomorrow morning, I'll be questioned. And it will be hard for me to explain that this corpse took off on its two feet to go revel in town. I'll be accused of concealing a body. Maybe worse... Woman \u2013 Who would even think of stealing a corpse? Man \u2013 It's happened before. Did you know that Charlie Chaplin was kidnapped several months after his death? Woman \u2013 What for? Man \u2013 To ask for a ransom from his widow, simply. Woman \u2013 I'm not a celebrity. No one would pay to get me back alive. So to retrieve my corpse... 15 She sits down. Man \u2013 Come on, enjoy your death a little longer. It's not an experience given to everyone. A pause. Woman \u2013 And will my resurrection bring only happiness? Man \u2013 Surely there are many people who love you, right? Apart from your husband... Woman \u2013 I don't know... I don't remember anything... Maybe I was a pain in the ass. Or even a monster. If someone wanted to murder me, maybe I deserved it. Man \u2013 Yes, who knows... Woman \u2013 Or maybe I leave behind a nice inheritance or a magnificent house that will make someone happy. Man \u2013 Or maybe your loved ones have already grieved... and made new plans. Woman \u2013 Thank you for cheering me up. It helps me a lot... Man \u2013 Regardless, we'll have to make a decision. The autopsy is scheduled for tomorrow morning... Woman \u2013 Yes, I can't stay dead forever. Man \u2013 That's a sentence I never thought I would hear here one day. Woman \u2013 Oh, and you're right, it's New Year's Eve. Everyone is celebrating. My resurrection can wait until next year. Silence. Man \u2013 What if all of this is just a misunderstanding, and you were never really dead? Woman \u2013 That wouldn't explain why drawer number 99 is empty, would it? Man \u2013 It could be a mistake, after all. Someone might have taken the body in preparation for the burial, forgetting to fill out the paperwork. Because you know, here, we only have transient customers. They only stay for two or three nights, waiting to move into their final resting place permanently. Woman \u2013 You're forgetting that my name is Cristina, like that woman who",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1944.0,
+        "end_time": 2104.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "died. Man \u2013 It could be a coincidence, after all. Woman \u2013 Admit that it would be a huge coincidence. Man \u2013 Besides, there's no proof that your real name is Cristina. Except for that vague memory of a birthday cake... It's still a bit thin... Woman \u2013 And the photo? 16 Man \u2013 A photo of a corpse... It's hard to really judge the resemblance. You wouldn't believe the number of people who come here to identify their spouse's corpse and don't recognize them. Woman \u2013 Let's say I'm not Cristina Wagner, Richard Wagner's wife. But then, who would I be? And where would I come from? Man \u2013 Maybe you escaped from a psychiatric hospital. Woman \u2013 Do you think I'm crazy? Man \u2013 Well, you're definitely suffering from amnesia. Woman \u2013 Yes, maybe... Silence. Man \u2013 Or maybe it's me who's crazy. Woman \u2013 You? Man \u2013 And in my madness, I invented this whole story. You know, working in a morgue, it can get to you after a while. Woman \u2013 Yes, but I am here. Man \u2013 In that case, we're both crazy. Woman \u2013 Who knows? Man \u2013 We escaped from an asylum and ended up in the morgue. Woman \u2013 How did we even get here? Man \u2013 Well, you just take the elevator. We're in a hospital. The psychiatric ward is on the top floor, and the Forensic Institute is in the basement. Woman \u2013 Are we even sure we're in a morgue? Man \u2013 There's a sign, after all. Woman \u2013 What if all of this is just the result of our sick imagination... Man \u2013 It's getting a bit too complicated for me. Woman \u2013 You said that Cristina, who died, was a psychotherapist, right? Man \u2013 That's what I read on her file. Woman \u2013 Then maybe I'm your psychotherapist. Man \u2013 A crazy psychotherapist? Woman \u2013 Those people usually have issues of their own, to choose such a profession. 17 Man \u2013 A madman with a crazy therapist who is also dead. You're right, things are getting clearer now. Woman \u2013 Yes... I don't know if we were crazy before, but we're definitely becoming crazy now. The phone rings. He answers. Man \u2013 Oh, Mom... Yes, yes, everything is fine. No, it's still calm here... No new admissions yet, in fact, quite the opposite... Discharges? No, not yet...",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 2106.0,
+        "end_time": 2266.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Do I sound strange? No, no, I assure you, nothing strange to report here. Oh, yes, that woman you talked to earlier... Yes, it's Cristina... Well, yes, I call her by her first name, how else would I call her? No, Mom... she's just a colleague. Yes, she's very nice, of course, but... Okay, I'll call you back, alright? Have fun. He hangs up. Woman \u2013 You didn't tell her anything? Man \u2013 What could I say? I'm spending New Year's Eve alone with a beautiful woman... but I have reasons to think she might be a zombie. Woman \u2013 A beautiful woman... Man \u2013 I wouldn't dare introduce a girl I found in a bar to my mother, let alone a girl I found in a morgue drawer... In any case, you made a very good impression on her. But don't get ahead of yourself. She would do anything to get grandchildren from me. Even set me up with a zombie. Woman \u2013 So, you're a confirmed bachelor. Man \u2013 According to my mother, I might even become an old bachelor... Woman \u2013 Why haven't you gotten married? Man \u2013 I don't know. I must not have met the right person. Until today... Woman \u2013 Until today? Moment of hesitation. They are visibly attracted to each other. Man \u2013 This is all really unreasonable... Woman \u2013 No, and what would your mother say... Man \u2013 I would suggest that we go together to join my family to celebrate New Year's, but I'm on duty. A pause. Woman \u2013 And this woman, do you have her belongings? Man \u2013 Her belongings...? 18 Woman \u2013 When your clients arrive here, I imagine they are still wearing their clothes, and you are the one who undresses them. Man \u2013 Yes, of course... Woman \u2013 Did you undress me? Man \u2013 I... I don't remember... I think I would remember... Woman \u2013 But you have my belongings somewhere, right? Well, the belongings of this woman. Man \u2013 Yes. Woman \u2013 If I saw my personal effects, maybe it would help me regain my memory... In any case, it would allow me to dress myself. Man \u2013 Of course... Woman \u2013 So? Man \u2013 I'll see what I can do... He exits. She remains alone, takes the mirror again, and looks at herself once more. Woman \u2013 I don't look too bad... for someone",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 2268.0,
+        "end_time": 2428.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "who died yesterday. She combs her hair. He returns with some clothes and a bag. Man \u2013 Here are Cristina Wagner's belongings. Woman \u2013 Thank you. (A bit embarrassed ) May I get dressed? Man \u2013 Please do... In a skillful move, she removes the sheet covering her and holds it in front of her. Woman \u2013 Can you hold the sheet and close your eyes? Man \u2013 Well, if I close my eyes, the sheet becomes useless... Woman \u2013 True, but if someone walked in... Man \u2013 You're right. Woman \u2013 And for some reason, I feel like we're being watched... Don't you? Man \u2013 Yes... Probably just another trick of our sick imagination. He takes the sheet and holds it taut. She dresses with the clothes he brought. Woman \u2013 You can open your eyes. She looks even more attractive dressed than wrapped in a sheet, and he seems dazzled. Man \u2013 Ah, yes, that's... You look much less like a ghost that way. 19 Woman \u2013 Well, these clothes fit me like a glove. They must be mine... Man \u2013 Yes... She takes a few steps. Woman \u2013 There was a bag too. He hands her the bag. Man \u2013 Here it is... She opens the bag and looks at its contents. She takes out a mobile phone. Woman \u2013 There's even a phone... It must be ringing constantly here. Man \u2013 Usually, we try to put them on airplane mode. The phone starts ringing. Woman \u2013 Apparently, not this one... ( Out of reflex, she answers the call. ) Cristina Wagner speaking... Man \u2013 I advise you to hang up. She ends the call and puts the phone back on the desk. Woman \u2013 You're right, I think it's better for now. Man \u2013 Probably someone wishing you a happy new year. Woman \u2013 He must not have received the death notice yet. Man \u2013 After all, you only died yesterday. She looks into the bag again, and takes out a tube of lipstick. She applies some on her lips. Woman \u2013 Does it suit my complexion? Man \u2013 Very well... It gives you a more... Woman \u2013 Alive? Man \u2013 More feminine look. Woman \u2013 Does a woman still remain feminine when she dies...? Man \u2013 Ah, that's from a song by Brigitte Fontaine. Do you know Brigitte Fontaine? Woman \u2013 Apparently, I know her",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2430.0,
+        "end_time": 2590.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "songs. But mostly, I have the feeling I've heard that line somewhere before. Man \u2013 What line? Woman \u2013 What you just said :\"It's from a song by Brigitte Fontaine.\" Man \u2013 Oh, yes...? 20 Woman \u2013 It's coming back to me! It's from another play by the same playwright. Man \u2013 Another play? Woman \u2013 It seems that this playwright has a tendency to repeat himself. Man \u2013 But when you talk about lines, do you mean... that we might both be acting in a play? Woman \u2013 It's also a serious hypothesis, isn't it? Man \u2013 Well, that would explain a lot of things. Woman \u2013 It's true that in theatre, it's much more common for the dead to come back to life. A pause. Man \u2013 It's curious, I wouldn't have imagined you as a Brigitte Fontaine fan. Woman \u2013 Why, do I look like a turkey? Man \u2013 Not at all... I mean... You're a bit too young for that, that's all. Woman \u2013 How old do you think I am? Man \u2013 I saw your date of birth on the death certificate. But I would have easily given you ten years less. Woman \u2013 That's very gallant of you. Man \u2013 In any case, you're lovely... for a dead person. She seems slightly flustered. Woman \u2013 You're not bad yourself... for an undertaker. Man \u2013 If I may continue with the metaphor, I'd say you're irresistible. Woman \u2013 But that might lead us down a dangerous path, wouldn't it? A moment of hesitation. They are increasingly drawn to each other. Sounds of celebration can be heard in the background \u2013 fireworks, honking, cheers... Man \u2013 It's almost midnight. Woman \u2013 Happy New Year! Man \u2013 Happy New Year to you too. Woman \u2013 What can we wish each other? Man \u2013 I don't know... Woman \u2013 We could always kiss, right? Man \u2013 Well... 21 They lean in to give each other a peck on the cheek, but end up passionately kissing. They pull apart, embarrassed. Woman \u2013 I'm really sorry, I apologize. Man \u2013 No, it's me. I don't know what got into me. Woman \u2013 Eros and Thanatos... Love, death... It's well known, opposites attract... Man \u2013 You seem to know a thing or two about that. You must really be a psychoanalyst. Woman \u2013 If I'm your psychoanalyst, it's no wonder you're",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2592.0,
+        "end_time": 2752.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "in love with me. Man \u2013 Really? Woman \u2013 People always fall in love with their psychoanalyst. It's called transference. Pause. Man \u2013 I wonder how all of this will end. Woman \u2013 Well... if it's a comedy. But if it's a tragedy... Man \u2013 You'll go back where you came from, and I'll stay alone here. All of this will dissipate with the fumes of the New Year's Eve, as if it had been just a dream. Woman \u2013 Yes, maybe it's just a momentary glitch due to the transition to the new year. Man \u2013 And you'll disappear all of a sudden after this embrace. Like you said earlier, at the twelfth stroke of midnight. The twelve strokes of midnight are heard. They both remain frozen. Woman \u2013 Midnight has passed, and I'm still here. Man \u2013 And still alive. Woman \u2013 I'm scared. Man \u2013 Me too. Woman \u2013 Now I'm really scared of dying. Because I'm scared of losing you. Man \u2013 If this is a dream, I wish I never wake up. Woman \u2013 And if it's madness, I'd rather remain mad. Man \u2013 It's completely unreasonable. I can't fall in love with you. Even if you're not dead, you're married. It's even worse. Woman \u2013 On the other hand, my husband is already a widower. It will be much simpler. 22 Man \u2013 Do you think so? Woman \u2013 So what do we do? Man \u2013 My mother prepared a picnic basket for New Year's Eve. Woman \u2013 I'm not very hungry. Man \u2013 Neither am I... But we can always drink champagne. He takes out the bottle, uncorks it, and fills two glasses. He hands her one of the glasses. Woman \u2013 Thank you. Man \u2013 To life... Woman \u2013 To love... They toast and drink. Cristina Wagner's mobile phone rings again. They exchange a bewildered look. The phone stops ringing. Man \u2013 We can't keep pretending that everything is normal forever... Woman \u2013 Now that I've found you, I don't want to lose you... Man \u2013 If we ever have to make our union official, we need to first make your resurrection official. The phone rings again. She glances at the screen. Woman \u2013 It's him! Man \u2013 Richard Wagner... Woman \u2013 What will his reaction be when he finds out that he's no longer a widower...? Man \u2013 And that barely",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2754.0,
+        "end_time": 2914.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "resurrected, you're already cheating on him with a morgue employee. Woman \u2013 By the way, why is he calling me, since he thinks I'm dead? Man \u2013 To hear the sound of your voice on the voicemail...? Woman \u2013 I can't imagine him being that sentimental. Man \u2013 Are you imagining or are you remembering? Woman \u2013 Yes, my memory is gradually coming back. For now, it's just scattered fragments. Like pieces of a puzzle that I'm trying to put together. Man \u2013 What if he was the one who called you first... By mistake, maybe. He heard your voice, and now he knows you're not dead... A moment of silence. She looks completely absorbed in her thoughts. 23 Woman \u2013 I remember now... ( Frozen) It was indeed him who poisoned me... Man \u2013 But... why? Woman \u2013 I see my last moments playing before my eyes. A very violent argument. I just found out that unbeknownst to me, my husband has been leading a neo-Nazi group that aims to stage a coup in England for years... Man \u2013 A coup... Oh, yes, I vaguely remember that... Richard Wagner... It does ring a bell... Woman \u2013 I inherited my parents' fortune. I think that's mainly why he married me. And with my money, he secretly funds this group of Nazis. I told him I'm getting a divorce, and that he won't get a penny... Man \u2013 Of course, he doesn't want to hear about it. And it's to inherit your fortune that he murdered you... Woman \u2013 Yes... He forced me to take those medications at gunpoint to disguise this murder as suicide. Man \u2013 So he's armed, and he knows you're here. He's probably already on his way to finish the job he started. Woman \u2013 He's not risking anything! Officially, I'm already dead! Man \u2013 Don't worry, I'm here. Woman \u2013 What are you going to do? If he arrives here with a gun... and maybe accompanied by his neo-Nazi buddies from the Wagner Group. Man \u2013 First, I'll notify the police officer on duty in front of the hospital... It won't be easy to explain all of this to him, but I can try... ( He kisses her on the lips. ) You stay here, okay? I'll be right back... He leaves. She remains alone for a moment, worried. Thunder sounds again. The light flickers. Lightning",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2916.0,
+        "end_time": 3076.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "flashes. She feverishly writes a note on the computer. The room goes dark. She also leaves in the darkness. Melodramatic music plays. He returns and realizes that the room is in darkness. Man \u2013 Cristina? The power went out again... He exits briefly offstage to restore power. The lights come back on. He enters again and doesn't see her. Man \u2013 Cristina? He appears distraught. He notices the note on the screen. He reads it. Man (reading) \u2013 I'm waiting for you upstairs... ( To himself) Upstairs? He exits again. Wagner's music plays. Thunder. Lightning. He returns, completely hallucinating. He snorts a line of coke and sits down to try to regain his composure. The phone rings. He answers the receiver. 24 Man \u2013 Hello? Police? Ah, yes... Yes, yes, it was me who alerted your colleague earlier, but... maybe I got a bit carried away... I confused the number 99 with the number 66. The label had flipped, you see? 66, upside down, it looks like 99. And since drawer number 66 wasn't supposed to be occupied tonight, that means all my patients are here... And the rest... must be figments of my imagination. No, I assure you, I haven't taken any hallucinogenic substances. No need to bother, I assure you. Alright, thank you. Yes, happy new year to you too... He sits down, devastated. Man \u2013 I really need to quit cocaine... I'm starting to have hallucinations... He finishes the bottle of champagne. Man \u2013 Ah, getting married this year... ( Completely spaced out ) Well, I need to relax a bit, because at this rate, I won't make it to the end of the year... A ghost... Where do I come up with all this...? Must have been a bad trip... I'll take a little nap, I'll feel better after... He closes his eyes and dozes off with his head on the desk. Blackout. In the darkness, he flips the sign on the door from \"Forensic Institute \u2013Reception\" to \"Paradise \u2013 Waiting Room.\" Lights up. The woman reappears at the side of the stage, now wearing a white coat. Woman \u2013 Sir? (As he doesn't react, she takes a step forward and repeats louder ) Sir! He snaps out of his daze and looks at her, surprised. Man \u2013 Yes? Woman (with a friendly smile ) \u2013 What number do you have? He looks at the card",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 3078.0,
+        "end_time": 3204.4,
+        "duration": 126.4
+      },
+      "content": {
+        "text": "in his hand and reads. Man \u2013 99... (She seems surprised, he flips the card ) Oh, no, sorry... 66. Woman \u2013 Then it's your turn... He gets up hesitantly, and he exits with her. Blackout. The end 25 About the author Born in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer for several rock bands before becoming a semiologist in advertising. He then began a career writing television scripts before turning to theater and writing plays. He has written close to a hundred scripts for television and as many plays, some of which have already become classics ( Friday the 13th ,Strip Poker). He is one of the most produced contemporary playwrights in France and in other francophone countries. Several of his plays are also available in Spanish and English, and are regularly produced in the United States and Latin America. Amateur and professional theater groups looking for plays to perform can download Jean-Pierre Martinez's plays for free from his website La Comediath\u00e8que (https://comediatheque.net/ ). However, public productions are subject to SACD filing. For those who prefer reading or working from books, printed versions of his plays can be purchased from Amazon for a price similar to that of photocopying this document. 26 Other plays by the same author translated in English: A simple business dinner An innocent little murder Casket for two Cheaters Crisis and Punishment Critical but stable Four stars Friday the 13th Him and Her Lovestruck at Swindlemore Hall Quarantine Running on Empty Strip Poker The Perfect Son-in-Law The Window across the courtyard The Worst Village in England Welcome aboard! 27 This text is protected under copyright laws. Criminal copyright infringement will be investigated and may result in a maximum penalty of up to 3 years in prison and a EUR 300.000 fine. Avignon \u2013 April 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-920-1 https://comediatheque.net/ Play available for free download 28",
+        "word_count": 316,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 1.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "event",
+          "confidence": 1.0
+        }
+      },
+      "doc_type": "event_schedule"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 322.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 324.0,
+        "end_time": 484.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 486.0,
+        "end_time": 646.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 648.0,
+        "end_time": 808.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 810.0,
+        "end_time": 970.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 972.0,
+        "end_time": 1132.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1134.0,
+        "end_time": 1294.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1296.0,
+        "end_time": 1456.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1458.0,
+        "end_time": 1618.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1620.0,
+        "end_time": 1780.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1782.0,
+        "end_time": 1942.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 1944.0,
+        "end_time": 2104.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2106.0,
+        "end_time": 2266.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2268.0,
+        "end_time": 2428.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2430.0,
+        "end_time": 2590.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2592.0,
+        "end_time": 2752.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2754.0,
+        "end_time": 2914.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2916.0,
+        "end_time": 3076.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "WALK_IN_AMBIENCE"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3078.0,
+        "end_time": 3204.4
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 57.0,
+            "color": "cool_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 95.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 3.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "event_preset",
+        "preset_applied": "KEYNOTE_SPEAKER"
+      }
+    }
+  ]
+}

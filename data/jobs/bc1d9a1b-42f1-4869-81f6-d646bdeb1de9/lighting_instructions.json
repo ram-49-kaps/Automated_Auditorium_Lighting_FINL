@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "source_file": "Script-9.txt",
+    "doc_type": "screenplay",
+    "genre": "drama",
+    "total_scenes": 2,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 2
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "DARK COMEDY SCRIPT Title: \u201cSORRY FOR YOUR LOSS (IT\u2019S COMPLICATED)\u201d Genre: Dark Comedy / Satire Estimated Duration: ~45\u201350 minutes FADE IN: EXT. CREMATORIUM PARKING LOT \u2013 MORNING [Approx. Timestamp: 00:00:00] Grey sky. Drizzle. A banner flaps loosely: \u201cWELCOME \u2013 TODAY\u2019S FUNERAL\u201d Someone taped over \u201cFUNERAL\u201d with \u201cCELEBRATION OF LIFE,\u201d but it\u2019s peeling. A hearse stalls. Engine coughs. Silence. INT. CREMATORIUM \u2013 WAITING HALL [00:02:30] Rows of plastic chairs. Awkward silence. Meet the mourners: DEV (34) \u2013 The dead man\u2019s son, emotionally numb MAYA (32) \u2013 Dev\u2019s ex-wife, overly polite UNCLE GIRISH (55) \u2013 Loud, inappropriate RITA (40) \u2013 Funeral coordinator who has seen too much A phone rings. Everyone stares. Dev answers. DEV Yes. He\u2019s still dead. Hangs up. CUT TO: INT. WAITING HALL \u2013 CONTINUOUS [00:05:30] Rita checks her clipboard. RITA Just confirming\u2026 this is a sad funeral, right? DEV Define sad. RITA Okay. No balloons. She removes balloons awkwardly. CUT TO: EXT. CREMATORIUM BACK AREA [00:08:00] Uncle Girish smokes beside the coffin. GIRISH (to coffin) You always said you\u2019d leave early. Ash falls on the coffin. GIRISH (CONT\u2019D) Sorry. Wind. CUT TO: INT. HALL \u2013 EULOGY SETUP [00:11:00] Maya approaches Dev. MAYA I\u2019m sorry. For everything. DEV You picked a bad day to mean that. They stand in silence. Someone accidentally starts HAPPY BIRTHDAY on the speaker. Rita PANICS. CUT TO: INT. CEREMONY HALL \u2013 FUNERAL STARTS [00:14:30] Dim lights. Heavy silence. Priest clears throat. PRIEST We are gathered to honor\u2014 Microphone SCREECHES. PRIEST (CONT\u2019D) \u2014yes, that\u2019s loud. Everyone winces. CUT TO: INT. CEREMONY HALL \u2013 EULOGIES [00:17:30] Uncle Girish takes the mic. GIRISH He was a good man. Not great. But good enough. Dev stares. GIRISH (CONT\u2019D) He borrowed money\u2026 and never returned it. A beat. GIRISH Death is closure. Scattered, uncomfortable laughter. CUT TO: INT. HALLWAY \u2013 BREAK [00:20:30] Dev leans against the wall. Rita joins him. RITA I\u2019ve done this for fifteen years. DEV Does it get easier? RITA No. It just gets funnier in a way you feel guilty about. They share a small smile. CUT TO: INT. CREMATION ROOM \u2013 PREP [00:24:00] The coffin is pushed in. Machine BEEPS. TECHNICIAN Power cut. Silence. TECHNICIAN (CONT\u2019D) We\u2019ll resume when electricity comes back. Everyone just\u2026 waits. CUT TO: INT. CREMATION ROOM \u2013 DARK [00:27:30] Emergency lights flicker red. Uncle Girish whispers. GIRISH This is symbolic. DEV Please stop talking. CUT TO: INT. WAITING HALL \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.0,
+        "primary": "neutral",
+        "primary_confidence": 0.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.0
+        }
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 226.0,
+        "duration": 64.0
+      },
+      "content": {
+        "text": "POWER RETURNS [00:30:30] Lights BLAST back on. A slideshow auto-plays. Photos include: The deceased sleeping The deceased blinking mid-photo One photo of a random stranger MAYA Who\u2019s that? DEV Wrong life. CUT TO: INT. CREMATION ROOM \u2013 FINAL [00:33:30] The machine starts. Low HUM. Dev watches. DEV (softly) You were never good at staying. CUT TO: EXT. CREMATORIUM \u2013 AFTERNOON [00:37:00] Ash urn handed over. Rita hands Dev a bill. RITA Would you like feedback form? DEV On my father? RITA On us. CUT TO: EXT. PARKING LOT \u2013 CONTINUOUS [00:40:00] Rain stops. Sunlight breaks through clouds \u2014 awkwardly cheerful. Maya looks at Dev. MAYA Coffee? DEV Sure. It\u2019s not like today can get worse. A bird IMMEDIATELY poops on his shoulder. They both laugh. FINAL SHOT: EXT. COFFEE SHOP \u2013 EVENING [00:45:30] They sit quietly. Dev stirs coffee. DEV (V.O.) Grief isn\u2019t loud. It just trips you when you\u2019re trying to stand. They sip. Silence. FADE TO BLACK. END.",
+        "word_count": 160,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.899,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.044
+          },
+          {
+            "emotion": "sadness",
+            "score": 0.021
+          }
+        ],
+        "sentiment_score": 0.899,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.899
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.899,
+        "secondary": "surprise",
+        "secondary_confidence": 0.044,
+        "accent": "sadness",
+        "accent_confidence": 0.021,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "SCENE_1",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "POWER RETURNS",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 226.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighting Visualizer</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>🎭 Automated Auditorium Lighting Visualizer</h1>
+            <p>Real-time lighting cue playback and preview</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Playback Controls -->
+            <section class="controls">
+                <h2>Playback Controls</h2>
+                <div class="control-buttons">
+                    <button id="playBtn" class="btn btn-play">▶ Play</button>
+                    <button id="pauseBtn" class="btn btn-pause">⏸ Pause</button>
+                    <button id="stopBtn" class="btn btn-stop">⏹ Stop</button>
+                </div>
+                
+                <div class="timeline">
+                    <div class="time-display">
+                        <span id="currentTime">00:00</span>
+                        <span> / </span>
+                        <span id="totalTime">00:00</span>
+                    </div>
+                    <input type="range" id="seekBar" min="0" max="100" value="0" step="0.1">
+                    <div class="progress-bar">
+                        <div id="progressFill" class="progress-fill"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Current Scene Info -->
+            <section class="scene-info">
+                <h2>Current Scene</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="label">Scene ID:</span>
+                        <span id="sceneId" class="value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Emotion:</span>
+                        <span id="emotion" class="value emotion-badge">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Duration:</span>
+                        <span id="duration" class="value">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Transition:</span>
+                        <span id="transition" class="value">-</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fixtures Display -->
+            <section class="fixtures">
+                <h2>Active Fixtures</h2>
+                <div id="fixturesContainer" class="fixtures-grid">
+                    <!-- Fixtures will be dynamically added here -->
+                </div>
+            </section>
+
+            <!-- Cue List -->
+            <section class="cue-list">
+                <h2>Cue Timeline</h2>
+                <div id="cueListContainer" class="cue-items">
+                    <!-- Cues will be dynamically added here -->
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="status">
+                <span id="connectionStatus" class="status-disconnected">⚫ Disconnected</span>
+                <span id="playbackStatus">⏹ Stopped</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/websocket_client.js"></script>
+    <script src="/static/js/viewer.js"></script>
+</body>
+</html>

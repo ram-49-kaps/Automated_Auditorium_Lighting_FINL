@@ -1,0 +1,2406 @@
+{
+  "metadata": {
+    "source_file": "Script-12.pdf",
+    "doc_type": "raw_drama",
+    "genre": "drama",
+    "total_scenes": 21,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 7,
+      "surprise": 5,
+      "anger": 2,
+      "disgust": 3,
+      "sadness": 3,
+      "fear": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "1 This text is made available to read free of charge. However, an authorisation must be requested from the author prior to any public performance, whether by professional or amateur companies. To get in touch with Jean-Pierre Martinez and to request an authorisation to represent one of his works: https://comediatheque.net Heads or Tails Jean-Pierre Martinez Translation by the author Mark and Peter are actors, who were once friends but haven't seen each other for years after their friendship turned into a rivalry, both professionally and in their romantic lives. Now one of them has invited the other on the stage of a theatre to rebuild the friendship they lost with their youth. This attempt at a reconciliation will turn into a settling of scores before opening up the possibility of an unexpected collaboration. Characters Mark Peter \u00a9 La Com\u00e9diath\u00e8que 2 The stage is empty except for two chairs on either side of a small table. Mark enters, holding a cup in his hand. He sits down and sips his coffee while staring into space. He glances at his watch, puts his cup down on the table, stands up, and addresses the audience. Mark \u2013 My name is Mark. I'm waiting for Peter. He shouldn't be long now. Unless, of course, he decided not to come after all. Well, I wouldn't blame him... But no, I think he'll come. Just out of curiosity, if nothing else. He'll come, you'll see. To find out what I want from him after all these years. Peter is... a friend. Well, at least I think so. Let's just say that... we used to be very good friends. We went to high school together. It was a Catholic high school in a small provincial town. The atmosphere was quite strict, but... we still managed to get up to a lot of mischief. We had a lot of fun, that's for sure. We even started a theatre company together. Well, with a few others as well. Mostly girls... Well, initially, the company was mainly a trap for girls. We organised castings for plays that we never staged. We always chose the prettiest ones, of course. And for the audition scene, the girl had to kiss her partner. That is, one of us, while the other played the casting director. It was a bit of a scam, but it sometimes worked with the less shy ones. Well, since",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.919,
+        "secondary_emotions": [
+          {
+            "emotion": "joy",
+            "score": 0.028
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.019
+          }
+        ],
+        "sentiment_score": 0.919,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.919
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.919,
+        "secondary": "joy",
+        "secondary_confidence": 0.028,
+        "accent": "surprise",
+        "accent_confidence": 0.019,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 322.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "we were all minors, no one ever filed a complaint, and we weren't prosecuted for sexual harassment. That's right. Those were different times. After that... we moved to London and attended the same acting school. Still together. Peter and me. For a year, we shared a tiny room in Soho. The bohemian life, you know. Like in the song by Aznavour. ( The piano plays the first few notes of the song, but not the lyrics ) There was barely enough space for a single bed in that broom cupboard. Every night we would toss a coin, and the loser slept on the floor on an inflatable mattress, with his feet in the hallway and his head in the toilet, where there was less draft. It's true, in those days we were inseparable... Yes, you could say that Peter... was my best friend. ( Pauses) Then we started casting. Working a bit, each on our own. Small roles in TV films or comedies. Peter stayed in that room for a few more months. I ended up crashing at a girl friend's place in a studio apartment that was barely bigger. At least we could both sleep in a bed. Him on his own, and me with this girl I met on a film set. The years went by, and... Peter and I saw each other less and less. Until the day we stopped seeing each other altogether. I don't know why. Well, actually, I have a little idea, but... No, I don't know... Peter is still an actor, like me. Well, him... he still does extra work, mainly. Background roles, as we say in the business. You know, all those transparent characters that nobody sees in movies. Except for their Facebook friends, provided they were informed the day before: \"Attention, if you watch the TV film on Channel 5 tomorrow evening, you'll see me. I'm the waiter who brings a beer to Inspector Morse in the first scene. But be careful, you only see me from a three-quarter angle for two or three seconds. And when Morse hands me a bill and tells me to keep the change, I say thank you. Half a day waiting on set to say thank you to Inspector Morse. At least you can post on Instagram the call sheet where your name appears next to the star's name to whom you are saying thank",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.862,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.082
+          },
+          {
+            "emotion": "anger",
+            "score": 0.02
+          }
+        ],
+        "sentiment_score": 0.862,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.862
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.862,
+        "secondary": "disgust",
+        "secondary_confidence": 0.082,
+        "accent": "anger",
+        "accent_confidence": 0.02,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 324.0,
+        "end_time": 484.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "you. In the hope that one day, you'll be the star and it'll be you we say thank you to... ( The first notes and phrases of Aznavour's song \"Yesterday, when I was young\" are heard ) Unfortunately, Antoine wasn't so lucky. He's still playing the role of a waiter and saying thank you. He used 3 to do a bit of theatre, but there's not much on offer now. In fact, I think he's thinking of quitting the profession. To become an accountant again. Yes, because in college, he had started studying accounting. However, he's not a bad actor, but... he has always lacked ambition. You'll see, Peter is... a nice guy. Well, I don't mean he's a nice guy in the sense that... No, because when you say someone is a nice guy, immediately you think of someone a bit stupid. Who knows why, nowadays, kindness and stupidity are almost synonymous. Peter enters. Peter \u2013 Am I interrupting you? Are you on the phone? Mark \u2013 No, no, not at all. Please come in, Peter... Peter moves towards the centre of the stage, notices the audience, and remains momentarily perplexed. Peter \u2013 Is this a joke? Mark \u2013 What? Peter \u2013 What's this setup? You tell me you want to see me, you ask me to meet you on the stage of this theatre that has been closed for years. You didn't mention anything about a public audition. I haven't prepared anything. Mark \u2013 Oh, no, it's not an audition. Well, not exactly. Peter \u2013 No, but there's an audience there, I'm not dreaming. Mark \u2013 A dream... It would be more like a nightmare, wouldn't it? Can you imagine? A guy opens a door at home, let's say the bathroom door, and suddenly finds himself on a stage in front of an audience. Without knowing which play he's in or what lines he's supposed to say. Peter \u2013 It's a bit like the story of my life, but anyway... Can you tell me why I'm doing here? Mark \u2013 We're in a theatre, aren't we? Peter \u2013 I didn't even know it was still a theatre.. Nothing has been performed here for over twenty years. Mark \u2013 A theatre is like a church. As long as it hasn't been desecrated, you can still hold a mass there. Peter \u2013 A mass? Mark \u2013 It's a metaphor... Peter",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.701,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.113
+          },
+          {
+            "emotion": "sadness",
+            "score": 0.081
+          }
+        ],
+        "sentiment_score": 0.701,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.701
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.701,
+        "secondary": "neutral",
+        "secondary_confidence": 0.113,
+        "accent": "sadness",
+        "accent_confidence": 0.081,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 486.0,
+        "end_time": 646.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "\u2013 But what's it for? An casting? Mark \u2013 A casting, yes, if you want to call it that... Peter \u2013 Oh, but I don't want anything. You're the one who asked me to come. 4 Mark \u2013 Absolutely. How have you been? Peter (aside) \u2013 Do you really want us to start chatting as if nothing's happened? Right here, in front of the audience. Mark \u2013 Pretend there's nobody here... Like in theatre, precisely. The fourth wall, as they say. Do you want something to drink while we wait? Peter \u2013 While we wait for what? Mark \u2013 Coffee? I just bought an espresso machine. You'll see, it's really good. He exits. Peter is taken aback for a moment. He glances at the audience, a bit embarrassed. He takes a few steps, then returns to the centre of the stage and addresses the audience. Peter \u2013 Excuse me, I have no idea what I'm doing here... (He tries unsuccessfully to compose himself by sitting down, then he stands up again and takes a few steps.) I hope he comes back soon because it's a bit embarrassing... I have to say, this idiot has always had a knack for putting me in awkward situations... (Silence) Mark and I are... old friends. Well, more like childhood friends, because to be old friends... would imply that we're still friends. We used to get up to all sorts of mischief together when we were in high school. We were part of a theatre group we set up together. With a few girls too... Anyway. Then we both became actors. I mean... professional actors. We only saw each other occasionally. We each went our own way. And our paths didn't cross much anymore. I haven't seen Mark for years. That's why I was surprised when he called me. I don't even know how he got my mobile number. The last time we saw each other, I'm not even sure if mobile phones already existed. Mark had a bit of success with a TV series a few years ago. Back then, people recognised him on the street and asked for his autograph, so... he thought he was a star. Since then, we never worked together again. I wasn't a star, you see... Now, everyone has more or less forgotten about him. His ego had time to deflate. He's doing supporting roles in theatre or on",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.422,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.318
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.13
+          }
+        ],
+        "sentiment_score": 0.422,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.422
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.422,
+        "secondary": "surprise",
+        "secondary_confidence": 0.318,
+        "accent": "disgust",
+        "accent_confidence": 0.13,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 648.0,
+        "end_time": 808.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "TV. In short, he's back to being an actor like so many others. Maybe that's why he thought of me again... Mark returns with a cup of coffee and places it on the table. Mark \u2013 I didn't put any sugar. Actually, I don't have any. Peter \u2013 That's fine, thank you... Mark sits down and sips his coffee. Peter remains standing. Mark \u2013 Sit down. Peter \u2013 Why don't you share the reason for bringing me here? We shouldn't keep all these people waiting... Mark \u2013 Maybe I just wanted to see you, plain and simple. We're friends, aren't we? We don't need any specific reason to meet up. Peter \u2013 We haven't seen each other for ten years, at least. 5 Mark \u2013 Twelve. Peter \u2013 It was at your mother's funeral. We didn't have much of a chance to talk. Mark \u2013 My mother's funeral, right. It wasn't really the right time to talk about the good old days. Yes, I remember that. It wasn't a very cheerful occasion, that funeral. Peter \u2013 You should have come to my mother's funeral, it was much more fun. By the way, why didn't you come? Mark hesitates for a moment, then he turns towards the audience. Mark (to the audience) \u2013 Funerals are like dinner invitations. It's a vicious circle. If someone attends the funeral of someone close to you, you feel obliged to return the favour next time. And throughout your life, you'll be condemned to attending the funerals of your friends' relatives. Not to mention that flowers are expensive. So one day, I said stop. Why do you think many people choose to bury their dead in the utmost privacy? No flowers, no wreaths... To highlight the modesty of their loved one? You bet they do. To avoid having to return the favour, yes. Because when you know a lot of people, once you reach a certain age, you end up attending funerals at least once a month. There have been times when I had to attend two in one week. There are people like that, whose entire family I've buried. It becomes a part-time occupation, and it ends up being a budget issue. So now, I've decided to be modest on behalf of others. For me, all funerals are held in the utmost privacy. I don't go, period. And I don't have flowers delivered either. And",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.511,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.293
+          },
+          {
+            "emotion": "anger",
+            "score": 0.107
+          }
+        ],
+        "sentiment_score": 0.511,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.511
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.511,
+        "secondary": "disgust",
+        "secondary_confidence": 0.293,
+        "accent": "anger",
+        "accent_confidence": 0.107,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 810.0,
+        "end_time": 970.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "speaking of flowers... Isn't it an ecological aberration? Most of the time, they come from Holland or even Africa. By plane... No, I don't attend funerals anymore... Peter \u2013 It's true that you were very busy back then. Mr. TV star had a lot going on. Mark \u2013 I told you, I was on a film shoot. I couldn't get away. I hope that's not why you're angry with me. Peter \u2013 Did I say I was angry with you about something? Mark \u2013 I don't know... We used to be good friends, weren't we? We don't see each other anymore. It's just that we have our own lives or... did something happen? Peter \u2013 Something? Mark \u2013 We're not mad at each other? Peter \u2013 No, I don't think so. What do you think? Mark \u2013 We could even say that at one point, I was your best friend, right? Embarrassed silence from Peter, who eventually turns towards the audience. 6 Peter (to the audience) \u2013 His best friend... What does that even mean? When you're a baby, you have a cuddly toy. When you're a child, you have an imaginary friend. Then you have a best friend. Later, you have a girlfriend. In the best case, you marry her. And you forget about your friends. That's life. That's how it goes. Your wife becomes your best friend too. I guess if you could sleep with your best buddy, you wouldn't need to get married. (To Mark) You were my best friend, it's true... But what about me? Was I your best friend? Mark \u2013 Yes. You were my best friend. Peter \u2013 That was a long time ago. Mark \u2013 We don't see each other anymore. But we're still friends, right? Peter \u2013 That depends on what we call a friend... What does friendship mean to you exactly? Mark \u2013 I don't know. Peter \u2013 If I needed money, would you lend it to me? Mark \u2013 Do you need money? Peter \u2013 That's just an example. Mark \u2013 Well, if you need money... I should let you know, I don't have any. Peter \u2013 If I was sick, would you come visit me in the hospital? Mark \u2013 I suppose that's another example. Peter \u2013 You didn't even come to my mother's funeral. Mark \u2013 I'm sorry... I didn't realise it meant so much to you. And",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "confidence": 0.385,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.336
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.124
+          }
+        ],
+        "sentiment_score": 0.385,
+        "theatrical_context": {
+          "predicted_theme": "anger",
+          "confidence": 0.385
+        },
+        "primary": "anger",
+        "primary_confidence": 0.385,
+        "secondary": "disgust",
+        "secondary_confidence": 0.336,
+        "accent": "neutral",
+        "accent_confidence": 0.124,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 972.0,
+        "end_time": 1132.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "I don't really like funerals. Peter \u2013 Because you know people who enjoy funerals? A pause. Mark (to the audience) \u2013 I don't really like hospitals either. When I visit someone in hospital or nursing home, it reminds me of my own possible and even inevitable decline. I think what terrifies me most is not the physical decay, whether temporary or permanent. It's this prison-like environment. In hospital or nursing home, the individual is completely deprived of freedom. The freedom to leave, first of all, without permission from the administration. Deprived of their identity as well. The ailing person is no longer seen as an individual, but merely as a patient. The retiree is no longer a person, but a resident. People start talking about them in the third person, as if their soul has already deserted their body. How is the little gentleman doing today? Did the little lady sleep well? For me, the hospital or nursing home is worse than prison. In prison too, you're just a number. But at least you're not expected to 7 willingly consent to your loss of freedom and be grateful to your jailers for it. No, I never visit anyone in hospital or nursing home. It's just too depressing... Peter \u2013 You still haven't told me why you wanted to see me. And what we're doing here together. Mark \u2013 Do you remember that theatre company we started? Peter \u2013 Yes, I remember... Mark \u2013 We used to organise castings for female roles. And in the audition scene, the girl had to kiss her acting partner. That is, one of us, while the other played the producer. Peter \u2013 It never really took off, but anyway... Mark \u2013 It worked with Louise. Peter \u2013 Yes. Mark \u2013 We had so much fun with that. Peter \u2013 Don't tell me you organised that kind of casting today and you need me to play the role of the producer? We've outgrown that, don't you think? Mark \u2013 Too bad, it was fun. Do you remember that time when that girl... Peter \u2013 Listen, Mark, I'm sorry, but nostalgic evenings aren't really my thing. So what do you want from me, exactly? Mark \u2013 I have something to ask you. Well, something to tell you, actually... Something a bit embarrassing... Peter \u2013 Here? Now? On a stage? In front of an audience? Mark \u2013 We're",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "confidence": 0.44,
+        "secondary_emotions": [
+          {
+            "emotion": "sadness",
+            "score": 0.263
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.187
+          }
+        ],
+        "sentiment_score": 0.44,
+        "theatrical_context": {
+          "predicted_theme": "disgust",
+          "confidence": 0.44
+        },
+        "primary": "disgust",
+        "primary_confidence": 0.44,
+        "secondary": "sadness",
+        "secondary_confidence": 0.263,
+        "accent": "neutral",
+        "accent_confidence": 0.187,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1134.0,
+        "end_time": 1294.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "actors, after all. Peter \u2013 Indeed, all of this is very theatrical. Mark \u2013 Between friends, we can chat a bit, right? Okay, let's not talk about the good old days. Let's talk about the present. And the future... What are you working on currently? Peter \u2013 I'm working on several projects. Mark \u2013 Oh, really? What are they? Theatre? Cinema? Peter \u2013 Until it's done, I prefer not to talk about it. And what about you? Mark \u2013 Me? I never stop... I'm booked for the next three years. A pause. Peter \u2013 So that's why you brought me here? To inflict upon me the list of your countless successes? When you know I struggle to make ends meet, like so many of us... 8 Mark \u2013 You've just told me that you've got lots of projects on the go.. Peter \u2013 That's what you say when you have no work and you're just waiting for the phone to ring. And you know that very well. Mark \u2013 I'm sorry, I didn't realise things were so difficult for you. Peter \u2013 What's the point of all this, Mark? You want to offer me a role, is that it? Mark \u2013 No, not exactly, but... Peter \u2013 That would have surprised me... So what is it then? Mark \u2013 I have some big news to tell you. Peter \u2013 Big news? Big news for you, I assume. Something that will revive your career and allow you to look down on others even more. Mark \u2013 Do you really find me that self-centred? Peter \u2013 Why should I care about your success, Mark? Do you need someone to applaud you? Do you want me to ask for your autograph? Mark \u2013 It's not at all what you think. Peter \u2013 Oh, really? A pause. Mark \u2013 I said big news, not good news. Peter \u2013 What do you mean, not good news? You mean... bad news...? Mark \u2013 I've just been diagnosed with a brain tumour Peter remains stunned. Peter \u2013 No... Mark (to the audience) \u2013 I don't know what got into me to say that... It's not true, of course, but... I was running out of arguments. I have to admit, he really pushed me to the limit. According to him, success went to my head, I'm the worst kind of opportunist, and I despised everyone, starting with my",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.919,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.025
+          },
+          {
+            "emotion": "anger",
+            "score": 0.021
+          }
+        ],
+        "sentiment_score": 0.919,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.919
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.919,
+        "secondary": "disgust",
+        "secondary_confidence": 0.025,
+        "accent": "anger",
+        "accent_confidence": 0.021,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1296.0,
+        "end_time": 1456.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "old friends. It's not my fault, though, if I've achieved more than him. I'm not going to spend my time apologising for having a certain talent and knowing how to sell myself. If he were a friend, he should be happy for my success instead of resenting me, shouldn't he? Okay, it's true, I didn't help him much when I was in a position to do so. But I don't think it would have done him any favours either. And even if I had helped him, today he would blame me for having done it in a condescending way, to further assert my domination over him. So yes, I let him fend for himself. I'm not in favour of handouts, you see. Nor am I in favour of nepotism. Nepotism, you know, that system where you put your mates first, rather than competent people who really deserve it. Okay, it can happen that some of your friends are competent, but... It's not my fault if he messed up everything in his life. In his professional life, at least... But to invent that I had a 9 brain tumour I don't know. I guess I just wanted him to feel sorry for me, for once, instead of envying me. To see what it feels like to be the victim and receive pity. That's it, just to see what his attitude would be if, for once, I had the bad role... Peter \u2013 Damn... I'm really sorry... I apologise.. Mark \u2013 You don't have to apologise, it's not your fault. Peter \u2013 No, I mean, I'm sorry I was so rude. If I had known... Mark \u2013 You, at least, are a true friend. You'll come and visit me at the hospital, won't you? At least while I'm still somewhat presentable... Peter remains momentarily stunned. Peter \u2013 But... they can treat you, right? Mark \u2013 The tumour is in a very difficult location. It's not operable. So unfortunately... Peter \u2013 Ah, damn... Mark \u2013 I have about a year left. Maybe less. Peter \u2013 And yet, seeing you like this... Mark \u2013 Yes... Right now, I have hardly any symptoms at all. But according to the doctors, it won't be long before they appear. And the last few months won't be the easiest. But for now, I'm fine. So I'm taking this opportunity to get my affairs in order. And bid farewell",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.39,
+        "secondary_emotions": [
+          {
+            "emotion": "sadness",
+            "score": 0.313
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.119
+          }
+        ],
+        "sentiment_score": 0.39,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.39
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.39,
+        "secondary": "sadness",
+        "secondary_confidence": 0.313,
+        "accent": "disgust",
+        "accent_confidence": 0.119,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1458.0,
+        "end_time": 1618.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "to those I love... Peter \u2013 I'm deeply touched to be a part of it. Of course, if there's anything I can do for you... Mark \u2013 Thank you... Unfortunately, unless you've found a miraculous cure for cancer... A pause. Peter \u2013 And is that why you asked me to come? Mark \u2013 Yes. But for now, I'd prefer to keep it between us. No one else knows yet... Peter, taken aback, glances towards the audience. Peter \u2013 No one? Mark \u2013 No one. Peter \u2013 And them? Mark \u2013 Oh yes, right. I forgot about them... Peter \u2013 Yes, the fourth wall... 10 Mark \u2013 Well, as you say, I'm first and foremost an actor. I suppose subconsciously, I feel the need to stage my own disappearance. Peter remains thoughtful for a moment. Peter \u2013 So, that's why you brought me here, on this stage? To tell me that you're going to die, to see how I'd react, and to share it with the audience? Mark \u2013 Not just that. I wanted to see you, that's all. And since I don't have much time left, I've decided to reassess my priorities. Peter \u2013 I don't know what to say... I'm deeply touched by the honour you're giving me. I'm very moved, and at the same time... Do you really think we can pick up where we left off years ago, just because one of us won't be here in a few months? Mark \u2013 I don't know. They say that some animals get closer to humans as they sense the end is coming. I suppose that humans get closer to their friends as they approach death. Peter \u2013 Yes, maybe... Mark \u2013 If you knew you were condemned, would you have called me? Peter \u2013 Honestly? Mark \u2013 Honestly. Peter \u2013 No. Mark \u2013 Okay. Peter (to the audience) \u2013 It's strange. I wouldn't wish him dead, obviously. Nobody wishes a friend dead. I still prefer it to happen to him rather than me. It's awful to think that, I know. But you can't help thinking it, can you? As long as you don't say what you're thinking, it won't hurt anyone. And what I'm thinking is that... it wouldn't have been fair if it had happened to me. You can't be a loser in every aspect of life, can you? There has to be some kind of justice",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "confidence": 0.325,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.229
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.158
+          }
+        ],
+        "sentiment_score": 0.325,
+        "theatrical_context": {
+          "predicted_theme": "sadness",
+          "confidence": 0.325
+        },
+        "primary": "sadness",
+        "primary_confidence": 0.325,
+        "secondary": "surprise",
+        "secondary_confidence": 0.229,
+        "accent": "neutral",
+        "accent_confidence": 0.158,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1620.0,
+        "end_time": 1780.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "after all. Not to mention destiny, even if it's just chance, in the end, things balance out, don't they? I mean the good and the bad. It's a matter of probability, really. It's like roulette, you can't keep hitting the right number forever. Or the wrong one. Him, after a lifetime of being lucky as hell, he finally hit zero. Whatever he played, he's going to lose his bet. And me, with the bad luck I've carried for so many years, at least I've escaped the worst and come out of it alive. For the moment... Mark \u2013 But you'll come and see me at the hospital, right? Peter \u2013 Of course. Mark \u2013 You don't have to, you know. It's true, we haven't seen each other for years. I'm not in a position to ask you for anything. You don't owe me anything, after all. Peter \u2013 No. 11 A pause. Mark \u2013 We saw each other less and less. What happened one fine day when we didn't see each other at all? Peter (trying to joke) \u2013 Apart from the fact that since your little success on TV, you've taken yourself for a star and you've forgotten your old friends? Mark \u2013 Yes. Apart from that. A pause. Peter \u2013 Listen, Mark... When we were young, we lived our friendship in the present. We did stupid things together. We sometimes told each other about them a few months later, but the next day we did even bigger ones. Mark \u2013 That's true. We were young. We had nothing to lose, so we weren't afraid of anything. Peter \u2013 Gradually, we became more reasonable. We did fewer and fewer stupid things. And above all, we didn't do them together anymore. And when we still happened to meet, we just talked about the good old days. Mark \u2013 Or we'd tell each other about our own achievements, to try and prove how much more successful we'd been. Peter \u2013 And in that game, you were sure to win. In the long run, it was depressing. Even deadly. To try and move forward, I had to stop seeing you. Mark \u2013 Now I'm going to find it hard to project myself into the future, you see. I have only one year left to live, so... it will be the time for the last times. When August is awful, you tell yourself",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "confidence": 0.583,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.262
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.083
+          }
+        ],
+        "sentiment_score": 0.583,
+        "theatrical_context": {
+          "predicted_theme": "sadness",
+          "confidence": 0.583
+        },
+        "primary": "sadness",
+        "primary_confidence": 0.583,
+        "secondary": "neutral",
+        "secondary_confidence": 0.262,
+        "accent": "disgust",
+        "accent_confidence": 0.083,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1782.0,
+        "end_time": 1942.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "that next year will be better. But when it's your last summer... Peter \u2013 I don't know what to say. Mark \u2013 There is one thing I'd like to ask you. Peter \u2013 Anything you want. Mark \u2013 Can you take care of my cat when I'm no longer here? A pause. Peter \u2013 Your cat? Mark \u2013 I have no one else to entrust him to. Well, no one I trust enough. Peter \u2013 I didn't even know you had a cat. You never had a cat before, had you? Mark \u2013 He's my first one. That's probably why I'm so attached to him... Yes, you can say that today, he's the only friend I have left... besides you. Peter \u2013 Oh, I see... 12 Mark \u2013 Believe me, an animal never disappoints you, you'll see. Peter \u2013 Well, I mean... I don't know how to take care of a cat... I've never had a child, so a cat... Mark \u2013 It's very simple, I assure you. All you have to do is give it something to eat and drink, change its litter box from time to time, and of course, pet it to show how much you love him. Peter \u2013 Listen, I'm not sure. A cat. With the life I have. Mark \u2013 You'll do that for your former best friend who only has a few months left, won't you? Peter stares at Mark. Peter \u2013 This isn't a joke, right? Because if you invented a brain tumour just to get back in touch with a lost friend, that would be really twisted. Mark \u2013 Who knows... If you receive a death announcement before the end of the year, you'll know for sure. Otherwise, it was a bad joke... Peter \u2013 So, you're messing with me, is that it? Mark \u2013 That wasn't my intention initially, I swear. I got carried away. We're on a theatre stage, I got caught up in the moment, I improvised. Peter \u2013 Playing with others' feelings like that... it's monstrous, Mark. Mark \u2013 You just told me that we don't do stupid things together anymore! And that's why we're no longer friends. I thought this was an opportunity to get back on track... Remember? Back then, we used to make up incredible stories too. We convince the headmaster that we were Jewish, and that's why we couldn't stay for evening study",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "confidence": 0.628,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.121
+          },
+          {
+            "emotion": "fear",
+            "score": 0.09
+          }
+        ],
+        "sentiment_score": 0.628,
+        "theatrical_context": {
+          "predicted_theme": "disgust",
+          "confidence": 0.628
+        },
+        "primary": "disgust",
+        "primary_confidence": 0.628,
+        "secondary": "neutral",
+        "secondary_confidence": 0.121,
+        "accent": "fear",
+        "accent_confidence": 0.09,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1944.0,
+        "end_time": 2104.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "on Fridays. And damn it, I'm not going to die! At least not yet... You should be happy, shouldn't you? Peter \u2013 Actually, I'm almost disappointed, you know. I could already see myself at your funeral. I even had a few words in mind for your eulogy, as the deceased's best friend. I would have talked about the good old days. The unbreakable friendship that had bound us for so long. The destiny that prematurely put an end to a promising career... Mark \u2013 That means a lot to me, thank you. Peter \u2013 You're truly a miserable idiot. I never want to see you again. He's about to leave. Mark \u2013 Wait a minute, Peter! You were willing to become my friend again because I was going to die. And now you're going to hate me again because I'm perfectly fine? That's a strange concept of friendship, isn't it? Peter \u2013 But, Mark... why? 13 Mark \u2013 I don't know. I thought you were right. It was inappropriate of me to call you to announce good news about myself. Peter \u2013 So, in the end, it's good news... Mark \u2013 Good news for me, at least. For you, I don't know... Peter \u2013 For me? Mark \u2013 That's true. You have no reason to be happy for me. Peter \u2013 What's this good news then? Are you nominated for the Laurence Olivier Awards? You want me to come and watch you being honoured, is that it? Don't you have enough friends around you to cheer? Mark \u2013 So you've never forgiven me, have you? Peter \u2013 Forgave you for what? Mark \u2013 For landing the lead role in that casting we both went to about fifteen years ago. For that series that launched my career. You're jealous of my success, aren't you? Peter \u2013 Your success? Mark \u2013 In the profession, at least. Peter \u2013 As Warhol said, everyone gets their fifteen minutes of fame. Yours lasted two or three years. You enjoyed your celebrity for a few more years after the series ended. Since then, you've been content with supporting roles. Mark \u2013 It's still better than being an extra. Peter \u2013 Your so-called success has gone to your head, Mark. You forgot about your real friends. And you're still single... Mark \u2013 So are you, aren't you? Well, you became single again. Peter \u2013 I see you're",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "confidence": 0.727,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.114
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.078
+          }
+        ],
+        "sentiment_score": 0.727,
+        "theatrical_context": {
+          "predicted_theme": "sadness",
+          "confidence": 0.727
+        },
+        "primary": "sadness",
+        "primary_confidence": 0.727,
+        "secondary": "surprise",
+        "secondary_confidence": 0.114,
+        "accent": "neutral",
+        "accent_confidence": 0.078,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 2106.0,
+        "end_time": 2266.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "well informed. And that makes you happy, doesn't it? Knowing that if you didn't get Louise, at least she's no longer with me. Mark \u2013 You're completely mistaken, I assure you. Peter \u2013 Stop it... That's what you never forgave me for. You're incapable of being happy about others' happiness, Mark. Whenever your friends have something, you feel like it's being stolen from you. And that's why you never reached out a hand when I needed it. Mark \u2013 I've never blamed you for Louise. In fact, at the time, I wasn't even interested in her. Peter \u2013 That's right. She started to interest you when she chose me. It's unbearable for you, isn't it? That a girl could prefer me over you. Worse, it's incomprehensible. It goes against the natural order of things. 14 Mark \u2013 You're raving. Peter \u2013 Well, my friend, whether you like it or not, I'm the one who succeeded in that casting. And I got the part instead of you. We flipped a coin, and that day, luck was on my side. It was the one who kissed Louise while you settled for playing the role of the producer. And a few years later, I was the one who married her. Mark \u2013 I wasn't jealous of that, I assure you. Peter \u2013 Come on, I could see how you looked at her. But you have to face facts, Mark. You can't win every time. You can't have it all. You have to leave a little for the others. Your friends aren't just there to applaud your success. They have the right to be happy too, from time to time. Mark \u2013 Of course. Peter \u2013 I was very happy with Louise. I wonder why I left her. Mark \u2013 Probably because, in fact, it was she who left you. Peter \u2013 How do you know that? Did you see her again? Mark hesitates for a moment. Mark \u2013 The last time we all saw each other was at my mother's funeral. Peter \u2013 At your mother's funeral... You said earlier that it wasn't the ideal time to get back together with your best friend, but you still found time to get back together with his wife. Mark \u2013 That's not really how it happened. We met several times after that. Peter \u2013 Did you seek to see her again? Mark \u2013 No, it",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "confidence": 0.529,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.267
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.082
+          }
+        ],
+        "sentiment_score": 0.529,
+        "theatrical_context": {
+          "predicted_theme": "disgust",
+          "confidence": 0.529
+        },
+        "primary": "disgust",
+        "primary_confidence": 0.529,
+        "secondary": "anger",
+        "secondary_confidence": 0.267,
+        "accent": "neutral",
+        "accent_confidence": 0.082,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 2268.0,
+        "end_time": 2428.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "was coincidence. We do the same job. It's normal to bump into each other from time to time. Peter \u2013 We never crossed paths again. Mark \u2013 She didn't try to avoid me. Peter \u2013 But you didn't sleep with her, did you? Mark \u2013 Not on the day of my mother's funeral, I assure you. Peter \u2013 So, you did sleep with her. A pause. Mark \u2013 I even did a bit more than that. I'm getting married, Peter. That's what I wanted to tell you. Silence. Peter \u2013 Getting married... 15 Mark \u2013 To Louise. Peter is taken aback. Peter \u2013 Tell me it's another one of your jokes, Mark. Mark \u2013 It's not a joke, Peter. Peter \u2013 You couldn't help yourself, could you...? Mark \u2013 It's not against you, I swear. How can you believe such a thing? It just happened, that's all. Peter (to the audience) \u2013 I want to kill him. In fact, I want to kill both of them. How could she do this to me? Okay, we're not together anymore. She doesn't owe me anything. But she could have chosen anyone to replace me. Why did she choose Mark? Unless all along, ever since that famous casting, she's regretted not having shared that first kiss with him rather than me. What if that coin had fallen on its heads instead of its tails? Would it have changed the story of the three of us? It's a question that's been on my mind for a very long time. What does fate owe to chance? And between these two factors we have no control, what about our individual freedom? Does the world have meaning and purpose that constrain us, or is it just one of countless possible versions of perfectly random chaos? Is free will merely an illusion, or do we truly have room to manoeuver and shape the course of our lives, between a destiny that carries us like an ocean current and a chance that bewilders us like an unpredictable wind? Was the sinking of the Titanic due to its transatlantic destination, a chance encounter with an iceberg, or the incompetence of the captain? Mark \u2013 We're getting married, Peter. That's how it is. It's not against you. Peter \u2013 So, you wanted to tell me in person? Mark \u2013 She's your ex-wife. I wanted to tell you myself, it's only fair.",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.429,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.173
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.153
+          }
+        ],
+        "sentiment_score": 0.429,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.429
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.429,
+        "secondary": "anger",
+        "secondary_confidence": 0.173,
+        "accent": "neutral",
+        "accent_confidence": 0.153,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2430.0,
+        "end_time": 2590.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Obviously, I'm not asking you to jump for joy. Even though earlier, you said we're supposed to be happy when our friends are happy... Peter \u2013 You've got some nerve. Rejoicing over the happiness of a friend who's just stolen my wife? Mark \u2013 Your ex-wife! Peter \u2013 Did you want my blessing... or is it just for the pleasure of crushing me a little more? Mark \u2013 I never wanted to crush you, Peter. In fact, I've always admired you. Peter \u2013 You admire me? Do you? Mark \u2013 Yes. Peter \u2013 You've always considered me a failure. 16 Mark \u2013 It's not your success that I admire. It's your intelligence. Your lucidity. Your integrity... Peter \u2013 Those rarely go hand in hand with success, unfortunately. Mark \u2013 Don't exaggerate. You haven't failed at everything. Peter \u2013 I couldn't even keep Louise. And now, you're getting your revenge. Mark \u2013 Do you really think you marry someone just to get back at them? Peter \u2013 Of course, we're divorced, you don't need my permission. But why, out of all the women, did you have to choose her? Mark \u2013 I don't know... Peter \u2013 And how did it happen between you two? And when? Mark \u2013 We saw each other again. We realised we had a lot in common. Peter \u2013 Including a friend. Mark \u2013 Including the theatre Peter \u2013 At least tell me that your relationship didn't start while we were still married? Tell me that it's not because of you that she left me... Mark \u2013 I swear to you. Peter \u2013 How could I still believe you? Mark (to the audience) \u2013 What would be the point of telling him the truth? It's true, I've always been in love with Louise. And the fact that she chose Peter over me, I suppose it made her even more desirable in my eyes. I saw her again when they both came to my mother's funeral. They were still together at that time, but I got the impression that it wasn't true love anymore. I was still enjoying my little status as a successful actor. She made it clear that she was not indifferent to me. Peter left right after the cremation. He had a stomach bug or something, but he insisted on coming anyway. Louise stayed a little longer after the cremation. I offered her a drink",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "confidence": 0.518,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.202
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.137
+          }
+        ],
+        "sentiment_score": 0.518,
+        "theatrical_context": {
+          "predicted_theme": "anger",
+          "confidence": 0.518
+        },
+        "primary": "anger",
+        "primary_confidence": 0.518,
+        "secondary": "surprise",
+        "secondary_confidence": 0.202,
+        "accent": "disgust",
+        "accent_confidence": 0.137,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2592.0,
+        "end_time": 2752.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "at my place. And I don't know how it happened, but we ended up passionately making love on the living room couch, right in front of the urn containing my mother's still warm ashes. Eros and Thanatos, you know the story... We didn't see each other for a few years after that. And then we coincidentally crossed paths last year at an art exhibition, and that's when our relationship really started. (He turns to Peter again.) You have to believe me, Peter. She had already left you. I would never do that to a friend... Peter \u2013 Did she ask you to break the news to me? Mark \u2013 Let's just say we talked about it. We thought it would be better to tell you. You would have found out anyway. We couldn't do it without telling you. Peter \u2013 You could have just sent me an announcement. 17 Mark \u2013 Of course, you don't have to attend the wedding. Peter \u2013 Thanks... Mark \u2013 We're getting married... and we have plans together. Peter \u2013 Plans? Are you planning to start a family? Are you also going to tell me she's already pregnant? Mark \u2013 Theatre projects. Peter \u2013 I see... So, it's not just a wedding, it's also a partnership. I should have expected that, too... Mark \u2013 Louise is very talented. She just hasn't had the chance to demonstrate it yet, that's all. Peter \u2013 Because she was married to a loser like me, is that what you mean? Mark \u2013 Don't make everything about you, Peter. You accuse me of being egocentric, but the world doesn't revolve around you either. Peter \u2013 Maybe you're right. I can't hold the entire world responsible for my own failures. Silence. Mark \u2013 And what about you? You really don't have any plans at the moment? Peter \u2013 Are you really interested? Mark \u2013 I heard that you wanted to quit the profession. And get a job as an accountant. Peter \u2013 Who told you that? Louise? Mark \u2013 If you need a helping hand... Peter \u2013 Are you planning to compensate me for taking my wife away? Mark \u2013 She's not your wife anymore, Peter, she's mine... Besides, it's ridiculous... Women haven't belonged to anyone for a long time. They're the ones who choose. Peter \u2013 You're going to give me a lesson in feminism too? Mark \u2013 I'm just",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.528,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.168
+          },
+          {
+            "emotion": "anger",
+            "score": 0.149
+          }
+        ],
+        "sentiment_score": 0.528,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.528
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.528,
+        "secondary": "neutral",
+        "secondary_confidence": 0.168,
+        "accent": "anger",
+        "accent_confidence": 0.149,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2754.0,
+        "end_time": 2914.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "trying to help you. Peter \u2013 You didn't reach out to me all these years. And now, because you're going to marry Louise, you're ready to help me. Mark \u2013 Why not? Peter \u2013 It's easy for you, isn't it? Write a little check, and we forget about the past? Mark \u2013 I'm not asking you to forget the past. And no, it's not easy for me either. Yes, I work, but I don't make as much money as you might think. And I have expenses... 18 Peter \u2013 Can I leave now? Mark \u2013 Wait... Peter \u2013 What now? Mark \u2013 I didn't just bring you here just to tell you I was getting married. Peter \u2013 Then what do you want, exactly? A pause. Mark \u2013 I'm considering buying this theatre Peter \u2013 Buying this theatre? You told me you didn't have any money. Mark \u2013 With Louise. Peter \u2013 It is getting better and better. Mark \u2013 Louise is an actress. She's also a director. We could make a good team. Peter \u2013 We? Mark \u2013 That's how I put it. Peter \u2013 Buy a theatre.. What for? Mark \u2013 So that I can finally do what I want, not depend on anyone. To stop waiting for the phone to ring, as you say. We all dream of that, don't we? Peter \u2013 Why not. If you can afford it. Mark \u2013 Do you think it could work? Peter \u2013 Now you're asking for my opinion? Mark \u2013 I've always considered your opinions with the utmost attention. Even if I haven't always taken them into account... Peter \u2013 And it has worked out rather well for you... Mark \u2013 So? Peter \u2013 I don't know. What do you want me to... I don't have an entrepreneurial spirit. I have no ambition. You've made that clear enough, haven't you? Mark \u2013 We could work together again. Peter \u2013 Are you saying you could find me a little job? What do you have in mind? Stage manager? Cashier? Usher? Mark \u2013 I have an entrepreneurial spirit, but I lack practical sense. I've got ideas, but I'm not rigorous. Especially when it comes to keeping the accounts and doing the paperwork. 19 Peter \u2013 You need an accountant and you thought of me, is that it? Not only do you steal my wife, but you also want me to manage",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.438,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.284
+          },
+          {
+            "emotion": "anger",
+            "score": 0.132
+          }
+        ],
+        "sentiment_score": 0.438,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.438
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.438,
+        "secondary": "surprise",
+        "secondary_confidence": 0.284,
+        "accent": "anger",
+        "accent_confidence": 0.132,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2916.0,
+        "end_time": 3076.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "the household finances? I felt like a third wheel. Mark \u2013 That's your problem, Peter. You always see everything in a negative light. You see plots everywhere, instead of opportunities. You're paranoid. Peter \u2013 Thanks. Mark \u2013 You would still be an actor, of course. Like us. But we would all be versatile. Peter \u2013 I'm not sure I want you as my boss. Mark \u2013 Let's say partner, then. Peter (to the audience ) \u2013 I'm a bit ashamed, but I have to admit that strangely enough, his proposal appeals to me. Having our own theatre. The three of us. It's true. That was our dream when we started out in this business. Even though, now, for us, it would be more of a fallback solution and an acknowledgment of failure, but well... (To Mark) I'll think about your proposition, but I'm not sure it's a good idea for the two of us to work together. And even less so for all three of us... Mark \u2013 Earlier, you said that we no longer do anything together. That we were just celebrating the good old days. And that's why our friendship died. What I'm proposing is to share this adventure with me. Well, I mean with us... Peter \u2013 Are you proposing a threesome, is that it? Mark \u2013 You're not sleeping with her anymore, are you? (Silence) You are... Peter \u2013 I've seen her again too. Mark \u2013 What do you mean you've seen her again? Since your divorce? Peter \u2013 We spent quite a few years together, it doesn't just fade away. Mark \u2013 And...? Peter \u2013 We slept together again. Once or twice. Mark \u2013 Once... or twice? Peter \u2013 Let's say three times. Mark \u2013 And the last time, when was it? Peter \u2013 I don't know... About a month ago. Mark \u2013 Louise and I decided to get married about three months ago. Peter \u2013 So, if I understand correctly, your future wife is already cheating on you with her ex-husband. Mark \u2013 It's starting to look like a dreadful farce. 20 Peter \u2013 Nothing stops us from writing it and performing it to inaugurate this new theatre.. Mark (to the audience) \u2013 It's strange, but I don't even blame them. I never thought that Louise could fully belong to me. She's too independent for that. What do they call it, polygamy for a",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.692,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.131
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.07
+          }
+        ],
+        "sentiment_score": 0.692,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.692
+        },
+        "primary": "fear",
+        "primary_confidence": 0.692,
+        "secondary": "disgust",
+        "secondary_confidence": 0.131,
+        "accent": "surprise",
+        "accent_confidence": 0.07,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 3078.0,
+        "end_time": 3238.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "woman? Ah, yes. Polyandry. We've come a long way on all these issues. Maybe one day we'll make the three-way marriage official... (To Peter) I think she should have stayed married to you. Peter \u2013 Don't push things too far. Mark \u2013 You're worth much more than me. You're a good guy. You're faithful. Peter \u2013 It sounds like you're talking about a dog. Unfortunately, women don't like nice guys. Mark \u2013 Not when they're twenty, at least. Afterwards... Peter \u2013 And how are you going to buy back that theatre? Because I'm warning you, I'm not rolling in money... Mark \u2013 I have some savings... And Louise just received a small inheritance. Peter \u2013 An inheritance? You're right, I should have stayed married to her. Mark \u2013 So? Are we friends again? Peter \u2013 Are you sure we were ever friends? Mark \u2013 I don't know. But we could try to become friends. Peter \u2013 You're starting to worry me, Mark. Are you sure you don't actually have a brain tumour? Mark \u2013 I have a screw loose. It's just as incurable, but it's entirely harmless. Peter \u2013 And what does Louise think about all this? Mark \u2013 You mean about the three of us embarking on this project together? Peter \u2013 Yes, that too. Mark \u2013 She's the one who suggested it to me. She said... it will be our baby, the three of us... A pause. Peter \u2013 Are you sure there wasn't a subliminal message...? Mark \u2013 Now that you mention it... Peter \u2013 Apparently, she could never decide between heads or tails. Do you really think she's pregnant? Mark \u2013 We'll be able to ask her, she'll be here in five minutes. (He turns towards the door.) Oh, by the way, there she is... 21 Three knocks are heard, without knowing whether they are the ones struck on stage with the stage manager or if they are knocks on the door. Blackout. End 22 About the author Born in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer for several rock bands before becoming a semiologist in advertising. He then began a career writing television scripts before turning to theatre and writing plays. He has written close to a hundred scripts for television and as many plays, some of which have already become classics ( Friday the 13th ,Strip Poker). He is one of",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.439,
+        "secondary_emotions": [
+          {
+            "emotion": "fear",
+            "score": 0.176
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.162
+          }
+        ],
+        "sentiment_score": 0.439,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.439
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.439,
+        "secondary": "fear",
+        "secondary_confidence": 0.176,
+        "accent": "surprise",
+        "accent_confidence": 0.162,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 3240.0,
+        "end_time": 3334.4,
+        "duration": 94.4
+      },
+      "content": {
+        "text": "the most produced contemporary playwrights in France and in other francophone countries. Several of his plays are also available in Spanish and English, and are regularly produced in the United States and Latin America. Amateur and professional theatre groups looking for plays to perform can download Jean-Pierre Martinez's plays for free from his website La Comediath\u00e8que (https://comediatheque.net/ ). However, public productions are subject to SACD filing. For those who prefer reading or working from books, printed versions of his plays can be purchased from Amazon for a price similar to that of photocopying this document. 23 Other plays by the same author translated in English: A Cuckoo's nest A simple business dinner An innocent little murder Casket for two Cheaters Crisis and Punishment Critical but stable Four stars Friday the 13th Him and Her Is there a pilot in the audience? Just a moment before the end of the world Lovestruck at Swindlemore Hall New Year's Eve at the Morgue One marriage out of two Quarantine Running on Empty Strip Poker The Ideal Son-in-Law The Window across the courtyard The Worst Village in England Welcome aboard! 24 This text is protected under copyright laws. Criminal copyright infringement will be investigated and may result in a maximum penalty of up to 3 years in prison and a EUR 300.000 fine. Avignon \u2013 May 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-950-8 https://comediatheque.net/ Play available for free download 25",
+        "word_count": 236,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.891,
+        "secondary_emotions": [
+          {
+            "emotion": "joy",
+            "score": 0.057
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.016
+          }
+        ],
+        "sentiment_score": 0.891,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.891
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.891,
+        "secondary": "joy",
+        "secondary_confidence": 0.057,
+        "accent": "surprise",
+        "accent_confidence": 0.016,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "1",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "neutral_scene",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 322.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "surprise_scene",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 324.0,
+        "end_time": 484.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "bright_white",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "flash",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "neutral_scene",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 486.0,
+        "end_time": 646.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "TV",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 648.0,
+        "end_time": 808.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "anger_scene",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 810.0,
+        "end_time": 970.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "snap",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.2
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "orange",
+            "focus_area": "stage_left",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "snap",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "strobe",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "dark_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "funeral_scene",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 972.0,
+        "end_time": 1132.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "sickly_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "yellow_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "sickly_green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "surprise_scene",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1134.0,
+        "end_time": 1294.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "bright_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "flash",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "old_friends",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1296.0,
+        "end_time": 1456.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "to_those_i_love",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 1458.0,
+        "end_time": 1618.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "blue",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "grey",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "dark_blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "after_all",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 1620.0,
+        "end_time": 1780.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "grey",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.0,
+            "color": "dark_blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "disgust_scene",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 1782.0,
+        "end_time": 1942.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "sickly_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "yellow_green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "sickly_green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "sadness_scene",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 1944.0,
+        "end_time": 2104.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "grey",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "blue",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "disgust_scene",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 2106.0,
+        "end_time": 2266.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "sickly_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "yellow_green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "sickly_green",
+            "focus_area": "downstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "yellow_green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "scene_1",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 2268.0,
+        "end_time": 2428.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "bright_white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "flash",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "anger_scene",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 2430.0,
+        "end_time": 2590.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "snap",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "red",
+            "focus_area": "upstage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.2
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "orange",
+            "focus_area": "stage_left",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "snap",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "downstage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "strobe",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "dark_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "surprise_scene",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 2592.0,
+        "end_time": 2752.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "bright_white",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "flash",
+            "duration_seconds": 1.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "scene_1",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2754.0,
+        "end_time": 2914.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "household_finances",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 2916.0,
+        "end_time": 3076.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "cold_white",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "dark_blue",
+            "focus_area": "downstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "polyandry_scene",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3078.0,
+        "end_time": 3238.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "contemporary_playwrights",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3240.0,
+        "end_time": 3334.4
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "upstage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": "stage_left",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    }
+  ]
+}

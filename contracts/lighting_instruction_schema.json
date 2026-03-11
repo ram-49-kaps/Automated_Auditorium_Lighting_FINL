@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LightingInstruction",
+  "description": "Intent-level lighting instructions produced by Phase 4 decision engine.",
+  "type": "object",
+  "required": [
+    "scene_id",
+    "time_window",
+    "emotion",
+    "groups"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "emotion": {
+      "type": "string",
+      "description": "Primary emotion driving the lighting for this scene"
+    },
+    "time_window": {
+      "type": "object",
+      "required": [
+        "start_time",
+        "end_time"
+      ],
+      "properties": {
+        "start_time": {
+          "type": "number"
+        },
+        "end_time": {
+          "type": "number"
+        }
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "group_id",
+          "parameters"
+        ],
+        "properties": {
+          "group_id": {
+            "type": "string",
+            "description": "Logical fixture group (front_wash, back_light, side_fill, specials, ambient)"
+          },
+          "parameters": {
+            "type": "object",
+            "required": [
+              "intensity"
+            ],
+            "properties": {
+              "intensity": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Intensity percentage 0-100"
+              },
+              "color": {
+                "type": "string",
+                "description": "Semantic color name (e.g. warm_white, deep_red)"
+              },
+              "focus_area": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Abstract focus region (e.g. full_stage, center_stage)"
+              },
+              "color_temperature": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Color temperature hint (warm, neutral, cool)"
+              }
+            }
+          },
+          "transition": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "cut",
+                  "fade",
+                  "crossfade"
+                ]
+              },
+              "duration_seconds": {
+                "type": "number",
+                "minimum": 0,
+                "description": "Transition duration in seconds"
+              }
+            }
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "Optional non-executable metadata (logs, reasoning, debug info)"
+    }
+  },
+  "additionalProperties": false
+}

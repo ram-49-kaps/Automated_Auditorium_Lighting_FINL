@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   GLOBAL BASE STYLES
+   ============================================ */
+@layer base {
+  body {
+    @apply bg-stage-bg text-white font-body antialiased;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0a1a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 215, 0, 0.3);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 215, 0, 0.5);
+  }
+}
+
+/* ============================================
+   REUSABLE COMPONENT CLASSES
+   ============================================ */
+@layer components {
+  /* Glass Card */
+  .glass-card {
+    @apply bg-white/[0.04] backdrop-blur-md border border-white/10 rounded-2xl shadow-xl;
+    @apply transition-all duration-300 hover:bg-white/[0.07] hover:border-white/15;
+  }
+
+  /* Primary CTA Button */
+  .btn-primary {
+    @apply bg-gradient-to-r from-amber-500 to-yellow-400 text-black font-semibold;
+    @apply px-8 py-3.5 rounded-full cursor-pointer;
+    @apply transition-all duration-300 hover:scale-105;
+    @apply hover:shadow-[0_0_30px_rgba(255,215,0,0.4)];
+    @apply active:scale-95;
+  }
+
+  /* Secondary Button */
+  .btn-secondary {
+    @apply border border-white/20 text-white/80 font-medium;
+    @apply px-6 py-3 rounded-full cursor-pointer;
+    @apply transition-all duration-300 hover:bg-white/10 hover:border-white/30;
+    @apply active:scale-95;
+  }
+
+  /* Shimmer Progress Bar */
+  .shimmer-bar {
+    background: linear-gradient(90deg, #FFD700, #FFB347, #FFD700, #FFB347);
+    background-size: 200% 100%;
+    animation: shimmer 2.5s infinite;
+  }
+
+  /* Phase Step Connector Line */
+  .phase-connector {
+    @apply w-0.5 h-6 mx-auto;
+    background: linear-gradient(to bottom, rgba(255,215,0,0.3), rgba(255,215,0,0.05));
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 bg-clip-text text-transparent;
+  }
+}
+
+/* ============================================
+   PARTICLE CANVAS STYLES
+   ============================================ */
+.particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ============================================
+   DROP ZONE STYLES
+   ============================================ */
+.drop-zone {
+  @apply border-2 border-dashed border-white/20 rounded-2xl;
+  @apply transition-all duration-300;
+}
+.drop-zone.drag-over {
+  @apply border-stage-gold bg-stage-gold/5 scale-[1.02];
+  box-shadow: 0 0 40px rgba(255, 215, 0, 0.15) inset;
+}
+.drop-zone:hover {
+  @apply border-white/30;
+}
+
+/* ============================================
+   CUSTOM SPINNER
+   ============================================ */
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(255, 215, 0, 0.2);
+  border-top: 2px solid #FFD700;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* ============================================
+   PAGE TRANSITIONS
+   ============================================ */
+.page-enter {
+  animation: fadeInUp 0.5s ease-out forwards;
+}

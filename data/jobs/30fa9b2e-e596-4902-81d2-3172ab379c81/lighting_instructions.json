@@ -1,0 +1,232 @@
+{
+  "metadata": {
+    "source_file": "Script-8.txt",
+    "doc_type": "screenplay",
+    "genre": "drama",
+    "total_scenes": 2,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1,
+      "fear": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "EXTREME COMEDY SCRIPT Title: \u201cEVERYTHING THAT CAN GO WRONG, DID\u201d Genre: Extreme Comedy / Slapstick / Absurd Estimated Duration: ~45\u201350 minutes FADE IN: EXT. SMALL TOWN BUS STAND \u2013 MORNING [Approx. Timestamp: 00:00:00] A peaceful bus stand. Birds chirp. Calm sunlight. A giant banner reads: \u201cWELCOME TO SILENT VALLEY \u2013 MOST PEACEFUL TOWN\u201d Immediately \u2014 a LOUD HONK. EXT. BUS STAND \u2013 CONTINUOUS [00:01:00] A bus screeches to a stop. Out jump: RAJU (28) \u2013 Overconfident, underqualified BUNTY (30) \u2013 Loud, zero awareness CHINTU (26) \u2013 Genius idiot (smart ideas, wrong execution) PAPPU (35) \u2013 Always hungry, always confused RAJU Alright boys. Two days. One job. Easy money. A cow walks by and immediately STEALS Pappu\u2019s sandwich. PAPPU (emotional) It was my breakfast AND my lunch. CUT TO: EXT. HOTEL \u201cROYAL PARADISE\u201d \u2013 MORNING [00:04:00] The hotel looks\u2026 suspiciously broken. Missing letters: \u201cROYAL PAR_DISE\u201d The RECEPTIONIST sleeps standing up. BUNTY Five-star, right? Ceiling fan FALLS. They all dodge. RECEPTIONIST Four-and-a-half. Fan under repair. CUT TO: INT. HOTEL ROOM \u2013 MOMENTS LATER [00:07:00] One tiny room. Four beds stacked vertically. CHINTU This is called vertical optimization. Bunty jumps on a bed. The entire stack COLLAPSES. Beat. RAJU Okay. Team meeting. They sit on the floor. CUT TO: INT. ROOM \u2013 PLANNING THE \u201cSIMPLE JOB\u201d [00:09:30] Raju draws a plan on a whiteboard. RAJU Step one: disguise. Step two: delivery. Step three: payment. PAPPU Where is food in the plan? RAJU After. PAPPU Then I quit. CUT TO: EXT. TOWN MARKET \u2013 AFTERNOON [00:12:30] They appear in RIDICULOUS DISGUISES: Raju = fake moustache upside-down Bunty = wedding suit + sunglasses Chintu = lab coat + swimming goggles Pappu = chef hat, no shirt People stare. BUNTY Whose wedding is this? RAJU Ours. With crime. CUT TO: EXT. MARKET \u2013 CHAOS BEGINS [00:15:00] Chintu presses a button. Instead of smoke bomb \u2014 COLORED CONFETTI EXPLODES EVERYWHERE Kids cheer. Music starts from nowhere. RAJU WHY IS THERE MUSIC?! A wedding procession joins accidentally. Bunty starts dancing. BUNTY If life gives music \u2014 dance! CUT TO: EXT. POLICE CHECKPOINT \u2013 CONTINUOUS [00:18:00] Police stop them. POLICE OFFICER What\u2019s in the bag? Pappu opens it. Inside: \u2014 fake wigs \u2014 rubber chicken \u2014 disco ball \u2014 47 bananas POLICE OFFICER \u2026why? PAPPU Emergency potassium. Officer stares. Lets them go. CUT TO: INT. BANK (WRONG BUILDING) \u2013 AFTERNOON [00:21:00] They storm inside dramatically. RAJU Everybody freeze! People",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.0,
+        "primary": "neutral",
+        "primary_confidence": 0.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.0
+        }
+      },
+      "doc_type": "screenplay"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 266.8,
+        "duration": 104.8
+      },
+      "content": {
+        "text": "clap. BANK MANAGER Finally! The entertainment arrived! Turns out: They entered a talent show audition. Bunty is pushed on stage. Music BLASTS. CUT TO: INT. AUDITION HALL \u2013 MUSICAL CHAOS [00:23:30] Bunty dances aggressively. Chintu beatboxes accidentally. Raju trips, slides across stage. Pappu eats snacks from judges\u2019 table. JUDGE This is terrible. AUDIENCE (standing ovation) Confetti cannons fire again. CUT TO: EXT. STREET \u2013 RUNNING AWAY [00:27:00] They escape. Suddenly \u2014 REAL CRIMINALS run past. Police chase BOTH groups. RAJU Why are we always included?! CHINTU Statistical bad luck. They hide inside a bakery. CUT TO: INT. BAKERY \u2013 SLOW MOTION [00:29:30] Pappu sees cakes. Time slows. Angelic music. PAPPU I have arrived. He knocks over a shelf. ALL CAKES FALL like dominoes. CUT TO: EXT. BAKERY \u2013 CONTINUOUS [00:32:00] Explosion of flour. Everyone white. They look at each other. Bunty sneezes \u2014 LOUD FIRE ALARM Sprinklers ON. CUT TO: EXT. TOWN SQUARE \u2013 EVENING [00:35:00] Completely soaked. Town gathers. Mayor approaches. MAYOR You idiots ruined everything. Pause. MAYOR (CONT\u2019D) But tourism hasn\u2019t been this good in years. Crowd cheers. CUT TO: EXT. STAGE \u2013 NIGHT [00:38:00] Banner: \u201cSILENT VALLEY COMEDY FESTIVAL\u201d The four are on stage. Spotlights flash wildly. RAJU We failed the job. BUNTY But succeeded in nonsense. CHINTU Accidental success is still success. PAPPU Where is food? Crowd laughs uncontrollably. FINAL SHOT: EXT. TOWN \u2013 FIREWORKS [00:45:00] Fireworks explode randomly \u2014 wrong colors, wrong timing. The banner falls again. The cow from earlier eats it. VOICEOVER (ALL TOGETHER) We planned nothing\u2026 And that worked perfectly. FADE TO BLACK. END.",
+        "word_count": 262,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.471,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.232
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.106
+          }
+        ],
+        "sentiment_score": 0.471,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.471
+        },
+        "primary": "fear",
+        "primary_confidence": 0.471,
+        "secondary": "disgust",
+        "secondary_confidence": 0.232,
+        "accent": "surprise",
+        "accent_confidence": 0.106,
+        "scene_id": "compat"
+      },
+      "doc_type": "screenplay"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "EXTREME COMEDY SCRIPT",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    },
+    {
+      "scene_id": "clap",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 266.8
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.0,
+            "color": "cold_white",
+            "focus_area": "upstage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "green",
+            "focus_area": "stage_left",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5
+      }
+    }
+  ]
+}

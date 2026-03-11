@@ -1,0 +1,245 @@
+{
+    "metadata": {
+        "source_file": "Script-7.txt",
+        "doc_type": "screenplay",
+        "genre": "drama",
+        "total_scenes": 2,
+        "dominant_emotion": "neutral",
+        "emotion_distribution": {
+            "neutral": 1,
+            "anger": 1
+        }
+    },
+    "script_data": [
+        {
+            "scene_id": "scene_001",
+            "timing": {
+                "start_time": 0.0,
+                "end_time": 21.2,
+                "duration": 21.2
+            },
+            "content": {
+                "text": "INT. BEDROOM \u2013 LATER\n\n[00:05:00]\n\nLow lamp light. Warm but fragile.\n\nThey lie together.\n\nKABIR\nDo you ever think about how we started?\n\nANAYA\nToo much.\n\nKABIR\nI fell because you looked honest.\n\nA pause.\n\nANAYA\nAnd now?\n\nKABIR\nNow I trust you.\n\nHer eyes flicker \u2014 just for a second.\n\nCUT TO:",
+                "word_count": 53,
+                "type": "screenplay_scene",
+                "header": "INT. BEDROOM \u2013 LATER",
+                "location": "BEDROOM \u2013 LATER"
+            },
+            "emotion": {
+                "primary_emotion": "neutral",
+                "confidence": 0.563,
+                "secondary_emotions": [
+                    {
+                        "emotion": "fear",
+                        "score": 0.148
+                    },
+                    {
+                        "emotion": "disgust",
+                        "score": 0.088
+                    }
+                ],
+                "sentiment_score": 0.563,
+                "theatrical_context": {
+                    "predicted_theme": "neutral",
+                    "confidence": 0.563
+                },
+                "primary": "neutral",
+                "primary_confidence": 0.563,
+                "secondary": "fear",
+                "secondary_confidence": 0.148,
+                "accent": "disgust",
+                "accent_confidence": 0.088,
+                "scene_id": "compat"
+            },
+            "doc_type": "screenplay"
+        },
+        {
+            "scene_id": "scene_002",
+            "timing": {
+                "start_time": 23.2,
+                "end_time": 43.6,
+                "duration": 20.4
+            },
+            "content": {
+                "text": "INT. APARTMENT \u2013 STORMY NIGHT\n\n[00:25:30]\n\nLights flicker. Thunder outside.\n\nAnaya enters to find Kabir waiting.\n\nFiles spread across the table.\n\nKABIR\nYou weren\u2019t just cheating.\n\nShe doesn\u2019t deny it.\n\nANAYA\nI was protecting myself.\n\nKABIR\nBy destroying the truth?\n\nANAYA\nTruth doesn\u2019t pay rent. Love doesn\u2019t buy safety.\n\nCUT TO:",
+                "word_count": 51,
+                "type": "screenplay_scene",
+                "header": "INT. APARTMENT \u2013 STORMY NIGHT",
+                "location": "APARTMENT \u2013 STORMY NIGHT"
+            },
+            "emotion": {
+                "primary_emotion": "anger",
+                "confidence": 0.406,
+                "secondary_emotions": [
+                    {
+                        "emotion": "neutral",
+                        "score": 0.328
+                    },
+                    {
+                        "emotion": "fear",
+                        "score": 0.092
+                    }
+                ],
+                "sentiment_score": 0.406,
+                "theatrical_context": {
+                    "predicted_theme": "anger",
+                    "confidence": 0.406
+                },
+                "primary": "anger",
+                "primary_confidence": 0.406,
+                "secondary": "neutral",
+                "secondary_confidence": 0.328,
+                "accent": "fear",
+                "accent_confidence": 0.092,
+                "scene_id": "compat"
+            },
+            "doc_type": "screenplay"
+        }
+    ],
+    "lighting_instructions": [
+        {
+            "scene_id": "INT. BEDROOM \u2013 LATER",
+            "emotion": "neutral",
+            "time_window": {
+                "start_time": 0.0,
+                "end_time": 21.2
+            },
+            "groups": [
+                {
+                    "group_id": "front_wash",
+                    "parameters": {
+                        "intensity": 70.0,
+                        "color": "warm_white",
+                        "focus_area": "center_stage",
+                        "color_temperature": "neutral"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration_seconds": 2.0
+                    }
+                },
+                {
+                    "group_id": "back_light",
+                    "parameters": {
+                        "intensity": 40.0,
+                        "color": "white",
+                        "focus_area": null,
+                        "color_temperature": "neutral"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration_seconds": 2.0
+                    }
+                },
+                {
+                    "group_id": "side_fill",
+                    "parameters": {
+                        "intensity": 30.0,
+                        "color": "warm_white",
+                        "focus_area": null,
+                        "color_temperature": "neutral"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration_seconds": 2.0
+                    }
+                },
+                {
+                    "group_id": "ambient",
+                    "parameters": {
+                        "intensity": 60.0,
+                        "color": "warm_white",
+                        "focus_area": "full_stage",
+                        "color_temperature": "neutral"
+                    },
+                    "transition": {
+                        "type": "fade",
+                        "duration_seconds": 2.0
+                    }
+                }
+            ],
+            "metadata": {
+                "generation_method": "llm",
+                "rlhf_applied": 5
+            }
+        },
+        {
+            "scene_id": "scene_002",
+            "emotion": "anger",
+            "time_window": {
+                "start_time": 23.2,
+                "end_time": 43.6
+            },
+            "groups": [
+                {
+                    "group_id": "front_wash",
+                    "parameters": {
+                        "intensity": 85.0,
+                        "color": "red",
+                        "focus_area": "full_stage",
+                        "color_temperature": "warm"
+                    },
+                    "transition": {
+                        "type": "cut",
+                        "duration_seconds": 0.5
+                    }
+                },
+                {
+                    "group_id": "back_light",
+                    "parameters": {
+                        "intensity": 85.0,
+                        "color": "deep_red",
+                        "focus_area": "full_stage",
+                        "color_temperature": "warm"
+                    },
+                    "transition": {
+                        "type": "cut",
+                        "duration_seconds": 0.5
+                    }
+                },
+                {
+                    "group_id": "side_fill",
+                    "parameters": {
+                        "intensity": 85.0,
+                        "color": "deep_red",
+                        "focus_area": "center_stage",
+                        "color_temperature": "warm"
+                    },
+                    "transition": {
+                        "type": "cut",
+                        "duration_seconds": 0.5
+                    }
+                },
+                {
+                    "group_id": "specials",
+                    "parameters": {
+                        "intensity": 85.0,
+                        "color": "orange",
+                        "focus_area": "center_stage",
+                        "color_temperature": "warm"
+                    },
+                    "transition": {
+                        "type": "cut",
+                        "duration_seconds": 0.5
+                    }
+                },
+                {
+                    "group_id": "ambient",
+                    "parameters": {
+                        "intensity": 85.0,
+                        "color": "orange",
+                        "focus_area": null,
+                        "color_temperature": "warm"
+                    },
+                    "transition": {
+                        "type": "cut",
+                        "duration_seconds": 0.5
+                    }
+                }
+            ],
+            "metadata": {
+                "generation_method": "rule_based"
+            }
+        }
+    ]
+}

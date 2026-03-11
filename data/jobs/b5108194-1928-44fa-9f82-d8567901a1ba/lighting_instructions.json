@@ -1,0 +1,2886 @@
+{
+  "metadata": {
+    "source_file": "Script-13.pdf",
+    "doc_type": "raw_drama",
+    "genre": "adventure",
+    "total_scenes": 24,
+    "dominant_emotion": "surprise",
+    "emotion_distribution": {
+      "fear": 5,
+      "surprise": 14,
+      "neutral": 3,
+      "disgust": 1,
+      "anger": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 160.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "1 This text is made available to read free of charge. However, an authorization must be requested from the author prior to any public performance, whether by professional or amateur companies. To get in touch with Jean-Pierre Martinez and to request an authorization to represent one of his works: https://comediatheque.net Is there a pilot in the audience? Jean-Pierre Martinez Translation by the author On a plane, the director of a sensationalist magazine coincidentally meets an embalmer, who claims to have a bombshell news, making her dream of a record- braking circulation. Things get complicated because this encounter takes place on a Paris-Tokyo flight: twelve hours in confinement with no way to communicate with the outside world. Holding a scoop but being unable to publish it... A true Japanese torture! Depending on the country where this play will be performed, the identity of the deceased \"star\" mentioned in the text may be changed, as well as the geographical references, so that the comedy of the situation is better understood by the local audience. Characters Him Her \u00a9 La Com\u00e9diath\u00e8que 2 PROLOGUE ( optional) The lights go out (therefore, the silence), as if the show were about to begin. But nothing happens for a long time, long enough for people to feel uncomfortable. The light comes back on in a corner of the room, where a man and a woman who do not know each other are sitting next to each other. The man nervously consults Times Out. He looks at his watch. The woman dips into a large popcorn cone. She eats compulsively and not very discreetly. Him \u2013 Excuse me, do you know what's going on? Her (with a gesture of ignorance ) \u2013 We're waiting for the actors... Him \u2013 Until now, only the spectators arrived late to the theatre. If the actors start doing it too... Silence. Her (worried) \u2013 Can I take a look at your Times Out. In case the show is canceled... He hands her hisTimes Out. She doesn't know how to take it with her giant popcorn cone in her hands. Her (offering him her popcorn ) \u2013 Do you want some? He hesitates, but accepts. She leafs through the Guide but seems to get lost in it. He eats a popcorn and grimaces. Her (giving up) \u2013 Sorry, I'm not used to Times Out... Him (disgusted) \u2013 I don't like popcorn much either...",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.644,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.127
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.124
+          }
+        ],
+        "sentiment_score": 0.644,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.644
+        },
+        "primary": "fear",
+        "primary_confidence": 0.644,
+        "secondary": "neutral",
+        "secondary_confidence": 0.127,
+        "accent": "disgust",
+        "accent_confidence": 0.124,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 162.0,
+        "end_time": 322.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "She returns his Times Out and takes back her popcorn. Her \u2013 Anyway, it's too late for a late-night movie... Too bad, I'd rather wait. Him \u2013 I hope it's worth it... Her (worried) \u2013 Are the reviews bad? Him (looking behind him ) \u2013 There aren't many people in the room... Her \u2013 You can't trust the reviews, right... Sometimes in theatre, we see such things! Praised by critics. It lasts for hours. Nobody dares say they're bored for fear of looking like an idiot. Afterward, they'll say: proof that it's a profound play, you didn't understand anything. Him \u2013 With comedy at least, normal people sometimes have good surprises. Even when the critics found it dreary... it's very hard to make a critic laugh. Her \u2013 Are you a critic? Him \u2013 Aren't you? 3 Her \u2013 Actress... Him \u2013 Ah, yes... Her \u2013 Apart from the actors and critics, no one goes to the theatre anymore. One spectator out of two is an actor. We'll end up not knowing where the stage is... Him \u2013 Do you know the play? Her \u2013 No... But I have a friend who's in it. I come to see her... to make her happy. Him \u2013 Is she a famous actress? Her \u2013 She mostly does theatre... Him \u2013 In that case... ( pauses, suspicious ) Are you really an actress? Her (worried) \u2013 Do you think I act badly? Him \u2013 No, no... You act very well. Her \u2013 Actress at night and... museum guard during the day. Him \u2013 Given the modernity of the repertoire, it's a bit of the same profession... Silence. Her \u2013 I'm out of popcorn. Him (sighing) \u2013 We might be starving before the play begins. Her \u2013 Yes, it seems like they have forgotten about us... Him \u2013 In a few years, a cleaning lady will find our two skeletons next to each other, hand in hand. Her \u2013 Hand in hand...? Him \u2013 Seeing the end coming, we might give in to a burst of tenderness. We're a bit like two castaways on a deserted island, aren't we? We don't have much choice... Her \u2013 Do you think they'll refund us? Him (surprised) \u2013 Did you pay? Her \u2013 No... Him \u2013 In that case... They stand up to leave. Him \u2013 We can always come back another day... Her \u2013 The play",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.803,
+        "secondary_emotions": [
+          {
+            "emotion": "sadness",
+            "score": 0.052
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.051
+          }
+        ],
+        "sentiment_score": 0.803,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.803
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.803,
+        "secondary": "sadness",
+        "secondary_confidence": 0.052,
+        "accent": "neutral",
+        "accent_confidence": 0.051,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 324.0,
+        "end_time": 484.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "probably won't be on anymore. Considering its immense success... Him \u2013 We'll go see another one. Her \u2013 Is that an invitation...? 4 Him (pulling out a card ) \u2013 For two people. Her \u2013 I hope this time it will start on time... What's the play about...? Him (reading the card ) \u2013 Is there any pilot among the audience? They exchange a skeptical look. Her \u2013 It sounds a bit stupid, doesn't it? Him \u2013 Don't forget to turn on your phone... Her \u2013 Oh yeah, that's right, I had forgotten to turn it off again. They leave. He puts his hand on her shoulder, she recoils slightly, but does not break away. Black 5 ACT 1 Her and him are sitting side by side on a business class airplane. Realism in the setting is not necessarily sought, fully embracing the theatrical convention. The curtain separating the audience from the stage represents the one separating business class from economy class. Her, a businesswoman type, dozes off with headphones on. Him, rather uncultured, is wide awake and sipping champagne. The pilot's voice can be heard over a loudspeaker. Pilot \u2013 Good morning, everyone, this is your captain speaking. Thank you for choosing our company for this Paris-Tokyo flight, with no intermission and no stopovers. We are currently flying at an altitude of approximately 30,000 feet. This flight should take about a dozen hours if everything goes well. Double that if we face headwinds. I have some bad news to share with you. Our internet box has just died. Therefore, we won't be able to offer you Wi-Fi during the duration of this flight, and you won't be able to make phone calls either. To all mobile and social media addicts, I hope you haven't forgotten your tranquillisers... Please accept our apologies for this inconvenience, and I still wish you a very pleasant trip with us. While the man remains completely indifferent and continues to display a broad smile, the woman's face has fallen upon hearing this message. She takes off her headphones, takes out her phone, and confirms that there is indeed no network. Her (to herself) - Oh, this can't be true... It's a nightmare... Silence. Him \u2013 Do you know at what altitude we are? Her \u2013 Uh... No... And I'm not sure I want to know. Him \u2013 The pilot just said it! Her (surprised) \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.457,
+        "secondary_emotions": [
+          {
+            "emotion": "fear",
+            "score": 0.164
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.126
+          }
+        ],
+        "sentiment_score": 0.457,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.457
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.457,
+        "secondary": "fear",
+        "secondary_confidence": 0.164,
+        "accent": "surprise",
+        "accent_confidence": 0.126,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 486.0,
+        "end_time": 646.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "Sorry, I didn't listen to that part of the message... Him \u2013 What do you think? Her \u2013 I would say... eight thousand. Him \u2013 Thirty thousand feet! Her \u2013 Thirty thousand feet...? Him \u2013 That's about ten thousand meters. Can you believe it? Ten kilometres! Her \u2013 Yes, I got it... Ten thousand meters... Ten kilometres... Him \u2013 The distance between the centre of Paris and Saint-Denis, but vertically! Her \u2013 You live in Saint-Denis... Him \u2013 How do you know that? 6 Her \u2013 An intuition... Him \u2013 You'll laugh, but it's my first time on a plane. Her \u2013 Hun, hun... Him \u2013 I won a contest... A trip for two to Tokyo! Her \u2013 For a first flight, you hit the jackpot. It's just on the opposite side of the world. I hope you don't have a fear of flying, like I do... Him \u2013 Well, I didn't do anything extraordinary. It was a lottery... Her \u2013 Ah, yes... Him \u2013 In business class, can you imagine? So I don't even know what it's like in economy class... Her \u2013 Yeah... He nods towards the cabin. Him \u2013 Do you know what it's like down there? Her \u2013 In Japan? Him \u2013 In economy class! Her \u2013 Ah! Uh... Him \u2013 I imagine they don't get champagne there. Her \u2013 Certainly not, no... And they probably don't even get water... Him \u2013 Damn! And since they take away all liquids before boarding in case they're explosives... Can you imagine? Twelve hours of just sitting there without drinking anything! Her \u2013 Sitting? Are you kidding? They don't even have enough seats for everyone to sit at the same time in there... No, most people travel standing up, like on the subway... Holding onto a bar if they're lucky. And they take turns sitting... Him \u2013 Seriously? Her \u2013 That's why the flight attendants hide them behind the curtain... It is to spare us such a sad sight... However, we know they are there... A moment ago, I thought I heard a baby crying... Of thirst, to doubt... Him \u2013 But that's terrible! A moment during which she looks at him, surprised by his gullibility. Her \u2013 No, but I'm kidding, there... Him \u2013 Ah, I see... 7 Her \u2013 Economy class isn't that different from business class, you know. The seats might be a little less wide,",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.824,
+        "secondary_emotions": [
+          {
+            "emotion": "fear",
+            "score": 0.064
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.053
+          }
+        ],
+        "sentiment_score": 0.824,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.824
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.824,
+        "secondary": "fear",
+        "secondary_confidence": 0.064,
+        "accent": "disgust",
+        "accent_confidence": 0.053,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 648.0,
+        "end_time": 808.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "but not by much. And champagne is only available for an additional charge. Him \u2013 Then why are you traveling business class? Her \u2013 Why? Him \u2013 You didn't even have champagne! Her \u2013 Yeah, that's silly. To put it mildly usually, in business class, as you call it, it's a bit quieter... Him \u2013 You mean that usually, you don't run into people like me... Her \u2013 Sorry, that's not what I meant... It's my assistant who takes care of my flight tickets. I guess she's never thought of booking me a seat in economy class, just for a change... Him \u2013 No, no, it's me... I don't know why... I imagined it was like on the Titanic... Her \u2013 The Titanic? Him \u2013 Have you seen the movie? Her \u2013 Yes, like everyone else... Let's just say I try not to think about it too much when I'm flying to Tokyo. Him \u2013 So you're going to Tokyo too? Her \u2013 It's a non-stop flight, I think everyone's going there, right? Unless part of the plane is going directly to Bangkok or Singapore... maybe in economy class... Him \u2013 Right, I'm stupid... This isn't the train, where sometimes there's a part of it that... Although, I don't know, I've never taken an high-speed train either... Her \u2013 You're not a big traveler, I understand... But you have taken a regular train, right? Or, I don't know, the subway? Him \u2013 Oh, yeah, definitely! Every morning to go work from Saint-Denis, actually. Her \u2013 But what was the point of bringing up the Titanic, apart from making me nervous? Him \u2013 You will remember, on the Titanic, he was traveling in third class! And she was in first! And apparently, at that time, there was a huge social difference! From what we see in the movie anyway. Her \u2013 Maybe that's why they eliminated third class on airplanes and there's only one class on the subway... Him \u2013 The democratisation of transportation... Her \u2013 You could almost say it is the end of class struggle. 8 Him \u2013 It's funny, now that I think about it, he also won his ticket in a game... Her \u2013 He? Him \u2013 Di Caprio! He won the ticket to America by playing cards! And that's why he was able to prevent Kate Winslet from committing suicide! Her \u2013 The proletarian arriviste and",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.839,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.065
+          },
+          {
+            "emotion": "anger",
+            "score": 0.035
+          }
+        ],
+        "sentiment_score": 0.839,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.839
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.839,
+        "secondary": "neutral",
+        "secondary_confidence": 0.065,
+        "accent": "anger",
+        "accent_confidence": 0.035,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 810.0,
+        "end_time": 970.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "the depressed billionaire. Another way to put an end to class struggle... Him \u2013 The beginning of a great love story, though... Her \u2013 Great... which ends rather badly, anyway. Him \u2013 Oh, really? Their love story ends badly? Her \u2013 Even if we don't remember all the details of the movie... A love story that begins on the Titanic can hardly end well, can it...? Him \u2013 We've been flying for two hours now. We should be flying over Siberia soon, right? Her \u2013 Mmm... Him \u2013 Ten kilometres above ground level... Did you listen carefully to the safety instructions earlier? I'm not sure I understood everything... Her \u2013 Anyway, in case of a nosedive over Siberia, you know... I don't think a simple waist float would save us... Him \u2013 Are you sure you don't want a glass of champagne? Who knows, it might be the last drink of your life... Her \u2013 No, thank you. Him \u2013 It's not too late, you know? I think if you press this button here, we can summon the flight attendant... Her \u2013 I took a little relaxant before boarding. I'd rather not mix things up... Him \u2013 It's the first time in my life that I could just push a button and have a pretty woman appear, ready to fulfill all my desires for free. I confess I'm quite tempted to do it. Maybe I'm already in heaven... Her \u2013 Times have changed, you know... Now there are also women as passengers in business class. And sometimes, it's a male flight attendant who comes when you press the button... Him \u2013 As long as he brings us some champagne. Her \u2013 I'm sorry, but I really can't join you. I need to have a clear mind when I arrive in Tokyo. And with Xanax on top of jet lag, it's already a challenge... 9 Him \u2013 Ah, yes, jet lag! That's new to me too... The farthest I've ever been was to La Bourboule on my honeymoon, so of course... I don't remember that anymore. In Tokyo, is it 12 hours ahead? Her \u2013 10 hours. Him \u2013 So it's like we're losing ten hours of our lives! It's crazy, if you think about it! Her \u2013 Well, yes... Him \u2013 But where do we spend those ten hours? In the Twilight Zone? Her \u2013 The Twilight Zone...? Him \u2013",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.762,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.086
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.056
+          }
+        ],
+        "sentiment_score": 0.762,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.762
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.762,
+        "secondary": "disgust",
+        "secondary_confidence": 0.086,
+        "accent": "neutral",
+        "accent_confidence": 0.056,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 972.0,
+        "end_time": 1132.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "That old American series, you know... In black and white... He hums the theme tune from the Twilight Zone. Him \u2013 Tin lin lin lin, tin lin lin lin, tin lin lin lin... She starts to get a little worried. Her \u2013 Yes, yes, I see... Him \u2013 Well, there's an episode that takes place on a plane... Her \u2013 After Titanic, the Twilight Zone... You really decided to scare me... Him \u2013 Sorry... I won't tell you what happens in that episode, I promise... But I can tell you that it was very scary, indeed... Her \u2013 But tell me, did you say you won a trip to Tokyo for two people? Him \u2013 Yes. Her \u2013 What did you do with your wife? Is she standing in economy class? Or has she already disappeared into the Twilight Zone? Him \u2013 My wife passed away. Her \u2013 I'm really sorry for your loss... Him \u2013 In fact, it was my wife who signed up for the contest... She died shortly after winning. Her \u2013 Due to the excitement, perhaps...? Him \u2013 We're not sure exactly. Her \u2013 You don't have to tell me... Him \u2013 She worked for a frozen food wholesaler... When they called her on her mobile to tell her she had won, she was busy stacking pallets of minced steak in the cold room. It was a Friday afternoon. Her colleagues didn't notice anything. She probably felt dizzy... 10 Her \u2013 That's dreadful... Him \u2013 I had gone to my mother's in Clermont-Ferrand. I go there twice a month. I wasn't worried either. When they found her on Monday morning, she was as stiff as a board. Her \u2013 Oh my God! Him \u2013 She has still the mobile phone in her hand... I even thought about keeping her like that, in case she could be revived one day. Her \u2013 When medicine would have made progress... Him \u2013 But... since my wife was quite corpulent, it would have been impossible to fit her into our freezer. And then there would have been a lot of administrative procedures to go through. I'm a bit in the game and I'm not one of those who likes to take work home... Her \u2013 Do you work in the appliance industry? Him \u2013 And then I thought it wasn't doing her a favour. Can you imagine our plane crashing",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.714,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.181
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.042
+          }
+        ],
+        "sentiment_score": 0.714,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.714
+        },
+        "primary": "fear",
+        "primary_confidence": 0.714,
+        "secondary": "surprise",
+        "secondary_confidence": 0.181,
+        "accent": "neutral",
+        "accent_confidence": 0.042,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 1134.0,
+        "end_time": 1294.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "in the north of Siberia, being trapped in the ice, and then being defrosted in two or three hundred years later? Her \u2013 Not really... I think I'll take another Xanax... She swallows a pill. Him \u2013 And that's how I ended up in business class. Her \u2013 Just like that? Him \u2013 Well, since I was traveling alone now, of course. You can imagine that in such a short time, finding someone to replace my wife... So instead of two economy class tickets, they offered me a business class ticket. Her \u2013 You're not kidding me, are you? Like I did earlier with economy class? Him \u2013 I wouldn't joke about that, believe me... She was still my wife after all... Her \u2013 I'm sorry, but you don't seem very... Him \u2013 Affected...? Listen, I'll let you in on a secret: my wife and I were already a bit at odds for a few years... You can't say she was a very... warm person. It's strange to say that, considering she ended up frozen between two piles of frozen steaks, isn't it? Do you think the way you die has a meaning? I mean... in relation to the way you've lived? Her \u2013 No idea... Him \u2013 Anyway, I'm sorry she's dead, of course, but... I can't say I'm devastated, I admit. So why pretend, huh? Her \u2013 Life goes on. 11 Him \u2013 And this baptism of air, it changes my mind a little. Even though it's true that originally, it was with her that I was supposed to go to Tokyo... Her \u2013 Especially since she was the one who won that trip. Him \u2013 Yes. Her \u2013 And... what was this contest? Him \u2013 Oh, just a checkbox in a magazine. You just had to send back the participation coupon for the draw. And it had to fall on her... Her \u2013 A magazine, you say? Him \u2013 A sensationalist magazine, yes. Her \u2013 Which magazine? He shows her the cover of the magazine lying on the floor at his feet. Him \u2013 Here, the one you're reading, actually! Her \u2013 Ah... Him \u2013 Don't tell me you also won a trip to Tokyo, and your husband had a heart attack upon hearing the news! Her \u2013 Um... no... Him \u2013 No, because then we could really talk about a sign from destiny. Proof that we",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.525,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.164
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.112
+          }
+        ],
+        "sentiment_score": 0.525,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.525
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.525,
+        "secondary": "neutral",
+        "secondary_confidence": 0.164,
+        "accent": "disgust",
+        "accent_confidence": 0.112,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1296.0,
+        "end_time": 1456.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "were meant to meet... Her \u2013 Actually, it's... I organised that contest. Well, my newspaper did... Him \u2013 Your newspaper...? Her \u2013 Sensational... I'm the director... Him \u2013 No? That's incredible! Sensational is you? That's... sensational. Her \u2013 I'm really sorry about your wife... So, I feel a bit responsible... Him \u2013 It's true that without this contest, maybe my wife would be sitting here next to me. (Coming forward to her ) Instead of you... Her (defensive) \u2013 Yes, well... On the other hand, without this contest, you would never have taken this plane to Tokyo... Him \u2013 You're right... And even if my wife hadn't been frozen when she found out she won, we would be sitting behind that curtain. In economy class! Instead, I'm sitting here next to you in business class! Her \u2013 Let's just say it's destiny then... Him \u2013 Still, it's a strange coincidence, isn't it? 12 Her \u2013 Strange, I don't know if that's the word, but... Him \u2013 And what are you going to do in Japan then? Since you're not on vacation! Her \u2013Sensational is creating a Japanese edition of the magazine. I'm going to Tokyo for the launch of the first issue. It's very important for us. We've invested a lot in this project. That's also why I'm so nervous... Him (picking up the magazine ) \u2013Sensational... So, you deal with gossip and women's beauty around the world. Her \u2013 That's more or less the editorial line of our magazine, indeed. Him \u2013 Well, believe it or not, you and I do similar work. Her \u2013 Oh, really? Do you also deal with gossip and the beauty of women? What do you do, if I may ask? Are you a hairdresser? Him \u2013 Among other things, yes... I do make-up, nails, and hair for women. But only when they're dead... Her \u2013 Excuse me? Him \u2013 I'm an embalmer. Her \u2013 I see... Him \u2013 So I work to make women beautiful. Well, more like giving them a human appearance... And as for the gossip of the world, I assure you, I find out about a celebrity's death before the press does. Her \u2013 It sounds interesting... Him \u2013 Naturally, when someone dies, famous or not, after the police, we're the first ones on the scene... We know when, where, how, with whom... Her \u2013 I see... I never would",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.874,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.038
+          },
+          {
+            "emotion": "fear",
+            "score": 0.026
+          }
+        ],
+        "sentiment_score": 0.874,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.874
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.874,
+        "secondary": "neutral",
+        "secondary_confidence": 0.038,
+        "accent": "fear",
+        "accent_confidence": 0.026,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1458.0,
+        "end_time": 1618.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "have thought to contact a funeral home for information, but I assure you it's tempting... Can you give me a business card? Him \u2013 But be careful, we're bound by professional secrecy! Like doctors, priests, or prostitutes. Her \u2013 Of course... But you know that, as journalists, we have a duty to keep our sources of information confidential. Him \u2013 It's still amazing that we're sitting next to each other on this plane, isn't it? Do you believe in destiny? Her \u2013 Destiny... That's what superstitious people call coincidence, isn't it? Him \u2013 That's very beautiful what you just said... It sounds like a Japanese proverb... Her \u2013 Yes... Sometimes, under Xanax, I invent a few of them... 13 Him \u2013 I really would like to call my mother and tell her who I'm sitting next to. She's a very loyal reader of Sensational, you know... Do you mind saying a few words to her? Otherwise, she'll never believe me... He takes out his mobile phone. Her \u2013 I'd be delighted... But I'm afraid you'll have to wait until you get to Tokyo to call your mum. Him \u2013 And why's that? Her \u2013 Because the flight attendant said that the airplane's wifi network was down Him \u2013 Oh, really...? It's really the Twilight Zone... He puts away his phone. Her \u2013 Twelve hours without calling or sending a WhatsApp... Believe me, for many people, it's worse than twelve hours without eating or drinking... Him \u2013 Yes... Especially for the director of a sensationalist magazine, I imagine... So if you learned something sensational, right now, you wouldn't be able to tell anyone... Her \u2013 A sensational piece of news? Him \u2013 A scoop, as they say in your line of work. Her \u2013 At the same time, I don't see what kind of scoop one could learn on a plane completely cut off from the world. Him \u2013 Ah... Who knows... Her \u2013 Except if the pilot announces that we've lost an engine and we're about to crash in the middle of Siberia, of course. Him (mysteriously) \u2013 Hun, hun... Her \u2013 Of course, that wouldn't be news unless there were one or two celebrities on board. Him \u2013 And who's to say there aren't? Her \u2013 You intrigue me... Him \u2013 What if I told you something that no one else knows yet... Her \u2013 You? Him \u2013 I",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.641,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.128
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.106
+          }
+        ],
+        "sentiment_score": 0.641,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.641
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.641,
+        "secondary": "neutral",
+        "secondary_confidence": 0.128,
+        "accent": "disgust",
+        "accent_confidence": 0.106,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1620.0,
+        "end_time": 1780.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "told you... There are some things that a funeral director is among the first to know... Her \u2013 Well, go ahead... Him \u2013 Do you promise me that there's no way for you to get this scoop off this plane until it lands in Tokyo? 14 Her \u2013 Unfortunately... Not even if it's the scoop of the century... Him \u2013 Believe me when I tell you it's mind-blowing... Something that won't hit the media for another 12 hours. Her \u2013 I have to admit, you've piqued my curiosity... I'm all ears... Him \u2013 Hold on tight: Mireille Mathieu is no longer with us. Her \u2013 Mireille Mathieu? Him \u2013 Mireille Mathieu. Her \u2013 That's your scoop? Him \u2013 Yes, Mireille Mathieu! Her \u2013 But she hasn't sung in over thirty years! Him \u2013 In France, yes. Her \u2013 Well, yes, in France. Him \u2013 She still sang at Place de la Concorde on the day of Sarkozy's election. Her \u2013 The death of Mireille Mathieu... If we put it on the cover of Sensational, our readers will be very surprised. The younger ones will wonder who died, and the older ones will say, \"Oh really, I thought she was already dead.\" Him \u2013 Wait, do you know what Mireille Mathieu represents in Japan? Her \u2013 What? Him \u2013 She is simply the most famous French celebrity among the Japanese. They worship her like a cult figure. Mireille Mathieu, for the Japanese, is like, I don't know... Kim Jong-un for the North Koreans. Her \u2013 Maybe because she looks a little like him... It's true that with the lock of hair and sunglasses, she looks a little like him... Him \u2013 You don't realize! When the Japanese learn of Mireille Mathieu's passing, they will declare three days of national mourning! She thinks and seems to realize the importance of the news. Her \u2013 It's true that she's very popular there... Much more than in France, anyway. Him \u2013 Mireille Mathieu! It's the only thing France managed to export to Japan! Can you imagine the scoop for the launch of the Japanese version of your magazine Sensational! Her \u2013 You're right... It would be huge... An extraordinary publicity stunt... And totally free... A real scoop... A Japanese scoop, anyway. Him \u2013 A worldwide scoop, you mean. Because she's also very popular in Russia. Even in Siberia! 15 Her \u2013 And are you",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.888,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.048
+          },
+          {
+            "emotion": "anger",
+            "score": 0.022
+          }
+        ],
+        "sentiment_score": 0.888,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.888
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.888,
+        "secondary": "neutral",
+        "secondary_confidence": 0.048,
+        "accent": "anger",
+        "accent_confidence": 0.022,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1782.0,
+        "end_time": 1942.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "sure she's dead? Him \u2013 I washed her myself before cremating her. Believe me, I'm in a good position to know that she's really dead. Her \u2013 And why would we hide her death, then? Him \u2013 Just for a few hours. It's very common, you know. Just enough time for the family to mourn quietly. And to organize the funeral without any trouble. To figure out whether to bury her at the Pantheon or... Her \u2013 Or...? Him \u2013 That's the second scoop. Her \u2013 Mireille Mathieu will be buried at the Pantheon, next to Jean Moulin? Him \u2013 No, actually. To thank the loyal Japanese public for all these years, when the French public had already buried her, she expressly requested in her will that her ashes be scattered above Mount Fukushima. Her \u2013 You mean Mount Fujiyama, I imagine... So we're going to transfer her ashes to Japan? Him \u2013 And that's where I come to the third and final scoop... Her \u2013 Oh, because it's not over...? Him \u2013 I advise you to buckle your seat belt so you don't jump to the ceiling, because this is heavy... Super heavy... Her \u2013 What now? Him \u2013 She's on this plane! Her \u2013 Who? Him \u2013 Mireille Mathieu! Her \u2013 I thought she was dead! I need to stop taking Xanax... Him \u2013 Her ashes! Her \u2013 No...? Him \u2013 It's probably also to prevent her French fans from opposing this transfer that her manager decided to keep the secret until the urn arrives in Japan. Her \u2013 The urn? What urn? Him \u2013 Are you kidding me? The urn containing Mireille Mathieu's ashes! If her Fan Club had known that we were transferring her ashes to Japan, there would have surely been some riots! I can already imagine the most enraged fans lying on the runway to prevent the plane from taking off... 16 Her \u2013 I see... Like those trains that transport nuclear waste and are blocked by environmentalists... Him \u2013 Mireille Mathieu is still part of the national heritage! It's a historical monument! Maybe in ruins, but a historical monument! Her \u2013 Of course... Him \u2013 On the other hand, can you imagine the scenes of collective hysteria at Tokyo airport if the Japanese knew she was on board this plane? Her \u2013 You can't be serious. Him \u2013 Her ashes are in the",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.437,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.218
+          },
+          {
+            "emotion": "fear",
+            "score": 0.127
+          }
+        ],
+        "sentiment_score": 0.437,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.437
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.437,
+        "secondary": "anger",
+        "secondary_confidence": 0.218,
+        "accent": "fear",
+        "accent_confidence": 0.127,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1944.0,
+        "end_time": 2104.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "hold of this aircraft, I'm telling you! Right there, under our feet! Her \u2013 Under our feet...? Him \u2013 On my wife's head! Her \u2013 Because your wife's body is also in the hold? Him \u2013 No... I mean, I swear on my wife's head! Her \u2013 And how did you find out she was on board this plane? Him \u2013 That was quite by chance. I had no idea she was taking the same plane as me. But when I checked in my luggage, I recognized her manager who was in line just in front of me. And above all, I recognized the package he was carrying in his hand! Her \u2013 The package? Him \u2013 The urn! I wrapped it myself. You can imagine it's quite fragile. And there's not a question of taking it as hand luggage! Her \u2013 It could end up going around the luggage carousel like an ordinary suitcase. Him \u2013 Even though she's traveling incognito, I think they take special precautions... Her \u2013 I see... Like when an organ is transported in a refrigerator for an urgent transplant. For example, a heart or a kidney... Him \u2013 Yes, well, but there are ashes... It's not about frozen liver fillets or steaks... She seems to be slowly digesting so much information. Her \u2013 Ah, yes, it's quite a scoop, indeed. Him \u2013 Sure, for the first issue of your magazine in Japan, it would be a hit... 130 million inhabitants, can you imagine? Twice as many as in France... Her \u2013 It would be a collector's issue, for sure. Something that only happens once in the life of a magazine. To release such a bombshell in the first issue of Sensational in Japan! 17 Him \u2013 Unfortunately, no phone, no scoop... You have no way of transmitting the information to your editorial team... Not until we arrive in Tokyo, in about ten hours... Her \u2013 By that time, the magazine will already be printed. They must be about to put it into the machines! It's now that I should be able to reach them... In ten hours, it'll be too late! Him \u2013 And in about ten hours, it probably won't be a scoop anymore... Her \u2013 Do you think so? Him \u2013 You can't keep something like this a secret for very long... She seems completely depressed. Her \u2013 There has to be",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.731,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.086
+          },
+          {
+            "emotion": "anger",
+            "score": 0.081
+          }
+        ],
+        "sentiment_score": 0.731,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.731
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.731,
+        "secondary": "disgust",
+        "secondary_confidence": 0.086,
+        "accent": "anger",
+        "accent_confidence": 0.081,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 2106.0,
+        "end_time": 2266.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "a way to let them know. Him \u2013 At the same time, I told you because I was sure it wouldn't leave here... I'm bound by professional secrecy. I could lose my job... Her \u2013 Mmm... Him (standing up) \u2013 Well, excuse me, but I need to go to the toilet. Her \u2013 Mm-hmm... Him (pointing to the back of the room ) \u2013 I'll go to the ones at the back there, so I can see what economy class looks like on the way... He stands up. Her \u2013 How is the idiot who broke the Wi-Fi on this plane? Him \u2013 You can't use phones in theatres either. And sometimes it lasts for hours... He crosses the room, observing the rows of spectators with a curious and somewhat mocking expression as he passes. He then addresses the audience, which may be partially modified or supplemented by improvisation depending on the inspiration of the actor and the reactions of the audience. Him \u2013 Everyone managed to sit down in the end... ( To a spectator) Are you alright? Not too cramped? ( To another) Don't worry, I'm just passing through. I'm going to the toilet. (To a third) Are you allowed to use them, or...? ( To a fourth) I hope you took precautions before boarding... ( To a fifth) Oh, you'll need to remember to fasten your belt. No, not the seatbelt, your own belt... ( To a sixth) Oh, it's your fly... He exits. Her (looking crazy) \u2013 Mireille Mathieu... But this is insane! ( She swallows another pill) I don't think today was the right day to stop taking antidepressants... Blackout. 18 ACT 2 The lights come back on as a flight attendant's voice is heard over a loudspeaker. Flight attendant (extremely politely ) \u2013 We will soon be crossing a turbulence zone. All passengers are requested to return to their seats, fasten their seatbelts, and remain seated until the light signal goes off. Thank you for your understanding. He crosses the room again, pretending to sway a bit. He holds a champagne glass in his hand, taunting the spectators with it. Flight attendant (sternly) \u2013 Hey, you over there, do you understand? Go back to your seat and shut up, alright! He hurries along, still stumbling a bit due to the supposed movements of the aircraft, and spills a bit of the precious liquid on",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.397,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.186
+          },
+          {
+            "emotion": "anger",
+            "score": 0.168
+          }
+        ],
+        "sentiment_score": 0.397,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.397
+        },
+        "primary": "neutral",
+        "primary_confidence": 0.397,
+        "secondary": "disgust",
+        "secondary_confidence": 0.186,
+        "accent": "anger",
+        "accent_confidence": 0.168,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 2268.0,
+        "end_time": 2428.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "one of the spectators. Flight attendant (again polite) \u2013 Oh... I'm sorry, sir, I didn't realize you were a business class passenger... He returns to sit next to her. Him \u2013 You were right. There's not much difference between economy class and business class. However... so crowded! Everyone packed like sardines. The seats are narrower, and there's no way to stretch your legs. Her \u2013 Mm-hmm... Him \u2013 At least I managed to bring you a glass of champagne... Well, what I could save of it. I confess it was mostly for the pleasure to cross the entire economy class with a glass of champagne in hand. Distracted, she mechanically takes the glass of champagne he offers. Her \u2013 Thank you... Him \u2013 You're still thinking about what I've told you, aren't you... I shouldn't have mentioned it... Her \u2013 There are many magazines like mine that would pay a lot of money to have a scoop like this before anyone else, you know? Him \u2013 And I gave away the news for free... Her (hysterical) \u2013 But if I can't publish it, it's worth nothing! ( Calming down) It's the worst torture you can inflict on the director of a sensationalist magazine! To have the news of the century at your fingertips and not be able to use it...! Him \u2013 Yes, I can imagine... A true Japanese torture... ( She gives him an angry look ) You should try to get some sleep... Her (hysterical again ) \u2013 Do you think I'll be able to sleep now? ( Calming down) There must be a way... 19 Him \u2013 Apart from being dropped by parachute over Siberia... hoping to land on top of a phone booth. Because I'm not sure the network coverage is excellent in these desert areas. Her \u2013 Do you think the pilot would agree to open the aircraft door in mid-flight? Him \u2013 Have you ever gone skydiving? Her \u2013 It can't be very complicated... Him \u2013 I'm not even sure there carry parachutes on board... It's silly, actually, because in a plane, above Siberia, it would be more useful in case of a malfunction than life jackets... Her \u2013 What if the plane still made a stopover? Him \u2013 Unless it's an emergency, it won't be easy to convince the pilot to land in Irkutsk or Novosibirsk. Her \u2013 I was thinking... about a",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "confidence": 0.488,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.196
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.113
+          }
+        ],
+        "sentiment_score": 0.488,
+        "theatrical_context": {
+          "predicted_theme": "disgust",
+          "confidence": 0.488
+        },
+        "primary": "disgust",
+        "primary_confidence": 0.488,
+        "secondary": "surprise",
+        "secondary_confidence": 0.196,
+        "accent": "neutral",
+        "accent_confidence": 0.113,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2430.0,
+        "end_time": 2590.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "hijacking. Him \u2013 Hijacking a plane and forcing the pilot to land, just to make a phone call? That's maybe a bit excessive, don't you think? Her \u2013 You think so too... Him \u2013 And what are you going to threaten the pilot with? With the plastic spoon the flight attendant gave you earlier to stir your coffee? She thinks. Her \u2013 Do you remember that bearded guy who hid a bomb in his shoes? Him \u2013 Yes... Her \u2013 I could tell the steward that I have a bomb in my underwear and I'm ready to blow it up if the plane doesn't land immediately. Him \u2013 Yeah... but you're not bearded. Why would the director of Sensational hijack a plane to land in Siberia? Her \u2013 I don't know... To ask for political asylum... Him \u2013 Political asylum? Her \u2013 Fiscal asylum? Him \u2013 Even if they believed you... You'd be arrested immediately upon your descent from the plane, even before you could make a phone call to your lawyer... Her \u2013 That's true... Him \u2013 Oh, the signal light is going off! Her \u2013 What if you're the terrorist? 20 Him \u2013 Sorry? Her \u2013 They arrest you, and then I can call my editorial office calmly! Him \u2013 Hey, wait a minute! I don't want to spend the next twenty years of my life in the Gulag or Guantanamo just so you can have your headline tomorrow about the disappearance of the greatest Japanese singer of all time. Her \u2013 But it's true that she has a little Japanese look, isn't it? Him \u2013 Physically, you mean? Her \u2013 The haircut, the anthracite colour, the slanted eyes... That's probably from getting pulled too much, but oh well... Hostess (coquettishly) \u2013 Mr. Jacques Dumortier is invited to present himself to one of our hostesses for his chosen service. Him (excited) \u2013 That's me! I have to leave you again for a moment. It's part of the trip I won... Her \u2013 Did you win the right to hook up with a hostess? Him \u2013 Unfortunately, I'm only invited to take a tour in the cockpit... Her \u2013 She mentioned the service of your choice... Him \u2013 I could choose between holding the pilot's handle for a moment or a pack of duty-free cigarettes. But since I quit smoking... Her \u2013 Ah, I see... Him \u2013 You organized",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.637,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.216
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.06
+          }
+        ],
+        "sentiment_score": 0.637,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.637
+        },
+        "primary": "fear",
+        "primary_confidence": 0.637,
+        "secondary": "anger",
+        "secondary_confidence": 0.216,
+        "accent": "surprise",
+        "accent_confidence": 0.06,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2592.0,
+        "end_time": 2752.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "this contest! Don't you remember? Her \u2013 Oh my God, the pilot! Him \u2013 What...? Her \u2013 He can communicate with the ground! Him \u2013 Oh, yes, of course. Her \u2013 He could send a message to the control tower. Him \u2013 What kind of message? Hello Papa Tango Charlie! Attention! Mireille Mathieu is dead! I repeat, Mireille Mathieu is dead! Her \u2013 Why not? Him \u2013 If she didn't die on the plane... The control tower might not be very interested... Her \u2013 You're right... ( She thinks) Okay, so we tell the pilot that we urgently need to contact our family in Tokyo... and we take the opportunity to pass the information to my newspaper. 21 Him \u2013 Our family? Her \u2013 I'll pretend to be your sister. Him \u2013 I don't have a sister. Her \u2013 They're not supposed to know, are they? Him \u2013 Let's say they don't... But our family in Tokyo? Neither of us really looks Asian. Her \u2013 I don't know... We tell them we were adopted together at birth by a Japanese couple. Him \u2013 Adopted together at birth? It's obvious we're not twins... Her \u2013 So what? Him \u2013 So we couldn't have been adopted together at birth! Her \u2013 Well, in that case, you go alone and tell them you absolutely need to reach your wife right away! Him \u2013 Well, my wife, they know she's dead \u2013 that's why they upgraded me to business class! Her \u2013 Are you doing this on purpose? No matter what we tell them, we'll find something! Him \u2013 I'm listening. Her \u2013 They told you that you're entitled to any service of your choice! I'll give you the number to call on my behalf in Tokyo. You act as if you're calling your mother to say hello from the cockpit, and that's it... Him \u2013 My mother lives in Clermont Ferrand. Her \u2013 I've got it! We'll play the melodrama card... Him \u2013 You're scaring me. Her \u2013 You tell them your mother has terminal cancer and went to Japan to be treated by the best specialist. You were going to see her, but the surgery had to be moved up because her condition suddenly worsened. Him \u2013 My poor mother... Her \u2013 That's perfect, you're right, we absolutely have to get their sympathy... So you're afraid your mother won't make it out",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.397,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.275
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.15
+          }
+        ],
+        "sentiment_score": 0.397,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.397
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.397,
+        "secondary": "anger",
+        "secondary_confidence": 0.275,
+        "accent": "disgust",
+        "accent_confidence": 0.15,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2754.0,
+        "end_time": 2914.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "of the operating room alive, and you want to say a final goodbye, just in case. Him \u2013 Oh my God... Her \u2013 I remind you that it's just a story. Him \u2013 You're right. 22 Her \u2013 And on the phone, you take the opportunity to also discreetly slip into the conversation that Mireille Mathieu has died. Him \u2013 Well, that... That's not going to be easy to bring up. My mother hates Mireille Mathieu. Almost as much as she hated my wife... Her \u2013 But it's not your mother you'll have on the line, it's the editor of the Japanese version of Sensational! Him \u2013 Oh, yeah, that's right... Her \u2013 Do you think you can handle it? Him \u2013 How much? Her \u2013 Sorry? Him \u2013 You said any magazine would pay a fortune to have this information before anyone else... Her \u2013 That was when I thought there was no way to get this scoop to the magazine... Him \u2013 So? Her \u2013 A thousand? ( He doesn't seem satisfied ) Ten thousand? Him \u2013 It's about the success or failure of the launch of your magazine in Japan. Her \u2013 Okay, I'll go up to fifty thousand, but no more. Him \u2013 For that amount, I'm willing to land this plane on top of a telephone booth myself. She prepares the check, but suddenly has a doubt before handing it to him. Her \u2013 And how will I know that you really delivered the message? If I can't come with you in the cockpit... Him \u2013 I can be very persuasive when I want to be, believe me... Take it or leave it. She hands him the check. Then she writes something on a business card before handing it to him too. Her \u2013 You call this number on my behalf, and you tell the person who answers to urgently prepare the obituary of Mireille Mathieu. She'll understand. Him (philosophically) \u2013 It's sad, but after all, we'll all die one day, won't we? ( She gives him an impatient look ) I'm going... He leaves, this time towards the backstage. She calls out to him before he exits. Her (in a low voice) \u2013 And don't say anything about this to the economy class passengers, okay? In a daze, quite overexcited, she downs the glass of champagne to wash down another pill. 23 Her (to",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.45,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.229
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.15
+          }
+        ],
+        "sentiment_score": 0.45,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.45
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.45,
+        "secondary": "anger",
+        "secondary_confidence": 0.229,
+        "accent": "neutral",
+        "accent_confidence": 0.15,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2916.0,
+        "end_time": 3076.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "the audience) \u2013 Have you all turned off your cell phones, at least? Because it's a safety issue! It can be very dangerous, you know. The controls could be jammed... Or the electrical system could fail... I don't want to tell you the consequences of a short circuit at this altitude. Because we're flying high, very high! If this falls, we'll be turned into mincemeat. Black. 24 ACT 3 She is sleeping with a magazine on her lap. She wakes up abruptly with the sound of the speaker. Noises are heard as if there's a struggle, hitting, shouting, and coupling on the microphone. Then, absolute silence. The other returns. His clothes are in disorder, and he seems breathless. Her \u2013 Don't tell me that you finally have sex with the flight attendant without her consent? Him \u2013 No, not at all... I wish that was it! Her \u2013 Then the pilot didn't let you make a phone call. Him \u2013 No, no... I called my mother in Clermont-Ferrand to say hello from the cockpit, as we agreed... Her \u2013 In Clermont-Ferrand? Him \u2013 And I told her that Mireille Mathieu had died. Don't worry, she was watching the news on television and no one knows yet... Her \u2013 No, but tell me it's not true! Tell me I'm dreaming, that it is a nightmare! Him \u2013 It was only afterwards that I realized I had dialed the wrong number... Her \u2013 And then? Him \u2013 I asked the pilot if I could make another call, and he replied that we were in a cockpit, not a phone booth. From there, things degenerated. Her \u2013 What do you mean by \"degenerated\"? Him \u2013 He insulted my mother... Her \u2013 Really? Him \u2013 I told you that I could become violent when certain topics are touched... And for me, my mother is a sensitive subject... A flight attendant makes another announcement. Flight Attendant \u2013 Ladies and gentlemen, please pay attention. Both the pilot and copilot have suffered... a slight discomfort. But don't worry, we will certainly be able to revive one of them before losing too much altitude. Let's say they are not well. You should not worry because we will probably be able to revive one of them before losing too much altitude. If there is a doctor on board, please come to one of our flight attendants... ( Silence) If",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.725,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.102
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.065
+          }
+        ],
+        "sentiment_score": 0.725,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.725
+        },
+        "primary": "fear",
+        "primary_confidence": 0.725,
+        "secondary": "anger",
+        "secondary_confidence": 0.102,
+        "accent": "disgust",
+        "accent_confidence": 0.065,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 3078.0,
+        "end_time": 3238.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "there is a pilot on board, please make yourself known. It's urgent... Her \u2013 Oh my God! 25 Him \u2013 I think I went too far... But you're also to blame. Fifty thousand euros is a considerable amount... An amount that goes to your head... Fifty thousand euros! With that, I could buy a huge freezer. Her \u2013 A freezer...? Him \u2013 It's for my mother... In case she really does have an incurable cancer, as you say. Her \u2013 Okay... Him \u2013 I'll freeze her until we find a definitive cure for death. It seems they've just tested a new enzyme on rats! Did you know that some jellyfish are immortal? She looks at him bewildered, when the loudspeaker comes back on. Flight Attendant \u2013 Ladies and gentlemen, in the absence of an experienced pilot, I will attempt an emergency landing in Novosibirsk. Please fasten your seat belts because I'm not even able to park my car in reverse. I have trouble distinguishing the brake from the clutch... I always confuse them... Now, at least, I can say that I have a good grip on the pilot's lever... Glup... No, this is not the lever... Her (hysterical) \u2013 An emergency landing! But that's great! I can finally call my office in Tokyo! Him \u2013 I think it's time for us to put on our life jackets. They take out duck-shaped floaters and put them around their waists. The sound of a plane plummeting. Blackout. 26 ACT 4 The first notes of the Twilight Zone theme song play. The stage lights up on an apocalyptic scene of general chaos. Seats overturned, clothing strewn about, and smoke if possible. The syrupy voice of the hostess is heard again over the loudspeaker. Hostess \u2013 Flight 714 from Paris to Tokyo has just landed\u2026 somewhere. The director and his crew wish you a pleasant stay. We hope you had an excellent trip, and pray to see you again soon, alive, on our flights. They gradually regain consciousness. Him \u2013 Do you think we're dead? She tries to make a call with her cell phone. Her \u2013 There's no network, at least\u2026 Him \u2013 Maybe we're in the Twilight Zone\u2026 Her \u2013 Or maybe it was just a nightmare, and we're not fully awake yet... She spots something in the chaos and picks it up. It's the urn containing Mireille Mathieu's ashes, with her",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.716,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.083
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.079
+          }
+        ],
+        "sentiment_score": 0.716,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.716
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.716,
+        "secondary": "anger",
+        "secondary_confidence": 0.083,
+        "accent": "neutral",
+        "accent_confidence": 0.079,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 3240.0,
+        "end_time": 3400.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "photo on it. They exchange a perplexed look . Him \u2013 We're in a desert, but it doesn't really look like Siberia. Her \u2013 Do you think we're the only survivors? Him \u2013 Unfortunately, I don't think so... He discreetly signals for her to look towards the audience. Her (in a low voice) \u2013 Who are all these people over there, in the dark? Him \u2013 Aren't they from economy class? Her \u2013 Economy class? Him \u2013 Come on, the ones from economy class! Her \u2013 They seem to be staring at us\u2026 Him \u2013 And they're not moving\u2026 Her \u2013 Do you think they're dead? Him \u2013 Or maybe they're asleep. Her \u2013 Like it happens sometimes in the theatre\u2026 Him \u2013 I think it would be better not to wake them up. Her \u2013 So what do we do then? 27 Him \u2013 Above all, no sudden movements\u2026 We stay calm\u2026 And we move slowly towards the exit\u2026 Her \u2013 What exit? Him \u2013 The emergency exit\u2026 Her (very disturbed) \u2013 I think I need a little relaxation before\u2026 ( She rummages in her bag) Oh my God, someone stole all my pills! Him (emphatic) \u2013 When you're at the theatre and you're lucky enough to have pills, you shouldn't leave them lying around... Her \u2013 The producer is a crook. He probably slipped a sleeping pill into our champagne before taking off with the box office... Him \u2013 What a story! D o you think the press will talk about us? Her \u2013 There would have to be a journalist in the audience. Her \u2013 I hope at least one flight attendant is still alive. Him \u2013 What for? Her \u2013 To draw the curtain between business class and economy class! They cautiously retreat towards the backstage area. Flight Attendant \u2013 I hope the power doesn't go out again! Blackout. Flight Attendant \u2013 Shit! The power went out again. If possible, play a song by Mireille Mathieu preferably in Japanese. 28 ACT 5 The scene lights up and/or the curtain opens again, as if for the actors' salute. The set is the same as in the first act: two seats side by side, which could just as easily be those of a theatre. He is dozing off next to the same woman as before, who has traded her businesswoman suit for a much more ordinary outfit. Depending",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "confidence": 0.662,
+        "secondary_emotions": [
+          {
+            "emotion": "anger",
+            "score": 0.081
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.077
+          }
+        ],
+        "sentiment_score": 0.662,
+        "theatrical_context": {
+          "predicted_theme": "surprise",
+          "confidence": 0.662
+        },
+        "primary": "surprise",
+        "primary_confidence": 0.662,
+        "secondary": "anger",
+        "secondary_confidence": 0.081,
+        "accent": "neutral",
+        "accent_confidence": 0.077,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_022",
+      "timing": {
+        "start_time": 3402.0,
+        "end_time": 3562.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "on the director's choice and the size and possibilities of the room, she and he could also be seated among the audience in this epilogue, as at the beginning of the show. She shakes him a little to wake him up. Her \u2013 Steven... Hey Steven... ( As he doesn't react, she shakes him more violently ) Steven! He wakes up with a start, as if he's coming out of a nightmare. Him (panicked) \u2013 What? What's going on? Is something happening? Her \u2013 Well, it's over! Him \u2013 So, are we dead? Her \u2013 I don't think so, no. ( Lower) Or maybe the expression \"dying of boredom\" is not just a metaphor. Him \u2013 But where are we? Her \u2013Where do you think we are...? At the theatre, of course! The play is over and we have to leave... I'm not going to ask you if you liked it... He looks at his wife, gradually returning to reality. Him \u2013 Victoria! It's you? Her \u2013 Well, yes, it's me... Your wife... Who else would it be? Him \u2013 It's crazy. Her \u2013 What? Him \u2013 I dreamt you were dead. Her \u2013 That's always nice... Him \u2013 We had won a contest. A trip to Tokyo for two. Since my wife had died, I was upgraded to business class, and I was travelling next to the director of a women's magazine! Her \u2013 Your wife? Him \u2013 I could even drink champagne without paying any extra. Her \u2013 Well, that's nice... Him \u2013 And instead, I wake up next to you at the theatre... 29 Her \u2013 Well, you see... The dream is over... So, are we leaving or what? She gets up. Him \u2013 Wait, I remember something else... In my dream, Mireille Mathieu had also died! Her \u2013 Mireille Mathieu? Him \u2013 Tell me it's not true, she's not dead, is she? Her \u2013 I have no idea... It's been a long time since anyone has talked about her... Are you coming or what? He gets up, still a little shaken. Him \u2013 But what are we doing at the theatre? We never go to the theatre! Her \u2013 You're really starting to worry me... Do you remember that we both work at a frozen food wholesaler? Him \u2013 Oh yes, that's right, damn it... It's the boss's wife who's playing in the play. He invited",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "confidence": 0.0,
+        "primary": "neutral",
+        "primary_confidence": 0.0,
+        "secondary_emotions": [],
+        "sentiment_score": 0.0,
+        "theatrical_context": {
+          "predicted_theme": "neutral",
+          "confidence": 0.0
+        }
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_023",
+      "timing": {
+        "start_time": 3564.0,
+        "end_time": 3724.0,
+        "duration": 160.0
+      },
+      "content": {
+        "text": "us. Her \u2013 It's the kind of invitation you can't really refuse... The truth is, if he hadn't invited all his employees, there probably wouldn't be anyone in the audience. Him \u2013 Is the play really that bad? Her \u2013 Well, we have to hurry, he's probably already waiting for us at the exit to know what we thought of the show. Him \u2013 It's a nightmare... But couldn't you have woken me up? Her \u2013 I didn't know you were asleep! Him \u2013 So, tell me what's the play about? Her \u2013 Just briefly? Him \u2013 You tell me roughly what it's about, and then... I'll improvise! Her \u2013 Well, it's quite difficult to sum up. Him \u2013 Yeah? Her \u2013 The plot is a bit complicated, you see... I would even say quite confusing... Him \u2013 Well, tell me what you understood... Her \u2013 Listen, I'm going to tell you something... I'm wondering if I didn't doze off between the end of the first act and the beginning of the fifth... Him \u2013 Are you kidding me? Her \u2013 Or maybe the play was really short... 30 Him \u2013 Damn... What the hell are we going to tell them? Her \u2013 Well, we'll improvise, like you said before... Anyway... Let's go... We won't keep them waiting... Him \u2013 II'm sure we're still dreaming, that this is a nightmare and we'll wake up soon.. They head towards the exit. Fade to black. End. 31 About the author Born in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer for several rock bands before becoming a semiologist in advertising. He then began a career writing television scripts before turning to theatre and writing plays. He has written close to a hundred scripts for television and as many plays, some of which have already become classics ( Friday the 13th ,Strip Poker). He is one of the most produced contemporary playwrights in France and in other francophone countries. Several of his plays are also available in Spanish and English, and are regularly produced in the United States and Latin America. Amateur and professional theatre groups looking for plays to perform can download Jean-Pierre Martinez's plays for free from his website La Comediath\u00e8que (https://comediatheque.net/ ). However, public productions are subject to SACD filing. For those who prefer reading or working from books, printed versions of his plays can be purchased from",
+        "word_count": 400,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "confidence": 0.416,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.19
+          },
+          {
+            "emotion": "surprise",
+            "score": 0.18
+          }
+        ],
+        "sentiment_score": 0.416,
+        "theatrical_context": {
+          "predicted_theme": "fear",
+          "confidence": 0.416
+        },
+        "primary": "fear",
+        "primary_confidence": 0.416,
+        "secondary": "neutral",
+        "secondary_confidence": 0.19,
+        "accent": "surprise",
+        "accent_confidence": 0.18,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    },
+    {
+      "scene_id": "scene_024",
+      "timing": {
+        "start_time": 3726.0,
+        "end_time": 3780.4,
+        "duration": 54.4
+      },
+      "content": {
+        "text": "Amazon for a price similar to that of photocopying this document. 32 Other plays by the same author translated in English: A Cuckoo's nest A simple business dinner An innocent little murder Casket for two Cheaters Crisis and Punishment Critical but stable Four stars Friday the 13th Him and Her Lovestruck at Swindlemore Hall New Year's Eve at the Morgue One marriage out of two Quarantine Running on Empty Strip Poker The Ideal Son-in-Law The Window across the courtyard The Worst Village in England Welcome aboard! 33 This text is protected under copyright laws. Criminal copyright infringement will be investigated and may result in a maximum penalty of up to 3 years in prison and a EUR 300.000 fine. Avignon \u2013 May 2023 \u00a9 La Com\u00e9diath\u00e8que \u2013 ISBN 978-2-37705-933-1 https://comediatheque.net/ Play available for free download 34",
+        "word_count": 136,
+        "type": "generic",
+        "header": "",
+        "location": ""
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "confidence": 0.349,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.229
+          },
+          {
+            "emotion": "sadness",
+            "score": 0.186
+          }
+        ],
+        "sentiment_score": 0.349,
+        "theatrical_context": {
+          "predicted_theme": "anger",
+          "confidence": 0.349
+        },
+        "primary": "anger",
+        "primary_confidence": 0.349,
+        "secondary": "disgust",
+        "secondary_confidence": 0.229,
+        "accent": "sadness",
+        "accent_confidence": 0.186,
+        "scene_id": "compat"
+      },
+      "doc_type": "raw_drama"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 162.0,
+        "end_time": 322.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 324.0,
+        "end_time": 484.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 486.0,
+        "end_time": 646.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 648.0,
+        "end_time": 808.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 810.0,
+        "end_time": 970.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 972.0,
+        "end_time": 1132.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1134.0,
+        "end_time": 1294.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1296.0,
+        "end_time": 1456.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1458.0,
+        "end_time": 1618.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1620.0,
+        "end_time": 1780.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1782.0,
+        "end_time": 1942.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 1944.0,
+        "end_time": 2104.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 2106.0,
+        "end_time": 2266.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 2268.0,
+        "end_time": 2428.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "sickly_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "yellow_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "yellow_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 2430.0,
+        "end_time": 2590.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 2592.0,
+        "end_time": 2752.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 2754.0,
+        "end_time": 2914.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 2916.0,
+        "end_time": 3076.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 3078.0,
+        "end_time": 3238.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_021",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 3240.0,
+        "end_time": 3400.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 54.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 62.99999999999999,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "cyan",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_022",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 3402.0,
+        "end_time": 3562.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_023",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 3564.0,
+        "end_time": 3724.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    },
+    {
+      "scene_id": "scene_024",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 3726.0,
+        "end_time": 3780.4
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 100.0,
+            "color": "orange",
+            "focus_area": null,
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based"
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "source": "data/standardized_output/Script-1_processed.json",
+    "total_cues": 10,
+    "generation_method": "rule_based"
+  },
+  "cues": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "start_time": 0,
+      "end_time": 2,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "start_time": 4,
+      "end_time": 33,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "start_time": 35,
+      "end_time": 37,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "fear",
+      "start_time": 39,
+      "end_time": 52,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 150,
+            "2": 0,
+            "3": 50,
+            "8": 63
+          },
+          "description": "Scary, tense scenes",
+          "transition_type": "flicker",
+          "transition_duration": 1.5
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "surprise",
+      "start_time": 54,
+      "end_time": 80,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "fear",
+      "start_time": 82,
+      "end_time": 108,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 150,
+            "2": 0,
+            "3": 50,
+            "8": 63
+          },
+          "description": "Scary, tense scenes",
+          "transition_type": "flicker",
+          "transition_duration": 1.5
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "neutral",
+      "start_time": 110,
+      "end_time": 112,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "fear",
+      "start_time": 114,
+      "end_time": 144,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 150,
+            "2": 0,
+            "3": 50,
+            "8": 63
+          },
+          "description": "Scary, tense scenes",
+          "transition_type": "flicker",
+          "transition_duration": 1.5
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "fear",
+      "start_time": 146,
+      "end_time": 165,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 150,
+            "2": 0,
+            "3": 50,
+            "8": 63
+          },
+          "description": "Scary, tense scenes",
+          "transition_type": "flicker",
+          "transition_duration": 1.5
+        }
+      ],
+      "generation_method": "rule_based"
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "start_time": 167,
+      "end_time": 169,
+      "cues": [
+        {
+          "fixture_id": "PAR_1",
+          "fixture_type": "PAR",
+          "dmx_start_channel": 1,
+          "dmx_channels": {
+            "1": 255,
+            "2": 255,
+            "3": 255,
+            "8": 153
+          },
+          "description": "Normal scenes",
+          "transition_type": "smooth",
+          "transition_duration": 2.0
+        }
+      ],
+      "generation_method": "rule_based"
+    }
+  ]
+}

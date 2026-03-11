@@ -1,0 +1,526 @@
+{
+  "metadata": {
+    "source_file": "Script-3.txt",
+    "doc_type": "script",
+    "genre": "drama",
+    "total_scenes": 4,
+    "dominant_emotion": "chaotic excitement",
+    "emotion_distribution": {
+      "chaotic excitement": 1,
+      "chaotic humor": 1,
+      "joyful chaos": 1,
+      "joyful": 1
+    }
+  },
+  "script_data": [
+    {
+      "scene_id": "scene_001",
+      "scene_number": 1,
+      "text": "INT. SMALL APARTMENT KITCHEN - DAY\n\n[Approx. Timestamp: 00:00:00]\nThe kitchen is tiny, cluttered with half-prepped food, pots bubbling, and a giant \"CATERING GIG TODAY\" sticky note on the fridge. JAKE (28, enthusiastic but perpetually overwhelmed amateur chef) wears a stained apron that says \"Kiss the Cook... or Run.\" His best friend and reluctant business partner, MIA (27, sarcastic, always one eye-roll away from quitting), chops vegetables like she's angry at them.\n\nJAKE\n(excited, waving a ladle)\nThis is it, Mia! Our first real catering job. Fifty people at the tech startup launch party. We're gonna crush it. Gourmet sliders, mini quiches, that fancy charcuterie thing you saw on TikTok\u2014\n\nMIA\n(deadpan)\nThe one where everything looks perfect and then someone drops it on the floor? Yeah, we're nailing that vibe already.\n\nA smoke alarm suddenly BLARES. Jake rushes to the oven, yanks out a tray of blackened mini quiches.\n\nJAKE\nNo, no, no! They're... extra crispy! Trendy!\n\nMIA\nThey're charcoal briquettes with cheese. We're doomed.\n\nJake's phone BUZZES. He answers on speaker.\n\nJAKE\nHey, Mr. Patel! Yes, we're on schedule. Everything's under control\u2014\n\nMR. PATEL (O.S., frantic)\nJake! Change of plans! The venue flooded. We're moving it here\u2014to my apartment! Right now! And... we adopted a cat last week. Super friendly. Loves people. Bring extra food!\n\nClick. Silence.\n\nMIA\nA cat. In a tiny apartment. With fifty tech bros. And our food.\n\nJAKE\nIt's fine. Cats love sliders. We'll improvise.",
+      "start": 0.0,
+      "end": 210.0,
+      "duration": 210.0,
+      "emotion": "chaotic excitement",
+      "emotion_confidence": 0.7,
+      "secondary_emotions": [
+        {
+          "emotion": "excitement",
+          "score": 0.5
+        },
+        {
+          "emotion": "anxiety",
+          "score": 0.3
+        },
+        {
+          "emotion": "humor",
+          "score": 0.2
+        }
+      ],
+      "sentiment_score": 0.7,
+      "theatrical_context": {
+        "predicted_theme": "light-hearted amusement",
+        "confidence": 0.7
+      },
+      "v3_metrics": {
+        "irony_index": 0.7,
+        "narrative_seriousness_score": 0.1,
+        "emotion_confidence": 0.7,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.8,
+        "scene_energy": 1.0
+      },
+      "word_count": 241,
+      "narrative_role": "inciting_incident",
+      "mood_shift": "none",
+      "doc_type": "script"
+    },
+    {
+      "scene_id": "scene_002",
+      "scene_number": 2,
+      "text": "INT. MR. PATEL'S APARTMENT - LIVING ROOM - LATER THAT AFTERNOON\n\n[Approx. Timestamp: 00:03:30]\nChaos has begun. Folding tables crammed everywhere. Guests mill about in hoodies, sipping from red cups. A fluffy orange CAT (named \"Sir Whiskers\") prowls like he owns the place.\n\nJake and Mia set up frantically. Jake balances a tray of sliders while dodging elbows.\n\nGUEST #1 (excited tech bro)\nYo, these sliders look fire! What's the special sauce?\n\nJAKE\nUh... love? And aioli. Mostly aioli.\n\nSir Whiskers leaps onto the table, knocks over a bowl of dip. It splatters across three guests.\n\nGUEST #2\nMy new Yeezys!\n\nMIA\n(under her breath)\nGreat. Now we're catering a crime scene.\n\nJake tries to shoo the cat. Sir Whiskers hisses, swats the tray\u2014sliders fly like frisbees. One lands in a guest's drink. Another sticks to the ceiling fan, which starts spinning slowly, flinging sauce.\n\nGUESTS\n(laughing, some horrified)\nWhat the\u2014?!",
+      "start": 210.0,
+      "end": 360.0,
+      "duration": 150.0,
+      "emotion": "chaotic humor",
+      "emotion_confidence": 0.8,
+      "secondary_emotions": [
+        {
+          "emotion": "excitement",
+          "score": 0.6
+        },
+        {
+          "emotion": "anxiety",
+          "score": 0.2
+        },
+        {
+          "emotion": "humor",
+          "score": 0.9
+        }
+      ],
+      "sentiment_score": 0.8,
+      "theatrical_context": {
+        "predicted_theme": "lighthearted and entertained",
+        "confidence": 0.8
+      },
+      "v3_metrics": {
+        "irony_index": 0.7,
+        "narrative_seriousness_score": 0.1,
+        "emotion_confidence": 0.8,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.9,
+        "scene_energy": 0.6298013245033112
+      },
+      "word_count": 151,
+      "narrative_role": "rising_action",
+      "mood_shift": "none",
+      "doc_type": "script"
+    },
+    {
+      "scene_id": "scene_003",
+      "scene_number": 3,
+      "text": "INT. KITCHENETTE - CONTINUOUS\n\n[Approx. Timestamp: 00:06:00]\nMia and Jake retreat to regroup. Mr. Patel bursts in, holding the cat like a football.\n\nMR. PATEL\nHe's just excited! New people! New smells!\n\nThe cat wriggles free, dashes out.\n\nJAKE\nWe need a plan. Mia, distract the guests with... charm?\n\nMIA\nCharm? I have resting murder face. You distract. I'll salvage what food we have left.\n\nJake nods, grabs a microphone (it's a karaoke setup for the party).\n\nJAKE\n(into mic, too loud)\nHey everyone! Welcome! I'm Jake, your chef tonight. Quick story: I once burned water. True story. But tonight? Tonight we're elevating!\n\nGuests chuckle. Sir Whiskers reappears, leaps onto Jake's shoulder like a pirate parrot.\n\nJAKE\n(trying to play it cool)\nAnd this is Sir Whiskers, our... official taste-tester!\n\nThe cat bats at the mic cord. It tangles around Jake's legs. He stumbles, knocks over a stack of chairs. Domino effect\u2014chairs topple, a table flips, charcuterie rains down like confetti.\n\nGuests scream-laugh. Phones come out\u2014video time.\n\nMIA\n(running in)\nJake!\n\nShe grabs a broom, tries to herd the cat. Instead, she sweeps Jake's feet out. He falls backward into a pile of cushions, cat landing on his chest purring.\n\nJAKE\n(from the floor, defeated but grinning)\nAppetizers are served... floor-style.\n\nThe room erupts in applause and laughter. Someone starts a slow clap. Others join.\n\nGUEST #3\nThis is the best launch party ever! Way better than free pizza!\n\nMR. PATEL\n(tearful, happy)\nYou guys... you turned disaster into legend!\n\nMia helps Jake up. The cat rubs against her leg.\n\nMIA\n(softening, smirking)\nOkay, fine. We're not fired. Yet.\n\nJAKE\nNext gig: Cat-proof everything.\n\nThey high-five. Sir Whiskers meows triumphantly.\n\nGuests swarm the spilled food\u2014picking it up, eating anyway, toasting \"to chaos!\"",
+      "start": 360.0,
+      "end": 360.0,
+      "duration": 0.0,
+      "emotion": "joyful chaos",
+      "emotion_confidence": 0.9,
+      "secondary_emotions": [
+        {
+          "emotion": "excitement",
+          "score": 0.7
+        },
+        {
+          "emotion": "humor",
+          "score": 0.9
+        },
+        {
+          "emotion": "anxiety",
+          "score": 0.1
+        }
+      ],
+      "sentiment_score": 0.9,
+      "theatrical_context": {
+        "predicted_theme": "amused and entertained",
+        "confidence": 0.9
+      },
+      "v3_metrics": {
+        "irony_index": 0.7,
+        "narrative_seriousness_score": 0.1,
+        "emotion_confidence": 0.9,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.9,
+        "scene_energy": 1.0
+      },
+      "word_count": 292,
+      "narrative_role": "climax",
+      "mood_shift": "none",
+      "doc_type": "script"
+    },
+    {
+      "scene_id": "scene_004",
+      "scene_number": 4,
+      "text": "FADE OUT on the room full of laughter, sauce everywhere, and one very smug cat.",
+      "start": 360.0,
+      "end": 371.5,
+      "duration": 11.5,
+      "emotion": "joyful",
+      "emotion_confidence": 0.8,
+      "secondary_emotions": [
+        {
+          "emotion": "joy",
+          "score": 0.6
+        },
+        {
+          "emotion": "humor",
+          "score": 0.3
+        },
+        {
+          "emotion": "satisfaction",
+          "score": 0.1
+        }
+      ],
+      "sentiment_score": 0.8,
+      "theatrical_context": {
+        "predicted_theme": "light-hearted amusement",
+        "confidence": 0.8
+      },
+      "v3_metrics": {
+        "irony_index": 0.4,
+        "narrative_seriousness_score": 0.1,
+        "emotion_confidence": 0.8,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.7,
+        "scene_energy": 0.0
+      },
+      "word_count": 15,
+      "narrative_role": "resolution",
+      "mood_shift": "none",
+      "doc_type": "script"
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "chaotic_excitement",
+      "emotion": "chaotic excitement",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "cyan",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "yellow",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "pink",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5,
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": true,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "chaotic_humor_1",
+      "emotion": "chaotic humor",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "magenta",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "green",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 40.0,
+            "color": "uv",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5,
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": true,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "joyful_chaos",
+      "emotion": "joyful chaos",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "pink",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 60.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5,
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": true,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "joyful_scene",
+      "emotion": "joyful",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 85.0,
+            "color": "amber",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "pink",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 90.0,
+            "color": "amber",
+            "focus_area": "center_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 80.0,
+            "color": "yellow",
+            "focus_area": "full_stage",
+            "color_temperature": null
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "llm",
+        "rlhf_applied": 5,
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": true,
+          "confidence_safe_mode": false
+        }
+      }
+    }
+  ],
+  "scene_graph": {
+    "total_nodes": 8,
+    "total_edges": 11,
+    "scenes": 4,
+    "characters": 4,
+    "dialogues": 0
+  }
+}
