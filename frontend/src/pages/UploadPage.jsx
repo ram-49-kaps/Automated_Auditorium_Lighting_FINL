@@ -102,13 +102,13 @@ export default function UploadPage() {
                     </div>
 
                     {/* Drop Zone */}
-                    <div className="glass-card p-8 mb-6">
+                    <div className="glass-card p-4 md:p-8 mb-6">
                         <FileDropZone onFileSelect={handleFileSelect} />
                     </div>
 
                     {/* File Preview */}
                     {file && (
-                        <div className="glass-card p-6 mb-6 animate-slide-up">
+                        <div className="glass-card p-4 md:p-6 mb-6 animate-slide-up w-full">
                             {/* File Info */}
                             <div className="flex items-center justify-between mb-4">
                                 <div className="flex items-center gap-3">
