@@ -1,5 +1,5 @@
 
-const API_BASE_URL = 'http://16.171.153.178:8000/api';
+const API_BASE_URL = '/api';
 
 /**
  * Upload a script file to the backend
