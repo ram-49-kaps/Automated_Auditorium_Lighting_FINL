@@ -62,6 +62,19 @@ async def health_check():
     """Health check endpoint for monitoring and diagnostics."""
     return {"status": "ok", "service": "Auditorium Lighting API"}
 
+@app.get("/api/progress/{job_id}")
+async def get_progress(job_id: str, since: int = 0):
+    """
+    Polling endpoint for progress updates (replaces WebSocket for HTTPS compatibility).
+    Returns messages since index 'since' to avoid re-sending old messages.
+    """
+    history = manager.job_history.get(job_id, [])
+    new_messages = history[since:]
+    return {
+        "messages": new_messages,
+        "total": len(history)
+    }
+
 @app.post("/api/validate")
 async def validate_script(file: UploadFile = File(...)):
     """

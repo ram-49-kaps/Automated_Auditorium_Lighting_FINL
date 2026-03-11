@@ -1,58 +1,52 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react';
 
-const WS_BASE_URL = 'ws://16.171.153.178:8000/ws/progress';
+const API_BASE = '/api';
 
 export function useWebSocket(jobId) {
-    const [status, setStatus] = useState('disconnected'); // 'connecting', 'connected', 'disconnected', 'error'
+    const [status, setStatus] = useState('disconnected');
     const [messages, setMessages] = useState([]);
     const [latestMessage, setLatestMessage] = useState(null);
-    const wsRef = useRef(null);
+    const intervalRef = useRef(null);
+    const sinceRef = useRef(0);
 
     const connect = useCallback(() => {
-        if (!jobId || wsRef.current) return;
+        if (!jobId || intervalRef.current) return;
 
         setStatus('connecting');
-        const ws = new WebSocket(`${WS_BASE_URL}/${jobId}`);
-        wsRef.current = ws;
 
-        ws.onopen = () => {
-            console.log('✅ WebSocket Connected');
-            setStatus('connected');
-        };
-
-        ws.onmessage = (event) => {
+        const poll = async () => {
             try {
-                const data = JSON.parse(event.data);
-                setLatestMessage(data);
-                setMessages((prev) => [...prev, data]);
+                const res = await fetch(`${API_BASE}/progress/${jobId}?since=${sinceRef.current}`);
+                if (!res.ok) return;
+
+                const data = await res.json();
+                if (data.messages && data.messages.length > 0) {
+                    setStatus('connected');
+                    for (const msg of data.messages) {
+                        setLatestMessage(msg);
+                        setMessages(prev => [...prev, msg]);
+                    }
+                    sinceRef.current = data.total;
+                }
             } catch (err) {
-                console.error('Failed to parse WS message:', err);
+                console.error('Polling error:', err);
             }
         };
 
-        ws.onerror = (error) => {
-            console.error('WebSocket Error:', error);
-            setStatus('error');
-        };
-
-        ws.onclose = () => {
-            console.log('WebSocket Disconnected');
-            setStatus('disconnected');
-            wsRef.current = null;
-        };
-
-        return ws;
+        // Initial poll immediately
+        poll();
+        // Then poll every 2 seconds
+        intervalRef.current = setInterval(poll, 2000);
     }, [jobId]);
 
     const disconnect = useCallback(() => {
-        if (wsRef.current) {
-            wsRef.current.close();
-            wsRef.current = null;
+        if (intervalRef.current) {
+            clearInterval(intervalRef.current);
+            intervalRef.current = null;
         }
     }, []);
 
-    // Auto-connect on mount if jobId is present
     useEffect(() => {
         if (jobId) {
             connect();
