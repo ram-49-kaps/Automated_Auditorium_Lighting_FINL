@@ -596,27 +596,32 @@ class LightingDecisionEngine:
         scene_text: str, 
         timing: Dict
     ) -> LightingInstruction:
-        """Generate using LangChain LLM chain with Dynamic RLHF Memory Injection"""
+        """Generate using unified openai_json client with Dynamic RLHF Memory Injection.
+        
+        Uses the same simple flat JSON schema that works reliably with Qwen/HuggingFace,
+        then constructs Pydantic objects from the parsed result.
+        """
         context = self.retriever.build_context_for_llm(emotion, scene_text)
         
         # --- RLHF MEMORY INJECTION ---
         # Look into the past experiences and fetch Human Corrections to adapt generation
+        feedback_texts = []
         try:
-            import json, os
+            import json as _json
+            import os as _os
             from pathlib import Path
             feedback_dir = Path("data/feedback_memory")
             if feedback_dir.exists():
-                feedback_texts = []
                 # Load the 10 most recent pieces of human feedback
-                files = sorted(feedback_dir.glob("*.json"), key=os.path.getmtime, reverse=True)[:10]
+                files = sorted(feedback_dir.glob("*.json"), key=_os.path.getmtime, reverse=True)[:10]
                 for fb_file in files:
                     try:
                         with open(fb_file, "r") as f:
-                            fb_data = json.load(f)
+                            fb_data = _json.load(f)
                         correction = fb_data.get("human_correction", "")
                         if correction and len(correction.strip()) > 3:
                             feedback_texts.append(f"- DIRECTOR'S NOTE: {correction}")
-                    except json.JSONDecodeError:
+                    except _json.JSONDecodeError:
                         continue
                 
                 if feedback_texts:
@@ -628,21 +633,78 @@ class LightingDecisionEngine:
         except Exception as e:
             print(f"⚠️ [RLHF] Error loading memory: {e}")
         
-        response: LightingInstruction = self.chain.invoke({
-            "scene_text": scene_text,
-            "emotion": emotion,
-            "duration": timing.get("duration", 0),
-            "context": context
-        })
-        
-        # Inject timing and metadata
-        response.time_window = TimeWindow(
-            start_time=timing.get("start_time", 0),
-            end_time=timing.get("end_time", 0)
+        # --- LLM CALL via unified openai_json (same simple schema as _generate_with_rules) ---
+        system_prompt = (
+            "You are a professional theatrical lighting designer. "
+            "Design lighting intent for stage groups. Output ONLY valid JSON.\n\n"
         )
-        response.metadata = {"generation_method": "llm", "rlhf_applied": len(feedback_texts) if 'feedback_texts' in locals() else 0}
+        if context:
+            system_prompt += f"VENUE CONTEXT:\n{context}\n\n"
         
-        return response
+        prompt = (
+            f"Design theatrical lighting for this scene.\n\n"
+            f"SCENE TEXT: {scene_text[:1500]}\n"
+            f"EMOTION: {emotion}\n\n"
+            f"Design lighting for these 5 groups: front_wash, back_light, side_fill, specials, ambient.\n"
+            f"For each group, specify intensity (0-100), color (name), and focus_area.\n\n"
+            f'Return JSON: {{"groups": [{{"group_id": "front_wash", "intensity": 80, '
+            f'"color": "warm_amber", "focus_area": "full_stage", '
+            f'"transition_type": "fade", "transition_duration": 2.0}}, ...]}}'
+        )
+        
+        result = openai_json(
+            prompt=prompt,
+            system_prompt=system_prompt,
+            expected_keys=["groups"],
+            temperature=LLM_TEMPERATURE,
+            max_tokens=LLM_MAX_TOKENS,
+        )
+        
+        if not result or not isinstance(result.get("groups"), list) or len(result["groups"]) < 1:
+            raise ValueError(f"LLM returned invalid or empty groups for {scene_id}")
+        
+        print(f"Phase 4 [Diagnostics]: LLM openai_json call succeeded for {scene_id} ({len(result['groups'])} groups)")
+        
+        # --- Convert flat JSON → Pydantic models ---
+        groups = []
+        for g in result["groups"]:
+            try:
+                gid = g.get("group_id", "ambient")
+                if gid not in LIGHTING_GROUPS:
+                    continue
+                try:
+                    trans_type = TransitionType(g.get("transition_type", "fade"))
+                except ValueError:
+                    trans_type = TransitionType.FADE
+                groups.append(GroupLightingInstruction(
+                    group_id=gid,
+                    parameters=LightingParameters(
+                        intensity=min(float(g.get("intensity", 50)), 100),
+                        color=g.get("color", "white"),
+                        focus_area=FocusArea(g.get("focus_area", "full_stage")) if g.get("focus_area") in [e.value for e in FocusArea] else None,
+                        color_temperature=g.get("color_temperature"),
+                    ),
+                    transition=Transition(
+                        type=trans_type,
+                        duration_seconds=float(g.get("transition_duration", 2.0)),
+                    ),
+                ))
+            except Exception:
+                continue
+        
+        if not groups:
+            raise ValueError(f"LLM response had groups but none were valid for {scene_id}")
+        
+        return LightingInstruction(
+            scene_id=scene_id,
+            emotion=emotion,
+            time_window=TimeWindow(
+                start_time=timing.get("start_time", 0),
+                end_time=timing.get("end_time", 0)
+            ),
+            groups=groups,
+            metadata={"generation_method": "llm", "rlhf_applied": len(feedback_texts)}
+        )
     
     def _generate_with_rules(
         self, 

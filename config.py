@@ -70,7 +70,7 @@ FALLBACK_TO_RULES = True  # Use rule-based if LLM fails
 # LangChain Configuration
 LANGCHAIN_VERBOSE = False  # Enable LangChain debug logging
 LLM_TEMPERATURE = 0.0      # Deterministic — prevents bill spikes
-LLM_MAX_TOKENS = 500       # Hard cap on response size
+LLM_MAX_TOKENS = 2048      # Allow full 5-group JSON responses
 
 # ============================================================================
 # 🆕 DMX CONFIGURATION
