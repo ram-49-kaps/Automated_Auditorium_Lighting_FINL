@@ -6,7 +6,7 @@ import os
 
 # CONFIGURATION
 PORT = 8765
-HOST = "localhost"
+HOST = "0.0.0.0"
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INSTRUCTIONS_PATH = os.path.join(SCRIPT_DIR, "current_show.json")
 
@@ -172,7 +172,7 @@ class CueEngine:
                         
                         # Short preview for cue list, full text stored separately
                         script_text = (full_text[:55] + '...') if len(full_text) > 55 else full_text
-                        script_full = full_textfull = full_text
+                        script_full = full_text
                 else:
                     # Fallback to index if no ID match (risky but better than nothing)
                     if i < len(script_data):
