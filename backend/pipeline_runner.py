@@ -746,6 +746,8 @@ async def run_pipeline(job_id: str, filepath: str, ws_callback: Callable[[Dict],
                 "total_scenes": total_scenes,
                 "dominant_emotion": dominant_emotion,
                 "emotion_distribution": emotion_summary,
+                "llm_model": model or "Qwen/Qwen2.5-7B-Instruct",
+                "pipeline_mode": "multi_stage"
             },
             "script_data": scene_objects,
             "lighting_instructions": lighting_cues
