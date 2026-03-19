@@ -104,6 +104,13 @@ class AuditoriumSimulation {
         this.smokeParticles = null;
         this.smokeActive = false;
 
+        // --- Extraneous Timeline Tracks ---
+        this.totalShowDuration = 0;
+        this.cumulativeDurations = [];
+        this.cueDurations = [];
+        this.lastGlobalTransitionParams = { type: 'cut', dur: 0 };
+        // ----------------------------------
+
         this.initScene();
         this.initAssets();
         this.buildArchitecture();
@@ -322,44 +329,72 @@ class AuditoriumSimulation {
             }
         }
 
-        // Progress Bar Update
-        const fill = document.getElementById('progressBarFill');
-        const text = document.getElementById('progressText');
-        const bg = document.getElementById('progressBarBg');
-        if (fill && text && typeof state.total_cues !== 'undefined') {
-            const total = state.total_cues > 0 ? state.total_cues : 1;
-            const current = state.current_index;
-            const pct = (current / (total - 1)) * 100;
-            fill.style.width = `${Math.min(100, Math.max(0, pct))}%`;
-            text.innerText = `${current + 1} / ${total}`;
+        // ── CONTINUOUS TIMELINE STRIP ──
+        const timelineBlocks = document.getElementById('timelineBlocks');
+        const progressText = document.getElementById('progressText');
+        
+        if (state.context_window && state.context_window.length > 0) {
+            // First time or when cues change, calculate global durations
+            if (this.cueDurations.length === 0 || this.cueDurations.length !== state.context_window.length) {
+                this.cueDurations = state.context_window.map(c => typeof c.duration === 'number' ? c.duration : 10.0); // fallback 10s
+                this.totalShowDuration = this.cueDurations.reduce((sum, dur) => sum + dur, 0);
+                
+                let sum = 0;
+                this.cumulativeDurations = [0];
+                for (let i = 0; i < this.cueDurations.length - 1; i++) {
+                    sum += this.cueDurations[i];
+                    this.cumulativeDurations.push(sum);
+                }
 
-            // Inject markers the first time we know the total
-            if (bg.children.length <= 1 && total > 1) { // 1 child is the fill bar
-                for (let i = 0; i < total; i++) {
-                    const marker = document.createElement('div');
-                    marker.className = 'progress-marker';
-                    marker.style.left = `${(i / (total - 1)) * 100}%`;
-                    if (i === total - 1) marker.style.left = 'calc(100% - 4px)';
-                    bg.appendChild(marker);
+                // Render blocks once
+                if (timelineBlocks) {
+                    let blocksHtml = '';
+                    this.cueDurations.forEach((dur, idx) => {
+                        const pct = (dur / this.totalShowDuration) * 100;
+                        const rawText = state.context_window[idx].text || '';
+                        const parts = rawText.split('│');
+                        let sceneLabel = parts[0] ? parts[0].trim().replace('scene_','') : String(idx+1);
+                        blocksHtml += `<div class="scene-block" id="tb_${idx}" style="width:${pct}%;" onclick="if(window.sendCommand) window.sendCommand('JUMP', ${idx})">${sceneLabel}</div>`;
+                    });
+                    timelineBlocks.innerHTML = blocksHtml;
+                }
+            }
+            
+            // Mark active block
+            if (timelineBlocks) {
+                const blocks = timelineBlocks.children;
+                for (let i = 0; i < blocks.length; i++) {
+                    blocks[i].classList.remove('active-block', 'past-block');
+                    if (i < state.current_index) blocks[i].classList.add('past-block');
+                    if (i === state.current_index) blocks[i].classList.add('active-block');
                 }
             }
 
-            // Allow clicking progress bar to jump
-            bg.onclick = (e) => {
-                const rect = bg.getBoundingClientRect();
-                const clickX = e.clientX - rect.left;
-                const clickPct = clickX / rect.width;
-                const targetIdx = Math.round(clickPct * (total - 1));
-                if (window.sendCommand) {
-                    window.sendCommand('JUMP', targetIdx);
-                }
-            };
+            if (progressText) {
+                const total = state.total_cues > 0 ? state.total_cues : state.context_window.length;
+                progressText.innerText = `${state.current_index + 1} / ${total}`;
+            }
         }
 
         if (!this.latestState || this.latestState.current_index !== state.current_index) {
             state.elapsed = 0;
+            this.transitionStartTime = performance.now();
+            
+            // Snapshot current fixture status as the STARTING point for the fade
+            Object.values(this.fixtures).forEach(mesh => {
+                if(mesh.userData.config.isSmoke) return;
+                mesh.userData.startIntensity = mesh.userData.intensity;
+                mesh.userData.startColor = mesh.userData.color.clone();
+            });
         } else {
             state.elapsed = this.latestState.elapsed || 0;
+            // Pause logic handling: if holding, shift transitionStartTime forward
+            if (this.latestState.is_holding && !state.is_holding) {
+                // Just resumed
+                this.transitionStartTime = performance.now() - (state.elapsed * 1000);
+            } else if (state.is_holding) {
+                // Track how long we've been holding to shift the start time later
+            }
         }
         this.latestState = state;
 
@@ -751,41 +786,25 @@ class AuditoriumSimulation {
         const dur = this.currentTransitionDuration || 2.0;
         const type = this.currentTransitionType || 'fade';
 
-        // Intensity fraction max allowed per second: 100% total / dur
-        const speed = dur > 0.1 ? (1.0 / dur) : 10.0;
+        let fadeFraction = 1;
+        if (type === 'fade' && dur > 0.1) {
+            const fadeElapsed = (performance.now() - (this.transitionStartTime || performance.now())) / 1000.0;
+            // Easing: smoothstep for natural fades
+            let t = Math.max(0, Math.min(1, fadeElapsed / dur));
+            fadeFraction = t * t * (3 - 2 * t);
+        }
 
         Object.values(this.fixtures).forEach(mesh => {
             if (mesh.userData.config.isSmoke) return;
 
-            const intensityDiff = mesh.userData.targetIntensity - mesh.userData.intensity;
-
-            if (type === 'cut' || dur <= 0.1) {
-                // Instant snap
-                mesh.userData.intensity = mesh.userData.targetIntensity;
-            } else if (Math.abs(intensityDiff) > 0.1) {
-                // Linear Transition over precise duration
-                // We multiply speed by 100 because intensity is from 0-100.
-                const step = (100.0 * speed) * delta;
-                mesh.userData.intensity += Math.sign(intensityDiff) * Math.min(Math.abs(intensityDiff), step);
-            } else {
-                mesh.userData.intensity = mesh.userData.targetIntensity;
-            }
+            const startI = mesh.userData.startIntensity !== undefined ? mesh.userData.startIntensity : mesh.userData.intensity;
+            mesh.userData.intensity = startI + (mesh.userData.targetIntensity - startI) * fadeFraction;
 
             if (mesh.userData.config.hasRGB) {
-                if (type === 'cut' || dur <= 0.1) {
-                    mesh.userData.color.copy(mesh.userData.targetColor);
-                } else {
-                    const rDiff = mesh.userData.targetColor.r - mesh.userData.color.r;
-                    const gDiff = mesh.userData.targetColor.g - mesh.userData.color.g;
-                    const bDiff = mesh.userData.targetColor.b - mesh.userData.color.b;
-
-                    // Colors are 0.0-1.0, so speed factor is straight speed * delta
-                    const stepC = speed * delta;
-                    mesh.userData.color.r += Math.sign(rDiff) * Math.min(Math.abs(rDiff), stepC);
-                    mesh.userData.color.g += Math.sign(gDiff) * Math.min(Math.abs(gDiff), stepC);
-                    mesh.userData.color.b += Math.sign(bDiff) * Math.min(Math.abs(bDiff), stepC);
-                }
+                const startC = mesh.userData.startColor || mesh.userData.color;
+                mesh.userData.color.copy(startC).lerp(mesh.userData.targetColor, fadeFraction);
             }
+
             if (mesh.userData.light) {
                 mesh.userData.light.intensity = mesh.userData.intensity;
                 mesh.userData.light.color.copy(mesh.userData.color);
@@ -807,6 +826,28 @@ class AuditoriumSimulation {
             if (typeof this.latestState.elapsed !== 'number') this.latestState.elapsed = 0;
             this.latestState.elapsed += delta;
             this.updateTeleprompter(this.latestState);
+        }
+
+        // ── CONTINUOUS TIMELINE UPDATE ──
+        if (this.latestState && this.latestState.context_window) {
+            const currentIdx = this.latestState.current_index;
+            const currentCueDur = this.cueDurations[currentIdx] || 10;
+            const cueElapsed = Math.min(this.latestState.elapsed || 0, currentCueDur);
+            
+            const totalElapsed = (this.cumulativeDurations[currentIdx] || 0) + cueElapsed;
+            const progressPct = this.totalShowDuration > 0 ? (totalElapsed / this.totalShowDuration) * 100 : 0;
+            
+            const timelineProgress = document.getElementById('timelineProgress');
+            if (timelineProgress) timelineProgress.style.left = `${progressPct}%`;
+            
+            const progressTime = document.getElementById('progressTime');
+            if (progressTime) {
+                const secs = Math.floor(totalElapsed);
+                const ms = Math.floor((totalElapsed % 1) * 10);
+                const m = Math.floor(secs / 60);
+                const s = secs % 60;
+                progressTime.innerText = `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}.${ms}`;
+            }
         }
 
         this.updateSmoke(delta);
