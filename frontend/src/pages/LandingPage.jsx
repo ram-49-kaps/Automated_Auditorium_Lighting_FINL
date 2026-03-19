@@ -186,6 +186,41 @@ export default function LandingPage() {
                 </div>
             </section>
 
+            {/* Team/Credits Section */}
+            <section className="relative z-10 py-24 px-6 bg-[#00d4ff]/[0.02] border-y border-[#00d4ff]/10">
+                <div className="max-w-5xl mx-auto text-center">
+                    <span className="text-xs font-mono text-[#00d4ff] uppercase tracking-widest">Project Team</span>
+                    <h2 className="text-3xl md:text-5xl font-display font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50 mt-3 uppercase tracking-tight mb-16">
+                        Developed By
+                    </h2>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+                        {[
+                            { name: 'Ram Kapadia' },
+                            { name: 'Hitesh Prajapathi' },
+                            { name: 'Nishit Daruwala' },
+                        ].map((member, i) => (
+                            <div key={member.name} className="glass-card p-6 border border-white/5 hover:border-[#00d4ff]/30 transition-colors group animate-fade-in-up" style={{ animationDelay: `${0.15 * i}s` }}>
+                                <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#00d4ff]/20 to-blue-600/20 mx-auto mb-4 flex items-center justify-center border border-[#00d4ff]/30 group-hover:scale-110 transition-transform shadow-[0_0_15px_rgba(0,212,255,0.15)]">
+                                    <span className="text-xl font-display font-bold text-[#00d4ff] drop-shadow-[0_0_8px_rgba(0,212,255,0.5)]">{member.name.charAt(0)}</span>
+                                </div>
+                                <h3 className="font-display font-bold text-white/90 text-lg uppercase tracking-wide">{member.name}</h3>
+                                <div className="w-8 h-[1px] bg-[#00d4ff]/30 mx-auto mt-4 group-hover:w-16 transition-all duration-300"></div>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="inline-block p-[1px] rounded-xl bg-gradient-to-r from-transparent via-[#00d4ff]/30 to-transparent animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
+                        <div className="bg-[#050B14] px-12 py-8 rounded-xl backdrop-blur-sm border border-white/5 flex flex-col items-center shadow-[0_0_30px_rgba(0,212,255,0.05)]">
+                            <span className="text-xs font-mono text-[#00d4ff]/70 uppercase tracking-widest mb-3">Under the Guidance of</span>
+                            <div className="text-2xl md:text-3xl font-display font-bold text-transparent bg-clip-text bg-gradient-to-r from-white via-[#00d4ff] to-blue-400 drop-shadow-[0_0_15px_rgba(0,212,255,0.2)] uppercase tracking-wide">
+                                Dr. Thirunavukkarasu Sir
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Final CTA */}
             <section className="relative z-10 py-20 px-6 text-center">
                 <div className="max-w-2xl mx-auto">
