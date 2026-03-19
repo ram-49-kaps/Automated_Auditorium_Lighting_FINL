@@ -322,6 +322,11 @@ def main():
     # Ensure directories exist
     ensure_directories()
     
+    # Allow overriding model via ENV
+    model = os.environ.get("LLM_MODEL", "gpt-4o-mini")
+    from utils.openai_client import set_active_model
+    set_active_model(model)
+    
     input_file = sys.argv[1]
     output_file = sys.argv[2] if len(sys.argv) > 2 else None
     
