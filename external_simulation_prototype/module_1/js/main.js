@@ -121,7 +121,7 @@ class AuditoriumSimulation {
 
     initNetwork() {
         console.log("Connecting to Lighting Console...");
-        this.socket = new WebSocket('ws://localhost:8765');
+        this.socket = new WebSocket('ws://16.171.153.178:8765');
 
         // Expose sendCommand to global scope for HTML buttons
         window.sendCommand = (cmd, val) => {
