@@ -72,8 +72,12 @@ class Phase3Retriever:
         if not self.auditorium_db:
             return []
             
-        docs = self.auditorium_db.similarity_search(query, k=k)
-        return [doc.metadata for doc in docs]
+        try:
+            docs = self.auditorium_db.similarity_search(query, k=k)
+            return [doc.metadata for doc in docs]
+        except Exception as e:
+            print(f"⚠️ Phase 3 [RAG] FAISS search failed for auditorium ({e}) - returning empty context")
+            return []
 
     def retrieve_semantics_context(self, emotion: str, script_type: str, k: int = 3) -> List[Dict]:
         """
@@ -88,8 +92,12 @@ class Phase3Retriever:
             return []
             
         query = f"{emotion} {script_type}"
-        docs = self.semantics_db.similarity_search(query, k=k)
-        return [doc.metadata for doc in docs]
+        try:
+            docs = self.semantics_db.similarity_search(query, k=k)
+            return [doc.metadata for doc in docs]
+        except Exception as e:
+            print(f"⚠️ Phase 3 [RAG] FAISS search failed for semantics ({e}) - returning empty context")
+            return []
 
     def retrieve_palette(self, emotion: str) -> Dict[str, Any]:
         """
