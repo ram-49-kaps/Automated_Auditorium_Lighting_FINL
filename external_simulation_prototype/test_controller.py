@@ -381,20 +381,20 @@ class CueEngine:
             return
             
         blackout_data = {
-            "FRONT_WASH": {"intensity": 0, "color": "#000000"},
-            "BACK_LIGHT": {"intensity": 0, "color": "#000000"},
-            "SIDE_FILL": {"intensity": 0, "color": "#000000"},
-            "SPECIALS": {"intensity": 0, "color": "#000000"},
-            "AMBIENT": {"intensity": 0, "color": "#000000"},
+            "FOH_FRESNEL": {"intensity": 0, "color": "#000000"},
+            "FOH_PROFILE": {"intensity": 0, "color": "#000000"},
+            "STAGE_BLINDER": {"intensity": 0, "color": "#000000"},
+            "STAGE_RGB_PAR": {"intensity": 0, "color": "#000000"},
+            "FOH_MOVING": {"intensity": 0, "color": "#000000"},
             "SMOKE": False
         }
         
         neutral_data = {
-            "FRONT_WASH": {"intensity": 100, "color": "#FFFFFF"},
-            "BACK_LIGHT": {"intensity": 100, "color": "#FFFFFF"},
-            "SIDE_FILL": {"intensity": 80, "color": "#FFFFFF"},
-            "SPECIALS": {"intensity": 100, "color": "#FFFFFF"},
-            "AMBIENT": {"intensity": 100, "color": "#FFFFFF"},
+            "FOH_FRESNEL": {"intensity": 100, "color": "#FFFFFF"},
+            "FOH_PROFILE": {"intensity": 100, "color": "#FFFFFF"},
+            "STAGE_BLINDER": {"intensity": 100, "color": "#FFFFFF"},
+            "STAGE_RGB_PAR": {"intensity": 80, "color": "#FFFFFF"},
+            "FOH_MOVING": {"intensity": 100, "color": "#FFFFFF"},
             "SMOKE": False
         }
 
