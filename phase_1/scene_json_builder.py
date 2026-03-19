@@ -18,8 +18,6 @@ from typing import List, Dict, Optional
 from pathlib import Path
 
 from phase_1.immutable_structurer import ImmutableText
-# OpenAI client used for LLM-based JSON generation
-from utils.openai_client import openai_json
 
 logger = logging.getLogger("phase_1.json_builder")
 
@@ -30,6 +28,7 @@ _SCHEMA_PATH = Path(__file__).parent.parent / "contracts" / "scene_schema.json"
 def build_scene_json(
     scenes: List[Dict],
     immutable: ImmutableText,
+    chunk_summaries: Optional[List[str]] = None,
 ) -> List[Dict]:
     """
     Build schema-conformant scene JSON objects.
@@ -37,6 +36,8 @@ def build_scene_json(
     Args:
         scenes: Validated scenes with start_line, end_line, timestamps.
         immutable: Frozen ImmutableText for deterministic text slicing.
+        chunk_summaries: Optional list of chunk summaries from Phase 1C
+                         Narrative Memory system.
 
     Returns:
         List of scene dicts conforming to scene_schema.json.
@@ -46,9 +47,14 @@ def build_scene_json(
     # Detect script type (simple heuristic)
     script_type = _detect_script_type(immutable)
 
+    # Build a mapping from scene index to chunk summary
+    # (simple: distribute summaries evenly across scenes)
+    summary_map = _build_summary_map(scenes, chunk_summaries)
+
     output = []
-    for scene in scenes:
-        scene_json = _build_single_scene(scene, immutable, script_type)
+    for i, scene in enumerate(scenes):
+        scene_summary = summary_map.get(i)
+        scene_json = _build_single_scene(scene, immutable, script_type, scene_summary)
         output.append(scene_json)
 
     # Validate against schema
@@ -99,6 +105,7 @@ def _build_single_scene(
     scene: Dict,
     immutable: ImmutableText,
     script_type: str,
+    chunk_summary: Optional[str] = None,
 ) -> Dict:
     """Build a single scene JSON conforming to schema."""
     sl = scene["start_line"]
@@ -132,58 +139,48 @@ def _build_single_scene(
         "location": location,
         "emotion": None,  # Phase 2's job — NEVER set here
         "explicit_lighting": _extract_explicit_lighting(text),
-        "dialogue_lines": _extract_dialogue(text),
+        "chunk_summary": chunk_summary,  # Narrative Memory: dramatic context
     }
 
     return scene_json
 
 
-# Cache for script type detection (avoids repeated Ollama calls)
-_script_type_cache: Dict[str, str] = {}
+def _build_summary_map(
+    scenes: List[Dict],
+    chunk_summaries: Optional[List[str]],
+) -> Dict[int, Optional[str]]:
+    """
+    Map scene indices to their corresponding chunk summary.
 
-VALID_SCRIPT_TYPES = {"raw_drama", "timestamped_drama", "event_schedule", "cue_sheet"}
+    Strategy: distribute chunk summaries evenly across scenes.
+    If there are 3 chunks and 9 scenes, scenes 0-2 get summary 0,
+    scenes 3-5 get summary 1, scenes 6-8 get summary 2.
+    """
+    if not chunk_summaries:
+        return {}
+
+    n_scenes = len(scenes)
+    n_summaries = len(chunk_summaries)
+
+    if n_summaries == 0 or n_scenes == 0:
+        return {}
+
+    mapping = {}
+    scenes_per_chunk = max(1, n_scenes // n_summaries)
+
+    for i in range(n_scenes):
+        chunk_idx = min(i // scenes_per_chunk, n_summaries - 1)
+        mapping[i] = chunk_summaries[chunk_idx]
+
+    return mapping
 
 
 def _detect_script_type(immutable: ImmutableText) -> str:
     """
-    Script type detection.
-    Tier 1: Ollama LLM classification
-    Tier 2: Regex heuristic (original logic)
-    Tier 3: 'raw_drama' default
+    Simple heuristic for script type detection.
+    No separate LLM call — just structural cues.
     """
-    # Check cache first
-    cache_key = immutable.sha256_hash
-    if cache_key in _script_type_cache:
-        return _script_type_cache[cache_key]
-
-    # Tier 1: Try Ollama
-    if is_ollama_available():
-        try:
-            text_sample = immutable.raw_text[:2000]
-            result = ollama_json(
-                prompt=(
-                    f"Classify this script/document into exactly one of these types: "
-                    f"raw_drama, timestamped_drama, event_schedule, cue_sheet.\n\n"
-                    f"- raw_drama: A play or screenplay without embedded timestamps\n"
-                    f"- timestamped_drama: A play or screenplay with time markers like [00:05:30]\n"
-                    f"- event_schedule: An event agenda with times like 9:00 AM, 10:30 AM\n"
-                    f"- cue_sheet: A technical lighting cue document\n\n"
-                    f"TEXT:\n{text_sample}\n\n"
-                    f'Return JSON: {{"script_type": "..."}}'
-                ),
-                system_prompt="You are a document classifier. Output ONLY valid JSON.",
-                expected_keys=["script_type"],
-            )
-            if result and result.get("script_type") in VALID_SCRIPT_TYPES:
-                script_type = result["script_type"]
-                _script_type_cache[cache_key] = script_type
-                logger.info(f"Phase 1E: Ollama classified script as: {script_type}")
-                return script_type
-        except Exception as e:
-            logger.warning(f"Phase 1E: Ollama script type detection failed: {e}")
-
-    # Tier 2: Regex heuristic (original logic)
-    text = immutable.raw_text[:2000]
+    text = immutable.raw_text[:2000]  # Check first 2000 chars
 
     has_int_ext = bool(re.search(r"\bINT\.|EXT\.\b", text))
     has_timestamps = bool(re.search(r"\[.*\d+:\d+.*\]", text))
@@ -191,21 +188,17 @@ def _detect_script_type(immutable: ImmutableText) -> str:
     has_schedule = bool(re.search(r"\b\d{1,2}:\d{2}\s*(am|pm|AM|PM)\b", text))
 
     if has_int_ext and has_timestamps:
-        script_type = "timestamped_drama"
+        return "timestamped_drama"
     elif has_int_ext:
-        script_type = "raw_drama"
+        return "raw_drama"
     elif has_schedule:
-        script_type = "event_schedule"
+        return "event_schedule"
     elif has_cue_sheet:
-        script_type = "cue_sheet"
+        return "cue_sheet"
     elif has_timestamps:
-        script_type = "timestamped_drama"
+        return "timestamped_drama"
     else:
-        # Tier 3: Safe default
-        script_type = "raw_drama"
-
-    _script_type_cache[cache_key] = script_type
-    return script_type
+        return "raw_drama"
 
 
 def _extract_location(text: str) -> Optional[str]:
@@ -286,100 +279,6 @@ def _extract_explicit_lighting(text: str) -> List[str]:
                 cues.append(cue)
 
     return cues
-
-
-def _extract_dialogue(text: str) -> List[Dict[str, str]]:
-    """
-    Extract structured dialogue from scene text.
-    Handles both standard screenplay format and inline format.
-    Splits dialogue into separate speaker lines based on character names.
-    Returns a list of dicts with 'character' and 'line' keys.
-    """
-    if not text or not text.strip():
-        return []
-
-    dialogue_lines = []
-    
-    # regex pattern for standard screenplay format (character name on its own line)
-    # Character name is typically all caps, may have (V.O.) or (CONT'D), followed by dialogue block
-    # Matches:
-    # CHARACTER
-    # (parentheticals optional)
-    # Dialogue line here
-    standard_pattern = re.compile(
-        r"^[ \t]*([A-Z][A-Z0-9\s\.\-']+(?:\s*\([^)]+\))?)[ \t]*\n"  # Character line
-        r"((?:[ \t]*(?:\([^)]+\)[ \t]*\n)?(?:(?![ \t]*[A-Z]{2,}).+\n?)+))", # Dialogue block (allowing parentheticals)
-        re.MULTILINE
-    )
-    
-    matches = list(standard_pattern.finditer(text))
-    
-    if matches:
-        # Standard screenplay format found
-        for match in matches:
-            character = match.group(1).strip()
-            # Clean up character name (remove parentheticals like (V.O.) for cleaner UI if desired, but let's keep it for now)
-            
-            # Clean up dialogue block (remove parentheticals on their own lines, join lines)
-            raw_dialogue = match.group(2)
-            cleaned_lines = []
-            for line in raw_dialogue.split('\n'):
-                line = line.strip()
-                if line and not (line.startswith('(') and line.endswith(')')):
-                     cleaned_lines.append(line)
-            
-            if cleaned_lines:
-                 dialogue_lines.append({
-                     "character": character,
-                     "line": " ".join(cleaned_lines)
-                 })
-    else:
-        # Check for inline format: RAJU: Alright boys. PAPPU: Yes.
-        # Or: RAJU Alright boys. (less common but possible)
-        # We'll split by character names. We assume character names are ALL CAPS (at least 2 letters) followed by an optional colon.
-        inline_pattern = re.compile(r"([A-Z]{2,}[A-Z0-9\s]*:?)\s*(.*?)(?=(?:[A-Z]{2,}[A-Z0-9\s]*:)|$)", re.IGNORECASE | re.DOTALL)
-        
-        # But wait, we only want ALL CAPS names.
-        inline_pattern_strict = re.compile(r"([A-Z]{2,}[A-Z0-9\s]*:)\s*(.*?)(?=(?:[A-Z]{2,}[A-Z0-9\s]*:)|$)", re.DOTALL)
-        
-        inline_matches = list(inline_pattern_strict.finditer(text))
-        if inline_matches:
-             for match in inline_matches:
-                 character = match.group(1).replace(":", "").strip()
-                 line = match.group(2).strip()
-                 # Remove parentheticals
-                 line = re.sub(r"^\s*\([^)]+\)\s*", "", line)
-                 if line:
-                     dialogue_lines.append({
-                         "character": character,
-                         "line": line
-                     })
-        else:
-            # Fallback for inline without colons: "RAJU Alright boys. PAPPU Yes."
-            # This is risky as it might catch stage directions.
-            fallback_pattern = re.compile(r"\b([A-Z]{3,})\b\s+((?:(?!\b[A-Z]{3,}\b).)+)", re.DOTALL)
-            fallback_matches = list(fallback_pattern.finditer(text))
-            
-            # Only use fallback if it covers a significant portion of the text,
-            # to avoid false positives on random acronyms in stage directions.
-            if fallback_matches and len(fallback_matches) > 1:
-                 # Check if the text actually looks like dialogue
-                 # A weak heuristic: if we find multiple all-caps names followed by text.
-                 for match in fallback_matches:
-                     character = match.group(1).strip()
-                     line = match.group(2).strip()
-                     # Basic cleanup
-                     line = re.sub(r"^\s*\([^)]+\)\s*", "", line)
-                     
-                     # Skip if line looks like a scene heading or technical instruction
-                     if not re.match(r"(?:INT\.|EXT\.|FADE IN|FADE OUT|CUT TO|BLACKOUT)", character + " " + line, re.IGNORECASE):
-                         if line:
-                             dialogue_lines.append({
-                                 "character": character,
-                                 "line": line
-                             })
-
-    return dialogue_lines
 
 
 # ---------------------------------------------------------------------------

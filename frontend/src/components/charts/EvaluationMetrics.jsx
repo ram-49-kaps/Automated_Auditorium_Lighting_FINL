@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import { Activity, BarChart3, Layers, Gauge, Shield, ChevronDown, ChevronUp, CheckCircle2, AlertTriangle, XCircle, Zap, Search, Loader2, Check } from 'lucide-react'
-import { applyResolution } from '../../utils/api'
+import { applyResolution, applyManualEdit } from '../../utils/api'
 
-export default function EvaluationMetrics({ metrics, loading, activeTab = 'overview', jobId, onResolutionApplied }) {
+export default function EvaluationMetrics({ metrics, results, loading, activeTab = 'overview', jobId, onResolutionApplied }) {
     const [expandedScene, setExpandedScene] = useState(null)
     const [activeCheckPill, setActiveCheckPill] = useState(null)
     const [applyingFix, setApplyingFix] = useState(false)
     const [aiSuccessMessage, setAiSuccessMessage] = useState(null)
+    
+    // Manual Edit State
+    const [manualEditSceneId, setManualEditSceneId] = useState(null)
+    const [manualJsonStr, setManualJsonStr] = useState("")
+    const [savingManualEdit, setSavingManualEdit] = useState(false)
 
     if (loading) {
         return (
@@ -115,6 +120,35 @@ export default function EvaluationMetrics({ metrics, loading, activeTab = 'overv
             alert("Failed to apply the AI resolution.");
         } finally {
             setApplyingFix(false);
+        }
+    }
+
+    const handleSaveManualEdit = async () => {
+        if (!manualJsonStr) return;
+        setSavingManualEdit(true);
+        try {
+            let parsed;
+            try {
+                parsed = JSON.parse(manualJsonStr);
+            } catch (e) {
+                alert("Invalid JSON format. Please check your syntax.");
+                setSavingManualEdit(false);
+                return;
+            }
+            const response = await applyManualEdit(jobId, manualEditSceneId, parsed);
+            setAiSuccessMessage(response.message || "Manual edit saved!");
+            setManualEditSceneId(null);
+            if (onResolutionApplied) {
+                await onResolutionApplied();
+            }
+            setTimeout(() => {
+                setAiSuccessMessage(null);
+            }, 4000);
+        } catch (err) {
+            console.error("Failed to save manual edit:", err);
+            alert("Failed to save manual edit.");
+        } finally {
+            setSavingManualEdit(false);
         }
     }
 
@@ -266,27 +300,82 @@ export default function EvaluationMetrics({ metrics, loading, activeTab = 'overv
                                                     </div>
 
                                                     {scene.checks[activeCheckPill].resolution && (
-                                                        <div className="p-3 bg-amber-500/10 border border-amber-500/20 rounded-lg mt-4">
+                                                        <div className="p-3 bg-amber-500/10 border border-amber-500/20 rounded-lg mt-4 mb-2">
                                                             <span className="text-amber-400 block text-xs mb-1 font-bold tracking-wide">💡 AI RESOLUTION PREDICTION</span>
                                                             <p className="text-amber-100/80 text-[13px]">{scene.checks[activeCheckPill].resolution}</p>
+                                                        </div>
+                                                    )}
 
-                                                            {aiSuccessMessage ? (
-                                                                <div className="mt-3 bg-emerald-500/20 text-emerald-300 text-xs px-4 py-2.5 rounded-md border border-emerald-500/30 flex items-center gap-2 animate-fade-in">
-                                                                    <Check className="w-4 h-4" />
-                                                                    <span className="font-semibold">{aiSuccessMessage}</span>
+                                                    {aiSuccessMessage ? (
+                                                        <div className="mt-3 bg-emerald-500/20 text-emerald-300 text-xs px-4 py-2.5 rounded-md border border-emerald-500/30 flex items-center gap-2 animate-fade-in">
+                                                            <Check className="w-4 h-4" />
+                                                            <span className="font-semibold">{aiSuccessMessage}</span>
+                                                        </div>
+                                                    ) : manualEditSceneId === scene.scene_id ? (
+                                                        <div className="mt-3 animate-fade-in p-3 bg-white/5 border border-white/10 rounded-lg" onClick={e => e.stopPropagation()}>
+                                                            {results?.script_data && (
+                                                                <div className="bg-black/30 border border-white/5 rounded p-3 mb-3 max-h-40 overflow-y-auto">
+                                                                    <span className="text-[10px] text-emerald-400 uppercase font-mono tracking-widest block mb-2">Scene Content</span>
+                                                                    <p className="text-xs text-white/70 font-mono whitespace-pre-wrap leading-relaxed">
+                                                                        {results.script_data.find(s => s.scene_id === scene.scene_id)?.text || "No content found."}
+                                                                    </p>
                                                                 </div>
-                                                            ) : (
-                                                                <button
-                                                                    onClick={(e) => {
-                                                                        e.stopPropagation();
-                                                                        handleApplyFix(scene.scene_id, activeCheckPill);
-                                                                    }}
-                                                                    disabled={applyingFix}
-                                                                    className="mt-3 bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 text-xs px-4 py-1.5 rounded-md transition-colors border border-amber-500/30 flex items-center gap-2"
-                                                                >
-                                                                    {applyingFix ? <><Loader2 className="w-3.5 h-3.5 animate-spin" /> Applying Fix...</> : <><Zap className="w-3.5 h-3.5" /> Apply AI Resolution</>}
-                                                                </button>
                                                             )}
+                                                            <span className="text-[10px] text-amber-400 uppercase font-mono tracking-widest mb-1 block">Manual JSON Override</span>
+                                                            <textarea
+                                                                value={manualJsonStr}
+                                                                onChange={(e) => setManualJsonStr(e.target.value)}
+                                                                className="w-full bg-black/50 border border-white/20 rounded p-2 text-xs font-mono h-48 text-white/80 focus:outline-none focus:border-amber-500/50 transition-colors"
+                                                            />
+                                                            <div className="flex items-center gap-2 mt-2">
+                                                                <button
+                                                                    onClick={handleSaveManualEdit}
+                                                                    disabled={savingManualEdit}
+                                                                    className="bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 text-[11px] px-4 py-1.5 rounded-md transition-colors border border-emerald-500/30 font-semibold"
+                                                                >
+                                                                    {savingManualEdit ? 'Saving...' : 'Save Changes'}
+                                                                </button>
+                                                                <button
+                                                                    onClick={() => setManualEditSceneId(null)}
+                                                                    className="text-white/40 hover:text-white/60 text-[11px] px-2 py-1.5 font-semibold"
+                                                                >
+                                                                    Cancel
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    ) : (
+                                                        <div className="flex items-center gap-2 mt-3 p-3 bg-white/5 border border-white/10 rounded-lg">
+                                                            {scene.checks[activeCheckPill].resolution && (
+                                                                <>
+                                                                    <button
+                                                                        onClick={(e) => {
+                                                                            e.stopPropagation();
+                                                                            handleApplyFix(scene.scene_id, activeCheckPill);
+                                                                        }}
+                                                                        disabled={applyingFix}
+                                                                        className="bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 text-xs px-4 py-1.5 rounded-md transition-colors border border-amber-500/30 flex items-center gap-2"
+                                                                    >
+                                                                        {applyingFix ? <><Loader2 className="w-3.5 h-3.5 animate-spin" /> Applying Fix...</> : <><Zap className="w-3.5 h-3.5" /> Apply AI Resolution</>}
+                                                                    </button>
+                                                                    <span className="text-white/20 ml-2">/</span>
+                                                                </>
+                                                            )}
+                                                            <button
+                                                                onClick={(e) => {
+                                                                    e.stopPropagation();
+                                                                    let cueStr = "{}";
+                                                                    if (results && results.lighting_instructions) {
+                                                                        const cueObj = results.lighting_instructions.find(c => c.scene_id === scene.scene_id);
+                                                                        if (cueObj) cueStr = JSON.stringify(cueObj, null, 2);
+                                                                    }
+                                                                    setManualJsonStr(cueStr);
+                                                                    setManualEditSceneId(scene.scene_id);
+                                                                    setAiSuccessMessage(null);
+                                                                }}
+                                                                className="text-white/70 hover:text-white transition-colors text-xs px-3 py-1.5 rounded-md hover:bg-white/10"
+                                                            >
+                                                                Manual Edit
+                                                            </button>
                                                         </div>
                                                     )}
                                                 </div>

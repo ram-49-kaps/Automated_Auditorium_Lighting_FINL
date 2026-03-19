@@ -1,39 +1,54 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "LightingInstruction",
-  "description": "Intent-level lighting instructions produced by Phase 4 decision engine.",
+  "description": "Intent-level lighting instructions produced by the Phase 4 decision engine.",
   "type": "object",
   "required": [
     "scene_id",
     "time_window",
-    "emotion",
     "groups"
   ],
   "properties": {
     "scene_id": {
-      "type": "string"
+      "type": "string",
+      "description": "Scene identifier from Phase 1 (e.g. scene_001)"
     },
     "emotion": {
       "type": "string",
-      "description": "Primary emotion driving the lighting for this scene"
+      "description": "Detected emotion driving this instruction (from Phase 2)",
+      "enum": [
+        "anger",
+        "disgust",
+        "fear",
+        "joy",
+        "neutral",
+        "sadness",
+        "surprise"
+      ]
     },
     "time_window": {
       "type": "object",
+      "description": "When this lighting instruction applies",
       "required": [
         "start_time",
         "end_time"
       ],
       "properties": {
         "start_time": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "description": "Start time in seconds"
         },
         "end_time": {
-          "type": "number"
+          "type": "number",
+          "minimum": 0,
+          "description": "End time in seconds"
         }
       }
     },
     "groups": {
       "type": "array",
+      "description": "Lighting instructions per fixture group (typically 5 groups)",
       "items": {
         "type": "object",
         "required": [
@@ -43,37 +58,61 @@
         "properties": {
           "group_id": {
             "type": "string",
-            "description": "Logical fixture group (front_wash, back_light, side_fill, specials, ambient)"
+            "description": "Logical fixture group",
+            "enum": [
+              "front_wash",
+              "back_light",
+              "side_fill",
+              "specials",
+              "ambient"
+            ]
           },
           "parameters": {
             "type": "object",
             "required": [
-              "intensity"
+              "intensity",
+              "color"
             ],
             "properties": {
               "intensity": {
                 "type": "number",
                 "minimum": 0,
-                "maximum": 100,
-                "description": "Intensity percentage 0-100"
+                "maximum": 1,
+                "description": "Intensity level 0.0–1.0 normalized"
               },
               "color": {
                 "type": "string",
-                "description": "Semantic color name (e.g. warm_white, deep_red)"
+                "description": "Semantic color name (e.g. warm_amber, deep_red, steel_blue)"
               },
               "focus_area": {
                 "type": [
                   "string",
                   "null"
                 ],
-                "description": "Abstract focus region (e.g. full_stage, center_stage)"
+                "description": "Abstract focus region",
+                "enum": [
+                  "center_stage",
+                  "stage_left",
+                  "stage_right",
+                  "upstage",
+                  "downstage",
+                  "full_stage",
+                  "audience",
+                  null
+                ]
               },
               "color_temperature": {
                 "type": [
                   "string",
                   "null"
                 ],
-                "description": "Color temperature hint (warm, neutral, cool)"
+                "description": "Color temperature hint",
+                "enum": [
+                  "warm",
+                  "neutral",
+                  "cool",
+                  null
+                ]
               }
             }
           },
@@ -86,14 +125,20 @@
               "type": {
                 "type": "string",
                 "enum": [
-                  "cut",
                   "fade",
+                  "snap",
+                  "smooth",
+                  "pulse",
+                  "flicker",
+                  "strobe",
+                  "cut",
                   "crossfade"
                 ]
               },
               "duration_seconds": {
                 "type": "number",
                 "minimum": 0,
+                "maximum": 30,
                 "description": "Transition duration in seconds"
               }
             }
@@ -106,7 +151,7 @@
         "object",
         "null"
       ],
-      "description": "Optional non-executable metadata (logs, reasoning, debug info)"
+      "description": "Optional non-executable metadata (generation_method, reasoning, debug info)"
     }
   },
   "additionalProperties": false

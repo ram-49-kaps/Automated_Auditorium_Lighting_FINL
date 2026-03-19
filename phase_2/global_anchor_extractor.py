@@ -3,7 +3,7 @@ import logging
 import math
 from typing import List, Dict, Any
 
-from utils.openai_client import openai_json, async_openai_json
+from utils.openai_client import llm_json, async_llm_json
 from models.narrative_state import GlobalMetaAnchor
 
 logger = logging.getLogger("phase_2.global_anchor")
@@ -50,7 +50,7 @@ def extract_global_anchor(full_text: str) -> GlobalMetaAnchor:
     # we'll execute sequentially for stability, or we can use the async client if preferred.
     for i, chunk in enumerate(chunks):
         logger.debug(f"Summarizing chunk {i+1}/{num_chunks}...")
-        res = openai_json(
+        res = llm_json(
             prompt=map_prompt_template.format(chunk=chunk),
             system_prompt="You are a narrative intelligence summarizer. Always output JSON.",
             expected_keys=["summary"]
@@ -99,11 +99,10 @@ def _reduce_to_anchor(synopses: List[str]) -> GlobalMetaAnchor:
         "narrative_universe_logic", "intended_audience_experience"
     ]
     
-    result = openai_json(
+    result = llm_json(
         prompt=prompt,
         system_prompt=system_prompt,
         expected_keys=expected_keys,
-        model="gpt-4o-mini" # Using fast model for rapid anchoring
     )
     
     if result:

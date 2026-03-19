@@ -4,7 +4,7 @@ import logging
 from typing import List, Dict, Any, Tuple
 
 from models.narrative_state import Scene, Beat, GlobalMetaAnchor, ContextState
-from utils.openai_client import openai_json
+from utils.openai_client import llm_json
 
 logger = logging.getLogger("phase_2.multi_head")
 
@@ -49,7 +49,7 @@ def calculate_irony_and_comedy(beat_text: str, global_anchor: GlobalMetaAnchor) 
     Context Anchor Genre is: {global_anchor.primary_genre}
     Text: {beat_text}
     """
-    result = openai_json(
+    result = llm_json(
         prompt, 
         system_prompt="Return JSON with 'irony_index' and 'comedy_intensity' floats.", 
         expected_keys=["irony_index", "comedy_intensity"]
@@ -167,9 +167,38 @@ Return ONLY pure valid JSON in the following format:
     )
     
     expected_keys = ["scene_mood", "subtype", "intensity", "character_emotion", "audience_tone", "emotional_signals", "emotion_vector", "emotional_transition"]
-    result = openai_json(prompt, sys_prompt, expected_keys=expected_keys)
+    result = llm_json(prompt, sys_prompt, expected_keys=expected_keys)
     
     if not result:
+        print("LLM generation failed, attempting local DistilRoBERTa fallback...")
+        try:
+            from phase_2.emotion_analyzer import analyze_emotion
+            fallback_res = analyze_emotion({"scene_id": "temp", "text": beat_content}, None)
+            emo = fallback_res.get("emotion") if fallback_res else None
+            
+            if emo and (emo.get("primary") != "neutral" or emo.get("secondary") != "neutral"):
+                primary = emo.get("primary", "neutral")
+                confidence = emo.get("primary_confidence", 0.5)
+                secondary = emo.get("secondary", "neutral")
+                sec_conf = emo.get("secondary_confidence", 0.0)
+                accent = emo.get("accent", "neutral")
+                acc_conf = emo.get("accent_confidence", 0.0)
+                
+                print(f"Local fallback succeeded: {primary}")
+                return {
+                    "scene_mood": primary,
+                    "subtype": secondary if secondary != "neutral" else "none",
+                    "intensity": confidence,
+                    "character_emotion": primary,
+                    "audience_tone": "sincere",
+                    "emotional_signals": "Derived from local DistilRoBERTa fallback.",
+                    "emotion_vector": {primary: confidence, secondary: sec_conf, accent: acc_conf},
+                    "emotional_transition": "unknown"
+                }
+        except Exception as e:
+            print(f"Local fallback failed: {e}")
+
+        logger.warning("Falling back to rule-based generation.")
         return {
             "scene_mood": "neutral", "subtype": "none", "intensity": 0.5,
             "character_emotion": "neutral", "audience_tone": "sincere",

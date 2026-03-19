@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "source_file": "Purple Modern Event Schedule Poster.pdf",
+    "source_format": ".pdf",
+    "genre": "drama",
+    "total_scenes": 1,
+    "total_duration_formatted": "00:15:00",
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1
+    },
+    "narrative_context": ""
+  },
+  "scenes": [
+    {
+      "scene_id": "seg_001",
+      "script_type": "college_event",
+      "time_window": {
+        "start": 0.0,
+        "end": 900.0
+      },
+      "duration": 900.0,
+      "text": "GIGGLING PLATYPUS CO.\n\n# Event Schedule\n\nEvent Date: Saturday, November 22, 2025\nFauget Hall\n123 Anywhere St., Any City\n\n|  9:00 AM → | Registration  |\n| --- | --- |\n|  10:00 AM → | Opening Ceremony  |\n|  10:30 AM → | Keynote Speech  |\n|  11:30 AM → | Panel Discussion  |\n|  1:00 PM → | Networking Lunch  |\n|  2:30 PM → | Workshop  |\n|  4:00 PM → | Coffee Break  |\n|  4:30 PM → | Closing Remarks  |\n|  5:00 PM → | Farewell Group Photo  |\n\nMore Information: www.reallygreatsite.com",
+      "location": null,
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.399,
+        "secondary": "joy",
+        "secondary_confidence": 0.385,
+        "accent": "surprise",
+        "accent_confidence": 0.126
+      },
+      "explicit_lighting": []
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "seg_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 31.5,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 36.75,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 26.25,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.75,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": false
+      }
+    }
+  ]
+}

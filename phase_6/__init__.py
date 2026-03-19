@@ -3,9 +3,16 @@ Phase 6: Orchestration Module
 Pipeline control and batching
 """
 
-from .cue_validator import validate_cue, validate_cue_sheet
+from .pipeline_runner import PipelineRunner
+from .config_models import PipelineConfig
+from .state_tracker import PipelineResult, PhaseStatus
+from .errors import PhaseNotImplementedError, HardFailureError
 
 __all__ = [
-    'validate_cue',
-    'validate_cue_sheet',
+    'PipelineRunner',
+    'PipelineConfig',
+    'PipelineResult',
+    'PhaseStatus',
+    'PhaseNotImplementedError',
+    'HardFailureError'
 ]

@@ -1,0 +1,24 @@
+flowchart TD
+    INPUT(["emotion + scene_text"]) --> INIT["Phase3Retriever\n(singleton)"]
+    INIT --> EMB["HuggingFaceEmbeddings\n(all-MiniLM-L6-v2)"]
+
+    EMB --> AUD[("Auditorium\nFAISS Index")]
+    EMB --> SEM[("Semantics\nFAISS Index")]
+
+    AUD --> AQ["retrieve_auditorium_context\n(scene_text, k=5)"]
+    SEM --> SQ["retrieve_semantics_context\n(emotion, k=3)"]
+
+    AQ --> ADOCS["Fixture metadata docs"]
+    SQ --> SDOCS["Design rule docs"]
+
+    ADOCS --> CTX["build_context_for_llm()"]
+    SDOCS --> CTX
+    SDOCS --> PAL["retrieve_palette(emotion)"]
+
+    CTX --> CTXOUT(["Formatted context string\n→ Phase 4 LLM path"])
+    PAL --> PALOUT(["color / intensity /\ntransition rules\n→ Phase 4 Rule path"])
+
+    style AUD fill:#2c7a7b,stroke:#81e6d9,color:#fff
+    style SEM fill:#2c7a7b,stroke:#81e6d9,color:#fff
+    style CTXOUT fill:#276749,stroke:#68d391,color:#fff
+    style PALOUT fill:#276749,stroke:#68d391,color:#fff

@@ -1,0 +1,1338 @@
+{
+  "metadata": {
+    "source_file": "Script-5.txt",
+    "source_format": ".txt",
+    "genre": "thriller",
+    "total_scenes": 13,
+    "total_duration_formatted": "00:33:08",
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "neutral": 8,
+      "fear": 5
+    },
+    "narrative_context": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 0.0,
+        "end": 0
+      },
+      "duration": 0.0,
+      "text": "FADE IN:",
+      "location": null,
+      "emotion": null,
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_002",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2.0,
+        "end": 90
+      },
+      "duration": 88.0,
+      "text": "EXT. ANCIENT SKYBRIDGE – ABOVE THE CLOUDS – DAWN\n\n[Approx. Timestamp: 00:00:00]\n\nA colossal STONE BRIDGE stretches between two floating mountain ranges, suspended miles above rolling clouds. Wind HOWLS. Sunlight breaks through mist, painting the bridge in gold.\n\nA weathered expedition airship hovers nearby.\n",
+      "location": "ANCIENT SKYBRIDGE – ABOVE THE CLOUDS",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.481,
+        "secondary": "disgust",
+        "secondary_confidence": 0.174,
+        "accent": "fear",
+        "accent_confidence": 0.136,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_003",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 90,
+        "end": 180
+      },
+      "duration": 90,
+      "text": "INT. AIRSHIP – CONTINUOUS\n\n[00:01:30]\n\nMeet the team:\n\nARJUN (32) – Calm, sharp, seasoned explorer\n\nMIRA (29) – Historian, emotionally driven\n\nROOK (35) – Muscular climber, dry humor\n\nTAVI (19) – Young drone pilot, curious and reckless\n\nThey gear up.\n\nMIRA\n(awed)\nThe Skybridge of Aeralis… People thought it was a myth.\n\nARJUN\nEvery myth starts as a warning.\n",
+      "location": "AIRSHIP",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.865,
+        "secondary": "fear",
+        "secondary_confidence": 0.066,
+        "accent": "joy",
+        "accent_confidence": 0.027,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_004",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 180,
+        "end": 360
+      },
+      "duration": 180,
+      "text": "EXT. SKYBRIDGE ENTRANCE – MOMENTS LATER\n\n[00:03:00]\n\nAncient runes glow faintly beneath their boots as they step onto the bridge.\n\nThe bridge CREAKS — not weak, but alive.\n\nTAVI\nTell me it’s not going to collapse.\n\nROOK\nIf it does, you won’t hear me scream. Wind’ll steal it first.\n\nThey move forward.\n\nCUT TO:",
+      "location": "SKYBRIDGE ENTRANCE – MOMENTS LATER",
+      "emotion": {
+        "primary": "fear",
+        "primary_confidence": 0.413,
+        "secondary": "neutral",
+        "secondary_confidence": 0.405,
+        "accent": "anger",
+        "accent_confidence": 0.114,
+        "energy_level": 0.8,
+        "valence": -0.6
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_005",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 360,
+        "end": 540
+      },
+      "duration": 180,
+      "text": "EXT. SKYBRIDGE – MIDSPAN\n\n[00:06:00]\n\nThe bridge widens into a platform. Massive stone statues of forgotten guardians line the sides.\n\nSuddenly—\nA LOW RUMBLE.\n\nThe statues’ eyes glow.\n\nMIRA\n(reading runes)\n“It judges those who cross.”\n\nStone arms SHIFT slightly.\n\nARJUN\nThen walk with purpose.\n\nThey proceed carefully. The glow fades.\n",
+      "location": "SKYBRIDGE – MIDSPAN",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.509,
+        "secondary": "surprise",
+        "secondary_confidence": 0.188,
+        "accent": "fear",
+        "accent_confidence": 0.142,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_006",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 540,
+        "end": 780
+      },
+      "duration": 240,
+      "text": "EXT. BROKEN SECTION – CONTINUOUS\n\n[00:09:00]\n\nA large portion of the bridge has collapsed, leaving a terrifying gap.\n\nClouds swirl violently below.\n\nROOK\n(grinning nervously)\nI live for moments like this.\n\nHe anchors a rope. One by one, they cross.\n\nMidway—\n\nThe rope SLIPS.\n\nTavi dangles, panicking.\n\nTAVI\nI’m slipping! I’m slipping!\n\nArjun grabs him — muscles straining.\n\nARJUN\nLook at me. Not the clouds.\n\nThey pull Tavi up.\n\nSilence.\n\nThen relieved laughter.\n\nCUT TO:",
+      "location": "BROKEN SECTION",
+      "emotion": {
+        "primary": "fear",
+        "primary_confidence": 0.956,
+        "secondary": "neutral",
+        "secondary_confidence": 0.014,
+        "accent": "anger",
+        "accent_confidence": 0.013,
+        "energy_level": 0.8,
+        "valence": -0.6
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_007",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 780,
+        "end": 960
+      },
+      "duration": 180,
+      "text": "EXT. SKYBRIDGE – STORM APPROACHING\n\n[00:13:00]\n\nDark clouds roll in fast. Wind intensifies.\n\nLightning flickers inside the clouds — silent but threatening.\n\nMIRA\nStorms weren’t in the forecast.\n\nARJUN\nThis place makes its own rules.\n\nThey push forward.\n",
+      "location": "SKYBRIDGE – STORM APPROACHING",
+      "emotion": {
+        "primary": "fear",
+        "primary_confidence": 0.933,
+        "secondary": "neutral",
+        "secondary_confidence": 0.032,
+        "accent": "anger",
+        "accent_confidence": 0.018,
+        "energy_level": 0.8,
+        "valence": -0.6
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_008",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 960,
+        "end": 1080
+      },
+      "duration": 120,
+      "text": "EXT. ANCIENT OBSERVATORY – ON THE BRIDGE\n\n[00:16:00]\n\nA circular stone structure sits at the center of the bridge.\n\nInside: murals showing travelers crossing — some reaching the end, some falling.\n\nMIRA\n(quietly)\nThe bridge doesn’t kill people… fear does.\n\nA sudden GUST blows debris inside.\n\nThe exit door SLAMS shut.\n",
+      "location": "ANCIENT OBSERVATORY – ON THE BRIDGE",
+      "emotion": {
+        "primary": "fear",
+        "primary_confidence": 0.869,
+        "secondary": "surprise",
+        "secondary_confidence": 0.042,
+        "accent": "neutral",
+        "accent_confidence": 0.042,
+        "energy_level": 0.8,
+        "valence": -0.6
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_009",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1080,
+        "end": 1320
+      },
+      "duration": 240,
+      "text": "INT. OBSERVATORY – CONTINUOUS\n\n[00:18:00]\n\nThe floor lights up. Symbols rotate.\n\nA MECHANISM activates.\n\nTAVI\nIt’s… a test?\n\nARJUN\nA choice.\n\nThree paths illuminate on the floor.\n\nMIRA\nOnly one is safe.\n\nThey debate. Tension rises.\n\nFinally—\n\nARJUN\nWe go together. Same path.\n\nThey step forward.\n\nThe other paths COLLAPSE.\n\nThe door opens.\n\nCUT TO:",
+      "location": "OBSERVATORY",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.783,
+        "secondary": "anger",
+        "secondary_confidence": 0.061,
+        "accent": "surprise",
+        "accent_confidence": 0.056,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [
+        "lights up"
+      ],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_010",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1320,
+        "end": 1560
+      },
+      "duration": 240,
+      "text": "EXT. FINAL STRETCH OF SKYBRIDGE – SUN BREAKING THROUGH\n\n[00:22:00]\n\nThe storm clears suddenly.\n\nAhead: the LAST PILLAR, glowing with ancient energy.\n\nGolden light floods the bridge.\n\nROOK\nWorth it.\n\nAs they approach, the bridge begins to DISINTEGRATE behind them.\n\nThey RUN.\n\nStone CRUMBLES.\n\nLeaps. Slides. Near-falls.\n",
+      "location": "FINAL STRETCH OF SKYBRIDGE – SUN BREAKING THROUGH",
+      "emotion": {
+        "primary": "fear",
+        "primary_confidence": 0.27,
+        "secondary": "neutral",
+        "secondary_confidence": 0.247,
+        "accent": "surprise",
+        "accent_confidence": 0.23,
+        "energy_level": 0.8,
+        "valence": -0.6
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_011",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1560,
+        "end": 1800
+      },
+      "duration": 240,
+      "text": "EXT. LAST PILLAR – CONTINUOUS\n\n[00:26:00]\n\nThey reach safety just as the bridge collapses completely.\n\nSilence.\n\nThe clouds below settle.\n\nThe pillar HUMS softly.\n\nMIRA\nIt’s not treasure…\n\nThe pillar projects visions — knowledge, maps, forgotten routes across the world.\n\nMIRA (CONT’D)\nIt’s a guide.\n",
+      "location": "LAST PILLAR",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.803,
+        "secondary": "sadness",
+        "secondary_confidence": 0.081,
+        "accent": "fear",
+        "accent_confidence": 0.05,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_012",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1800,
+        "end": 1980
+      },
+      "duration": 180,
+      "text": "EXT. SKY – AIRSHIP APPROACHING\n\n[00:30:00]\n\nTheir airship returns through the clouds.\n\nGolden light reflects off their faces.\n\nTAVI\nSo… where to next?\n\nArjun smiles.\n\nARJUN\nSomewhere impossible.\n\nFINAL SHOT:",
+      "location": "SKY – AIRSHIP APPROACHING",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.584,
+        "secondary": "joy",
+        "secondary_confidence": 0.321,
+        "accent": "surprise",
+        "accent_confidence": 0.067,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    },
+    {
+      "scene_id": "scene_013",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1980,
+        "end": 1990.0
+      },
+      "duration": 10.0,
+      "text": "EXT. SKY – WIDE\n\n[00:33:00]\n\nThe floating mountains drift peacefully.\n\nWhere the bridge once stood — only clouds.\n\nThe legend lives on.\n\nFADE OUT.\nEND.",
+      "location": "SKY – WIDE",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.924,
+        "secondary": "sadness",
+        "secondary_confidence": 0.02,
+        "accent": "joy",
+        "accent_confidence": 0.014,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The team crosses the ancient Skybridge, facing eerie runes and a rumbling statue. Tavi nearly falls, but Arjun saves him, fostering a bond. As a storm approaches, they reach an observatory, where the bridge tests their resolve, heightening tension and fear."
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 31.5,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 36.75,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 26.25,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.75,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": false
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 31.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 18.599999999999998,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 21.7,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 15.5,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.299999999999999,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 16.2,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 18.9,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 13.5,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 8.1,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 26.0,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.6,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 18.2,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 13.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.8,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "ice_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "ice_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 18.0,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.0,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 5.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 5.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 5.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 5.0,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 5.0,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 22.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 13.2,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 15.399999999999999,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 11.0,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 6.6,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 26.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.6,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 18.2,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 13.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.8,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "#FFD700",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "#FFD700",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "#FFD700",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "#FFD700",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "#FFD700",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 26.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.6,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 18.2,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 13.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.8,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 0.0,
+            "color": "#FFD700",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 0.0,
+            "color": "#FFD700",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 0.0,
+            "color": "#FFD700",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 0.0,
+            "color": "#FFD700",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 0.0,
+            "color": "#FFD700",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 22.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 13.2,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 15.399999999999999,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 11.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 6.6,
+            "color": "cool_white",
+            "focus_area": "audience",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    }
+  ]
+}

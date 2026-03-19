@@ -15,19 +15,11 @@ from config import (
 
 # Import document processing libraries
 try:
-    import pdfplumber
-    PDFPLUMBER_AVAILABLE = True
-except ImportError:
-    PDFPLUMBER_AVAILABLE = False
-
-try:
     from PyPDF2 import PdfReader
     PDF_AVAILABLE = True
 except ImportError:
     PDF_AVAILABLE = False
-
-if not PDFPLUMBER_AVAILABLE and not PDF_AVAILABLE:
-    print("Warning: Neither pdfplumber nor PyPDF2 installed. PDF support disabled.")
+    print("Warning: PyPDF2 not installed. PDF support disabled.")
 
 try:
     from docx import Document
@@ -106,38 +98,9 @@ def _read_txt(filepath):
     
     raise IOError(f"Could not decode text file with any standard encoding: {filepath}")
 
-def _normalize_pdf_text(text):
-    """
-    Fix common PDF extraction issues for screenplays.
-    
-    PyPDF2 and other extractors often merge scene markers into
-    the middle of lines. This function inserts line breaks before
-    known scene markers so the rule-based segmenter can find them.
-    """
-    import re
-    
-    # Fix split words (e.g., "IN T." → "INT.", "EX T." → "EXT.")
-    text = re.sub(r'IN\s+T\.', 'INT.', text)
-    text = re.sub(r'EX\s+T\.', 'EXT.', text)
-    
-    # Insert newline before scene markers found mid-line
-    text = re.sub(r'(?<!\n)(?<!^)(\s*(?:INT\.|EXT\.))', r'\n\1', text, flags=re.IGNORECASE)
-    text = re.sub(r'(?<!\n)(?<!^)(\s*CUT\s+TO\s*:)', r'\n\1', text, flags=re.IGNORECASE)
-    text = re.sub(r'(?<!\n)(?<!^)(\s*FADE\s+(?:IN|OUT)[.:])', r'\n\1', text, flags=re.IGNORECASE)
-    text = re.sub(r'(?<!\n)(?<!^)(\s*FADE\s+TO\s+BLACK)', r'\n\1', text, flags=re.IGNORECASE)
-    
-    # Normalize excessive blank lines (more than 3 → 2)
-    text = re.sub(r'\n{4,}', '\n\n\n', text)
-    
-    return text
-
-
 def _read_pdf(filepath):
     """
-    Read PDF file and extract text.
-    
-    Uses pdfplumber (better layout preservation) if available,
-    falls back to PyPDF2.
+    Read PDF file and extract text
     
     Args:
         filepath (str): Path to PDF file
@@ -146,61 +109,36 @@ def _read_pdf(filepath):
         str: Extracted text content
         
     Raises:
-        RuntimeError: If no PDF library is available
+        RuntimeError: If PDF library not available
         IOError: If PDF cannot be read
     """
-    if not PDFPLUMBER_AVAILABLE and not PDF_AVAILABLE:
+    if not PDF_AVAILABLE:
         raise RuntimeError(
-            "PDF support not available. Install with: pip install pdfplumber"
+            "PDF support not available. Install with: pip install PyPDF2"
         )
     
-    raw_text = None
+    try:
+        reader = PdfReader(filepath)
+        text_content = []
+        
+        # Extract text from each page
+        for page_num, page in enumerate(reader.pages):
+            try:
+                text = page.extract_text()
+                if text.strip():
+                    text_content.append(text)
+            except Exception as e:
+                print(f"Warning: Could not extract text from page {page_num + 1}: {e}")
+                continue
+        
+        if not text_content:
+            raise IOError("No text could be extracted from PDF")
+        
+        # Join all pages with double newline
+        return "\n\n".join(text_content)
     
-    # Strategy 1: pdfplumber (better layout preservation)
-    if PDFPLUMBER_AVAILABLE:
-        try:
-            text_content = []
-            with pdfplumber.open(filepath) as pdf:
-                for page_num, page in enumerate(pdf.pages):
-                    try:
-                        text = page.extract_text()
-                        if text and text.strip():
-                            text_content.append(text)
-                    except Exception as e:
-                        print(f"Warning: pdfplumber could not extract page {page_num + 1}: {e}")
-                        continue
-            
-            if text_content:
-                raw_text = "\n\n".join(text_content)
-        except Exception as e:
-            print(f"Warning: pdfplumber failed, trying PyPDF2: {e}")
-            raw_text = None
-    
-    # Strategy 2: PyPDF2 fallback
-    if raw_text is None and PDF_AVAILABLE:
-        try:
-            reader = PdfReader(filepath)
-            text_content = []
-            
-            for page_num, page in enumerate(reader.pages):
-                try:
-                    text = page.extract_text()
-                    if text and text.strip():
-                        text_content.append(text)
-                except Exception as e:
-                    print(f"Warning: Could not extract text from page {page_num + 1}: {e}")
-                    continue
-            
-            if text_content:
-                raw_text = "\n\n".join(text_content)
-        except Exception as e:
-            raise IOError(f"Error reading PDF file: {e}")
-    
-    if not raw_text:
-        raise IOError("No text could be extracted from PDF")
-    
-    # Normalize the extracted text to fix common PDF issues
-    return _normalize_pdf_text(raw_text)
+    except Exception as e:
+        raise IOError(f"Error reading PDF file: {e}")
 
 def _read_docx(filepath):
     """

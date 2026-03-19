@@ -1,0 +1,28 @@
+flowchart TD
+    INPUT(["scene.text"]) --> INIT["EmotionAnalyzer\n(singleton)"]
+    INIT --> ML{"ML available\n+ enabled?"}
+
+    ML --> |"yes"| DISTIL["DistilRoBERTa Model"]
+    ML --> |"no"| KW
+
+    DISTIL --> PIPE["transformers.pipeline\n('text-classification')"]
+    PIPE --> CONF{"confidence\n≥ threshold?"}
+    CONF --> |"yes"| MLRES["ML result"]
+    CONF --> |"no"| KW
+
+    KW["Keyword Dictionary"]
+    KW --> SCAN["Scan text against\nemotion keywords"]
+    SCAN --> SCORE["Score: joy, sadness, fear,\nanger, surprise, anticipation"]
+    SCORE --> KWRES["Keyword result"]
+
+    MLRES --> FMT["Format output"]
+    KWRES --> FMT
+
+    FMT --> OUT(["primary_emotion\nsecondary\naccent\nconfidence"])
+
+    INIT -.-> |"exception"| NEUTRAL["emotion=neutral\nconfidence=0"]
+
+    style DISTIL fill:#553c9a,stroke:#b794f4,color:#fff
+    style KW fill:#744210,stroke:#fbd38d,color:#fff
+    style NEUTRAL fill:#9b2c2c,stroke:#fc8181,color:#fff
+    style OUT fill:#276749,stroke:#68d391,color:#fff

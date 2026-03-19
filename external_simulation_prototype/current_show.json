@@ -1,197 +1,828 @@
 {
   "metadata": {
-    "source_file": "Script-3.txt",
-    "doc_type": "script",
+    "source_file": "Script-9.txt",
+    "doc_type": "theatrical_script",
     "genre": "drama",
-    "total_scenes": 4,
-    "dominant_emotion": "chaotic excitement",
+    "total_scenes": 16,
+    "dominant_emotion": "dark irony",
     "emotion_distribution": {
-      "chaotic excitement": 1,
-      "chaotic humor": 1,
-      "joyful chaos": 1,
-      "joyful": 1
+      "dark humor": 2,
+      "dark irony": 4,
+      "neutral": 7,
+      "disgust": 2,
+      "fear": 1
     }
   },
   "script_data": [
     {
       "scene_id": "scene_001",
-      "scene_number": 1,
-      "text": "INT. SMALL APARTMENT KITCHEN - DAY\n\n[Approx. Timestamp: 00:00:00]\nThe kitchen is tiny, cluttered with half-prepped food, pots bubbling, and a giant \"CATERING GIG TODAY\" sticky note on the fridge. JAKE (28, enthusiastic but perpetually overwhelmed amateur chef) wears a stained apron that says \"Kiss the Cook... or Run.\" His best friend and reluctant business partner, MIA (27, sarcastic, always one eye-roll away from quitting), chops vegetables like she's angry at them.\n\nJAKE\n(excited, waving a ladle)\nThis is it, Mia! Our first real catering job. Fifty people at the tech startup launch party. We're gonna crush it. Gourmet sliders, mini quiches, that fancy charcuterie thing you saw on TikTok\u2014\n\nMIA\n(deadpan)\nThe one where everything looks perfect and then someone drops it on the floor? Yeah, we're nailing that vibe already.\n\nA smoke alarm suddenly BLARES. Jake rushes to the oven, yanks out a tray of blackened mini quiches.\n\nJAKE\nNo, no, no! They're... extra crispy! Trendy!\n\nMIA\nThey're charcoal briquettes with cheese. We're doomed.\n\nJake's phone BUZZES. He answers on speaker.\n\nJAKE\nHey, Mr. Patel! Yes, we're on schedule. Everything's under control\u2014\n\nMR. PATEL (O.S., frantic)\nJake! Change of plans! The venue flooded. We're moving it here\u2014to my apartment! Right now! And... we adopted a cat last week. Super friendly. Loves people. Bring extra food!\n\nClick. Silence.\n\nMIA\nA cat. In a tiny apartment. With fifty tech bros. And our food.\n\nJAKE\nIt's fine. Cats love sliders. We'll improvise.",
-      "start": 0.0,
-      "end": 210.0,
-      "duration": 210.0,
-      "emotion": "chaotic excitement",
-      "emotion_confidence": 0.7,
-      "secondary_emotions": [
-        {
-          "emotion": "excitement",
-          "score": 0.5
-        },
-        {
-          "emotion": "anxiety",
-          "score": 0.3
-        },
-        {
-          "emotion": "humor",
-          "score": 0.2
-        }
-      ],
-      "sentiment_score": 0.7,
-      "theatrical_context": {
-        "predicted_theme": "light-hearted amusement",
-        "confidence": 0.7
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 0.0,
+        "end": 10.0
       },
+      "duration": 10.0,
+      "text": "DARK COMEDY SCRIPT\nTitle: \u201cSORRY FOR YOUR LOSS (IT\u2019S COMPLICATED)\u201d\n\nGenre: Dark Comedy / Satire\nEstimated Duration: ~45\u201350 minutes\n\nFADE IN:",
+      "location": null,
+      "emotion": {
+        "primary_emotion": "dark humor",
+        "primary": "dark humor",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Dark Humor",
+            "score": 0.6
+          },
+          {
+            "emotion": "Moral Ambiguity",
+            "score": 0.2
+          },
+          {
+            "emotion": "Self-Deprecation",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
       "v3_metrics": {
-        "irony_index": 0.7,
-        "narrative_seriousness_score": 0.1,
-        "emotion_confidence": 0.7,
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.8,
         "temporal_stability_delta": 0.0,
-        "comedy_intensity": 0.8,
-        "scene_energy": 1.0
+        "comedy_intensity": 0.9,
+        "scene_energy": 0.047619047619047616
       },
-      "word_count": 241,
-      "narrative_role": "inciting_incident",
-      "mood_shift": "none",
-      "doc_type": "script"
+      "content": {
+        "text": "DARK COMEDY SCRIPT\nTitle: \u201cSORRY FOR YOUR LOSS (IT\u2019S COMPLICATED)\u201d\n\nGenre: Dark Comedy / Satire\nEstimated Duration: ~45\u201350 minutes\n\nFADE IN:",
+        "header": null
+      },
+      "timing": {
+        "start_time": 0.0,
+        "end_time": 10.0,
+        "duration": 10.0
+      }
     },
     {
       "scene_id": "scene_002",
-      "scene_number": 2,
-      "text": "INT. MR. PATEL'S APARTMENT - LIVING ROOM - LATER THAT AFTERNOON\n\n[Approx. Timestamp: 00:03:30]\nChaos has begun. Folding tables crammed everywhere. Guests mill about in hoodies, sipping from red cups. A fluffy orange CAT (named \"Sir Whiskers\") prowls like he owns the place.\n\nJake and Mia set up frantically. Jake balances a tray of sliders while dodging elbows.\n\nGUEST #1 (excited tech bro)\nYo, these sliders look fire! What's the special sauce?\n\nJAKE\nUh... love? And aioli. Mostly aioli.\n\nSir Whiskers leaps onto the table, knocks over a bowl of dip. It splatters across three guests.\n\nGUEST #2\nMy new Yeezys!\n\nMIA\n(under her breath)\nGreat. Now we're catering a crime scene.\n\nJake tries to shoo the cat. Sir Whiskers hisses, swats the tray\u2014sliders fly like frisbees. One lands in a guest's drink. Another sticks to the ceiling fan, which starts spinning slowly, flinging sauce.\n\nGUESTS\n(laughing, some horrified)\nWhat the\u2014?!",
-      "start": 210.0,
-      "end": 360.0,
-      "duration": 150.0,
-      "emotion": "chaotic humor",
-      "emotion_confidence": 0.8,
-      "secondary_emotions": [
-        {
-          "emotion": "excitement",
-          "score": 0.6
-        },
-        {
-          "emotion": "anxiety",
-          "score": 0.2
-        },
-        {
-          "emotion": "humor",
-          "score": 0.9
-        }
-      ],
-      "sentiment_score": 0.8,
-      "theatrical_context": {
-        "predicted_theme": "lighthearted and entertained",
-        "confidence": 0.8
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 10.0,
+        "end": 20.0
       },
+      "duration": 10.0,
+      "text": "EXT. CREMATORIUM PARKING LOT \u2013 MORNING\n\n[Approx. Timestamp: 00:00:00]\n\nGrey sky. Drizzle. A banner flaps loosely:\n\n\u201cWELCOME \u2013 TODAY\u2019S FUNERAL\u201d\n\nSomeone taped over \u201cFUNERAL\u201d with \u201cCELEBRATION OF LIFE,\u201d but it\u2019s peeling.\n\nA hearse stalls. Engine coughs. Silence.\n",
+      "location": "CREMATORIUM PARKING LOT \u2013 MORNING",
+      "emotion": {
+        "primary_emotion": "dark irony",
+        "primary": "dark irony",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Dark Irony",
+            "score": 0.6
+          },
+          {
+            "emotion": "Moral Ambiguity",
+            "score": 0.2
+          },
+          {
+            "emotion": "Confusion",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
       "v3_metrics": {
-        "irony_index": 0.7,
-        "narrative_seriousness_score": 0.1,
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
         "emotion_confidence": 0.8,
         "temporal_stability_delta": 0.0,
         "comedy_intensity": 0.9,
-        "scene_energy": 0.6298013245033112
+        "scene_energy": 0.0
       },
-      "word_count": 151,
-      "narrative_role": "rising_action",
-      "mood_shift": "none",
-      "doc_type": "script"
+      "content": {
+        "text": "EXT. CREMATORIUM PARKING LOT \u2013 MORNING\n\n[Approx. Timestamp: 00:00:00]\n\nGrey sky. Drizzle. A banner flaps loosely:\n\n\u201cWELCOME \u2013 TODAY\u2019S FUNERAL\u201d\n\nSomeone taped over \u201cFUNERAL\u201d with \u201cCELEBRATION OF LIFE,\u201d but it\u2019s peeling.\n\nA hearse stalls. Engine coughs. Silence.\n",
+        "header": "CREMATORIUM PARKING LOT \u2013 MORNING"
+      },
+      "timing": {
+        "start_time": 10.0,
+        "end_time": 20.0,
+        "duration": 10.0
+      }
     },
     {
       "scene_id": "scene_003",
-      "scene_number": 3,
-      "text": "INT. KITCHENETTE - CONTINUOUS\n\n[Approx. Timestamp: 00:06:00]\nMia and Jake retreat to regroup. Mr. Patel bursts in, holding the cat like a football.\n\nMR. PATEL\nHe's just excited! New people! New smells!\n\nThe cat wriggles free, dashes out.\n\nJAKE\nWe need a plan. Mia, distract the guests with... charm?\n\nMIA\nCharm? I have resting murder face. You distract. I'll salvage what food we have left.\n\nJake nods, grabs a microphone (it's a karaoke setup for the party).\n\nJAKE\n(into mic, too loud)\nHey everyone! Welcome! I'm Jake, your chef tonight. Quick story: I once burned water. True story. But tonight? Tonight we're elevating!\n\nGuests chuckle. Sir Whiskers reappears, leaps onto Jake's shoulder like a pirate parrot.\n\nJAKE\n(trying to play it cool)\nAnd this is Sir Whiskers, our... official taste-tester!\n\nThe cat bats at the mic cord. It tangles around Jake's legs. He stumbles, knocks over a stack of chairs. Domino effect\u2014chairs topple, a table flips, charcuterie rains down like confetti.\n\nGuests scream-laugh. Phones come out\u2014video time.\n\nMIA\n(running in)\nJake!\n\nShe grabs a broom, tries to herd the cat. Instead, she sweeps Jake's feet out. He falls backward into a pile of cushions, cat landing on his chest purring.\n\nJAKE\n(from the floor, defeated but grinning)\nAppetizers are served... floor-style.\n\nThe room erupts in applause and laughter. Someone starts a slow clap. Others join.\n\nGUEST #3\nThis is the best launch party ever! Way better than free pizza!\n\nMR. PATEL\n(tearful, happy)\nYou guys... you turned disaster into legend!\n\nMia helps Jake up. The cat rubs against her leg.\n\nMIA\n(softening, smirking)\nOkay, fine. We're not fired. Yet.\n\nJAKE\nNext gig: Cat-proof everything.\n\nThey high-five. Sir Whiskers meows triumphantly.\n\nGuests swarm the spilled food\u2014picking it up, eating anyway, toasting \"to chaos!\"",
-      "start": 360.0,
-      "end": 360.0,
-      "duration": 0.0,
-      "emotion": "joyful chaos",
-      "emotion_confidence": 0.9,
-      "secondary_emotions": [
-        {
-          "emotion": "excitement",
-          "score": 0.7
-        },
-        {
-          "emotion": "humor",
-          "score": 0.9
-        },
-        {
-          "emotion": "anxiety",
-          "score": 0.1
-        }
-      ],
-      "sentiment_score": 0.9,
-      "theatrical_context": {
-        "predicted_theme": "amused and entertained",
-        "confidence": 0.9
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 20.0,
+        "end": 30.0
       },
+      "duration": 10.0,
+      "text": "INT. CREMATORIUM \u2013 WAITING HALL\n\n[00:02:30]\n\nRows of plastic chairs. Awkward silence.\n\nMeet the mourners:\n\nDEV (34) \u2013 The dead man\u2019s son, emotionally numb\n\nMAYA (32) \u2013 Dev\u2019s ex-wife, overly polite\n\nUNCLE GIRISH (55) \u2013 Loud, inappropriate\n\nRITA (40) \u2013 Funeral coordinator who has seen too much\n\nA phone rings. Everyone stares.\n\nDev answers.\n\nDEV\nYes. He\u2019s still dead.\n\nHangs up.\n\nCUT TO:",
+      "location": "CREMATORIUM \u2013 WAITING HALL",
+      "emotion": {
+        "primary_emotion": "dark irony",
+        "primary": "dark irony",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Dark Irony",
+            "score": 0.6
+          },
+          {
+            "emotion": "Moral Ambiguity",
+            "score": 0.2
+          },
+          {
+            "emotion": "Confusion",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
       "v3_metrics": {
-        "irony_index": 0.7,
-        "narrative_seriousness_score": 0.1,
-        "emotion_confidence": 0.9,
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.8,
         "temporal_stability_delta": 0.0,
         "comedy_intensity": 0.9,
-        "scene_energy": 1.0
+        "scene_energy": 0.21587301587301586
       },
-      "word_count": 292,
-      "narrative_role": "climax",
-      "mood_shift": "none",
-      "doc_type": "script"
+      "content": {
+        "text": "INT. CREMATORIUM \u2013 WAITING HALL\n\n[00:02:30]\n\nRows of plastic chairs. Awkward silence.\n\nMeet the mourners:\n\nDEV (34) \u2013 The dead man\u2019s son, emotionally numb\n\nMAYA (32) \u2013 Dev\u2019s ex-wife, overly polite\n\nUNCLE GIRISH (55) \u2013 Loud, inappropriate\n\nRITA (40) \u2013 Funeral coordinator who has seen too much\n\nA phone rings. Everyone stares.\n\nDev answers.\n\nDEV\nYes. He\u2019s still dead.\n\nHangs up.\n\nCUT TO:",
+        "header": "CREMATORIUM \u2013 WAITING HALL"
+      },
+      "timing": {
+        "start_time": 20.0,
+        "end_time": 30.0,
+        "duration": 10.0
+      }
     },
     {
       "scene_id": "scene_004",
-      "scene_number": 4,
-      "text": "FADE OUT on the room full of laughter, sauce everywhere, and one very smug cat.",
-      "start": 360.0,
-      "end": 371.5,
-      "duration": 11.5,
-      "emotion": "joyful",
-      "emotion_confidence": 0.8,
-      "secondary_emotions": [
-        {
-          "emotion": "joy",
-          "score": 0.6
-        },
-        {
-          "emotion": "humor",
-          "score": 0.3
-        },
-        {
-          "emotion": "satisfaction",
-          "score": 0.1
-        }
-      ],
-      "sentiment_score": 0.8,
-      "theatrical_context": {
-        "predicted_theme": "light-hearted amusement",
-        "confidence": 0.8
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 30.0,
+        "end": 40.0
       },
+      "duration": 10.0,
+      "text": "INT. WAITING HALL \u2013 CONTINUOUS\n\n[00:05:30]\n\nRita checks her clipboard.\n\nRITA\nJust confirming\u2026 this is a sad funeral, right?\n\nDEV\nDefine sad.\n\nRITA\nOkay. No balloons.\n\nShe removes balloons awkwardly.\n\nCUT TO:",
+      "location": "WAITING HALL",
+      "emotion": {
+        "primary_emotion": "dark irony",
+        "primary": "dark irony",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Dark Irony",
+            "score": 0.6
+          },
+          {
+            "emotion": "Moral Ambiguity",
+            "score": 0.2
+          },
+          {
+            "emotion": "Confusion",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
       "v3_metrics": {
-        "irony_index": 0.4,
-        "narrative_seriousness_score": 0.1,
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.8,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.9,
+        "scene_energy": 0.09375
+      },
+      "content": {
+        "text": "INT. WAITING HALL \u2013 CONTINUOUS\n\n[00:05:30]\n\nRita checks her clipboard.\n\nRITA\nJust confirming\u2026 this is a sad funeral, right?\n\nDEV\nDefine sad.\n\nRITA\nOkay. No balloons.\n\nShe removes balloons awkwardly.\n\nCUT TO:",
+        "header": "WAITING HALL"
+      },
+      "timing": {
+        "start_time": 30.0,
+        "end_time": 40.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 40.0,
+        "end": 50.0
+      },
+      "duration": 10.0,
+      "text": "EXT. CREMATORIUM BACK AREA\n\n[00:08:00]\n\nUncle Girish smokes beside the coffin.\n\nGIRISH\n(to coffin)\nYou always said you\u2019d leave early.\n\nAsh falls on the coffin.\n\nGIRISH (CONT\u2019D)\nSorry. Wind.\n\nCUT TO:",
+      "location": "CREMATORIUM BACK AREA",
+      "emotion": {
+        "primary_emotion": "dark irony",
+        "primary": "dark irony",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Regret",
+            "score": 0.5
+          },
+          {
+            "emotion": "Guilt",
+            "score": 0.3
+          },
+          {
+            "emotion": "Amusement",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
         "emotion_confidence": 0.8,
         "temporal_stability_delta": 0.0,
         "comedy_intensity": 0.7,
+        "scene_energy": 0.03225806451612903
+      },
+      "content": {
+        "text": "EXT. CREMATORIUM BACK AREA\n\n[00:08:00]\n\nUncle Girish smokes beside the coffin.\n\nGIRISH\n(to coffin)\nYou always said you\u2019d leave early.\n\nAsh falls on the coffin.\n\nGIRISH (CONT\u2019D)\nSorry. Wind.\n\nCUT TO:",
+        "header": "CREMATORIUM BACK AREA"
+      },
+      "timing": {
+        "start_time": 40.0,
+        "end_time": 50.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 50.0,
+        "end": 60.0
+      },
+      "duration": 10.0,
+      "text": "INT. HALL \u2013 EULOGY SETUP\n\n[00:11:00]\n\nMaya approaches Dev.\n\nMAYA\nI\u2019m sorry. For everything.\n\nDEV\nYou picked a bad day to mean that.\n\nThey stand in silence.\n\nSomeone accidentally starts HAPPY BIRTHDAY on the speaker.\n\nRita PANICS.\n\nCUT TO:",
+      "location": "HALL \u2013 EULOGY SETUP",
+      "emotion": {
+        "primary_emotion": "dark humor",
+        "primary": "dark humor",
+        "confidence": 0.8,
+        "primary_score": 0.8,
+        "energy_level": 0.5,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "Guilt",
+            "score": 0.5
+          },
+          {
+            "emotion": "Amusement",
+            "score": 0.3
+          },
+          {
+            "emotion": "Regret",
+            "score": 0.2
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.8,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.8,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.9,
+        "scene_energy": 0.05128205128205128
+      },
+      "content": {
+        "text": "INT. HALL \u2013 EULOGY SETUP\n\n[00:11:00]\n\nMaya approaches Dev.\n\nMAYA\nI\u2019m sorry. For everything.\n\nDEV\nYou picked a bad day to mean that.\n\nThey stand in silence.\n\nSomeone accidentally starts HAPPY BIRTHDAY on the speaker.\n\nRita PANICS.\n\nCUT TO:",
+        "header": "HALL \u2013 EULOGY SETUP"
+      },
+      "timing": {
+        "start_time": 50.0,
+        "end_time": 60.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 60.0,
+        "end": 70.0
+      },
+      "duration": 10.0,
+      "text": "INT. CEREMONY HALL \u2013 FUNERAL STARTS\n\n[00:14:30]\n\nDim lights. Heavy silence.\n\nPriest clears throat.\n\nPRIEST\nWe are gathered to honor\u2014\n\nMicrophone SCREECHES.\n\nPRIEST (CONT\u2019D)\n\u2014yes, that\u2019s loud.\n\nEveryone winces.\n\nCUT TO:",
+      "location": "CEREMONY HALL \u2013 FUNERAL STARTS",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.745,
+        "primary_score": 0.745,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.131
+          },
+          {
+            "emotion": "anger",
+            "score": 0.047
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.745,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.03225806451612903
+      },
+      "content": {
+        "text": "INT. CEREMONY HALL \u2013 FUNERAL STARTS\n\n[00:14:30]\n\nDim lights. Heavy silence.\n\nPriest clears throat.\n\nPRIEST\nWe are gathered to honor\u2014\n\nMicrophone SCREECHES.\n\nPRIEST (CONT\u2019D)\n\u2014yes, that\u2019s loud.\n\nEveryone winces.\n\nCUT TO:",
+        "header": "CEREMONY HALL \u2013 FUNERAL STARTS"
+      },
+      "timing": {
+        "start_time": 60.0,
+        "end_time": 70.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 70.0,
+        "end": 80.0
+      },
+      "duration": 10.0,
+      "text": "INT. CEREMONY HALL \u2013 EULOGIES\n\n[00:17:30]\n\nUncle Girish takes the mic.\n\nGIRISH\nHe was a good man. Not great. But good enough.\n\nDev stares.\n\nGIRISH (CONT\u2019D)\nHe borrowed money\u2026 and never returned it.\n\nA beat.\n\nGIRISH\nDeath is closure.\n\nScattered, uncomfortable laughter.\n\nCUT TO:",
+      "location": "CEREMONY HALL \u2013 EULOGIES",
+      "emotion": {
+        "primary_emotion": "disgust",
+        "primary": "disgust",
+        "confidence": 0.646,
+        "primary_score": 0.646,
+        "energy_level": 0.5,
+        "valence": -0.5,
+        "secondary_emotions": [
+          {
+            "emotion": "sadness",
+            "score": 0.144
+          },
+          {
+            "emotion": "neutral",
+            "score": 0.107
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.646,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.045454545454545456
+      },
+      "content": {
+        "text": "INT. CEREMONY HALL \u2013 EULOGIES\n\n[00:17:30]\n\nUncle Girish takes the mic.\n\nGIRISH\nHe was a good man. Not great. But good enough.\n\nDev stares.\n\nGIRISH (CONT\u2019D)\nHe borrowed money\u2026 and never returned it.\n\nA beat.\n\nGIRISH\nDeath is closure.\n\nScattered, uncomfortable laughter.\n\nCUT TO:",
+        "header": "CEREMONY HALL \u2013 EULOGIES"
+      },
+      "timing": {
+        "start_time": 70.0,
+        "end_time": 80.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 80.0,
+        "end": 90.0
+      },
+      "duration": 10.0,
+      "text": "INT. HALLWAY \u2013 BREAK\n\n[00:20:30]\n\nDev leans against the wall.\n\nRita joins him.\n\nRITA\nI\u2019ve done this for fifteen years.\n\nDEV\nDoes it get easier?\n\nRITA\nNo. It just gets funnier in a way you feel guilty about.\n\nThey share a small smile.\n\nCUT TO:",
+      "location": "HALLWAY \u2013 BREAK",
+      "emotion": {
+        "primary_emotion": "disgust",
+        "primary": "disgust",
+        "confidence": 0.422,
+        "primary_score": 0.422,
+        "energy_level": 0.5,
+        "valence": -0.5,
+        "secondary_emotions": [
+          {
+            "emotion": "neutral",
+            "score": 0.421
+          },
+          {
+            "emotion": "sadness",
+            "score": 0.06
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.422,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.06666666666666667
+      },
+      "content": {
+        "text": "INT. HALLWAY \u2013 BREAK\n\n[00:20:30]\n\nDev leans against the wall.\n\nRita joins him.\n\nRITA\nI\u2019ve done this for fifteen years.\n\nDEV\nDoes it get easier?\n\nRITA\nNo. It just gets funnier in a way you feel guilty about.\n\nThey share a small smile.\n\nCUT TO:",
+        "header": "HALLWAY \u2013 BREAK"
+      },
+      "timing": {
+        "start_time": 80.0,
+        "end_time": 90.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 90.0,
+        "end": 100.0
+      },
+      "duration": 10.0,
+      "text": "INT. CREMATION ROOM \u2013 PREP\n\n[00:24:00]\n\nThe coffin is pushed in.\n\nMachine BEEPS.\n\nTECHNICIAN\nPower cut.\n\nSilence.\n\nTECHNICIAN (CONT\u2019D)\nWe\u2019ll resume when electricity comes back.\n\nEveryone just\u2026 waits.\n\nCUT TO:",
+      "location": "CREMATION ROOM \u2013 PREP",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.777,
+        "primary_score": 0.777,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.076
+          },
+          {
+            "emotion": "anger",
+            "score": 0.062
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.777,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.03333333333333333
+      },
+      "content": {
+        "text": "INT. CREMATION ROOM \u2013 PREP\n\n[00:24:00]\n\nThe coffin is pushed in.\n\nMachine BEEPS.\n\nTECHNICIAN\nPower cut.\n\nSilence.\n\nTECHNICIAN (CONT\u2019D)\nWe\u2019ll resume when electricity comes back.\n\nEveryone just\u2026 waits.\n\nCUT TO:",
+        "header": "CREMATION ROOM \u2013 PREP"
+      },
+      "timing": {
+        "start_time": 90.0,
+        "end_time": 100.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 100.0,
+        "end": 110.0
+      },
+      "duration": 10.0,
+      "text": "INT. CREMATION ROOM \u2013 DARK\n\n[00:27:30]\n\nEmergency lights flicker red.\n\nUncle Girish whispers.\n\nGIRISH\nThis is symbolic.\n\nDEV\nPlease stop talking.\n\nCUT TO:",
+      "location": "CREMATION ROOM \u2013 DARK",
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary": "fear",
+        "confidence": 0.574,
+        "primary_score": 0.574,
+        "energy_level": 0.7,
+        "valence": -0.6,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.159
+          },
+          {
+            "emotion": "anger",
+            "score": 0.15
+          }
+        ]
+      },
+      "explicit_lighting": [
+        "lights flicker red"
+      ],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.574,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.08695652173913043
+      },
+      "content": {
+        "text": "INT. CREMATION ROOM \u2013 DARK\n\n[00:27:30]\n\nEmergency lights flicker red.\n\nUncle Girish whispers.\n\nGIRISH\nThis is symbolic.\n\nDEV\nPlease stop talking.\n\nCUT TO:",
+        "header": "CREMATION ROOM \u2013 DARK"
+      },
+      "timing": {
+        "start_time": 100.0,
+        "end_time": 110.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 110.0,
+        "end": 120.0
+      },
+      "duration": 10.0,
+      "text": "INT. WAITING HALL \u2013 POWER RETURNS\n\n[00:30:30]\n\nLights BLAST back on.\n\nA slideshow auto-plays.\n\nPhotos include:\n\nThe deceased sleeping\n\nThe deceased blinking mid-photo\n\nOne photo of a random stranger\n\nMAYA\nWho\u2019s that?\n\nDEV\nWrong life.\n\nCUT TO:",
+      "location": "WAITING HALL \u2013 POWER RETURNS",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.704,
+        "primary_score": 0.704,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.22
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.029
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.704,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.454054054054054
+      },
+      "content": {
+        "text": "INT. WAITING HALL \u2013 POWER RETURNS\n\n[00:30:30]\n\nLights BLAST back on.\n\nA slideshow auto-plays.\n\nPhotos include:\n\nThe deceased sleeping\n\nThe deceased blinking mid-photo\n\nOne photo of a random stranger\n\nMAYA\nWho\u2019s that?\n\nDEV\nWrong life.\n\nCUT TO:",
+        "header": "WAITING HALL \u2013 POWER RETURNS"
+      },
+      "timing": {
+        "start_time": 110.0,
+        "end_time": 120.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 120.0,
+        "end": 130.0
+      },
+      "duration": 10.0,
+      "text": "INT. CREMATION ROOM \u2013 FINAL\n\n[00:33:30]\n\nThe machine starts.\n\nLow HUM.\n\nDev watches.\n\nDEV\n(softly)\nYou were never good at staying.\n\nCUT TO:",
+      "location": "CREMATION ROOM \u2013 FINAL",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.798,
+        "primary_score": 0.798,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "disgust",
+            "score": 0.072
+          },
+          {
+            "emotion": "anger",
+            "score": 0.043
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.798,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.043478260869565216
+      },
+      "content": {
+        "text": "INT. CREMATION ROOM \u2013 FINAL\n\n[00:33:30]\n\nThe machine starts.\n\nLow HUM.\n\nDev watches.\n\nDEV\n(softly)\nYou were never good at staying.\n\nCUT TO:",
+        "header": "CREMATION ROOM \u2013 FINAL"
+      },
+      "timing": {
+        "start_time": 120.0,
+        "end_time": 130.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 130.0,
+        "end": 140.0
+      },
+      "duration": 10.0,
+      "text": "EXT. CREMATORIUM \u2013 AFTERNOON\n\n[00:37:00]\n\nAsh urn handed over.\n\nRita hands Dev a bill.\n\nRITA\nWould you like feedback form?\n\nDEV\nOn my father?\n\nRITA\nOn us.\n\nCUT TO:",
+      "location": "CREMATORIUM \u2013 AFTERNOON",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.841,
+        "primary_score": 0.841,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "surprise",
+            "score": 0.066
+          },
+          {
+            "emotion": "anger",
+            "score": 0.043
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.841,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.10344827586206898
+      },
+      "content": {
+        "text": "EXT. CREMATORIUM \u2013 AFTERNOON\n\n[00:37:00]\n\nAsh urn handed over.\n\nRita hands Dev a bill.\n\nRITA\nWould you like feedback form?\n\nDEV\nOn my father?\n\nRITA\nOn us.\n\nCUT TO:",
+        "header": "CREMATORIUM \u2013 AFTERNOON"
+      },
+      "timing": {
+        "start_time": 130.0,
+        "end_time": 140.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 140.0,
+        "end": 150.0
+      },
+      "duration": 10.0,
+      "text": "EXT. PARKING LOT \u2013 CONTINUOUS\n\n[00:40:00]\n\nRain stops.\n\nSunlight breaks through clouds \u2014 awkwardly cheerful.\n\nMaya looks at Dev.\n\nMAYA\nCoffee?\n\nDEV\nSure. It\u2019s not like today can get worse.\n\nA bird IMMEDIATELY poops on his shoulder.\n\nThey both laugh.\n\nFINAL SHOT:",
+      "location": "PARKING LOT",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.609,
+        "primary_score": 0.609,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "joy",
+            "score": 0.162
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.155
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.609,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
+        "scene_energy": 0.047619047619047616
+      },
+      "content": {
+        "text": "EXT. PARKING LOT \u2013 CONTINUOUS\n\n[00:40:00]\n\nRain stops.\n\nSunlight breaks through clouds \u2014 awkwardly cheerful.\n\nMaya looks at Dev.\n\nMAYA\nCoffee?\n\nDEV\nSure. It\u2019s not like today can get worse.\n\nA bird IMMEDIATELY poops on his shoulder.\n\nThey both laugh.\n\nFINAL SHOT:",
+        "header": "PARKING LOT"
+      },
+      "timing": {
+        "start_time": 140.0,
+        "end_time": 150.0,
+        "duration": 10.0
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 150.0,
+        "end": 160.0
+      },
+      "duration": 10.0,
+      "text": "EXT. COFFEE SHOP \u2013 EVENING\n\n[00:45:30]\n\nThey sit quietly.\n\nDev stirs coffee.\n\nDEV (V.O.)\nGrief isn\u2019t loud.\nIt just trips you when you\u2019re trying to stand.\n\nThey sip.\n\nSilence.\n\nFADE TO BLACK.\nEND.",
+      "location": "COFFEE SHOP \u2013 EVENING",
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary": "neutral",
+        "confidence": 0.438,
+        "primary_score": 0.438,
+        "energy_level": 0.4,
+        "valence": 0.0,
+        "secondary_emotions": [
+          {
+            "emotion": "sadness",
+            "score": 0.328
+          },
+          {
+            "emotion": "disgust",
+            "score": 0.189
+          }
+        ]
+      },
+      "explicit_lighting": [],
+      "chunk_summary": null,
+      "v3_metrics": {
+        "irony_index": 0.5,
+        "narrative_seriousness_score": 0.6,
+        "emotion_confidence": 0.438,
+        "temporal_stability_delta": 0.0,
+        "comedy_intensity": 0.0,
         "scene_energy": 0.0
       },
-      "word_count": 15,
-      "narrative_role": "resolution",
-      "mood_shift": "none",
-      "doc_type": "script"
+      "content": {
+        "text": "EXT. COFFEE SHOP \u2013 EVENING\n\n[00:45:30]\n\nThey sit quietly.\n\nDev stirs coffee.\n\nDEV (V.O.)\nGrief isn\u2019t loud.\nIt just trips you when you\u2019re trying to stand.\n\nThey sip.\n\nSilence.\n\nFADE TO BLACK.\nEND.",
+        "header": "COFFEE SHOP \u2013 EVENING"
+      },
+      "timing": {
+        "start_time": 150.0,
+        "end_time": 160.0,
+        "duration": 10.0
+      }
     }
   ],
   "lighting_instructions": [
     {
-      "scene_id": "chaotic_excitement",
-      "emotion": "chaotic excitement",
+      "scene_id": "scene_001",
+      "emotion": "dark humor",
       "time_window": {
         "start_time": 0.0,
-        "end_time": 0.0
+        "end_time": 10.0
       },
       "groups": [
         {
           "group_id": "front_wash",
           "parameters": {
-            "intensity": 60.0,
-            "color": "white",
+            "intensity": 12.0,
+            "color": "dark_blue",
             "focus_area": "full_stage",
             "color_temperature": "cool"
           },
@@ -203,8 +834,8 @@
         {
           "group_id": "back_light",
           "parameters": {
-            "intensity": 50.0,
-            "color": "cyan",
+            "intensity": 7.199999999999999,
+            "color": "grey",
             "focus_area": "full_stage",
             "color_temperature": "cool"
           },
@@ -216,10 +847,10 @@
         {
           "group_id": "side_fill",
           "parameters": {
-            "intensity": 60.0,
-            "color": "amber",
-            "focus_area": "full_stage",
-            "color_temperature": "warm"
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
           },
           "transition": {
             "type": "fade",
@@ -229,10 +860,10 @@
         {
           "group_id": "specials",
           "parameters": {
-            "intensity": 60.0,
-            "color": "yellow",
+            "intensity": 6.0,
+            "color": "black",
             "focus_area": "center_stage",
-            "color_temperature": "warm"
+            "color_temperature": "cool"
           },
           "transition": {
             "type": "fade",
@@ -242,10 +873,591 @@
         {
           "group_id": "ambient",
           "parameters": {
-            "intensity": 40.0,
-            "color": "pink",
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "dark irony",
+      "time_window": {
+        "start_time": 10.0,
+        "end_time": 20.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
             "focus_area": "full_stage",
-            "color_temperature": "warm"
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "black",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "dark irony",
+      "time_window": {
+        "start_time": 20.0,
+        "end_time": 30.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "black",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "dark irony",
+      "time_window": {
+        "start_time": 30.0,
+        "end_time": 40.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "black",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "dark irony",
+      "time_window": {
+        "start_time": 40.0,
+        "end_time": 50.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "black",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "dark humor",
+      "time_window": {
+        "start_time": 50.0,
+        "end_time": 60.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "black",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "black",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 60.0,
+        "end_time": 70.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 70.0,
+        "end_time": 80.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "sickly_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "yellow_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "yellow_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
           },
           "transition": {
             "type": "smooth",
@@ -254,273 +1466,677 @@
         }
       ],
       "metadata": {
-        "generation_method": "llm",
-        "rlhf_applied": 5,
-        "v3_overrides_applied": {
-          "irony_dampened": true,
-          "seriousness_capped": true,
-          "confidence_safe_mode": false
-        }
-      }
-    },
-    {
-      "scene_id": "chaotic_humor_1",
-      "emotion": "chaotic humor",
-      "time_window": {
-        "start_time": 0.0,
-        "end_time": 0.0
-      },
-      "groups": [
-        {
-          "group_id": "front_wash",
-          "parameters": {
-            "intensity": 50.0,
-            "color": "magenta",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "back_light",
-          "parameters": {
-            "intensity": 40.0,
-            "color": "green",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "side_fill",
-          "parameters": {
-            "intensity": 40.0,
-            "color": "amber",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "specials",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "dark_blue",
-            "focus_area": "center_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "ambient",
-          "parameters": {
-            "intensity": 40.0,
-            "color": "uv",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        }
-      ],
-      "metadata": {
-        "generation_method": "llm",
-        "rlhf_applied": 5,
-        "v3_overrides_applied": {
-          "irony_dampened": true,
-          "seriousness_capped": true,
-          "confidence_safe_mode": false
-        }
-      }
-    },
-    {
-      "scene_id": "joyful_chaos",
-      "emotion": "joyful chaos",
-      "time_window": {
-        "start_time": 0.0,
-        "end_time": 0.0
-      },
-      "groups": [
-        {
-          "group_id": "front_wash",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "amber",
-            "focus_area": "full_stage",
-            "color_temperature": "warm"
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "back_light",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "yellow",
-            "focus_area": "full_stage",
-            "color_temperature": "warm"
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "side_fill",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "pink",
-            "focus_area": "full_stage",
-            "color_temperature": "warm"
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "specials",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "amber",
-            "focus_area": "center_stage",
-            "color_temperature": "warm"
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "ambient",
-          "parameters": {
-            "intensity": 60.0,
-            "color": "yellow",
-            "focus_area": "full_stage",
-            "color_temperature": "warm"
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        }
-      ],
-      "metadata": {
-        "generation_method": "llm",
-        "rlhf_applied": 5,
-        "v3_overrides_applied": {
-          "irony_dampened": true,
-          "seriousness_capped": true,
-          "confidence_safe_mode": false
-        }
-      }
-    },
-    {
-      "scene_id": "joyful_scene",
-      "emotion": "joyful",
-      "time_window": {
-        "start_time": 0.0,
-        "end_time": 0.0
-      },
-      "groups": [
-        {
-          "group_id": "front_wash",
-          "parameters": {
-            "intensity": 85.0,
-            "color": "amber",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "back_light",
-          "parameters": {
-            "intensity": 70.0,
-            "color": "yellow",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "side_fill",
-          "parameters": {
-            "intensity": 75.0,
-            "color": "pink",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "specials",
-          "parameters": {
-            "intensity": 90.0,
-            "color": "amber",
-            "focus_area": "center_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        },
-        {
-          "group_id": "ambient",
-          "parameters": {
-            "intensity": 80.0,
-            "color": "yellow",
-            "focus_area": "full_stage",
-            "color_temperature": null
-          },
-          "transition": {
-            "type": "fade",
-            "duration_seconds": 5.0
-          }
-        }
-      ],
-      "metadata": {
-        "generation_method": "llm",
-        "rlhf_applied": 5,
+        "generation_method": "rule_based",
         "v3_overrides_applied": {
           "irony_dampened": false,
-          "seriousness_capped": true,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "disgust",
+      "time_window": {
+        "start_time": 80.0,
+        "end_time": 90.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "sickly_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "yellow_green",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 24.5,
+            "color": "yellow_green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "smooth",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 90.0,
+        "end_time": 100.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "fear",
+      "time_window": {
+        "start_time": 100.0,
+        "end_time": 110.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "green",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "green",
+            "focus_area": null,
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "crossfade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 110.0,
+        "end_time": 120.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 120.0,
+        "end_time": 130.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 130.0,
+        "end_time": 140.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 140.0,
+        "end_time": 150.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
+          "confidence_safe_mode": false
+        }
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 150.0,
+        "end_time": 160.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 70.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 42.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 49.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 5.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "v3_overrides_applied": {
+          "irony_dampened": false,
+          "seriousness_capped": false,
           "confidence_safe_mode": false
         }
       }
     }
-  ],
-  "scene_graph": {
-    "total_nodes": 8,
-    "total_edges": 11,
-    "scenes": 4,
-    "characters": 4,
-    "dialogues": 0
-  }
+  ]
 }

@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-28T23:01:27.951651",
+    "generator_version": "1.0.0",
+    "total_scenes": 16,
+    "total_duration_seconds": 202,
+    "total_duration_formatted": "00:03:22",
+    "format_detected": "screenplay",
+    "source_file": "Script-20.txt",
+    "emotion_distribution": {
+      "counts": {
+        "neutral": 12,
+        "disgust": 1,
+        "fear": 1,
+        "surprise": 1,
+        "sadness": 1
+      },
+      "percentages": {
+        "neutral": 75.0,
+        "disgust": 6.2,
+        "fear": 6.2,
+        "surprise": 6.2,
+        "sadness": 6.2
+      },
+      "dominant_emotion": "neutral"
+    },
+    "genre": "drama",
+    "stage_directions_count": 1,
+    "complexity": "low"
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 13,
+        "duration": 13
+      },
+      "content": {
+        "text": "BUS TERMINAL  EARLY MORNING\n\n[00:00:00]\n\nThe terminal is quiet. Morning light filters through dusty glass. A few passengers sit scattered.\n\nARUN (29) sits alone, holding a small backpack. He checks his phone. No messages.",
+        "word_count": 34,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.458,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.458,
+          "surprise": 0.272,
+          "sadness": 0.117,
+          "fear": 0.114,
+          "disgust": 0.017
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 15,
+        "end_time": 31,
+        "duration": 16
+      },
+      "content": {
+        "text": "BUS TERMINAL  CONTINUOUS\n\n[00:02:00]\n\nNISHA (27) enters, scanning the terminal. She notices Arun and stops.\n\nNISHA\nYou didnt tell me you were leaving today.\n\nARUN\nI didnt think youd come.\n\nNISHA\nThat makes two of us.\n\nThey stand in silence.",
+        "word_count": 40,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.724,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.724,
+          "surprise": 0.144,
+          "sadness": 0.042,
+          "disgust": 0.04,
+          "anger": 0.024
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 33,
+        "end_time": 46,
+        "duration": 13
+      },
+      "content": {
+        "text": "BUS TERMINAL  SEATING AREA\n\n[00:04:30]\n\nThey sit on opposite ends of the bench.\n\nNISHA\nHow long?\n\nARUN\nA year. Maybe more.\n\nNISHA\nYou always say maybe when you already know.\n\nArun looks away.",
+        "word_count": 33,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.877,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.877,
+          "surprise": 0.088,
+          "disgust": 0.011,
+          "sadness": 0.01,
+          "anger": 0.007
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 48,
+        "end_time": 61,
+        "duration": 13
+      },
+      "content": {
+        "text": "BUS TERMINAL  COFFEE STALL\n\n[00:07:00]\n\nArun hands Nisha a paper cup.\n\nARUN\nYou still drink it without sugar?\n\nNISHA\nSome habits survive everything.\n\nShe sips. Winces.\n\nNISHA (CONTD)\nStill terrible.\n\nHe smiles faintly.",
+        "word_count": 33,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "primary_score": 0.853,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "disgust": 0.853,
+          "fear": 0.087,
+          "neutral": 0.029,
+          "sadness": 0.015,
+          "anger": 0.009
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 63,
+        "end_time": 74,
+        "duration": 11
+      },
+      "content": {
+        "text": "BUS TERMINAL  WAITING AREA\n\n[00:09:30]\n\nA bus announcement echoes faintly.\n\nNISHA\nDo you remember when we planned to leave together?\n\nARUN\nWe were younger. Braver.\n\nNISHA\nOr just unaware.",
+        "word_count": 29,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.522,
+        "secondary_emotion": "surprise",
+        "secondary_score": 0.344,
+        "all_scores": {
+          "neutral": 0.522,
+          "surprise": 0.344,
+          "fear": 0.062,
+          "sadness": 0.044,
+          "anger": 0.012
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 76,
+        "end_time": 90,
+        "duration": 14
+      },
+      "content": {
+        "text": "BUS TERMINAL  CONTINUOUS\n\n[00:12:00]\n\nPeople begin to gather.\n\nNISHA\nSay it clearly. Why are you really going?\n\nARUN\nBecause staying started to feel like pretending.\n\nNISHA\nPretending what?\n\nARUN\nThat I was enough here.\n\nShe absorbs this.",
+        "word_count": 37,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.555,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.555,
+          "surprise": 0.18,
+          "anger": 0.113,
+          "disgust": 0.102,
+          "fear": 0.029
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 92,
+        "end_time": 104,
+        "duration": 12
+      },
+      "content": {
+        "text": "BUS TERMINAL  WINDOW SIDE\n\n[00:14:30]\n\nSunlight grows brighter.\n\nNISHA\nI waited for you to choose us.\n\nARUN\nI was scared Id ruin it.\n\nNISHA\nYou did. By not choosing.\n\nSilence.",
+        "word_count": 30,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.926,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.926,
+          "sadness": 0.031,
+          "neutral": 0.022,
+          "anger": 0.014,
+          "surprise": 0.003
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 106,
+        "end_time": 116,
+        "duration": 10
+      },
+      "content": {
+        "text": "BUS TERMINAL  ANNOUNCEMENT AREA\n\n[00:17:00]\n\nThe departure announcement plays again.\n\nARUN\nI didnt come here to fix things.\n\nNISHA\nGood. Some things shouldnt be fixed. Just understood.",
+        "word_count": 27,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.43,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.43,
+          "surprise": 0.273,
+          "sadness": 0.263,
+          "joy": 0.01,
+          "anger": 0.01
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 118,
+        "end_time": 134,
+        "duration": 16
+      },
+      "content": {
+        "text": "BUS TERMINAL  SEATING AREA\n\n[00:19:30]\n\nNisha pulls a folded note from her bag.\n\nNISHA\nI wrote this last year.\nI never sent it.\n\nShe hands it to Arun.\n\nHe doesnt open it.\n\nARUN\nIll read it later.\n\nNISHA\nThats ex",
+        "word_count": 40,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.663,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.663,
+          "sadness": 0.152,
+          "surprise": 0.136,
+          "disgust": 0.022,
+          "anger": 0.018
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 136,
+        "end_time": 138,
+        "duration": 2
+      },
+      "content": {
+        "text": "ly why Im giving it now.",
+        "word_count": 6,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.693,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "surprise": 0.693,
+          "neutral": 0.229,
+          "anger": 0.031,
+          "joy": 0.024,
+          "sadness": 0.013
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 140,
+        "end_time": 150,
+        "duration": 10
+      },
+      "content": {
+        "text": "BUS TERMINAL  CONTINUOUS\n\n[00:22:00]\n\nArun finally opens the note. Reads silently.\n\nARUN\nYou always knew me better than I knew myself.\n\nNISHA\nThat was the problem.",
+        "word_count": 26,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.821,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.821,
+          "surprise": 0.076,
+          "sadness": 0.051,
+          "disgust": 0.021,
+          "fear": 0.014
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 152,
+        "end_time": 164,
+        "duration": 12
+      },
+      "content": {
+        "text": "BUS TERMINAL  BOARDING GATE\n\n[00:24:30]\n\nPassengers line up.\n\nArun stands.\n\nARUN\nI dont expect you to wait.\n\nNISHA\nIm not good at waiting anymore.\n\nThey share a small, honest smile.",
+        "word_count": 30,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.84,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.84,
+          "joy": 0.076,
+          "surprise": 0.048,
+          "sadness": 0.022,
+          "disgust": 0.008
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 166,
+        "end_time": 173,
+        "duration": 7
+      },
+      "content": {
+        "text": "BUS TERMINAL  GATE ENTRANCE\n\n[00:27:00]\n\nArun hesitates.\n\nARUN\nIf I come back\n\nNISHA\nDont finish that sentence.\n\nHe nods.",
+        "word_count": 19,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.734,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.734,
+          "fear": 0.09,
+          "sadness": 0.076,
+          "disgust": 0.058,
+          "anger": 0.028
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 175,
+        "end_time": 185,
+        "duration": 10
+      },
+      "content": {
+        "text": "BUS TERMINAL  CONTINUOUS\n\n[00:29:30]\n\nArun steps forward, then turns back.\n\nARUN\nThank you.\nFor not making this harder.\n\nNISHA\nThank you for finally being clear.",
+        "word_count": 25,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.829,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.829,
+          "joy": 0.072,
+          "surprise": 0.062,
+          "anger": 0.016,
+          "sadness": 0.015
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 187,
+        "end_time": 198,
+        "duration": 11
+      },
+      "content": {
+        "text": "BUS TERMINAL  FINAL MOMENT\n\n[00:32:00]\n\nArun boards the bus.\n\nThrough the window, Nisha watches.\n\nThe bus pulls away.\n\nNisha remains still.\n\nShe exhales  not sad, not relieved  just lighter.",
+        "word_count": 29,
+        "type": "screenplay_scene",
+        "header": "INT.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.898,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.898,
+          "joy": 0.049,
+          "neutral": 0.033,
+          "surprise": 0.015,
+          "disgust": 0.003
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 200,
+        "end_time": 202,
+        "duration": 2
+      },
+      "content": {
+        "text": "[00:34:00]",
+        "word_count": 1,
+        "type": "screenplay_scene",
+        "header": "FADE OUT",
+        "location": "FADE OUT"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.795,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.795,
+          "surprise": 0.15,
+          "sadness": 0.023,
+          "anger": 0.012,
+          "disgust": 0.009
+        },
+        "method": "ml"
+      }
+    }
+  ]
+}

@@ -12,8 +12,8 @@ DEFAULT_FADE_DURATION = 1.5
 # ============================================================================
 # SCENE SEGMENTATION
 # ============================================================================
-MAX_WORDS_PER_SCENE = 400   # Word budget per scene (was 120 — caused always-33-scenes bug)
-MIN_WORDS_PER_SCENE = 50    # Don't create micro-scenes below this
+MAX_WORDS_PER_SCENE = 120
+MIN_WORDS_PER_SCENE = 30
 
 # ============================================================================
 # EMOTION DETECTION
@@ -21,26 +21,16 @@ MIN_WORDS_PER_SCENE = 50    # Don't create micro-scenes below this
 EMOTION_MODEL = "j-hartmann/emotion-english-distilroberta-base"
 EMOTION_THRESHOLD = 0.3
 USE_ML_EMOTION = True
-USE_ZERO_SHOT_EMOTION = False  # Set True only if bart-large-mnli is pre-downloaded (~1.6GB)
 
-# Basic 7 emotions (ML model output)
-EMOTION_CATEGORIES_BASIC = [
-    "anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"
-]
-
-# Extended 19 emotions (keyword enrichment + zero-shot)
 EMOTION_CATEGORIES = [
-    "anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise",
-    "nostalgia", "mystery", "romantic", "anticipation", "hope", "triumph",
-    "tension", "despair", "serenity", "confusion", "awe", "jealousy"
+    "anger", "disgust", "fear", "joy", "neutral", "sadness", "surprise"
 ]
 
 # ============================================================================
 # SCENE DETECTION KEYWORDS
 # ============================================================================
 SCENE_MARKERS = [
-    "INT.", "EXT.", "FADE IN", "FADE OUT", "CUT TO", 
-    "SCENE", "ACT", "INTERIOR", "EXTERIOR", "INT", "EXT"
+    "INT.", "EXT.", "INTERIOR", "EXTERIOR"
 ]
 
 # ============================================================================
@@ -79,8 +69,8 @@ FALLBACK_TO_RULES = True  # Use rule-based if LLM fails
 
 # LangChain Configuration
 LANGCHAIN_VERBOSE = False  # Enable LangChain debug logging
-LLM_TEMPERATURE = 0.3      # Lower = more deterministic lighting choices
-LLM_MAX_TOKENS = 1000      # Limit response size
+LLM_TEMPERATURE = 0.0      # Deterministic — prevents bill spikes
+LLM_MAX_TOKENS = 500       # Hard cap on response size
 
 # ============================================================================
 # 🆕 DMX CONFIGURATION
@@ -89,6 +79,41 @@ DMX_UNIVERSE = 1
 DMX_REFRESH_RATE = 44  # Hz (standard DMX refresh rate)
 ARTNET_IP = "192.168.1.100"  # IP of Avolites Titan console
 ARTNET_PORT = 6454  # Standard Art-Net port
+
+# ============================================================================
+# 🆕 PHASE 1 — TEXT ACQUISITION & STRUCTURING
+# ============================================================================
+OCR_CONFIDENCE_THRESHOLD = 0.85       # Min OCR confidence to proceed
+OCR_PROVIDER = "mistral"              # "mistral" or "none"
+OCR_AVG_LINE_LENGTH_MIN = 10          # OCR quality gate: min avg line length
+OCR_AVG_LINE_LENGTH_MAX = 500         # OCR quality gate: max avg line length
+OCR_NOISE_RATIO_MAX = 0.05            # OCR quality gate: max non-printable ratio
+
+# Phase 1C — LLM Scene Segmentation
+PHASE1_LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"  # Local HuggingFace model
+PHASE1_LLM_TEMPERATURE = 0.0          # Deterministic
+PHASE1_LLM_MAX_RETRIES = 1            # Retry once on failure
+PHASE1_LLM_MAX_NEW_TOKENS = 2048      # Max generation tokens
+
+# Chunking
+CHUNK_MAX_LINES = 150                  # Max lines per chunk for LLM
+CHUNK_OVERLAP_LINES = 10              # Overlap between adjacent chunks
+
+# Phase 1D Validation
+SCENE_GAP_TOLERANCE_LINES = 2         # Max allowed gap between scenes
+SCENE_COVERAGE_THRESHOLD = 0.80       # Min non-blank line coverage
+TIMESTAMP_MAX_JUMP_SECONDS = 1800     # 30 min max jump between scenes
+
+# ============================================================================
+# 🆕 EVENT PROCESSING — College Event Fast-Path
+# ============================================================================
+EVENT_DETECTION_KEYWORD_THRESHOLD = 0.02    # Min keyword density to trigger
+EVENT_DETECTION_STRUCTURAL_MIN = 2          # Min structural pattern count
+EVENT_DETECTION_CONFIDENCE_MIN = 0.6        # Below this → standard pipeline
+EVENT_LLM_REFINEMENT_ENABLED = True         # Optional LLM refinement step
+EVENT_LLM_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"  # Lightweight refinement model
+EVENT_LLM_TEMPERATURE = 0.0                 # Deterministic
+EVENT_LLM_MAX_TOKENS = 512                  # Hard cap on response
 
 # ============================================================================
 # 🆕 VALIDATION
@@ -116,31 +141,9 @@ LIGHTKEY_FIXTURE_MAPPING = {
 }
 
 # ============================================================================
-# PHASE 1 — TEXT ACQUISITION & STRUCTURING
+# 🆕 NARRATIVE MEMORY SYSTEM
 # ============================================================================
-OCR_CONFIDENCE_THRESHOLD = 0.85
-OCR_PROVIDER = "mistral"
-OCR_AVG_LINE_LENGTH_MIN = 10
-OCR_AVG_LINE_LENGTH_MAX = 500
-OCR_NOISE_RATIO_MAX = 0.05
-CHUNK_MAX_LINES = 150
-CHUNK_OVERLAP_LINES = 10
-PHASE1_LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"
-PHASE1_LLM_TEMPERATURE = 0.0
-PHASE1_LLM_MAX_RETRIES = 1
-PHASE1_LLM_MAX_NEW_TOKENS = 2048
-SCENE_GAP_TOLERANCE_LINES = 2
-SCENE_COVERAGE_THRESHOLD = 0.80
-TIMESTAMP_MAX_JUMP_SECONDS = 1800
-
-# Set to False to skip LLM and use rule-based segmentation (saves API credits)
-PHASE1_USE_LLM = False
-
-# ============================================================================
-# OLLAMA LOCAL LLM CONFIGURATION
-# ============================================================================
-OLLAMA_BASE_URL = "http://localhost:11434"
-OLLAMA_MODEL = "phi3:latest"
-OLLAMA_TIMEOUT = 60          # seconds per request (balance between giving time & avoiding hangs)
-OLLAMA_TEMPERATURE = 0.1     # low for deterministic outputs
-OLLAMA_ENABLED = True        # master switch — set False to skip all Ollama calls
+NARRATIVE_CONTEXT_ENABLED = True          # Master switch for narrative memory
+NARRATIVE_CONTEXT_MAX_WORDS = 400         # Max words for global narrative summary
+NARRATIVE_CONTEXT_LLM_MODEL = "Qwen/Qwen2.5-7B-Instruct"  # Reuse Phase 1 model
+NARRATIVE_SLIDING_WINDOW_SIZE = 1         # How many previous scenes to include (1 = just previous)

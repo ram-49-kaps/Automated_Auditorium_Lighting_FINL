@@ -1,0 +1,10 @@
+ScriptName,ScriptType,TrueScenes,PredictedScenes,Accuracy
+Script-2.txt,Movie,8,2,0.22
+Script-1.txt,Movie,6,4,0.65
+Script-3.txt,Movie,5,3,0.57
+Script-4.txt,Unknown,10,6,0.59
+Script-5.txt,Unknown,10,6,0.59
+Script-6.txt,Unknown,10,5,0.48
+Script-7.txt,Unknown,10,2,0.17
+Script-8.txt,Unknown,10,2,0.17
+Script-9.txt,Unknown,10,2,0.17

@@ -1,0 +1,124 @@
+Project Title 1
+PROJECT REPORT GUIDELINES-2022
+PAPER SIZE, BINDING, MARGINS, FONTS AND LINE SPACINGSInstructions:Font: Times New RomanFont Size: Chapter Title: 16 Bold (In Capital letters, Centered)Side Headings:  12 Bold (In Capital letters)All other text 12 (Normal text)Line Spacing:1.5Paper Size:A4 [One side printing]Spiral binding: Color: Light BlueMargins: Left margin: 1.5 inchRight margin: 1 inchTop: 1 inchBottom: 1 inch
+Number of Pages:Minimum – 60; Maximum – 100
+Header: Project Name (Left) and Page number (Right)Footer: Department of Computer Science, CHRIST (Deemedto be University)[with font size 10 for both header and footer; Include border line forheader and footer]
+PAGE NUMBERING1. Lower-case Roman numerals (e.g., iii, iv, v) for the front matter/preliminarymaterial from acknowledgements. No page numbering for Table of Contents(TOC).2. Arabic numbers (e.g., 1, 2, 3, etc.) starts from chapter 1.  (This can be achieved bygiving a section break)3. No Header and footer for TOC, Certificate and Title Page.4. Chapters, Sections, Subsections are numbered as per the following interpretation:example1.3.2 stands for Chapter 1, section 3, Subsection 2.
+IMPORTANT INSTRUCTIONS1. Do not end a page with a title. Shift the title to the next page.2. Do not end a page with a single line of a new paragraph, Start the new paragraphin the next page.3. Do not include Thumb index, transparency sheets etc., within the report.4. Use a drawing canvas to start drawing the image.5. Strictly follow the given format for bibliography.6. Follow the guidelines for Screen shots/Diagrams/Tables.
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 2
+7. Use automatic table of content option available in documentation tools(MS-Word, Open Office, etc.)
+FIGURES AND TABLES1. Position Figures and Tables as close as possible to the text to which they arereferred.2. Figures and Tables should be numbered in ascending order for each chapter.Example: the second image in chapter 3 will be Fig 3.2.3. The number of the figure and its caption should be typed immediately below it inTimes New Roman Size 10.4. The number of the table and its caption should be typed immediately above it inTimes New Roman Size 10.
+ACKNOWLEDGMENTS1. Guide2. All those who helped to complete the project
+ABSTRACT
+The abstract should condense the report to 200 words or less in single-spaceformat. Do not include any sub-title or bullets in abstract. The abstract shouldcontain:
+a. The most essential background informationb. The purpose and scope of the projectc. Major outcomes and recommendations
+CONCLUSION
+Rewritetheaimandobjectiveoftheprojectwitha briefnoteonthemajormodules.Summarizetheavailablefeatures,results,andlimitations.Concludewithyourfutureenhancements.
+REFERENCES PAGE INSTRUCTIONS
+1. In thebodyof yourtext,referto thesourceof yourinformationby insertingconsecutivenumbersinbracketsattheendofeachsegmentofcitedinformation—likethis[1].Thesereferencenumberscanalsobeinsertedwithina sentence[2],withoutchangingpunctuation.Youmayalsociteyourreferencein yourtextasfollows:“AsSmithsky [3] points out,..
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 3
+2.Unlessyouarereferringtoacompletebookorarticle,youwillalsoneedtoidentifythepagenumber(s)ofyoursourceofinformation.Indicateexactpagenumbersofasourcewithinyourbracketsafteracomma[4,pp.3-6],orbyasimplerhetoricaldeviceinyourtextsuchas“However, onpage79of[5]theauthorseemstocontradicthimselfwhenhestates.. .“Ifyoumustrefertomorethanoneseparatepageorsourceinthesamereference, use semicolons for separation: [6, p. 46; 7, pp. 29-31; 9, pp. 8-12].
+3.Onceyouhavenumberedasource,usethesamenumberforallsubsequentreferencestothatsource.Referencesattheendofquotationmarks“arepunctuatedwiththeperiodafter the reference” [8, p. 23].
+4.Alwaysusesquarebracketsaroundreferencenumbers[10,pp.78-85]todistinguishfrom equation numbers, which are given in parentheses (6).
+5. Single-spaceindividualreferences,withnoindentationfora secondorthirdline.Double space between separate references.
+6. Usea commonabbreviationfora Journaltitleif thereis one,e.g.,IEEEElectronDevice Lett. Otherwise give the full name of the journal.
+7. End each entry with a period.
+8. List each source only once on your reference page.
+Books Format:Author's last name, first name. Book title. Editionandotheradditionalinformation.Cityofpublication: Publisher, year.
+[1] Allen, Thomas B. Vanishing Wildlife of North America. Washington, D.C.: NationalGeographic Society, 1974.
+[2] Hyde, Margaret, and Elizabeth Forsythe.  Suicide: The Hidden Epidemic. NewYork: Watts,1986.
+[3] Baron, Alvin. Bud’s Easy Research Paper Computer Manual For IBMPC’s. 3rd ed. NewYork: Lawrence House Publishers, 2000.
+Magazine & Newspaper Articles  Format:
+Author's last name, first name. "Article title." Periodical title Volume # Date: inclusivepages. 
+[1] Kanfer, Stefan. "Heard Any Good Books Lately?" Time 11321 July 1986: 71-72.
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 4
+Website or Webpage Format:Author's last name, first name (if available). "Title of work within a project ordatabase." Title of site, project, or database. Editor (if available). Electronic publicationinformation (Date of publication or of the latest update, and name of any sponsoringinstitution or organization). Date of access and <full URL>. 
+Note: If you cannot find some of this information, cite the available information.
+[1] Devitt, Terry. "Lightninginjuresfouratmusicfestival." TheWhy?Files.2Aug.2001.23Jan.2002 <http://whyfiles.org/137lightning/index.html>.
+[2] Dove,Rita."LadyFreedomamongUs." TheElectronicText Center.Ed.DavidSeaman.1998.Alderman Lib., U of Virginia. 19 June 1998<http://etext.lib.virginia.edu/subjects/afam.html>.
+Sample reference page:
+[1] Allen, Thomas B. Vanishing Wildlife of North America. Washington, D.C.: NationalGeographic Society, 1974.
+[2] Boorstin, Daniel J. The Creators: A History of the Heroes of the Imagination. NewYork:Random, 1992.
+[3] Hall, Donald, ed. The Oxford Book of American Literacy Anecdotes. NewYork: OxfordUP,1981.
+[4] Kanfer, Stefan. "Heard Any Good Books Lately?" Time 11321 July 1986: 71-72.
+[5] Devitt, Terry. "Lightninginjuresfouratmusicfestival." TheWhy?Files.2Aug.2001.23Jan.2002 <http://whyfiles.org/137lightning/index.html>.
+AppendixUse the appendices to avoid interrupting the body of the report with excessive detail,thereby improving readability. Number the appendices with a structure like: A, A.1, B,etc. The appendices might include, but are not limited to:
+a. A "User’s Manual" or instructions for operating and maintaining thesystem you've designed.b. Additional charts, graphs and tables.c. Mathematical derivations, proofs, etc.d. Detailed calculations (theoretical developments, error and sensitivityanalyses, etc.)e. Budget status.f. Gantt chart and/or other planning information.g. An analysis of the "design concepts" topics (e.g. health and safety) givenseparately. Indicate how your design is affected by each topic.
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 5
+List of Figures
+Fig. No. Figure Name Page No.
+List of Tables
+Table. No. Title Page No.
+List of AbbreviationsExample:UNICEF United Nations Children’s FundStrictly follow the Order of Pages given below
+Title Page(Refer the attached template)
+Certiﬁcate page(Refer the attached template)
+Acknowledgments (Thank all those people whose eﬀortshave contributed towards thesuccessful completion of your project)
+Abstract
+Table of Contents
+List of Tables
+List of Figures
+Abbreviations (optional)
+All Chapters …. (Refer the sample TOC given below)
+Appendices
+References
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 6
+TABLE OF CONTENTS
+Acknowledgments iii
+Abstract iv
+List of Tables
+List of Figures
+Abbreviations (optional)
+1. Introduction 1
+1.1. Project Description 3
+1.2. Existing System
+1.3. Objectives
+1.4. Purpose, Scope and Applicability
+1.4.1. Purpose
+1.4.2. Scope
+1.4.3. Applicability
+1.5. Overview of the Report
+2. System Analysis and Requirements
+2.1. Problem Deﬁnition2.2.Requirements Specification2.3.Block Diagram2.4. System Requirements2.4.1.User Characteristics2.4.2.Software and Hardware Requirements2.4.3.Constraints2.5.Conceptual Models2.5.1.Data Flow Diagram2.5.2.ER Diagram3. System Design3.1.System Architecture3.2.Module Design
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 7
+3.3.Database Design3.3.1.Tables and Relationships3.3.2.Data Integrity and Constraints3.4.System Configuration (optional)3.5.Interface Design and Procedural Design3.5.1.User Interface Design3.5.2.Application Flow/Class Diagram3.6.Reports Design3.7.…....3.8.…….4. Implementation4.1.Implementation Approaches4.2.Coding Standard4.3.Coding Details4.4.Screen Shots5. Testing5.1.Test Cases5.2.Testing Approaches5.3.Test Reports6. Conclusion6.1.Design and Implementation Issues6.2.Advantages and Limitations6.3.Future Scope of the ProjectAppendicesA …….A.1 ……A.2…….A.3…….B…….B.1…….B.2…….
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 8
+B.3…….References
+Explanation of Contents of Various Chapters
+Chapter 1: Introduction
+Begin this chapter with a summary of the contents of this chapter (Maximum two lines).
+The Introduction comprises of several sections as described below:1.1 Project Description:A Good summary of the backgroundand context of the project.Explain the issues/limitations identified in the existing system/product and the need toresolve the issues.1.2 Existing System:Summarize existing work in the arearelated to your project.1.3 Objectives:Aims and objectives of your project tobe written in a very concise manner.Clearly define what you are going to achieve in your project (in not more than 40 words).1.4 Purpose, Scope and Applicability:1.4.1 Purpose: Explain(i) whyyouare doingthis project? (ii) what is thesignificanceofthisproject work (iii) How and in what all ways will this project improve the current system?1.4.2 Scope: (i) Give a brief overviewof the assumptions made, limitations oftheprojectandthe methodology adopted (ii) Discuss the major issues addressed by your project (iii)Explain the main functions of your project.1.4.3 Applicability: Discuss the applications (bothdirect andindirect) of your project anditscontributions to society.1.5 Overview of the report:What will be the contentscovered in the report and how is itarranged into various chapters?
+Chapter 2: System Analysis and Requirements
+Begin this chapter with a summary of the contents of this chapter (Maximum two lines).
+2.1ProblemDefinition:Defineandexplaintheproblemonwhichyouareworkingintheproject.Provide the details of the complete problem and then divide the problem into sub problems.2.2RequirementsSpecification:Definetherequirementsofthesystemwithoutfocusingonhowthey will be achieved. Requirements can be identifiedfromthe limitations andproblems of theexisting system2.3 Block Diagram: Draw a diagram of the system under study, illustrating the majorcomponents and functions.2.4 System Requirements2.4.1User Characteristics:Different types of userswho will be using and dealing withyour system.2.4.2 Software and Hardware Requirements:(i) Software Requirements —List (a) the OperatingSystem(b) The Compiler(c)TestingTools(d) Linker and(e)Libraries(f)Packages(g)VirtualizationSoftwareetc.requiredtocompile,linkand install the software
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title 9
+(ii) Hardware Requirements--- List (a) Processor (b) Graphics Card(c) Diskcapacity(d) RAMcapacity etc. required to run the software.2.4.3 Constraints: Explain Hardware Limitations, Language Requirements, Interfaces to otherApplications, ReliabilityRequirements, RegulatoryPolicies, PlatformDependenciesoranyotherconstraints related to your system.2.5 Conceptual Models: Now that you have understood the problem domain and therequirements, produce a model of the system, reflecting the operations/functions that can beperformedon/bythe systemandthe allowable sequence of these operations. ConceptualModelscaninclude Context Diagram, Data FlowDiagrams (At least 0and1Level),EntityRelationship(ER) Diagrams, Class Diagrams, System Flow Charts etc.
+Chapter 3 - System DesignBegin this chapter with a summary of the contents of this chapter (Maximum two lines).
+This chapter discusses the required features, functionalities and operations in detail. Thedescription should include screen layouts (not screen shots), business rules, process diagrams,pseudocode and other relevant documentation.
+3.1 System ArchitectureIn this section, you can describe the architecture of your system.E.g., The systemunder consideration will be based on 2-tier (client-server) architecture, 3-tierarchitecture (presentationtier, applicationlogic or business logic tier, data tier) etc. Describethearchitecture corresponding to your system with a detailed explanation of thecomponents/functionalities. Explanations can be supplemented with appropriate ArchitectureDiagrams.
+3.2 Module DesignWhile designing the project, followa divide a conquer approach wherein the overall problem(project) isdividedintomorestructuredandmanageableparts.Eachoneoftheindividualpartsormodules are developedseparately. Once allthemodulesarecompleted,theyshouldbeintegratedinto one complete system.In this section, you should explain all the modules of your project along with their functionalities.
+3.3 Database DesignInthis section, youshouldexplainhowyouhaveorganized,arranged,managedandmanipulatedthe data pertaining to your project. This section should explain the mapping of entities &relationships to tables.3.3.1Tables andRelationships: Define thestructureofeachtableanditsrelationshipwithothertables in the database.3.3.2 Data Integrity and Constraints: Define and explainall the validitychecks (validations)and constraints you are providing to maintain integrity of data.3.4 System Configuration (optional)3.5 Interface and Procedural Design3.5.1 User Interface Design: Define user, the taskbeingperformed, the environment inwhichtask is performed and howyou intend to map those requirements in order to develop a “UserInterface”. Describe the external and internal components and the architecture of your userinterface. Illustrate the interface withthehelpofsomeroughpictorialviewsoftheUserInterfaceand its components.
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title10
+3.5.2 Application Flow/Class Diagram: Using Process flow diagrams, Class diagrams etc.represent the systematical flow of procedure that aids in improving the comprehension of theprocess and helps the programmer during implementation.
+3.6Reports Design: Define (i) The structure of the reports that will be generatedbythesystem(ii) Inputs giventogenerate the report (eg. Time period,Nameofproductetc.)(iii)Outputfieldsin the generated report etc.
+NOTE: If your criteria donotmatchwiththeabove-mentioneddesigns,thenrefervariousCASETools for your application and find a design suitable for your work. Use a design approachappropriate for your project and don’t blindly select the given designs just because they arementioned in the guidelines.
+4. Implementation4.1ImplementationApproaches: Define the planof implementationandprocedureadoptedforconverting the objectives into an actual working model.Reference:  1. Roger S. Pressman, Software Engineering, A practitioner’s Approach, 7
+th
+edition,McGraw-Hill Education,20102.“http://www.nutcache.com/blog/8-top-project-management-approaches-methods-techniques/4.2 Coding Standard:Define the coding standards usedfor writing the code of your project.4.3CodingDetails: Include onlythe important portions of code (appletscode,formscodeetc.)The lines of code should be commented appropriately for explaining the purpose of a piece ofcode. Screen shot of the output of the program code can be included to demonstrate thefunctionality of the code.4.3 Screen Shots:Input Screen shots & Output Screenshots.
+5. Testing5.1Test Cases: Test cases are all about“Howyouaregoingtotestarequirement?”Definethetestcases for various test scenarios in your project.Eg: Test Scenario: “Validate the login functionality of Admin”This scenario requires three test cases (conditions) as follows1. Login -successful.2. Login - unsuccessful when the incorrect password is entered.3. Login - unsuccessful when the incorrect username is entered.Explain the purpose of each test and expected output/result.5.2 Testing Approaches: Explain the approach of testing.ii. Unit Testingiii. Integration Testing
+5.3 Test Reports: Explainthe test results andreports basedonyourtestcases,whichwouldprove that your project will produce the expectedresults under different conditions. Producethetest reports for different test cases by giving different sample inputs and showing thecorresponding outputs.
+6. Conclusion6.4. Design and Implementation IssuesPoor design and/or implementation can cause failure or rejection of a software system.
+Department of Computer Science, CHRIST (Deemed to be University)
+Project Title11
+Design Issues: Explain the challenges such as requirements volatility, design process, qualityissues (e.g., scalability, performance, security, usability etc.), distributedsoftware development,fast-changing technology etc. faced during the design of your project.
+Implementation Issues: Explain the challenges faced by your systemduring implementationsuchas operatingenvironment, installationof the system, codeconversion,changeover,trainingetc.References:http://apprize.info/usability/engineering/18.html6.5. Advantages and LimitationsAdvantages: Explain howa problemidentifiedwiththe existingsystemhas beenresolved(ii)Contribution of your work towards improving the performance of the existing system.Limitations: (i) Explainthe functionalities/requirements youwere not able implementpartiallyor completely(ii) limitations identifiedbyyouduringthe testingof your project that youwerenot able to modify (iii) Suggestions for improvement received during demonstration of yourproject in your company.6.6. Future Scope of the Project: (i) Discuss the new related areas of investigationidentifiedduringthe development of the project. (ii) Parts of the current workthatcouldnotbecompleted due to time constraints and/or problems encountered.
+ 
+Department of Computer Science, CHRIST (Deemed to be University)

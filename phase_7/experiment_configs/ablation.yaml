@@ -1,0 +1,79 @@
+# Ablation study configuration
+<<<<<<< HEAD
+# Used for paper evaluation section
+
+=======
+>>>>>>> phase_7
+experiment:
+  name: ablation
+  description: "Ablation studies for paper evaluation section"
+  version: "1.0"
+
+<<<<<<< HEAD
+# Define ablation variants
+=======
+>>>>>>> phase_7
+ablations:
+  - name: "no_emotion"
+    description: "Test without Phase 2 emotion enrichment"
+    disable:
+      - emotion_input
+<<<<<<< HEAD
+    
+=======
+>>>>>>> phase_7
+  - name: "no_rag"
+    description: "Test without Phase 3 RAG context"
+    disable:
+      - rag_context
+<<<<<<< HEAD
+    
+=======
+>>>>>>> phase_7
+  - name: "single_group"
+    description: "Test with single fixture group only"
+    config:
+      max_groups: 1
+<<<<<<< HEAD
+      
+  - name: "high_temperature"
+    description: "Test LLM with higher temperature"
+    config:
+      llm_temperature: 0.9
+      
+  - name: "low_temperature"
+    description: "Test LLM with lower temperature"
+    config:
+      llm_temperature: 0.1
+=======
+>>>>>>> phase_7
+
+metrics:
+  consistency:
+    intensity_epsilon: 0.05
+<<<<<<< HEAD
+    
+  coverage:
+    # Lower minimum for ablation studies
+    require_minimum_groups: 1
+    
+  stability:
+    # More runs for ablation confidence
+    num_runs: 5
+
+comparison:
+  # Compare all ablations against baseline
+=======
+  coverage:
+    require_minimum_groups: 1
+  stability:
+    num_runs: 5
+
+comparison:
+>>>>>>> phase_7
+  baseline: "baseline"
+  metrics_to_compare:
+    - determinism_score
+    - drift_score
+    - coverage
+    - stability_score

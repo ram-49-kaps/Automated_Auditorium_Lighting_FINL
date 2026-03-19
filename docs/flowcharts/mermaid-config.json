@@ -1,0 +1,7 @@
+{
+    "theme": "dark",
+    "themeVariables": {
+        "fontSize": "16px",
+        "fontFamily": "Helvetica, Arial, sans-serif"
+    }
+}

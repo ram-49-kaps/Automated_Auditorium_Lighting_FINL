@@ -121,7 +121,7 @@ class AuditoriumSimulation {
 
     initNetwork() {
         console.log("Connecting to Lighting Console...");
-        this.socket = new WebSocket('ws://16.171.153.178:8765');
+        this.socket = new WebSocket('ws://localhost:8765');
 
         // Expose sendCommand to global scope for HTML buttons
         window.sendCommand = (cmd, val) => {
@@ -143,6 +143,28 @@ class AuditoriumSimulation {
                     index: cueIndex,
                     theme: newTheme
                 }));
+            }
+        };
+
+        // Expose sendNLPOverride for real-time text overrides
+        window.sendNLPOverride = () => {
+            const inputEl = document.getElementById('nlpOverrideInput');
+            if (!inputEl) return;
+            const text = inputEl.value.trim();
+            if (!text) return;
+
+            // Apply to the currently active cue in the simulation
+            if (this.latestState && this.latestState.current_index !== undefined) {
+                if (this.socket && this.socket.readyState === WebSocket.OPEN) {
+                    this.socket.send(JSON.stringify({
+                        command: 'OVERRIDE',
+                        index: this.latestState.current_index,
+                        text: text
+                    }));
+                    inputEl.value = ''; // clear upon sending
+                }
+            } else {
+                console.warn("No active scene to override");
             }
         };
 
@@ -185,7 +207,9 @@ class AuditoriumSimulation {
         if (state.context_window) {
             const allThemes = ["JOY", "FEAR", "ANGER", "SADNESS", "SURPRISE", "DISGUST", "NEUTRAL",
                 "NOSTALGIA", "MYSTERY", "ROMANTIC", "ANTICIPATION", "HOPE", "TRIUMPH",
-                "TENSION", "DESPAIR", "SERENITY", "CONFUSION", "AWE", "JEALOUSY"];
+                "TENSION", "DESPAIR", "SERENITY", "CONFUSION", "AWE", "JEALOUSY",
+                "ANXIETY", "BETRAYAL", "LOVE", "GRIEF", "EXCITEMENT", "CHAOTIC_ENERGY",
+                "COMEDIC_ENERGY", "AMUSEMENT", "MELANCHOLY", "DREAD", "CONTENTMENT"];
 
             state.context_window.forEach(cue => {
                 const activeStart = cue.active ? 'active' : '';
@@ -214,26 +238,8 @@ class AuditoriumSimulation {
                 const sceneIdBadge = `<span class="cue-scene-id">${sceneId}</span>`;
 
                 if (isActive) {
-                    // Active cue: rendering text block
-                    let contentHtml = '';
-
-                    if (cue.dialogue_lines && cue.dialogue_lines.length > 0) {
-                        contentHtml += '<div class="system-msg" style="color:#00d4ff; font-family:monospace; margin-bottom:8px;">[System] Fade In</div>';
-                        contentHtml += `<div class="scene-id" style="color:#a855f7; font-weight:bold; margin-bottom:12px;">${sceneId}</div>`;
-
-                        cue.dialogue_lines.forEach(dl => {
-                            contentHtml += `<div class="dialogue-line" style="margin-bottom:8px;">
-                                <strong style="color:#fbbf24; margin-right:8px;">${dl.character}:</strong>
-                                <span>${dl.line}</span>
-                            </div>`;
-                        });
-
-                        contentHtml += '<div class="system-msg" style="color:#00d4ff; font-family:monospace; margin-top:12px;">[System] Fade Out</div>';
-                    } else {
-                        const fullText = cue.script_full || cue.script_line || '';
-                        contentHtml = fullText.replace(/\n/g, '<br>');
-                    }
-
+                    // Active cue: full script text shown in a separate block
+                    const fullText = cue.script_full || cue.script_line || '';
                     html += `<div class="cue-item active" ${clickAction}>
                                 <div class="cue-header-row">
                                     ${sceneIdBadge}
@@ -241,7 +247,7 @@ class AuditoriumSimulation {
                                     <span class="cue-preview">${cue.script_line || ''}</span>
                                     ${sceneSelect}
                                 </div>
-                                <div class="cue-full-text">${contentHtml}</div>
+                                <div class="cue-full-text">${fullText.replace(/\n/g, '<br>')}</div>
                              </div>`;
                 } else {
                     // Inactive cue: compact — scene_id | short preview | dropdown
@@ -277,13 +283,34 @@ class AuditoriumSimulation {
         // NEXT / FINISH Button State
         const btnNext = document.querySelector('.btn-next');
         if (btnNext && typeof state.total_cues !== 'undefined') {
-            if (state.current_index >= state.total_cues - 1) {
+            // total_cues includes: [START, ...real_cues, FADE_TO_BLACK, END]
+            // We want the FINISH button on the last real cue (total_cues - 3)
+            if (state.current_index >= state.total_cues - 3) {
                 btnNext.innerText = "FINISH 🏁";
                 btnNext.style.backgroundColor = "#ffba08";
                 btnNext.style.color = "#000";
                 btnNext.onclick = () => {
-                    const fbOverlay = document.getElementById("feedbackOverlay");
-                    if (fbOverlay) fbOverlay.style.display = "flex";
+                    // First forcefully jump to the FADE_TO_BLACK cue index
+                    if (window.sendCommand) window.sendCommand('JUMP', state.total_cues - 2);
+                    btnNext.innerText = "FADING OUT...";
+                    btnNext.disabled = true;
+                    btnNext.style.opacity = "0.5";
+
+                    // Wait for the fade-to-black to complete (5.5s), then ask about feedback
+                    setTimeout(() => {
+                        btnNext.disabled = false;
+                        btnNext.style.opacity = "1";
+
+                        // Show a confirmation dialog before the RL form
+                        const fbConfirm = document.getElementById("feedbackConfirmOverlay");
+                        if (fbConfirm) {
+                            fbConfirm.style.display = "flex";
+                        } else {
+                            // Fallback: show RL form directly
+                            const fbOverlay = document.getElementById("feedbackOverlay");
+                            if (fbOverlay) fbOverlay.style.display = "flex";
+                        }
+                    }, 5500);
                 };
             } else {
                 btnNext.innerText = "GO ⏭";
@@ -302,22 +329,9 @@ class AuditoriumSimulation {
         if (fill && text && typeof state.total_cues !== 'undefined') {
             const total = state.total_cues > 0 ? state.total_cues : 1;
             const current = state.current_index;
-
-            // Use time-based progress if available, else fallback to index-based
-            let pct;
-            if (state.total_duration && state.total_duration > 0 && typeof state.sim_elapsed === 'number') {
-                pct = (state.sim_elapsed / state.total_duration) * 100;
-            } else {
-                pct = (current / (total - 1)) * 100;
-            }
+            const pct = (current / (total - 1)) * 100;
             fill.style.width = `${Math.min(100, Math.max(0, pct))}%`;
-
-            // Show simulation clock if available
-            if (state.sim_clock && state.total_clock) {
-                text.innerText = `${state.sim_clock} / ${state.total_clock}`;
-            } else {
-                text.innerText = `${current + 1} / ${total}`;
-            }
+            text.innerText = `${current + 1} / ${total}`;
 
             // Inject markers the first time we know the total
             if (bg.children.length <= 1 && total > 1) { // 1 child is the fill bar
@@ -342,13 +356,10 @@ class AuditoriumSimulation {
             };
         }
 
-        // Use server-sent elapsed time for teleprompter
-        if (typeof state.elapsed === 'number') {
-            state._cue_elapsed = state.elapsed;
-        } else if (!this.latestState || this.latestState.current_index !== state.current_index) {
-            state._cue_elapsed = 0;
+        if (!this.latestState || this.latestState.current_index !== state.current_index) {
+            state.elapsed = 0;
         } else {
-            state._cue_elapsed = this.latestState._cue_elapsed || 0;
+            state.elapsed = this.latestState.elapsed || 0;
         }
         this.latestState = state;
 
@@ -385,7 +396,7 @@ class AuditoriumSimulation {
         }
 
         // Calculate progress: elapsed / duration
-        const elapsed = state._cue_elapsed || state.elapsed || 0;
+        const elapsed = state.elapsed || 0;
         const duration = activeCue.duration || 30;
         const progress = Math.min(1.0, elapsed / duration);
 
@@ -792,10 +803,9 @@ class AuditoriumSimulation {
         // Update UI every few frames or just every frame (simple)
         this.updateFixtureStatusUI();
 
-        // Teleprompter: use server-sent elapsed, with client-side interpolation between updates
         if (this.latestState && !this.latestState.is_holding) {
-            if (typeof this.latestState._cue_elapsed !== 'number') this.latestState._cue_elapsed = 0;
-            this.latestState._cue_elapsed += delta;  // Smooth interpolation between server ticks
+            if (typeof this.latestState.elapsed !== 'number') this.latestState.elapsed = 0;
+            this.latestState.elapsed += delta;
             this.updateTeleprompter(this.latestState);
         }
 

@@ -1,0 +1,103 @@
+flowchart TD
+    INPUT(["script_path"]) --> A1
+
+    subgraph A1["PHASE 1A — Text Acquisition"]
+        EXT{"File extension?"}
+        EXT --> |".txt"| TXT["Direct file read"]
+        EXT --> |".pdf"| PDF["PyPDF2 extract"]
+        EXT --> |".docx"| DOCX["python-docx extract"]
+        PDF --> PDFOK{"Text extracted?"}
+        PDFOK --> |"yes"| QG
+        PDFOK --> |"no"| OCR["Mistral OCR API"]
+        OCR --> OCRCONF{"confidence ≥ 0.85?"}
+        OCRCONF --> |"yes"| QG
+        OCRCONF --> |"no"| HARDSTOP["❌ AcquisitionHardStop"]
+        TXT --> QG
+        DOCX --> QG
+        QG["Quality Gates"]
+        QG --> QL{"avg_line_len OK?\nnoise_ratio < 5%?"}
+        QL --> |"no"| HARDSTOP
+        QL --> |"yes"| ACQ["✅ AcquisitionResult"]
+    end
+
+    A1 --> B1
+
+    subgraph B1["PHASE 1B — Immutable Structuring"]
+        NFC["UTF-8 NFC Normalize"] --> NL["Newline Normalize\n(blanks preserved)"]
+        NL --> INV["Remove Invisible Chars"]
+        INV --> SHA["SHA-256 Hash"]
+        SHA --> IDX["1-Based Line Indexing"]
+        IDX --> META["Extract Metadata\n(blanks, headers, separators)"]
+        META --> IMM["✅ ImmutableText"]
+    end
+
+    B1 --> CH
+
+    subgraph CH["CHUNK PREPROCESSOR"]
+        SIZE{"total_lines ≤ 150?"}
+        SIZE --> |"yes"| SINGLE["Single chunk"]
+        SIZE --> |"no"| ANCHOR["Find structural\nanchors"]
+        ANCHOR --> SPLIT["Sliding window split\n(10-line overlap)"]
+        SINGLE --> CHUNKS["ChunkInfo[]"]
+        SPLIT --> CHUNKS
+    end
+
+    CH --> C1
+
+    subgraph C1["PHASE 1C.1 — LLM Scene Segmentation"]
+        HF["HuggingFace Inference API\nQwen2.5-7B-Instruct"]
+        HF --> PROC["Process each chunk"]
+        PROC --> OK{"JSON parsed?"}
+        OK --> |"yes"| COLL["Collect"]
+        OK --> |"no"| RET{"Retry?"}
+        RET --> |"attempt 2"| PROC
+        RET --> |"failed"| RULE["Rule-based\nfallback for chunk"]
+        RULE --> COLL
+        COLL --> MERGE["merge_segmentation_results()"]
+        MERGE --> SNAP["Snap boundaries to\nnearest INT./EXT. marker"]
+    end
+
+    C1 --> C2
+
+    subgraph C2["PHASE 1C.2 — Timestamp Engine"]
+        REG["Regex extraction\n(HH:MM:SS, MM:SS, etc.)"]
+        REG --> VAL["Rule-based validation"]
+        VAL --> MAP["Map candidates → scenes"]
+        MAP --> FILL["Fill gaps\n(word-count estimation)"]
+        FILL --> MONO["Enforce monotonic ordering"]
+    end
+
+    C2 --> D1
+
+    subgraph D1["PHASE 1D — Validation"]
+        VS["Structure: no overlaps/gaps"]
+        VS --> VT["Timestamp consistency"]
+        VT --> VC{"Coverage ≥ 80%?"}
+        VC --> |"yes"| VALID["✅ Validated"]
+        VC --> |"no"| VRETRY["Retry LLM"]
+        VRETRY --> VR2{"Retry OK?"}
+        VR2 --> |"yes"| VALID
+        VR2 --> |"no"| VFB["Rule-based fallback"]
+        VFB --> VALID
+    end
+
+    D1 --> E1
+
+    subgraph E1["PHASE 1E — JSON Construction"]
+        SL["Text slicing\nfrom ImmutableText"]
+        SL --> DET["Detect script_type"]
+        DET --> LOC["Extract location"]
+        LOC --> BLD["Build schema-valid dict"]
+        BLD --> VSCHEMA["Validate against\nscene_schema.json"]
+    end
+
+    E1 --> OUT(["scenes[], metadata{}"])
+
+    style A1 fill:#1a365d,stroke:#63b3ed,color:#fff
+    style B1 fill:#2c5282,stroke:#90cdf4,color:#fff
+    style CH fill:#2a4365,stroke:#bee3f8,color:#fff
+    style C1 fill:#553c9a,stroke:#b794f4,color:#fff
+    style C2 fill:#44337a,stroke:#9f7aea,color:#fff
+    style D1 fill:#742a2a,stroke:#fc8181,color:#fff
+    style E1 fill:#276749,stroke:#68d391,color:#fff
+    style HARDSTOP fill:#9b2c2c,stroke:#fc8181,color:#fff

@@ -341,11 +341,17 @@ class LightingDecisionEngine:
         Initialize decision engine
         
         Args:
-            use_llm: Whether to use LLM (requires API key)
-            api_key: OpenAI API key (or set OPENAI_API_KEY env var)
+            use_llm: Whether to use LLM
+            api_key: Optional API key override
         """
         self.retriever = get_retriever()
-        self.api_key = api_key or os.environ.get("OPENAI_API_KEY")
+        
+        # Get active model from our unified client
+        from utils.openai_client import get_active_model, _resolve_provider, _load_api_key
+        self.model = get_active_model() or LLM_MODEL
+        self.provider_info = _resolve_provider(self.model)
+        
+        self.api_key = api_key or _load_api_key(self.provider_info["api_key_env"])
         self.use_llm = use_llm and LANGCHAIN_AVAILABLE and bool(self.api_key)
         
         self.chain = None
@@ -363,12 +369,15 @@ class LightingDecisionEngine:
         prompt = prompt.partial(format_instructions=parser.get_format_instructions())
         
         kwargs = {
-            "temperature": LLM_TEMPERATURE,
+            "temperature": max(LLM_TEMPERATURE, 0.01),
             "verbose": LANGCHAIN_VERBOSE,
             "api_key": self.api_key,
-            "model": LLM_MODEL,
+            "model": self.model,
             "max_tokens": LLM_MAX_TOKENS
         }
+        
+        if self.provider_info.get("base_url"):
+            kwargs["base_url"] = self.provider_info["base_url"]
 
         llm = ChatOpenAI(**kwargs)
         
@@ -399,18 +408,21 @@ class LightingDecisionEngine:
         doc_type = scene_data.get("doc_type", "theatrical_script")
         
         if doc_type == "event_schedule":
+            print(f"Phase 4 [Diagnostics]: Event schedule logic triggered for {scene_id}")
             base_instruction = self._generate_event_instruction(scene_id, scene_text, timing)
         elif self.use_llm and self.chain:
             try:
+                print(f"Phase 4 [Diagnostics]: Attempting LangChain LLM generation for {scene_id} using {self.model}")
                 base_instruction = self._generate_with_llm(scene_id, emotion, scene_text, timing)
             except Exception as e:
-                print(f"LLM generation failed: {e}")
+                print(f"Phase 4 [Diagnostics]: LLM generation failed: {e}")
                 if FALLBACK_TO_RULES:
-                    print("Falling back to rule-based generation.")
+                    print("Phase 4 [Diagnostics]: Falling back to rule-based generation.")
                     base_instruction = self._generate_with_rules(scene_id, emotion, scene_text, timing)
                 else:
                     raise
         else:
+            print(f"Phase 4 [Diagnostics]: Skipping LLM (use_llm={self.use_llm}, chain={bool(self.chain)}). Executing _generate_with_rules")
             base_instruction = self._generate_with_rules(scene_id, emotion, scene_text, timing)
             
         # V3 ARCHITECTURE: APPLY OVERRIDE HIERARCHY
@@ -647,6 +659,7 @@ class LightingDecisionEngine:
         """
         # Tier 1: Try OpenAI for intelligent lighting design
         try:
+            print(f"Phase 4 [Diagnostics]: Attempting _generate_with_rules tier 1 (openai_json) for {scene_id}")
             result = openai_json(
                 prompt=(
                     f"Design theatrical lighting for this scene.\n\n"
@@ -665,6 +678,7 @@ class LightingDecisionEngine:
                 expected_keys=["groups"],
             )
             if result and isinstance(result.get("groups"), list) and len(result["groups"]) >= 1:
+                print(f"Phase 4 [Diagnostics]: Tier 1 openai_json call succeeded for {scene_id}")
                 groups = []
                 for g in result["groups"]:
                     try:

@@ -3,7 +3,7 @@ Validation for generated lighting cues
 """
 
 from typing import Dict, List, Tuple
-from phase_3.rag_retriever import get_retriever
+from pipeline.rag_retriever import get_retriever
 
 class CueValidator:
     """

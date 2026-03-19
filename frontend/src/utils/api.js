@@ -1,14 +1,19 @@
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 /**
  * Upload a script file to the backend
  * @param {File} file - The file object to upload
- * @returns {Promise<Object>} - Format: { job_id: "...", filename: "..." }
+ * @param {string} pipelineMode - 'multi_stage' or 'single_pass'
+ * @param {string} llmModel - HuggingFace model ID or 'ollama/local'
+ * @returns {Promise<Object>} - Format: { job_id: "...", filename: "...", pipeline_mode: "...", llm_model: "..." }
  */
-export async function uploadScript(file) {
+export async function uploadScript(file, pipelineMode = 'multi_stage', llmModel = 'Qwen/Qwen2.5-7B-Instruct', scriptType = 'theatrical_script') {
     const formData = new FormData();
     formData.append('file', file);
+    formData.append('pipeline_mode', pipelineMode);
+    formData.append('llm_model', llmModel);
+    formData.append('script_type', scriptType);
 
     const response = await fetch(`${API_BASE_URL}/upload`, {
         method: 'POST',
@@ -16,7 +21,8 @@ export async function uploadScript(file) {
     });
 
     if (!response.ok) {
-        throw new Error(`Upload failed: ${response.statusText}`);
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.detail || `Upload failed: ${response.statusText}`);
     }
 
     return response.json();
@@ -123,6 +129,26 @@ export async function applyResolution(jobId, sceneId, rule) {
     });
     if (!response.ok) {
         throw new Error(`Failed to apply resolution: ${response.statusText}`);
+    }
+    return response.json();
+}
+
+/**
+ * Tell the backend to manually override a scene's lighting instruction
+ * @param {string} jobId 
+ * @param {string} sceneId
+ * @param {Object} updatedCue
+ */
+export async function applyManualEdit(jobId, sceneId, updatedCue) {
+    const response = await fetch(`${API_BASE_URL}/manual-edit/${jobId}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ scene_id: sceneId, cue: updatedCue })
+    });
+    if (!response.ok) {
+        throw new Error(`Failed to apply manual edit: ${response.statusText}`);
     }
     return response.json();
 }

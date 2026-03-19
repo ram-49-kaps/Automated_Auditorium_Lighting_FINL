@@ -138,17 +138,11 @@ def merge_segmentation_results(
                 f"Chunker merge: Removing non-monotonic scene at start_line={sl}"
             )
 
-    # Rule 4 — Resolve overlaps by clipping start_line
-    for i in range(1, len(monotonic)):
-        prev_end = monotonic[i - 1].get("end_line", 0)
-        curr_start = monotonic[i].get("start_line", 0)
-        if curr_start <= prev_end:
-            logger.info(
-                f"Chunker merge: Fixing overlap — scene {i} start_line "
-                f"{curr_start} → {prev_end + 1} (was overlapping with "
-                f"previous end_line {prev_end})"
-            )
-            monotonic[i]["start_line"] = prev_end + 1
+    # Rule 4 — Resolve overlaps by clipping the earlier scene's end_line
+    # If scene_i ends AFTER scene_j starts, clip scene_i's end_line to scene_j.start_line - 1
+    for i in range(len(monotonic) - 1):
+        if monotonic[i].get("end_line", 0) >= monotonic[i+1].get("start_line", 0):
+            monotonic[i]["end_line"] = monotonic[i+1].get("start_line", 0) - 1
 
     # Clean up internal metadata
     for scene in monotonic:

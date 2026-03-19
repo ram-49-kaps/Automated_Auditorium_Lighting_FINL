@@ -1,0 +1,11 @@
+{
+  "universe_1": {
+    "channels": {
+      "1-8": "PAR_1 (RGBA)"
+    },
+    "reserved": {
+      "9-16": "PAR_2 (future)",
+      "20-35": "MovingHead_1 (future)"
+    }
+  }
+}

@@ -252,7 +252,7 @@ export default function ResultsPage() {
                     </div>
 
                     {/* Tabs */}
-                    <div className="flex flex-wrap items-center justify-center gap-2 mb-8 bg-white/[0.02] p-1.5 rounded-2xl mx-auto w-fit border border-white/[0.05]">
+                    <div className="flex items-center justify-center gap-2 mb-8 bg-white/[0.02] p-1.5 rounded-2xl mx-auto w-fit border border-white/[0.05]">
                         {['overview', 'timeline', 'cues'].map((tab) => (
                             <button
                                 key={tab}
@@ -295,6 +295,7 @@ export default function ResultsPage() {
                             <div className="glass-card p-6 mb-8">
                                 <EvaluationMetrics
                                     metrics={metrics}
+                                    results={results}
                                     loading={metricsLoading}
                                     activeTab="overview"
                                     jobId={jobId}
@@ -310,6 +311,7 @@ export default function ResultsPage() {
                             <div className="glass-card p-6 mb-8">
                                 <EvaluationMetrics
                                     metrics={metrics}
+                                    results={results}
                                     loading={metricsLoading}
                                     activeTab="timeline"
                                     jobId={jobId}
@@ -358,7 +360,7 @@ export default function ResultsPage() {
                             </span>
                         </button>
 
-                        <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-4 w-full">
+                        <div className="flex items-center justify-center gap-4 mt-4 flex-wrap">
                             <button
                                 onClick={handleReprocess}
                                 disabled={reprocessing}

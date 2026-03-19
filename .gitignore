@@ -1,47 +1,16 @@
-# Environments
-.env
-venv/
-env/
-ENV/
-env.bak/
-venv.bak/
-
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-
-# IDE / OS
 .DS_Store
-.vscode/
-.idea/
-.agent/
-
-# Logs and databases
-*.log
-*.sqlite3
-
-# Test / Coverage
+.env
+.venv
+env/
+venv/
+target/
 .pytest_cache/
-.coverage
-htmlcov/
-
-# Zips and archives
-*.zip
-*.tar.gz
-*.rar
-
-# Output / Temp files
-out*.txt
-temp*.txt
-all_py_files*.txt
-
-# Data and large files
-data/raw_scripts/
-data/standardized_output/
-*processed.json
-
-# Build directories
-build/
+data/jobs/
+node_modules/
 dist/
-*.egg-info/
+*.log
+.agent/
+pyrightconfig.json

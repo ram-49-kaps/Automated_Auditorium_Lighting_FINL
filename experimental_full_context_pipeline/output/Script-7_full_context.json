@@ -1,0 +1,415 @@
+{
+  "pipeline": "experimental_full_context",
+  "script_name": "Script-7",
+  "timestamp": "2026-02-28T21:07:31.779579",
+  "metadata": {
+    "dominant_emotion": "Anger",
+    "genre_inferred": "Romance / Betrayal / Psychological Drama",
+    "emotional_arc_shape": "Descending"
+  },
+  "scenes": [
+    {
+      "scene_id": "1",
+      "start_time": "00:00:00",
+      "end_time": "00:02:00",
+      "location": "EXT. CITY SKYLINE – NIGHT",
+      "emotion": {
+        "label": "Loneliness",
+        "energy": 0.3,
+        "valence": -0.2,
+        "confidence": 0.8
+      }
+    },
+    {
+      "scene_id": "2",
+      "start_time": "00:02:00",
+      "end_time": "00:05:00",
+      "location": "INT. APARTMENT – NIGHT",
+      "emotion": {
+        "label": "Comfort",
+        "energy": 0.5,
+        "valence": 0.4,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "3",
+      "start_time": "00:05:00",
+      "end_time": "00:08:30",
+      "location": "INT. BEDROOM – LATER",
+      "emotion": {
+        "label": "Intimacy",
+        "energy": 0.6,
+        "valence": 0.6,
+        "confidence": 0.65
+      }
+    },
+    {
+      "scene_id": "4",
+      "start_time": "00:08:30",
+      "end_time": "00:12:00",
+      "location": "EXT. CAFÉ – EVENING",
+      "emotion": {
+        "label": "Suspicion",
+        "energy": 0.4,
+        "valence": 0.2,
+        "confidence": 0.55
+      }
+    },
+    {
+      "scene_id": "5",
+      "start_time": "00:12:00",
+      "end_time": "00:14:30",
+      "location": "INT. APARTMENT – NIGHT",
+      "emotion": {
+        "label": "Anger",
+        "energy": 0.7,
+        "valence": -0.3,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "6",
+      "start_time": "00:14:30",
+      "end_time": "00:18:00",
+      "location": "INT. APARTMENT – CONTINUOUS",
+      "emotion": {
+        "label": "Betrayal",
+        "energy": 0.8,
+        "valence": -0.5,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "7",
+      "start_time": "00:18:00",
+      "end_time": "00:21:30",
+      "location": "INT. NEWSROOM – NIGHT",
+      "emotion": {
+        "label": "Determination",
+        "energy": 0.6,
+        "valence": 0.4,
+        "confidence": 0.65
+      }
+    },
+    {
+      "scene_id": "8",
+      "start_time": "00:21:30",
+      "end_time": "00:25:30",
+      "location": "INT. APARTMENT – STORMY NIGHT",
+      "emotion": {
+        "label": "Betrayal",
+        "energy": 0.8,
+        "valence": -0.5,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "9",
+      "start_time": "00:25:30",
+      "end_time": "00:29:00",
+      "location": "INT. APARTMENT – ESCALATION",
+      "emotion": {
+        "label": "Anger",
+        "energy": 0.8,
+        "valence": -0.6,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "10",
+      "start_time": "00:29:00",
+      "end_time": "00:33:00",
+      "location": "EXT. STREET – NIGHT",
+      "emotion": {
+        "label": "Desperation",
+        "energy": 0.7,
+        "valence": -0.4,
+        "confidence": 0.65
+      }
+    },
+    {
+      "scene_id": "11",
+      "start_time": "00:33:00",
+      "end_time": "00:36:30",
+      "location": "INT. NEWSROOM – DAWN",
+      "emotion": {
+        "label": "Resolution",
+        "energy": 0.5,
+        "valence": 0.3,
+        "confidence": 0.65
+      }
+    },
+    {
+      "scene_id": "12",
+      "start_time": "00:36:30",
+      "end_time": "00:39:30",
+      "location": "EXT. APARTMENT – MORNING",
+      "emotion": {
+        "label": "Despair",
+        "energy": 0.6,
+        "valence": -0.6,
+        "confidence": 0.75
+      }
+    },
+    {
+      "scene_id": "13",
+      "start_time": "00:39:30",
+      "end_time": "00:42:30",
+      "location": "EXT. COURT STEPS – DAY",
+      "emotion": {
+        "label": "Acceptance",
+        "energy": 0.4,
+        "valence": 0.2,
+        "confidence": 0.65
+      }
+    },
+    {
+      "scene_id": "14",
+      "start_time": "00:42:30",
+      "end_time": "00:46:30",
+      "location": "EXT. CITY – SUNSET",
+      "emotion": {
+        "label": "Solitude",
+        "energy": 0.3,
+        "valence": -0.1,
+        "confidence": 0.75
+      }
+    }
+  ],
+  "lighting": [
+    {
+      "scene_id": "1",
+      "intensity": 55.0,
+      "warmth": -0.2,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": false
+    },
+    {
+      "scene_id": "2",
+      "intensity": 65.0,
+      "warmth": 0.4,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "3",
+      "intensity": 70.0,
+      "warmth": 0.6,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "4",
+      "intensity": 60.0,
+      "warmth": 0.2,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "5",
+      "intensity": 75.0,
+      "warmth": -0.3,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "6",
+      "intensity": 80.0,
+      "warmth": -0.5,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "7",
+      "intensity": 70.0,
+      "warmth": 0.4,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "8",
+      "intensity": 80.0,
+      "warmth": -0.5,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "9",
+      "intensity": 80.0,
+      "warmth": -0.6,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "10",
+      "intensity": 75.0,
+      "warmth": -0.4,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "11",
+      "intensity": 65.0,
+      "warmth": 0.3,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "12",
+      "intensity": 70.0,
+      "warmth": -0.6,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "13",
+      "intensity": 60.0,
+      "warmth": 0.2,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    },
+    {
+      "scene_id": "14",
+      "intensity": 55.0,
+      "warmth": -0.1,
+      "palette": {
+        "primary": "#A0A0A0",
+        "secondary": "#C0C0C0",
+        "anchor": "#E8E8E8"
+      },
+      "color_ratios": {
+        "primary": 0.6,
+        "secondary": 0.25,
+        "anchor": 0.15
+      },
+      "blended": true
+    }
+  ],
+  "validation": {
+    "emotional_drift": {
+      "flip_count": 13,
+      "large_delta_count": 0,
+      "total_transitions": 13,
+      "drift_percentage": 100.0
+    },
+    "lighting_continuity_score": 100.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "scripts_evaluated": 9,
+  "average_accuracy": 0.4,
+  "metric_weights": {
+    "scene_count": 0.4,
+    "boundary": 0.3,
+    "matching": 0.3
+  }
+}

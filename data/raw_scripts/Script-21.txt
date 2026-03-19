@@ -1,0 +1,107 @@
+[
+  {
+    "scene_id": 1,
+    "timestamp_start": "00:00:00",
+    "timestamp_end": "00:02:30",
+    "location": "Bus terminal entrance",
+    "scene_text": "Arun stands near the terminal doors, watching buses arrive and leave. He checks his phone repeatedly, then puts it away without unlocking it."
+  },
+  {
+    "scene_id": 2,
+    "timestamp_start": "00:02:30",
+    "timestamp_end": "00:05:00",
+    "location": "Bus terminal waiting area",
+    "scene_text": "Nisha enters the terminal and spots Arun. She hesitates before walking toward him. Arun notices her only when she stops in front of him."
+  },
+  {
+    "scene_id": 3,
+    "timestamp_start": "00:05:00",
+    "timestamp_end": "00:07:30",
+    "location": "Waiting bench",
+    "scene_text": "They sit on the same bench with space between them. Nisha asks when he decided to leave. Arun answers quietly that he decided a long time ago."
+  },
+  {
+    "scene_id": 4,
+    "timestamp_start": "00:07:30",
+    "timestamp_end": "00:10:00",
+    "location": "Coffee stall",
+    "scene_text": "Arun brings two cups of coffee. Nisha drinks and grimaces. They share a brief smile, remembering how bad the coffee has always been."
+  },
+  {
+    "scene_id": 5,
+    "timestamp_start": "00:10:00",
+    "timestamp_end": "00:12:30",
+    "location": "Terminal corridor",
+    "scene_text": "An announcement echoes through the terminal. Nisha mentions how they once planned to leave together. Arun listens but does not respond immediately."
+  },
+  {
+    "scene_id": 6,
+    "timestamp_start": "00:12:30",
+    "timestamp_end": "00:15:00",
+    "location": "Window side seating",
+    "scene_text": "Sunlight grows stronger through the glass. Arun admits that staying made him feel invisible. Nisha looks away, hurt but understanding."
+  },
+  {
+    "scene_id": 7,
+    "timestamp_start": "00:15:00",
+    "timestamp_end": "00:17:30",
+    "location": "Waiting area",
+    "scene_text": "People begin lining up for boarding. Nisha asks why he never said any of this before. Arun says he was afraid of being honest."
+  },
+  {
+    "scene_id": 8,
+    "timestamp_start": "00:17:30",
+    "timestamp_end": "00:19:30",
+    "location": "Near ticket counter",
+    "scene_text": "Nisha explains that silence hurt more than truth ever could. Arun nods, accepting the weight of her words."
+  },
+  {
+    "scene_id": 9,
+    "timestamp_start": "00:19:30",
+    "timestamp_end": "00:21:30",
+    "location": "Seating area",
+    "scene_text": "Nisha hands Arun a folded letter she never sent. Arun holds it without opening, unsure if he deserves to read it."
+  },
+  {
+    "scene_id": 10,
+    "timestamp_start": "00:21:30",
+    "timestamp_end": "00:23:30",
+    "location": "Seating area",
+    "scene_text": "Arun reads the letter silently. His expression changes as he realizes how clearly Nisha understood him even when he stayed silent."
+  },
+  {
+    "scene_id": 11,
+    "timestamp_start": "00:23:30",
+    "timestamp_end": "00:25:30",
+    "location": "Boarding gate",
+    "scene_text": "Passengers begin boarding. Arun tells Nisha he does not expect her to wait for him. She replies that she is done waiting."
+  },
+  {
+    "scene_id": 12,
+    "timestamp_start": "00:25:30",
+    "timestamp_end": "00:27:30",
+    "location": "Gate entrance",
+    "scene_text": "Arun hesitates, as if wanting to say more. Nisha stops him gently, asking him not to make promises he cannot keep."
+  },
+  {
+    "scene_id": 13,
+    "timestamp_start": "00:27:30",
+    "timestamp_end": "00:29:30",
+    "location": "Gate entrance",
+    "scene_text": "They share a quiet moment. Arun thanks Nisha for being honest. She thanks him for finally being clear."
+  },
+  {
+    "scene_id": 14,
+    "timestamp_start": "00:29:30",
+    "timestamp_end": "00:31:30",
+    "location": "Inside bus",
+    "scene_text": "Arun sits by the window. He looks out and sees Nisha standing still, watching without waving."
+  },
+  {
+    "scene_id": 15,
+    "timestamp_start": "00:31:30",
+    "timestamp_end": "00:33:00",
+    "location": "Bus terminal exterior",
+    "scene_text": "The bus drives away. Nisha remains where she is, breathing deeply as the terminal returns to its usual quiet."
+  }
+]

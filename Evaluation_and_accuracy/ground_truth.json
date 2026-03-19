@@ -1,0 +1,146 @@
+{
+    "Script-1.txt": {
+        "type": "Movie",
+        "true_scenes": 6,
+        "true_boundaries": 5,
+        "true_matches": 6
+    },
+    "Script-3.txt": {
+        "type": "Movie",
+        "true_scenes": 5,
+        "true_boundaries": 4,
+        "true_matches": 5
+    },
+    "Script-10.pdf": {
+        "type": "Theatre",
+        "true_scenes": 28,
+        "true_boundaries": 27,
+        "true_matches": 28
+    },
+    "Script-2.txt": {
+        "type": "Movie",
+        "true_scenes": 8,
+        "true_boundaries": 7,
+        "true_matches": 8
+    },
+    "Conflict-Test-Script.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Event-Schedule-Test.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-11.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-12.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-13.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-14.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-15.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-16.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-17.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-18.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-19.pdf": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-20.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-21.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-4.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-5.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-6.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-65-Rules-Test.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-7.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-8.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    },
+    "Script-9.txt": {
+        "type": "Unknown",
+        "true_scenes": 10,
+        "true_boundaries": 9,
+        "true_matches": 10
+    }
+}

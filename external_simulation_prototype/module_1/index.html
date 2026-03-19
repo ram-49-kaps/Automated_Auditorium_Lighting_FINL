@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Auditorium - LIVE CONSOLE</title>
-    <!-- Custom SVG Favicon (Matches Main App) -->
-    <link rel="icon" type="image/svg+xml" href="/lumina-logo.svg">
     <style>
         * {
             margin: 0;
@@ -477,82 +475,6 @@
         #teleprompter .tp-text .word.upcoming {
             color: rgba(255, 255, 255, 0.25);
         }
-
-        /* === MOBILE RESPONSIVENESS === */
-        @media (max-width: 768px) {
-            #fixturePanel {
-                display: none;
-                /* Hide fixture panel on mobile to save space */
-            }
-
-            #consolePanel {
-                width: 100%;
-                height: 220px;
-                flex-direction: column;
-            }
-
-            #consolePanel>div:last-child {
-                flex-direction: column;
-            }
-
-            .controls {
-                width: 100%;
-                min-width: 100%;
-                flex-direction: row;
-                border-left: none;
-                border-top: 1px solid #333;
-                padding: 10px;
-                gap: 5px;
-            }
-
-            .btn-row {
-                min-height: 40px;
-                margin: 0;
-            }
-
-            .console-btn {
-                padding: 8px 5px;
-                font-size: 0.85rem;
-            }
-
-            #teleprompter {
-                width: 100%;
-                bottom: 225px;
-                padding: 0 10px 5px 10px;
-            }
-
-            .tp-text {
-                font-size: 0.9rem !important;
-            }
-
-            #appLogo {
-                top: 10px;
-                left: 10px;
-                width: 48px;
-                height: 48px;
-            }
-
-            #startOverlay h1 {
-                font-size: 2rem !important;
-                text-align: center;
-            }
-
-            #feedbackOverlay>div {
-                padding: 1.5rem 1rem !important;
-                margin-top: 20px;
-            }
-
-            .metric-row {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-            }
-
-            .premium-radio-group {
-                width: 100%;
-                justify-content: space-between;
-            }
-        }
     </style>
 </head>
 
@@ -593,12 +515,39 @@
         });
     </script>
 
+    <!-- FEEDBACK CONFIRMATION OVERLAY -->
+    <div id="feedbackConfirmOverlay"
+        style="position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.92); z-index:9998; display:none; flex-direction:column; align-items:center; justify-content:center; color:#fff; font-family: 'Inter', -apple-system, 'Segoe UI', sans-serif; backdrop-filter: blur(10px);">
+
+        <div style="text-align:center; max-width:500px; padding: 40px;">
+            <div style="font-size:4rem; margin-bottom:20px;">🎬</div>
+            <h2
+                style="font-size:1.8rem; font-weight:700; margin-bottom:10px; background: linear-gradient(90deg, #fff, #00d4ff); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
+                Show Complete
+            </h2>
+            <p style="color:#94a3b8; font-size:1rem; line-height:1.6; margin-bottom:30px;">
+                The simulation has ended. Would you like to provide feedback to help improve the lighting engine?
+            </p>
+            <div style="display:flex; gap:15px; justify-content:center;">
+                <button
+                    onclick="document.getElementById('feedbackConfirmOverlay').style.display='none'; document.getElementById('feedbackOverlay').style.display='flex';"
+                    style="padding:14px 35px; font-size:1rem; background:linear-gradient(135deg, #00d4ff 0%, #0088ff 100%); color:#fff; border:none; border-radius:10px; cursor:pointer; font-weight:600; letter-spacing:0.5px; transition: all 0.3s; box-shadow: 0 4px 15px rgba(0,212,255,0.3);">
+                    Yes, Give Feedback ✍️
+                </button>
+                <button onclick="document.getElementById('feedbackConfirmOverlay').style.display='none';"
+                    style="padding:14px 35px; font-size:1rem; background:rgba(255,255,255,0.05); color:#94a3b8; border:1px solid rgba(255,255,255,0.1); border-radius:10px; cursor:pointer; font-weight:600; letter-spacing:0.5px; transition: all 0.3s;">
+                    No, Exit
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- FEEDBACK / RLHF OVERLAY -->
     <div id="feedbackOverlay"
-        style="position:fixed; top:0; left:0; width:100%; height:100%; background:radial-gradient(circle at center, rgba(10,10,15,0.7) 0%, rgba(5,5,10,0.95) 100%); backdrop-filter: blur(12px); z-index:9999; display:none; flex-direction:column; align-items:center; justify-content:center; color:#ffffff; overflow-y:auto; padding:40px 20px; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+        style="position:fixed; top:0; left:0; width:100%; height:100%; background:radial-gradient(circle at center, rgba(20,20,30,0.85) 0%, rgba(5,5,10,0.98) 100%); z-index:9999; display:none; flex-direction:column; align-items:center; justify-content:flex-start; color:#ffffff; overflow-y:auto; padding:40px 20px; font-family:'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; backdrop-filter: blur(8px);">
 
         <div
-            style="background: rgba(20, 25, 35, 0.4); border: 1px solid rgba(0, 212, 255, 0.15); box-shadow: inset 0 0 20px rgba(0,212,255,0.05), 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 212, 255, 0.1); padding: 2.5rem 3.5rem; border-radius: 24px; width: 100%; max-width: 750px; display: flex; flex-direction: column; gap: 24px; position:relative; overflow:visible; margin: auto 0; flex-shrink: 0; backdrop-filter: blur(20px);">
+            style="background: rgba(25, 25, 35, 0.7); border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 212, 255, 0.1); padding: 2rem 3rem; border-radius: 20px; width: 100%; max-width: 750px; display: flex; flex-direction: column; gap: 20px; position:relative; overflow:visible; margin: auto 0; flex-shrink: 0;">
 
             <!-- Glow effect behind -->
             <div
@@ -659,18 +608,10 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    background: rgba(255, 255, 255, 0.02);
-                    padding: 18px 25px;
-                    border-radius: 16px;
-                    border: 1px solid rgba(255, 255, 255, 0.05);
-                    transition: all 0.3s ease;
-                }
-
-                .metric-row:hover {
-                    background: rgba(255, 255, 255, 0.04);
-                    border-color: rgba(0, 212, 255, 0.2);
-                    transform: translateX(4px);
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+                    background: rgba(0, 0, 0, 0.2);
+                    padding: 15px 25px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.03);
                 }
 
                 .metric-label {
@@ -752,17 +693,9 @@
             </div>
 
             <style>
-                textarea#fb_text {
-                    background: rgba(0, 0, 0, 0.4) !important;
-                    border: 1px solid rgba(255, 255, 255, 0.1) !important;
-                    border-radius: 12px !important;
-                    transition: all 0.3s ease !important;
-                }
-
                 textarea#fb_text:focus {
-                    border-color: rgba(0, 212, 255, 0.6) !important;
-                    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 212, 255, 0.15) !important;
-                    background: rgba(0, 0, 0, 0.6) !important;
+                    border-color: rgba(0, 212, 255, 0.5);
+                    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(0, 212, 255, 0.1);
                 }
 
                 #btnSubmitFeedback {
@@ -797,14 +730,12 @@
             </style>
 
             <button id="btnSubmitFeedback"
-                style="margin-top:20px; padding: 20px; font-size: 1.15rem; background: linear-gradient(135deg, #00d4ff 0%, #2563eb 100%); color: #fff; border: 1px solid rgba(0,212,255,0.4); border-radius: 16px; cursor: pointer; font-weight: 800; letter-spacing: 2px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 10px 30px -5px rgba(0, 212, 255, 0.3); text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
+                style="margin-top:10px; padding: 18px; font-size: 1.1rem; background: linear-gradient(135deg, #00d4ff 0%, #0088ff 100%); color: #fff; border: none; border-radius: 12px; cursor: pointer; font-weight: 700; letter-spacing: 1px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: 0 4px 6px -1px rgba(0, 212, 255, 0.2);">
                 INITIALIZE RLHF INJECTION ⚡
             </button>
             <div id="fb_status"
-                style="text-align:center; padding: 16px; background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4); color:#6ee7b7; border-radius: 12px; font-weight:700; font-size:1rem; display:none; letter-spacing:1px; box-shadow: 0 0 20px rgba(16,185,129,0.1); backdrop-filter: blur(5px);">
-                <span style="display:inline-block; animation: pulse 2s infinite;">✨</span> TELEMETRY RECEIVED &
-                CALIBRATED
-            </div>
+                style="text-align:center; padding: 10px; background: rgba(0, 204, 68, 0.1); border: 1px solid rgba(0, 204, 68, 0.3); color:#4ade80; border-radius: 8px; font-weight:600; font-size:0.9rem; display:none; letter-spacing:0.5px;">
+                ✓ Model weights queued for update sequence.</div>
         </div>
     </div>
     <script>
@@ -824,7 +755,7 @@
                 const jobId = urlParams.get('job_id') || 'manual_test_run';
 
                 try {
-                    const res = await fetch(`http://16.171.153.178:8000/api/feedback/${jobId}`, {
+                    const res = await fetch(`http://localhost:8000/api/feedback/${jobId}`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
@@ -839,10 +770,8 @@
                         document.getElementById("fb_status").style.display = 'block';
                         btn.style.display = 'none';
                         setTimeout(() => {
-                            // Instead of just hiding, redirect to the main Vercel app
-                            const appDomain = window.location.hostname === 'localhost' ? 'http://localhost:5173' : 'https://automated-auditorium-lighting-finl.vercel.app';
-                            window.location.href = `${appDomain}/?feedback=success`;
-                        }, 2000);
+                            document.getElementById("feedbackOverlay").style.display = 'none';
+                        }, 3000);
                     } else {
                         btn.innerText = "ERROR, TRY AGAIN";
                         btn.disabled = false;
@@ -908,8 +837,24 @@
                     <button class="console-btn btn-hold" id="btnHold" onclick="sendCommand('HOLD')">⏸ HOLD</button>
                 </div>
                 <div class="btn-row">
-                    <button class="console-btn btn-next">GO ⏭</button>
+                    <button class="console-btn btn-next" id="btnNext">GO ⏭</button>
                 </div>
+
+                <!-- NLP Override UI -->
+                <div style="margin-top: 10px; display: flex; flex-direction: column; gap: 5px;">
+                    <div style="font-size: 0.75rem; color: #aaa; font-weight: bold; text-transform: uppercase;">
+                        Real-Time Override</div>
+                    <div style="display: flex; gap: 5px;">
+                        <input type="text" id="nlpOverrideInput" placeholder="e.g., 'dim red wash'"
+                            style="flex: 1; padding: 6px; border-radius: 4px; border: 1px solid #444; background: #222; color: #fff; font-size: 0.85rem;"
+                            onkeydown="if(event.key==='Enter') window.sendNLPOverride()" />
+                        <button onclick="window.sendNLPOverride()"
+                            style="background: #00d4ff; color: #000; border: none; border-radius: 4px; padding: 0 10px; font-weight: bold; cursor: pointer;">
+                            SET
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

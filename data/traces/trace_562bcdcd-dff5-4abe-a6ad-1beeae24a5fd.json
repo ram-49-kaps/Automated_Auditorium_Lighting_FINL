@@ -1,0 +1,16 @@
+{
+  "run_id": "562bcdcd-dff5-4abe-a6ad-1beeae24a5fd",
+  "created_at": "2026-02-22T21:14:54.962829",
+  "entries": [
+    {
+      "run_id": "562bcdcd-dff5-4abe-a6ad-1beeae24a5fd",
+      "seed": 42,
+      "scene_id": "scene_001",
+      "timestamp": 1771775094.962756,
+      "input_hash": "1df375479465506a",
+      "output_hash": "faa829de0b8241d5",
+      "rag_context_ids": [],
+      "metadata": null
+    }
+  ]
+}

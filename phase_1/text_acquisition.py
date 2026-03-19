@@ -88,20 +88,29 @@ def acquire_text(filepath: str) -> AcquisitionResult:
     direct_text = _try_direct_extraction(filepath, ext)
 
     if direct_text and direct_text.strip():
-        logger.info(
-            f"Phase 1A: Direct extraction succeeded "
-            f"({len(direct_text)} chars, {len(direct_text.splitlines())} lines)"
-        )
-        result = AcquisitionResult(
-            text=direct_text,
-            source_method="direct",
-            confidence=1.0,
-            ocr_used=False,
-            file_extension=ext,
-        )
-        # Run quality checks even on direct extraction
-        _validate_quality(result)
-        return result
+        # For PDFs, check if direct extraction is truly sufficient.
+        # Image-heavy PDFs (posters, designed docs) can return a thin
+        # text layer that is technically non-empty but missing most content.
+        if ext == ".pdf" and not _pdf_extraction_is_sufficient(direct_text, filepath):
+            logger.warning(
+                "Phase 1A: PDF direct extraction looks insufficient — "
+                "falling through to OCR"
+            )
+        else:
+            logger.info(
+                f"Phase 1A: Direct extraction succeeded "
+                f"({len(direct_text)} chars, {len(direct_text.splitlines())} lines)"
+            )
+            result = AcquisitionResult(
+                text=direct_text,
+                source_method="direct",
+                confidence=1.0,
+                ocr_used=False,
+                file_extension=ext,
+            )
+            # Run quality checks even on direct extraction
+            _validate_quality(result)
+            return result
 
     # ------------------------------------------------------------------
     # Step 2 — OCR fallback (only for PDF / image-based files)
@@ -134,30 +143,121 @@ def _try_direct_extraction(filepath: str, ext: str) -> Optional[str]:
 
 
 # ---------------------------------------------------------------------------
-# OCR fallback via Mistral
+# PDF-specific quality gate for direct extraction
+# ---------------------------------------------------------------------------
+def _pdf_extraction_is_sufficient(text: str, filepath: str) -> bool:
+    """
+    Multi-signal quality gate for PDF direct extraction.
+
+    Image-heavy PDFs (posters, designed agendas) often have a thin embedded
+    text layer that is technically non-empty but missing most of the real
+    content. This function checks 3 independent signals:
+
+      1. Content-to-filesize ratio — is the text proportional to the PDF size?
+      2. Structural coherence — does the text have sentence-like structure?
+      3. Text density — absolute minimum word/line count
+
+    Returns True if the extraction looks sufficient, False if OCR should run.
+    """
+    words = text.split()
+    word_count = len(words)
+    lines = [l for l in text.splitlines() if l.strip()]
+    line_count = len(lines)
+
+    # ------------------------------------------------------------------
+    # Signal 1: Text density (absolute minimums)
+    # ------------------------------------------------------------------
+    if word_count < 20:
+        logger.debug(
+            f"PDF quality gate: FAIL — only {word_count} words (min 20)"
+        )
+        return False
+
+    if line_count < 3:
+        logger.debug(
+            f"PDF quality gate: FAIL — only {line_count} lines (min 3)"
+        )
+        return False
+
+    # ------------------------------------------------------------------
+    # Signal 2: Content-to-filesize ratio
+    # ------------------------------------------------------------------
+    # A text-heavy PDF typically yields ~5-20% of its filesize as chars.
+    # An image-heavy poster yields < 1%.
+    try:
+        file_size = os.path.getsize(filepath)
+        if file_size > 0:
+            text_ratio = len(text) / file_size
+            if text_ratio < 0.01:
+                logger.debug(
+                    f"PDF quality gate: FAIL — text/filesize ratio "
+                    f"{text_ratio:.4f} (< 0.01). "
+                    f"File is {file_size} bytes but only {len(text)} chars extracted."
+                )
+                return False
+    except OSError:
+        pass  # Can't stat file — skip this signal
+
+    # ------------------------------------------------------------------
+    # Signal 3: Structural coherence
+    # ------------------------------------------------------------------
+    # Real text has multi-word lines (sentences, dialogue, descriptions).
+    # Garbled extraction produces many single-word or very short lines.
+    if line_count > 0:
+        avg_words_per_line = word_count / line_count
+        if avg_words_per_line < 3.0:
+            logger.debug(
+                f"PDF quality gate: FAIL — avg {avg_words_per_line:.1f} "
+                f"words/line (min 3.0). Text looks fragmented."
+            )
+            return False
+
+    logger.debug(
+        f"PDF quality gate: PASS — {word_count} words, {line_count} lines, "
+        f"coherence OK"
+    )
+    return True
+
+
+# ---------------------------------------------------------------------------
+# OCR fallback via Mistral + PyMuPDF
 # ---------------------------------------------------------------------------
 def _try_ocr_fallback(filepath: str, ext: str) -> AcquisitionResult:
     """
-    Use Mistral OCR to extract text from a file.
+    Extract text from a PDF using OCR.
+
+    Strategy (in order):
+      1. Mistral OCR (via mistralai SDK) — best quality for image-heavy PDFs
+      2. PyMuPDF native text extraction — fallback if Mistral fails
+      3. AcquisitionHardStop — if everything fails
 
     Raises AcquisitionHardStop if:
-      - OCR provider is not configured
+      - All extraction methods fail
       - OCR confidence is below threshold
       - Quality checks fail
     """
-    if OCR_PROVIDER != "mistral":
-        raise AcquisitionHardStop(
-            f"OCR provider '{OCR_PROVIDER}' is not supported. "
-            f"Set OCR_PROVIDER='mistral' in config.py and provide MISTRAL_API_KEY in .env"
-        )
+    ocr_text = None
+    confidence = 0.0
+    method_used = None
 
+    # --- Try Mistral OCR first ---
     try:
         ocr_text, confidence = _run_mistral_ocr(filepath)
+        method_used = "mistral_ocr"
     except Exception as e:
-        raise AcquisitionHardStop(
-            f"Mistral OCR failed: {e}. "
-            f"Check MISTRAL_API_KEY in .env and network connectivity."
-        )
+        logger.warning(f"Phase 1A: Mistral OCR failed ({e}) — trying PyMuPDF")
+
+    # --- Fallback: PyMuPDF native text extraction ---
+    if not ocr_text or not ocr_text.strip():
+        try:
+            ocr_text, confidence = _run_pymupdf_text(filepath)
+            method_used = "pymupdf"
+        except Exception as e2:
+            raise AcquisitionHardStop(
+                f"All OCR methods failed. Mistral OCR and PyMuPDF text "
+                f"extraction both returned no usable text. "
+                f"Check MISTRAL_API_KEY in .env and network connectivity."
+            )
 
     # -- Confidence gate --
     if confidence < OCR_CONFIDENCE_THRESHOLD:
@@ -188,7 +288,7 @@ def _try_ocr_fallback(filepath: str, ext: str) -> AcquisitionResult:
         )
 
     logger.info(
-        f"Phase 1A: OCR extraction succeeded "
+        f"Phase 1A: OCR extraction succeeded via {method_used} "
         f"(confidence={confidence:.2f}, {len(ocr_text)} chars)"
     )
     return result
@@ -196,7 +296,7 @@ def _try_ocr_fallback(filepath: str, ext: str) -> AcquisitionResult:
 
 def _run_mistral_ocr(filepath: str) -> tuple:
     """
-    Call Mistral OCR API.
+    Call Mistral OCR API (via mistralai SDK).
 
     Returns:
         (extracted_text, confidence_score) tuple.
@@ -238,7 +338,6 @@ def _run_mistral_ocr(filepath: str) -> tuple:
 
     # Extract text from all pages
     pages_text = []
-    total_confidence = []
 
     for page in ocr_response.pages:
         if page.markdown:
@@ -246,8 +345,38 @@ def _run_mistral_ocr(filepath: str) -> tuple:
 
     full_text = "\n\n".join(pages_text)
 
-    # Mistral OCR doesn't always return per-page confidence.
-    # Estimate confidence from text quality indicators.
+    # Estimate confidence from text quality indicators
+    confidence = _estimate_ocr_confidence(full_text)
+
+    return full_text, confidence
+
+
+def _run_pymupdf_text(filepath: str) -> tuple:
+    """
+    Fallback: use PyMuPDF's built-in text extraction.
+
+    Better than PyPDF2 for many PDFs. Handles embedded text layers
+    that basic readers might miss.
+
+    Returns:
+        (extracted_text, confidence_score) tuple.
+    """
+    import fitz  # PyMuPDF
+
+    doc = fitz.open(filepath)
+    pages_text = []
+
+    for page in doc:
+        text = page.get_text("text")
+        if text and text.strip():
+            pages_text.append(text.strip())
+
+    doc.close()
+
+    if not pages_text:
+        raise RuntimeError("PyMuPDF extracted no text from PDF")
+
+    full_text = "\n\n".join(pages_text)
     confidence = _estimate_ocr_confidence(full_text)
 
     return full_text, confidence

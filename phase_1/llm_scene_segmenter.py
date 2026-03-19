@@ -2,20 +2,20 @@
 Phase 1C — LLM Scene Segmentation (Call 1)
 
 Uses Qwen2.5-7B-Instruct via HuggingFace Inference API (free, no local download).
-Fallback chain: HF API → Ollama phi3:mini → regex cascade → single scene.
 
 Key properties:
   - Temperature = 0 → deterministic
   - JSON-only output
   - Chunked processing with deterministic merge
-  - Retry once on failure → Ollama fallback → rule-based fallback
+  - Retry once on failure → fallback to rule-based
+  - Generates chunk_summary per chunk for Narrative Memory system
 """
 
 import json
 import os
 import re
 import logging
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Tuple
 
 from config import (
     PHASE1_LLM_MODEL,
@@ -25,57 +25,25 @@ from config import (
 )
 from phase_1.chunk_preprocessor import ChunkInfo, merge_segmentation_results
 from phase_1.immutable_structurer import ImmutableText
-from utils.openai_client import openai_json_array
 
 logger = logging.getLogger("phase_1.segmenter")
 
-# ---------------------------------------------------------------------------
-# HuggingFace Inference API client (lazy singleton)
-# ---------------------------------------------------------------------------
-_client = None
-
-
-def _get_client():
-    """Get or create HuggingFace InferenceClient (lazy, lightweight)."""
-    global _client
-    if _client is not None:
-        return _client
-
-    from dotenv import load_dotenv
-    load_dotenv()
-
-    api_token = os.environ.get("HF_API_TOKEN")
-    if not api_token:
-        raise RuntimeError(
-            "HF_API_TOKEN not found in environment. "
-            "Add it to .env file: HF_API_TOKEN=hf_..."
-        )
-
-    from huggingface_hub import InferenceClient
-
-    _client = InferenceClient(
-        model=PHASE1_LLM_MODEL,
-        token=api_token,
-    )
-
-    logger.info(f"HF Inference API client ready: {PHASE1_LLM_MODEL}")
-    return _client
-
-
+from utils.openai_client import llm_chat
 # ---------------------------------------------------------------------------
 # System prompt
 # ---------------------------------------------------------------------------
-SEGMENTATION_SYSTEM_PROMPT = """You are a script segmentation engine. Your ONLY job is to identify scene boundaries in a script.
+SEGMENTATION_SYSTEM_PROMPT = """You are a script segmentation engine. Your job is to identify scene boundaries in a script AND provide a brief dramatic summary of the chunk.
 
 RULES:
 1. You receive a line-numbered script.
-2. You must output ONLY a JSON array of scene objects.
-3. Each scene object has exactly three fields: "scene_id", "start_line", "end_line".
+2. You must output ONLY valid JSON — a single object with two fields: "scenes" and "chunk_summary".
+3. "scenes" is an array of scene objects. Each scene object has exactly three fields: "scene_id", "start_line", "end_line".
 4. scene_id format: "scene_001", "scene_002", etc.
 5. start_line and end_line are integers matching the line numbers in the input.
 6. Scenes must not overlap.
 7. Scenes must cover the entire script (no gaps, except for small blank-line gaps).
-8. Do NOT include any text, explanation, or markdown formatting — ONLY the JSON array.
+8. "chunk_summary" is a 2-4 sentence dramatic synopsis of THIS chunk's content. Focus on: emotional texture, character dynamics, dramatic tension, and mood shifts. This summary will be used to guide lighting design.
+9. Do NOT include any text, explanation, or markdown formatting — ONLY the JSON object.
 
 MANDATORY SCENE BOUNDARIES (you MUST split here — NEVER merge these):
 - Every line starting with INT. or EXT. starts a NEW scene. No exceptions.
@@ -93,10 +61,13 @@ DO NOT split on:
 - Short stage directions within the same location
 
 OUTPUT FORMAT (nothing else):
-[
-  {"scene_id": "scene_001", "start_line": 1, "end_line": 20},
-  {"scene_id": "scene_002", "start_line": 21, "end_line": 35}
-]"""
+{
+  "scenes": [
+    {"scene_id": "scene_001", "start_line": 1, "end_line": 20},
+    {"scene_id": "scene_002", "start_line": 21, "end_line": 35}
+  ],
+  "chunk_summary": "A tense confrontation unfolds as the protagonist discovers betrayal. The mood shifts from cautious optimism to simmering anger, with dialogue carrying an undercurrent of fear."
+}"""
 
 
 # ---------------------------------------------------------------------------
@@ -105,7 +76,7 @@ OUTPUT FORMAT (nothing else):
 def segment_scenes_llm(
     chunks: List[ChunkInfo],
     immutable: ImmutableText,
-) -> List[Dict]:
+) -> Tuple[List[Dict], List[str]]:
     """
     Run LLM scene segmentation on script chunks.
 
@@ -114,319 +85,176 @@ def segment_scenes_llm(
         immutable: The frozen ImmutableText from Phase 1B.
 
     Returns:
-        List of scene dicts with scene_id, start_line, end_line.
+        Tuple of:
+          - List of scene dicts with scene_id, start_line, end_line.
+          - List of chunk_summary strings (one per chunk, for Narrative Memory).
 
     If LLM fails after retry, falls back to rule-based segmentation.
     """
     logger.info(f"Phase 1C: Starting LLM scene segmentation ({len(chunks)} chunks)")
 
-    # Check if LLM is disabled (saves API credits)
-    try:
-        from config import PHASE1_USE_LLM
-        if not PHASE1_USE_LLM:
-            logger.info("Phase 1C: LLM disabled (PHASE1_USE_LLM=False)")
-            # Tier 1 fallback: try Ollama before regex
-            ollama_result = _segment_scenes_ollama(immutable)
-            if ollama_result:
-                logger.info(f"Phase 1C: Ollama segmentation successful — {len(ollama_result)} scenes")
-                return ollama_result
-            logger.info("Phase 1C: Ollama unavailable — using rule-based segmentation")
-            return segment_scenes_rulebased(immutable)
-    except ImportError:
-        pass  # Config flag not set — proceed with LLM
-
     # Process each chunk
     chunk_results: List[List[Dict]] = []
+    chunk_summaries: List[str] = []
     all_succeeded = True
 
     for chunk in chunks:
-        result = _segment_chunk(chunk, attempt=1)
+        scenes, summary = _segment_chunk(chunk, attempt=1)
 
-        if result is None:
+        if scenes is None:
             # Retry once
             logger.warning(
                 f"Phase 1C: Chunk {chunk.chunk_id} failed — retrying (attempt 2)"
             )
-            result = _segment_chunk(chunk, attempt=2)
+            scenes, summary = _segment_chunk(chunk, attempt=2)
 
-        if result is None:
-            # Try Ollama for this chunk before regex fallback
-            logger.info(f"Phase 1C: Chunk {chunk.chunk_id} — trying Ollama fallback")
-            result = _segment_chunk_ollama(chunk, immutable)
-
-        if result is None:
+        if scenes is None:
             logger.error(
-                f"Phase 1C: Chunk {chunk.chunk_id} failed after all LLMs — "
+                f"Phase 1C: Chunk {chunk.chunk_id} failed after retry — "
                 f"falling back to rule-based for this chunk"
             )
-            result = _segment_chunk_rulebased(chunk, immutable)
+            scenes = _segment_chunk_rulebased(chunk, immutable)
+            summary = ""  # No summary available from rule-based fallback
             all_succeeded = False
 
-        chunk_results.append(result)
+        chunk_results.append(scenes)
+        chunk_summaries.append(summary)
 
     # Merge results from all chunks
     merged = merge_segmentation_results(chunk_results, chunks)
 
     if not merged:
-        # Total failure — try Ollama, then rule-based
-        logger.error("Phase 1C: No scenes from HF API")
-        merged = _segment_scenes_ollama(immutable)
-        if not merged:
-            logger.error("Phase 1C: Ollama also failed — full rule-based fallback")
-            merged = segment_scenes_rulebased(immutable)
+        # Total failure — fall back to full rule-based
+        logger.error("Phase 1C: No scenes from LLM — full rule-based fallback")
+        merged = segment_scenes_rulebased(immutable)
 
     # Assign sequential scene_ids
     for i, scene in enumerate(merged):
         scene["scene_id"] = f"scene_{i + 1:03d}"
 
-    logger.info(f"Phase 1C: Segmentation complete — {len(merged)} scenes")
-    return merged
+    # Filter out empty summaries
+    chunk_summaries = [s for s in chunk_summaries if s]
+
+    logger.info(
+        f"Phase 1C: Segmentation complete — {len(merged)} scenes, "
+        f"{len(chunk_summaries)} chunk summaries collected"
+    )
+    return merged, chunk_summaries
 
 
 def segment_scenes_rulebased(immutable: ImmutableText) -> List[Dict]:
     """
-    Universal Scene Detector — Multi-Strategy Rule-Based Segmentation.
+    Enhanced rule-based segmentation — no LLM needed.
 
-    Cascading strategies (stops when enough boundaries found):
-      Strategy 1: Screenplay markers (INT./EXT./CUT TO:/FADE)
-      Strategy 2: Theatre markers (ACT/SCENE keywords)
-      Strategy 3: Structural analysis (ALL-CAPS blocks, blank gaps, page breaks)
-      Strategy 4: Page-based estimation (for PDFs with no markers)
-      Strategy 5: Density-based fallback (split by text density changes)
+    Detection layers (in priority order):
+      1. INT. / EXT. / INTERIOR / EXTERIOR markers
+      2. ACT / SCENE markers
+      3. Full-uppercase lines ≥ 10 chars (likely sluglines or headers)
+      4. Lines ending in DAY/NIGHT/DAWN/DUSK/CONTINUOUS
+      5. Stage direction blocks (entrances/exits/blackouts)
+      6. Significant whitespace gaps (≥ 3 consecutive blank lines)
+      7. Dramatic structure cues (BLACKOUT, CURTAIN, END OF, INTERVAL)
+
+    Post-processing:
+      - Merge scenes shorter than MIN_SCENE_LINES into neighbors
+      - Assign sequential scene_ids
     """
-    logger.info("Phase 1C: Running universal scene detector (rule-based)")
+    logger.info("Phase 1C: Running enhanced rule-based segmentation")
 
-    total_lines = immutable.total_lines
+    MIN_SCENE_LINES = 15  # Don't create scenes shorter than this
 
-    # ---- Strategy 1: Screenplay markers ----
-    screenplay_patterns = [
+    # Layer 1-4: Standard structural markers
+    structural_markers = [
         re.compile(r"^\s*INT\.", re.IGNORECASE),
         re.compile(r"^\s*EXT\.", re.IGNORECASE),
+        re.compile(r"^\s*INTERIOR", re.IGNORECASE),
+        re.compile(r"^\s*EXTERIOR", re.IGNORECASE),
+        re.compile(r"^\s*ACT\s+[IVX\d]+", re.IGNORECASE),
+        re.compile(r"^\s*SCENE\s+[IVX\d]+", re.IGNORECASE),
+        re.compile(r"^[A-Z][A-Z\s]{9,}$"),  # Full uppercase ≥ 10 chars
         re.compile(r".+\s*[-–—]\s*(DAY|NIGHT|DAWN|DUSK|CONTINUOUS)\s*$", re.IGNORECASE),
     ]
-    # Also check mid-line (for PDF-extracted text)
-    midline_patterns = [
-        re.compile(r"INT\.\s+\w+", re.IGNORECASE),
-        re.compile(r"EXT\.\s+\w+", re.IGNORECASE),
+
+    # Layer 5: Stage direction / dramatic break markers
+    dramatic_markers = [
+        re.compile(r"^\s*\(.*(?:enter|exit|enters|exits|leaves|arrives|appears|disappears).*\)\s*$", re.IGNORECASE),
+        re.compile(r"^\s*(?:BLACKOUT|BLACK\s*OUT|LIGHTS?\s*(?:UP|DOWN|OUT|FADE)|CURTAIN|END\s+OF\s+(?:ACT|SCENE)|INTERVAL|INTERMISSION)", re.IGNORECASE),
+        re.compile(r"^\s*\[.*(?:enter|exit|enters|exits|leaves|arrives|appears|disappears).*\]\s*$", re.IGNORECASE),
+        re.compile(r"^\s*(?:TIME|LATER|MOMENTS?\s+LATER|HOURS?\s+LATER|THE\s+NEXT\s+(?:DAY|MORNING|EVENING))", re.IGNORECASE),
     ]
 
-    boundaries = _detect_with_patterns(immutable, screenplay_patterns, midline_patterns)
-    if len(boundaries) >= 2:
-        logger.info(f"Phase 1C: Strategy 1 (screenplay) found {len(boundaries)} boundaries")
-        return _build_scenes_from_boundaries(boundaries, total_lines)
+    boundaries: List[int] = []
+    boundary_types: Dict[int, str] = {}  # For debugging
 
-    # ---- Strategy 2: Theatre / Stage markers ----
-    theatre_patterns = [
-        re.compile(r"^\s*ACT\s+[IVXLCDM\d]+", re.IGNORECASE),
-        re.compile(r"^\s*SCENE\s+[IVXLCDM\d]+", re.IGNORECASE),
-        re.compile(r"^\s*ACT\s+(ONE|TWO|THREE|FOUR|FIVE)", re.IGNORECASE),
-        re.compile(r"^\s*SCENE\s+(ONE|TWO|THREE|FOUR|FIVE|SIX|SEVEN|EIGHT|NINE|TEN)", re.IGNORECASE),
-        re.compile(r"^\s*PROLOGUE\s*$", re.IGNORECASE),
-        re.compile(r"^\s*EPILOGUE\s*$", re.IGNORECASE),
-        re.compile(r"^\s*FADE\s+IN\s*[:\.]", re.IGNORECASE),
-        re.compile(r"^\s*CUT\s+TO\s*:", re.IGNORECASE),
-    ]
-    theatre_midline = [
-        re.compile(r"\bACT\s+[IVXLCDM\d]+", re.IGNORECASE),
-        re.compile(r"\bSCENE\s+[IVXLCDM\d]+", re.IGNORECASE),
-        re.compile(r"\bCUT\s+TO\s*:", re.IGNORECASE),
-    ]
+    sorted_lines = sorted(immutable.lines.keys())
+    total_lines = len(sorted_lines)
 
-    boundaries = _detect_with_patterns(immutable, theatre_patterns, theatre_midline)
-    if len(boundaries) >= 2:
-        logger.info(f"Phase 1C: Strategy 2 (theatre) found {len(boundaries)} boundaries")
-        return _build_scenes_from_boundaries(boundaries, total_lines)
-
-    # ---- Strategy 3: Structural analysis ----
-    # Look for: ALL-CAPS lines (character cues), large blank gaps, page breaks
-    boundaries = _detect_structural_breaks(immutable)
-    if len(boundaries) >= 2:
-        logger.info(f"Phase 1C: Strategy 3 (structural) found {len(boundaries)} boundaries")
-        return _build_scenes_from_boundaries(boundaries, total_lines)
-
-    # ---- Strategy 4: Page-based estimation ----
-    # For PDFs: estimate ~1 scene per 2-3 pages (typical theatre scripts)
-    boundaries = _detect_page_breaks(immutable)
-    if len(boundaries) >= 2:
-        logger.info(f"Phase 1C: Strategy 4 (page-based) found {len(boundaries)} boundaries")
-        return _build_scenes_from_boundaries(boundaries, total_lines)
-
-    # ---- Strategy 5: Density-based fallback ----
-    # Split text into equal chunks based on estimated scene count
-    boundaries = _detect_density_breaks(immutable)
-    if len(boundaries) >= 2:
-        logger.info(f"Phase 1C: Strategy 5 (density) found {len(boundaries)} boundaries")
-        return _build_scenes_from_boundaries(boundaries, total_lines)
-
-    # Absolute fallback: single scene
-    logger.warning("Phase 1C: All strategies failed — single scene")
-    return [{
-        "scene_id": "scene_001",
-        "start_line": 1,
-        "end_line": total_lines,
-    }]
-
-
-def _detect_with_patterns(
-    immutable: ImmutableText,
-    start_patterns: List[re.Pattern],
-    midline_patterns: List[re.Pattern] = None,
-) -> List[int]:
-    """Detect boundaries using start-of-line patterns, with mid-line fallback."""
-    boundaries = []
-    for line_num, content in immutable.lines.items():
-        stripped = content.strip()
-        if not stripped:
+    # Pass 1: Find structural markers
+    for line_num in sorted_lines:
+        content = immutable.lines.get(line_num, "").strip()
+        if not content:
             continue
-        for pattern in start_patterns:
-            if pattern.match(stripped):
+        for pattern in structural_markers:
+            if pattern.match(content):
                 boundaries.append(line_num)
+                boundary_types[line_num] = "structural"
                 break
 
-    # Mid-line fallback if too few found
-    if len(boundaries) < 2 and midline_patterns:
-        for line_num, content in immutable.lines.items():
-            if line_num in boundaries:
-                continue
-            stripped = content.strip()
-            if not stripped:
-                continue
-            for pattern in midline_patterns:
-                if pattern.search(stripped):
-                    boundaries.append(line_num)
-                    break
-        boundaries.sort()
-
-    return boundaries
-
-
-def _detect_structural_breaks(immutable: ImmutableText) -> List[int]:
-    """
-    Detect scene boundaries from structural cues:
-    - ALL-CAPS lines that look like scene/location headings (not character names)
-    - Clusters of blank lines (≥3 consecutive blanks)
-    - Lines that look like page header/footer patterns
-    """
-    boundaries = []
-    lines_list = sorted(immutable.lines.items())
-
-    # Find ALL-CAPS lines that look like headings (≥8 chars, not just names)
-    all_caps_lines = []
-    for line_num, content in lines_list:
-        stripped = content.strip()
-        if (stripped.isupper() and len(stripped) >= 8
-                and not stripped.isdigit()
-                and ' ' in stripped):  # Must have spaces (multi-word = heading)
-            all_caps_lines.append(line_num)
-
-    if len(all_caps_lines) >= 3:
-        return all_caps_lines
-
-    # Find large blank-line clusters (≥3 consecutive blanks)
-    blank_streak = 0
-    blank_start = 0
-    for line_num, content in lines_list:
-        if not content.strip():
-            if blank_streak == 0:
-                blank_start = line_num
-            blank_streak += 1
-        else:
-            if blank_streak >= 3:
-                # The line AFTER the blank cluster is a scene start
-                boundaries.append(line_num)
-            blank_streak = 0
-
-    return boundaries
-
-
-def _detect_page_breaks(immutable: ImmutableText) -> List[int]:
-    """
-    Detect page boundaries by looking for page number patterns.
-    Common patterns: standalone numbers, 'Page X', or lines like '---'.
-    Then group pages into scenes (~2-3 pages per scene for theatre).
-    """
-    page_break_lines = []
-    prev_was_dense = False
-
-    for line_num, content in sorted(immutable.lines.items()):
-        stripped = content.strip()
-
-        # Standalone page numbers
-        if re.match(r'^\d{1,3}$', stripped):
-            page_break_lines.append(line_num)
+    # Pass 2: Find dramatic break markers (only if not already a boundary)
+    for line_num in sorted_lines:
+        if line_num in boundary_types:
             continue
+        content = immutable.lines.get(line_num, "").strip()
+        if not content:
+            continue
+        for pattern in dramatic_markers:
+            if pattern.match(content):
+                boundaries.append(line_num)
+                boundary_types[line_num] = "dramatic"
+                break
 
-        # Form feed or separator lines
-        if stripped in ('', '---', '***', '___') or re.match(r'^[-=_]{3,}$', stripped):
-            if prev_was_dense:
-                page_break_lines.append(line_num)
+    # Pass 3: Detect significant whitespace gaps (3+ consecutive blank lines)
+    blank_run_start = None
+    blank_count = 0
+    for line_num in sorted_lines:
+        content = immutable.lines.get(line_num, "").strip()
+        if not content:
+            if blank_run_start is None:
+                blank_run_start = line_num
+            blank_count += 1
+        else:
+            if blank_count >= 3 and line_num not in boundary_types:
+                # The first non-blank line after a big gap is a scene start
+                boundaries.append(line_num)
+                boundary_types[line_num] = "whitespace_gap"
+            blank_run_start = None
+            blank_count = 0
 
-        prev_was_dense = len(stripped) > 10
+    # Deduplicate and sort boundaries
+    boundaries = sorted(set(boundaries))
 
-    if not page_break_lines:
-        return []
+    # If no boundaries found, try splitting by line count
+    if not boundaries:
+        logger.warning("Phase 1C fallback: No markers found — splitting by line count")
+        # Split every ~60 lines for a reasonable scene size
+        chunk_size = max(60, total_lines // 8)
+        for i in range(0, total_lines, chunk_size):
+            if i < total_lines:
+                boundaries.append(sorted_lines[i])
+        if not boundaries:
+            return [{
+                "scene_id": "scene_001",
+                "start_line": 1,
+                "end_line": immutable.total_lines,
+            }]
 
-    # Group pages: every 2nd page break = scene boundary (rough heuristic)
-    boundaries = []
-    for i, line in enumerate(page_break_lines):
-        if i % 2 == 0:  # Every other page break
-            # Use the line AFTER the page number as scene start
-            next_content_line = line + 1
-            if next_content_line <= immutable.total_lines:
-                boundaries.append(next_content_line)
-
-    return boundaries
-
-
-def _detect_density_breaks(immutable: ImmutableText) -> List[int]:
-    """
-    Estimate scenes by splitting text into roughly equal segments.
-    Uses density heuristics calibrated for both screenplay and theatre formats.
-    """
-    total = immutable.total_lines
-    if total < 20:
-        return []
-
-    # Count non-blank lines to estimate script density
-    non_blank = sum(1 for _, c in immutable.lines.items() if c.strip())
-
-    if non_blank == 0:
-        return []
-
-    # Heuristic: theatre scripts average ~50-70 non-blank lines per scene
-    # Shorter scripts (< 200 non-blank) use ~40 lines/scene
-    # Longer scripts (> 500 non-blank) use ~60 lines/scene
-    if non_blank < 200:
-        lines_per_scene = 40
-    elif non_blank < 500:
-        lines_per_scene = 50
-    else:
-        lines_per_scene = 60
-
-    estimated_scenes = max(2, non_blank // lines_per_scene)
-
-    # Cap at reasonable maximum (no script has > 50 scenes typically)
-    estimated_scenes = min(estimated_scenes, 50)
-
-    logger.info(
-        f"Phase 1C density: {non_blank} non-blank lines / "
-        f"{lines_per_scene} per scene = {estimated_scenes} estimated scenes"
-    )
-
-    # Create evenly-spaced boundaries
-    step = total // estimated_scenes
-    boundaries = [1 + i * step for i in range(estimated_scenes)]
-
-    return boundaries
-
-def _build_scenes_from_boundaries(boundaries: List[int], total_lines: int) -> List[Dict]:
-    """Build scene dicts from a sorted list of boundary line numbers."""
+    # Build scenes from boundaries
     scenes = []
     for i, start in enumerate(boundaries):
         if i + 1 < len(boundaries):
             end = boundaries[i + 1] - 1
         else:
-            end = total_lines
+            end = immutable.total_lines
 
         scenes.append({
             "scene_id": f"scene_{i + 1:03d}",
@@ -434,53 +262,164 @@ def _build_scenes_from_boundaries(boundaries: List[int], total_lines: int) -> Li
             "end_line": end,
         })
 
-    logger.info(f"Phase 1C: Built {len(scenes)} scenes from boundaries")
-    return scenes
+    # Post-process: sub-split very long scenes at natural break points
+    MAX_SCENE_LINES = 80  # Target max lines per scene
+    TARGET_SCENE_LINES = 60  # Ideal scene size for lighting
+    
+    sub_split_scenes = []
+    for scene in scenes:
+        scene_length = scene["end_line"] - scene["start_line"] + 1
+        if scene_length <= MAX_SCENE_LINES:
+            sub_split_scenes.append(scene)
+            continue
+        
+        # Find natural break points within this scene: blank lines, stage directions
+        break_candidates = []
+        stage_dir_pattern = re.compile(r"^\s*\(.*\)\s*$")
+        
+        for ln in range(scene["start_line"] + MIN_SCENE_LINES, scene["end_line"] - MIN_SCENE_LINES + 1):
+            content = immutable.lines.get(ln, "").strip()
+            # Empty lines and stage directions are good split points
+            if not content:
+                break_candidates.append(ln + 1)  # Split AFTER the blank line
+            elif stage_dir_pattern.match(content):
+                break_candidates.append(ln)
+        
+        if not break_candidates:
+            # No natural breaks — just split by line count
+            current = scene["start_line"]
+            while current < scene["end_line"]:
+                chunk_end = min(current + TARGET_SCENE_LINES - 1, scene["end_line"])
+                sub_split_scenes.append({
+                    "scene_id": "",
+                    "start_line": current,
+                    "end_line": chunk_end,
+                })
+                current = chunk_end + 1
+        else:
+            # Greedy split at natural breaks, targeting TARGET_SCENE_LINES
+            current_start = scene["start_line"]
+            for bp in break_candidates:
+                segment_length = bp - current_start
+                if segment_length >= TARGET_SCENE_LINES:
+                    sub_split_scenes.append({
+                        "scene_id": "",
+                        "start_line": current_start,
+                        "end_line": bp - 1,
+                    })
+                    current_start = bp
+            # Remaining tail — keep splitting while too long
+            while current_start <= scene["end_line"]:
+                remaining = scene["end_line"] - current_start + 1
+                if remaining <= MAX_SCENE_LINES:
+                    # Small enough — emit final segment
+                    sub_split_scenes.append({
+                        "scene_id": "",
+                        "start_line": current_start,
+                        "end_line": scene["end_line"],
+                    })
+                    break
+                
+                # Still too long — find next break point at ~TARGET distance
+                tail_breaks = [b for b in break_candidates 
+                               if b > current_start + MIN_SCENE_LINES 
+                               and b <= scene["end_line"]]
+                split_done = False
+                for bp in tail_breaks:
+                    seg_len = bp - current_start
+                    if seg_len >= TARGET_SCENE_LINES:
+                        sub_split_scenes.append({
+                            "scene_id": "",
+                            "start_line": current_start,
+                            "end_line": bp - 1,
+                        })
+                        current_start = bp
+                        split_done = True
+                        break
+                
+                if not split_done:
+                    # No natural break found — force split by line count
+                    chunk_end = min(current_start + TARGET_SCENE_LINES - 1, scene["end_line"])
+                    sub_split_scenes.append({
+                        "scene_id": "",
+                        "start_line": current_start,
+                        "end_line": chunk_end,
+                    })
+                    current_start = chunk_end + 1
+    
+    scenes = sub_split_scenes
+
+    # Post-process: merge tiny scenes (< MIN_SCENE_LINES) into neighbors
+    merged_scenes = []
+    for scene in scenes:
+        scene_length = scene["end_line"] - scene["start_line"] + 1
+        if merged_scenes and scene_length < MIN_SCENE_LINES:
+            # Merge into previous scene
+            merged_scenes[-1]["end_line"] = scene["end_line"]
+        else:
+            merged_scenes.append(scene)
+
+    # Re-index
+    for i, scene in enumerate(merged_scenes):
+        scene["scene_id"] = f"scene_{i + 1:03d}"
+
+    logger.info(
+        f"Phase 1C enhanced rule-based: {len(merged_scenes)} scenes "
+        f"(from {len(boundaries)} raw boundaries, "
+        f"{sum(1 for t in boundary_types.values() if t == 'structural')} structural, "
+        f"{sum(1 for t in boundary_types.values() if t == 'dramatic')} dramatic, "
+        f"{sum(1 for t in boundary_types.values() if t == 'whitespace_gap')} whitespace gaps)"
+    )
+    return merged_scenes
 
 
 # ---------------------------------------------------------------------------
 # Internal: HF Inference API call
 # ---------------------------------------------------------------------------
-def _segment_chunk(chunk: ChunkInfo, attempt: int) -> Optional[List[Dict]]:
-    """Process a single chunk through the HuggingFace Inference API."""
+def _segment_chunk(chunk: ChunkInfo, attempt: int) -> Tuple[Optional[List[Dict]], str]:
+    """Process a single chunk through the unified LLM client.
+    
+    Returns:
+        Tuple of (scenes_list_or_None, chunk_summary_string).
+    """
     try:
-        client = _get_client()
-
         user_prompt = (
-            f"Segment this script into scenes. Output ONLY a JSON array.\n\n"
+            f"Segment this script into scenes and provide a chunk_summary. "
+            f"Output ONLY a JSON object with \"scenes\" and \"chunk_summary\".\n\n"
             f"LINE-NUMBERED SCRIPT:\n{chunk.line_numbered_text}"
         )
 
-        messages = [
-            {"role": "system", "content": SEGMENTATION_SYSTEM_PROMPT},
-            {"role": "user", "content": user_prompt},
-        ]
-
-        # Call HF Inference API
-        response = client.chat_completion(
-            messages=messages,
+        # Call unified LLM API (uses pipeline-active model)
+        response_text = llm_chat(
+            prompt=user_prompt,
+            system_prompt=SEGMENTATION_SYSTEM_PROMPT,
             max_tokens=PHASE1_LLM_MAX_NEW_TOKENS,
             temperature=PHASE1_LLM_TEMPERATURE if PHASE1_LLM_TEMPERATURE > 0 else 0.01,
-            top_p=0.95,
         )
-
-        # Extract response text
-        response_text = response.choices[0].message.content.strip()
+        
+        if not response_text:
+            logger.warning(f"Phase 1C: No response from LLM for chunk {chunk.chunk_id}")
+            return None, ""
 
         # Parse JSON from response
-        scenes = _parse_json_response(response_text, chunk)
+        scenes, summary = _parse_json_response(response_text, chunk)
 
         if scenes is not None:
             logger.info(
                 f"Phase 1C: Chunk {chunk.chunk_id} → {len(scenes)} scenes "
                 f"(attempt {attempt})"
             )
+            if summary:
+                logger.info(
+                    f"Phase 1C: Chunk {chunk.chunk_id} summary: "
+                    f"{summary[:80]}..."
+                )
 
-        return scenes
+        return scenes, summary
 
     except Exception as e:
         logger.error(f"Phase 1C: HF API error on chunk {chunk.chunk_id}: {e}")
-        return None
+        return None, ""
 
 
 def _segment_chunk_rulebased(chunk: ChunkInfo, immutable: ImmutableText) -> List[Dict]:
@@ -524,198 +463,43 @@ def _segment_chunk_rulebased(chunk: ChunkInfo, immutable: ImmutableText) -> List
 
 
 # ---------------------------------------------------------------------------
-# Ollama-based segmentation — MARKER-GUIDED approach
-# ---------------------------------------------------------------------------
-
-def _annotate_lines_with_markers(lines_dict: dict) -> str:
-    """
-    Pre-scan lines for SCENE_MARKERS from config.
-    Annotate matching lines with >>> [MARKER: ...] tags.
-    Returns annotated, line-numbered text ready for the LLM.
-    """
-    try:
-        from config import SCENE_MARKERS
-    except ImportError:
-        SCENE_MARKERS = [
-            "INT.", "EXT.", "FADE IN", "FADE OUT", "CUT TO",
-            "SCENE", "ACT", "INTERIOR", "EXTERIOR", "INT", "EXT"
-        ]
-
-    annotated_lines = []
-    for line_num in sorted(lines_dict.keys()):
-        content = lines_dict[line_num].strip()
-        if not content:
-            continue
-
-        # Check if this line contains any marker
-        found_markers = []
-        content_upper = content.upper()
-        for marker in SCENE_MARKERS:
-            if marker.upper() in content_upper:
-                found_markers.append(marker)
-
-        if found_markers:
-            marker_tags = ", ".join(found_markers)
-            annotated_lines.append(f"{line_num}: >>> [MARKER: {marker_tags}] {content}")
-        else:
-            annotated_lines.append(f"{line_num}: {content}")
-
-    return "\n".join(annotated_lines)
-
-
-OLLAMA_SEGMENTATION_PROMPT = """You are a professional script scene segmentation engine.
-
-The script below has been pre-scanned. Lines with potential scene markers are tagged with >>> [MARKER: ...].
-
-YOUR JOB: Decide which marked lines are REAL scene boundaries and which to IGNORE.
-
-MARKER GUIDE — what each means:
-- INT. / INT / INTERIOR → Interior location change → USUALLY a scene start
-- EXT. / EXT / EXTERIOR → Exterior location change → USUALLY a scene start
-- FADE IN → Script beginning → scene start ONLY if it's the first line
-- FADE OUT / FADE TO BLACK → Script ending → NOT a scene start
-- CUT TO → Transition marker → ONLY a scene boundary if the NEXT line has a location (INT./EXT.)
-- SCENE / ACT → Explicit scene or act break → ALWAYS a scene start
-- Lines WITHOUT markers can also be scene starts if there is a dramatic shift or time jump
-
-RULES:
-1. Each scene has start_line and end_line (use the line numbers from the text).
-2. Scenes MUST NOT overlap and must cover the entire script.
-3. Prefer fewer, meaningful scenes over many tiny fragments.
-4. Ignore "CUT TO:" when it's just a transition within the same location.
-5. Output ONLY a JSON array.
-
-OUTPUT FORMAT:
-[{"scene_id": "scene_001", "start_line": 1, "end_line": 25}, ...]
-"""
-
-
-def _segment_scenes_ollama(immutable: ImmutableText) -> Optional[List[Dict]]:
-    """
-    Segment scenes using Ollama phi3:mini with marker-guided approach.
-    Tier 1 fallback when HuggingFace API is unavailable.
-    Returns None if Ollama is unavailable or fails.
-    """
-    if not is_ollama_available():
-        return None
-
-    # Build marker-annotated text
-    annotated_text = _annotate_lines_with_markers(immutable.lines)
-
-    # Truncate if too long (keep marker lines and surrounding context)
-    if len(annotated_text) > 5000:
-        annotated_text = annotated_text[:5000] + "\n... (truncated)"
-
-    prompt = (
-        f"Segment this script into scenes using the pre-annotated markers as hints.\n"
-        f"Select only the RELEVANT markers as scene boundaries. Discard noise.\n"
-        f"Output ONLY a JSON array.\n\n"
-        f"ANNOTATED SCRIPT:\n{annotated_text}"
-    )
-
-    result = ollama_json_array(
-        prompt=prompt,
-        system_prompt=OLLAMA_SEGMENTATION_PROMPT,
-        temperature=0.1,
-    )
-
-    if not result:
-        logger.warning("Phase 1C: Ollama marker-guided segmentation returned no results")
-        return None
-
-    # Validate the scenes
-    validated = []
-    for scene in result:
-        if not isinstance(scene, dict):
-            continue
-        try:
-            sl = int(scene.get("start_line", 0))
-            el = int(scene.get("end_line", 0))
-            if sl > 0 and el >= sl:
-                validated.append({
-                    "scene_id": scene.get("scene_id", f"scene_{len(validated)+1:03d}"),
-                    "start_line": sl,
-                    "end_line": el,
-                })
-        except (ValueError, TypeError):
-            continue
-
-    if len(validated) < 1:
-        logger.warning("Phase 1C: Ollama returned no valid scenes")
-        return None
-
-    # Re-number scene IDs
-    for i, scene in enumerate(validated):
-        scene["scene_id"] = f"scene_{i + 1:03d}"
-
-    logger.info(f"Phase 1C: Ollama marker-guided segmentation → {len(validated)} scenes")
-    return validated
-
-
-def _segment_chunk_ollama(chunk: ChunkInfo, immutable: ImmutableText) -> Optional[List[Dict]]:
-    """Ollama marker-guided fallback for a single chunk."""
-    if not is_ollama_available():
-        return None
-
-    # Build annotated text for just this chunk's line range
-    chunk_lines = {
-        ln: immutable.lines[ln]
-        for ln in sorted(immutable.lines.keys())
-        if chunk.start_line <= ln <= chunk.end_line
-    }
-    annotated_text = _annotate_lines_with_markers(chunk_lines)
-
-    prompt = (
-        f"Segment this script chunk into scenes using the pre-annotated markers.\n"
-        f"Output ONLY a JSON array.\n\n"
-        f"ANNOTATED SCRIPT CHUNK:\n{annotated_text}"
-    )
-
-    result = ollama_json_array(
-        prompt=prompt,
-        system_prompt=OLLAMA_SEGMENTATION_PROMPT,
-        temperature=0.1,
-    )
-
-    if not result:
-        return None
-
-    validated = []
-    for scene in result:
-        if not isinstance(scene, dict):
-            continue
-        try:
-            sl = int(scene.get("start_line", 0))
-            el = int(scene.get("end_line", 0))
-            if sl >= chunk.start_line and el <= chunk.end_line and el >= sl:
-                validated.append({
-                    "scene_id": scene.get("scene_id", ""),
-                    "start_line": sl,
-                    "end_line": el,
-                })
-        except (ValueError, TypeError):
-            continue
-
-    return validated if validated else None
-
-
-# ---------------------------------------------------------------------------
 # JSON parsing
 # ---------------------------------------------------------------------------
-def _parse_json_response(response: str, chunk: ChunkInfo) -> Optional[List[Dict]]:
+def _parse_json_response(response: str, chunk: ChunkInfo) -> Tuple[Optional[List[Dict]], str]:
     """
-    Extract and validate JSON array from LLM response.
+    Extract and validate JSON from LLM response.
 
     Handles:
-      - Clean JSON
+      - New format: {"scenes": [...], "chunk_summary": "..."}
+      - Legacy format: bare JSON array [...]
       - JSON wrapped in markdown code blocks
       - Partial JSON with trailing text
+    
+    Returns:
+        Tuple of (validated_scenes_or_None, chunk_summary_string).
     """
+    chunk_summary = ""
+
+    def _try_extract(data):
+        """Try to extract scenes and summary from parsed JSON data."""
+        nonlocal chunk_summary
+        if isinstance(data, dict):
+            # New format: {"scenes": [...], "chunk_summary": "..."}
+            scenes_data = data.get("scenes", [])
+            chunk_summary = data.get("chunk_summary", "")
+            if isinstance(scenes_data, list):
+                return _validate_scenes(scenes_data, chunk)
+        elif isinstance(data, list):
+            # Legacy format: bare array
+            return _validate_scenes(data, chunk)
+        return None
+
     # Try direct parse
     try:
         data = json.loads(response)
-        if isinstance(data, list):
-            return _validate_scenes(data, chunk)
+        result = _try_extract(data)
+        if result is not None:
+            return result, chunk_summary
     except json.JSONDecodeError:
         pass
 
@@ -724,23 +508,37 @@ def _parse_json_response(response: str, chunk: ChunkInfo) -> Optional[List[Dict]
     if code_block:
         try:
             data = json.loads(code_block.group(1))
-            if isinstance(data, list):
-                return _validate_scenes(data, chunk)
+            result = _try_extract(data)
+            if result is not None:
+                return result, chunk_summary
         except json.JSONDecodeError:
             pass
 
-    # Try finding array pattern
+    # Try finding object pattern first (new format)
+    obj_match = re.search(r"\{.*\}", response, re.DOTALL)
+    if obj_match:
+        try:
+            data = json.loads(obj_match.group(0))
+            result = _try_extract(data)
+            if result is not None:
+                return result, chunk_summary
+        except json.JSONDecodeError:
+            pass
+
+    # Try finding array pattern (legacy fallback)
     array_match = re.search(r"\[.*\]", response, re.DOTALL)
     if array_match:
         try:
             data = json.loads(array_match.group(0))
             if isinstance(data, list):
-                return _validate_scenes(data, chunk)
+                result = _validate_scenes(data, chunk)
+                if result is not None:
+                    return result, chunk_summary
         except json.JSONDecodeError:
             pass
 
     logger.warning(f"Phase 1C: Could not parse JSON from LLM response for chunk {chunk.chunk_id}")
-    return None
+    return None, ""
 
 
 def _validate_scenes(scenes: List[Dict], chunk: ChunkInfo) -> Optional[List[Dict]]:

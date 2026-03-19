@@ -122,8 +122,8 @@ def estimate_raw_duration(scene: Dict[str, Any], emotion_data: Dict[str, Any] = 
     final_duration = modified_duration + static_bonus
     
     # Hard clamp to ensure a scene isn't impossibly short or long
-    # e.g., minimum 5 seconds, max 20 minutes
-    return round(max(5.0, min(final_duration, 1200.0)), 2)
+    # Minimum 10 seconds (user requirement), max 20 minutes
+    return round(max(10.0, min(final_duration, 1200.0)), 2)
 
 
 # =========================================================================

@@ -1,0 +1,44 @@
+flowchart TD
+    ENTRY(["PipelineRunner.run\n(script_path)"]) --> INIT["Initialize\nPipelineResult + StateTracker"]
+    INIT --> RP1["_run_phase_1(script_path)"]
+
+    RP1 --> |"HardFailureError"| FAIL1["❌ HARD FAIL\nPipeline Stops"]
+    RP1 --> |"scenes[]"| LOOP["Start scene loop"]
+
+    LOOP --> SCENE["For each scene"]
+    SCENE --> RP2["_run_phase_2(scene)"]
+
+    RP2 --> |"success"| EOK["scene.emotion = analysis"]
+    RP2 --> |"exception"| EFB["scene.emotion = neutral\nconfidence = 0"]
+    EOK --> RP3
+    EFB --> RP3
+
+    RP3["_run_phase_3(scene)"]
+    RP3 --> |"HardFailureError"| FAIL3["❌ HARD FAIL"]
+    RP3 --> |"rag_context"| RP4
+
+    RP4["_run_phase_4\n(scene, rag_context)"]
+    RP4 --> |"ContractViolation"| FAIL4["❌ HARD FAIL"]
+    RP4 --> |"instruction"| COLL["Collect instruction"]
+
+    COLL --> |"next scene"| SCENE
+    COLL --> |"all done"| CK5
+
+    CK5{"Phase 5\nenabled?"}
+    CK5 --> |"yes"| RP5["_run_phase_5\n(instructions)"]
+    CK5 --> |"no"| SK5["Skip Phase 5"]
+
+    RP5 --> CK7
+    SK5 --> CK7
+
+    CK7{"Phase 7\nenabled?"}
+    CK7 --> |"yes"| RP7["_run_phase_7\n(instructions, scenes)"]
+    CK7 --> |"no"| DONE
+
+    RP7 --> DONE(["mark_complete()\n→ PipelineResult"])
+
+    style FAIL1 fill:#9b2c2c,stroke:#fc8181,color:#fff
+    style FAIL3 fill:#9b2c2c,stroke:#fc8181,color:#fff
+    style FAIL4 fill:#9b2c2c,stroke:#fc8181,color:#fff
+    style EFB fill:#744210,stroke:#fbd38d,color:#fff
+    style DONE fill:#276749,stroke:#68d391,color:#fff

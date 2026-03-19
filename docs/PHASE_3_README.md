@@ -1,96 +1,98 @@
-# PHASE 3: Knowledge Layer (Dual RAG) - Implementation Log
+# Phase 3 — Dual RAG Knowledge Retrieval
 
-## Overview
-**Phase 3** is the "Knowledge Layer" of the Automated Auditorium Lighting system. Its sole purpose is to provide **grounded, read-only context** to the decision-making AI (Phase 4). It separates "Physical Reality" (What lights exist) from "Design Principles" (How they should look).
+> Reflects `baseline-rule-engine-stable` tag. Last updated: 2026-02-12.
 
-This phase explicitly **does not make decisions**. It acts as a librarian, retrieving relevant facts so the LLM can make informed choices.
+## 1. Purpose
 
----
+Phase 3 provides contextual knowledge for lighting decisions by performing FAISS-based similarity search across two knowledge bases: auditorium fixtures and lighting semantics rules.
 
-## 🏗 Architecture Decisions
+## 2. Inputs
 
-### 1. Dual RAG Separation
-We rejected a single "Knowledge Base" in favor of **Two Separate Vector Stores**:
-*   **RAG-1 (Auditorium)**: Strictly physical data. No emotion, no opinions.
-    *   *Query Input*: Visual requirements (e.g., "spotlight", "wash").
-*   **RAG-2 (Semantics)**: Strictly design biases. No hardware data.
-    *   *Query Input*: Emotion & Script Type (e.g., "Fear", "Formal").
+| Input | Source | Format |
+|-------|--------|--------|
+| Emotion label | Phase 2 | String (e.g., `fear`, `neutral`) |
+| Scene text | Phase 1 | String |
 
-**Why?**
-If we mixed them, a query for "Fear" might return a specific light fixture that was coincidentally tagged with "scary," falsely limiting the AI's choices. By keeping them separate, we allow the AI to combine *Any Rule* with *Any Capable Fixture*.
+## 3. Outputs
 
-### 2. Schema-First Development (Contract Enforcement)
-Before any data was entered, we defined strict JSON schemas (`data/schemas/`).
-*   **Constraint**: Every fixture *must* have a `group_id` to allow logical grouping (e.g., "FOH_WASH" instead of "Spot #1").
-*   **Constraint**: Capabilities are strict Enums (`rgb`, `dim`, `pan_tilt`) to prevent typo-driven failures in Phase 8 (Hardware).
+| Output | Destination | Format |
+|--------|-------------|--------|
+| RAG context string | Phase 4 (LLM prompt) | Formatted text (via `build_context_for_llm`) |
+| Palette dict | Phase 4 (rule-based fallback) | Dict (via `retrieve_palette`) |
 
-### 3. "Source of Truth" vs. "Compiled Index"
-*   **JSON Files (`data/knowledge/`)**: The human-readable source. This is the only place edits happen.
-*   **FAISS Index (`rag/`)**: The machine-readable "compiled" output. We treat this as a build artifact, not source code.
+Baseline context length: 1891–2132 characters per scene.
 
----
+## 4. Internal Components
 
-## 🛠 Implementation Steps
+### Phase3Retriever (`rag_retriever.py`)
 
-### Step 1: Physical Reality Modeling (`fixtures.json`)
-We modeled the specific college auditorium based on visual evidence (Lighting Plot Images).
-*   **Iterative Refinement**:
-    *   *Draft 1*: Generic Layout.
-    *   *Correction 1*: Identified 24 Stage PARs.
-    *   *Correction 2*: Upgraded logic to recognize all 24 PARs as **RGB capable** (initially thought 50% were warm white).
-    *   *Correction 3*: Identified the 12 Blinders (4 columns x 3 rows).
-    *   *Correction 4*: Removed 1 Smoke Machine and replaced it with a **Floor Moving Head** based on photographic evidence.
-*   **Result**: A digital twin of the stage with exact 3D coordinates (x,y,z) ready for Phase 5 Simulation.
+| Method | Purpose | Called By |
+|--------|---------|-----------|
+| `retrieve_auditorium_context(query, k=5)` | FAISS search on fixture index | Internal |
+| `retrieve_semantics_context(emotion, script_type, k=3)` | FAISS search on semantics index | Internal |
+| `build_context_for_llm(emotion, scene_text)` | Merges fixture + semantics into text string | Phase 6 (pipeline) |
+| `retrieve_palette(emotion)` | Maps semantics → palette dict for Phase 4 fallback | Phase 4 (rule-based) |
 
-### Step 2: Semantic Baselining (`baseline_semantics.json`)
-We seeded the Design Brain with 7 core rules covering:
-*   **Emotions**: Fear (Cold/Dark), Joy (Bright/Colorful), Sadness (Blue/Dim), Anger (Red/Fast).
-*   **Contexts**: Formal Event (Neutral/Static), Drama (High Contrast).
-*   **Priority System**: Added a `priority` float (0.0-1.0) to allow specific rules (e.g., "Fire Safety") to override general mood rules in the future.
+### Knowledge Ingestion (`ingestion/knowledge_ingestion.py`)
 
-### Step 3: Ingestion Engine (`knowledge_ingestion.py`)
-Built a script to compilation the raw JSON into FAISS Vector Stores.
-*   **Tech Stack**: LangChain + HuggingFace Embeddings (`all-MiniLM-L6-v2`) + FAISS CPU.
-*   **Formatting**: We formulated a dense string representation for each document to ensure high retrieval accuracy (e.g., combining `fixture_type` + `capabilities` + `position` into one search block).
+Builds FAISS indexes from source JSON files:
 
-### Step 4: Verification (`validate_phase3.py`)
-We proved the system works via a Validation Suite passing 3 distinct scenarios:
-1.  **"Ghost/Horror"**: Correctly retrieved *Smoke Machines*, *Floor Movers*, and *Fear Rules*.
-2.  **"Dean's Speech"**: Correctly retrieved *FOH Profiles* (Spotlights) and *Formal Rules*.
-3.  **"Dance Number"**: Correctly retrieved *RGB PARs* and *Joy Rules*.
+| Source | Documents | Output |
+|--------|-----------|--------|
+| `knowledge/auditorium/fixtures.json` | 54 fixtures | `rag/auditorium/index.faiss` + `.pkl` |
+| `knowledge/semantics/baseline_semantics.json` | 7 rules | `rag/lighting_semantics/index.faiss` + `.pkl` |
 
----
+Embeddings: `sentence-transformers/all-MiniLM-L6-v2` via `langchain-huggingface`.
 
-## 📂 File Structure Created
+### FAISS Indexes (Rebuilt for Python 3.11)
 
-```text
-/data
-  /schemas
-    ├── fixture_schema.json           # The Hardware Contract
-    └── lighting_semantics_schema.json # The Design Contract
-  /knowledge
-    /auditorium
-      └── fixtures.json               # The Real Inventory
-    /semantics
-      └── baseline_semantics.json     # The Design Rules
+| Index | File Size (faiss) | File Size (pkl) |
+|-------|-------------------|-----------------|
+| Auditorium | 82,989 bytes | 18,013 bytes |
+| Semantics | 10,797 bytes | 2,881 bytes |
 
-/pipeline
-  ├── knowledge_ingestion.py          # JSON -> FAISS Compiler
-  └── rag_retriever.py                # Runtime Retrieval Engine
+### Palette Adapter (`retrieve_palette`)
 
-/rag                                  # COMPILED INDEXES (Do Not Edit)
-  ├── /auditorium
-  └── /lighting_semantics
+Maps semantics metadata into the dict shape Phase 4's `_build_group_instructions` expects:
 
-/tests
-  └── validate_phase3.py              # Verification Script
+```python
+{
+    "primary_colors": [{"name": "warm_amber", "rgb": [255, 191, 0]}],
+    "intensity": {"default": 80},
+    "transition": {"type": "fade", "duration": 2.0},
+    "color_temperature": "warm"
+}
 ```
 
-## 🚀 Handoff Notes (For Next Phase)
-*   **Phase 4 (Decision Engine)**: Should import `rag_retriever.py` and call `auditorium_db.similarity_search()` and `semantics_db.similarity_search()`.
-*   **Phase 5 (Visualizer)**: Should read `data/knowledge/auditorium/fixtures.json` to spawn the 3D lights in Three.js.
-*   **Phase 8 (Hardware)**: Should map the `fixture_id` from `fixtures.json` to the physical DMX Address/Osc Path.
+Color mappings: amber, yellow, pink, red, orange, blue, purple, dark_blue, cold_white, blackout.
+Speed mappings: slow→4.0s, medium→2.0s, fast→0.5s.
 
----
-**Status**: ✅ Phase 3 Complete & Validated.
-**Date**: Feb 2026
+## 5. Boundaries
+
+- Phase 3 does **NOT** make lighting decisions
+- Phase 3 does **NOT** call any LLM API
+- Phase 3 does **NOT** modify scene data or emotion labels
+- Phase 3 does **NOT** render or simulate lighting
+
+## 6. Failure Handling
+
+| Failure | Type | Behavior |
+|---------|------|----------|
+| FAISS index missing | **HARD FAIL** | Pipeline halts |
+| Deserialization error | **HARD FAIL** | Pipeline halts |
+| No results returned | Returns empty | `build_context_for_llm` returns "No RAG context available" |
+
+Phase 3 is REQUIRED — the pipeline depends on RAG context for lighting decisions.
+
+## 7. Current Limitations
+
+- `allow_dangerous_deserialization=True` is required for LangChain FAISS loading (local indexes only)
+- Indexes must be rebuilt if Python version or dependency versions change significantly
+- No incremental index updates — full rebuild required for any knowledge changes
+
+### Rebuild Command
+
+```bash
+conda activate venv_ALG_311
+python -m phase_3.ingestion.knowledge_ingestion
+```

@@ -1,0 +1,1018 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-28T19:57:23.462527",
+    "generator_version": "1.0.0",
+    "total_scenes": 33,
+    "total_duration_seconds": 4332,
+    "total_duration_formatted": "01:12:12",
+    "format_detected": "csv",
+    "source_file": "Script-10.pdf",
+    "emotion_distribution": {
+      "counts": {
+        "neutral": 16,
+        "disgust": 1,
+        "fear": 9,
+        "surprise": 2,
+        "anger": 3,
+        "sadness": 2
+      },
+      "percentages": {
+        "neutral": 48.5,
+        "disgust": 3.0,
+        "fear": 27.3,
+        "surprise": 6.1,
+        "anger": 9.1,
+        "sadness": 6.1
+      },
+      "dominant_emotion": "neutral"
+    },
+    "genre": "drama",
+    "stage_directions_count": 33,
+    "complexity": "high"
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "timing": {
+        "start_time": 0,
+        "end_time": 7,
+        "duration": 7
+      },
+      "content": {
+        "text": "ers\nAlan\nEve\nEmma\nAlternate version of this play is available for 2 men and 2 women.\n2",
+        "word_count": 18,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.869,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.869,
+          "surprise": 0.049,
+          "joy": 0.043,
+          "sadness": 0.03,
+          "anger": 0.005
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "timing": {
+        "start_time": 9,
+        "end_time": 86,
+        "duration": 77
+      },
+      "content": {
+        "text": "1\nA bo-ho living room looking well lived-in. A mobile phone left on the ground rings in \nthe empty room. Alan enters, visibly preoccupied. His hands are covered in blood. \nHe looks at the phone but doesn't pick up.\nAlan  Ah shit \nThe mobile phone stops ringing. Alan takes a handkerchief, delicately picks up the \nmobile phone and drops it in his pocket. He quickly tries to tidy the room a little. He \npicks up a blood-stained shirt off the ground, and examines it, aghast.\nAlan  Oh no, this isn't happening...\nThe doorbell rings. He stuffs the shirt under a sofa cushion. The doorbell rings \nagain.\nAlan  Coming!\nHe disappears from view to open the door and returns following Eve, his wife.\nEve I'm sorry, I locked myself out again. Nothing's going right today. I was \nassigned a legal aid case, a woman accused of murder. You're going to love this. A \nDIY enthusiast who cut up her husband in three pieces with a jigsaw. And you won't \nbelieve(She stops when she notices Alan isn't listening.) Are you sure you're \nalright? Still thinking about the subject of your new play?\nAlan  I am",
+        "word_count": 193,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "disgust",
+        "primary_score": 0.46,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "disgust": 0.46,
+          "fear": 0.204,
+          "surprise": 0.117,
+          "anger": 0.101,
+          "sadness": 0.076
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "timing": {
+        "start_time": 88,
+        "end_time": 116,
+        "duration": 28
+      },
+      "content": {
+        "text": "ually, but that's not the problem\nEve You're scaring me. What's wrong? Don't tell me your mother's coming to \ndinner?\nAlan  No, no, don't worry\nHe sits on the sofa.\nEve Then it can't be that bad. Speaking of dinner, what do you want to eat? I don't \nreally feel like cooking anything We could order sushi and eat watching telly?\nAlan  Yes Well, no I'm not really in the mood,",
+        "word_count": 71,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.862,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.862,
+          "anger": 0.06,
+          "sadness": 0.025,
+          "neutral": 0.021,
+          "disgust": 0.018
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "timing": {
+        "start_time": 118,
+        "end_time": 254,
+        "duration": 136
+      },
+      "content": {
+        "text": "ually.\nEve  I wasn't aware one had to be in the mood to scoff down a couple of tuna rolls \n(She sits next to him on the sofa and kisses him.) It's not like I'm asking you to shag \nme senseless, right now, on the living room carpet. ( Seeing his lack of enthusiasm ) \nRight Maybe later then I'll order two dinner menus. At least with sushi there's no \nrisk of food getting cold\nAlan  Unlike dead bodies\nEve is visibly surprised when she hears the morbid reply.\n3\n\nEve Right You can tell me all about your problems while we wait for the \ndelivery, and I'll do my best to rekindle your spirits ( She takes her mobile and calls \nthe restaurant.) Oyster or plum?\nAlan  What?\nEve  The sauce, for your sushi! Do you want oyster sauce or plum sauce?\nAlan  Yes\nHe gets up from the sofa and paces around the room.\nEve One of each, then (To the person on the phone) Yes, home delivery. Two \nCalifornia menus. Yes, 9 Dudley Gardens So, one oyster and one plum. Very well, \nthank you(She puts her mobile away.) Half an hour Come, sit next to me. \nMummy will make it all better (She moves a cushion to make room for him and \nsees part of the blood-stained shirt sticking out. She pulls out the shirt.) What the hell \nis this? What happened? (Noticing the blood on his hands ) Are you hurt?\nAlan  No, I It's not my shirt, and it's not my blood either\nEve  Whose blood is it, then?\nAlan  Eve, listen, I think I may have killed someone\nEve (in disbelief)  You think you...? What are you talking about?\nAlan  No, I mean I don't think I'm sure I did\nEve Alan, this doesn't make any sense. People don't go around killing other people. \nLook at me for instance. I've often wanted to kill your mother but I've never done it. \nYou know why?\nAlan  No\nEve Because I'm not a killer, that's why! I don't",
+        "word_count": 342,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.63,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "surprise": 0.63,
+          "fear": 0.138,
+          "disgust": 0.077,
+          "neutral": 0.067,
+          "anger": 0.063
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "timing": {
+        "start_time": 256,
+        "end_time": 446,
+        "duration": 190
+      },
+      "content": {
+        "text": "impulsively. I think things \nthrough. I measure the pros and the cons. And I conclude that, all things considered, \ntwenty years in prison would be too high a price to pay for the fleeting pleasure of \nstrangulating your mother.\nAlan  Evidently, men find it more difficult to put things in perspective.\nEve Listen Alan, I work with criminals all day at the Old Bailey, and believe me, \nyou don't have the profile at all\nAlan  That's what I thought too Until earlier today.\nEve  It's the subject of your new play!\nAlan  Pardon?\nEve The story of a woman who comes home from work, and her husband tells her \nhe killed her lover? You want to know what I think of your idea, right?\nAlan  For fuck's sake Eve, I killed someone, do I have to spell it out for you?\n4\n\nEve  You keep saying that, but you don't get to just call yourself a killer You have \nto prove it.\nAlan  I do?\nEve You have no idea how many people confess to crimes they didn't commit. Just \nlast week, I was defending a Boy Scout accused of murdering a priest. You're not \ngoing to believe this, but half a dozen other scouts were claiming they did it too I \nhad to fight the other lawyers to convince the judge that my client was the guilty one.\nAlan  I see And how did you do that?\nEve  Quite easily My client was the only one who knew under which tree the holy \nman's body was buried.\nAlan  So?\nEve  So? Where is the body?\nAlan  He's in the next room, in the kitchen.\nEve appears to suddenly grasp the gravity of the situation.\nEve  In the kitchen? You're not serious\nAlan  Why don't you have a look?\nEve looks in the direction of the kitchen, hesitates, but doesn't go.\nEve  But What happened? Never mind Who is it?\nAlan  It's Patrick.\nEve  Patrick?\nAlan  Patrick.\nEve  Oh no Not Patrick \nAlan  You were hoping for someone else?\nEve  Oh my God, Alan Tell me this isn't true\nAlan  I'd love to Unfortunately\nEve  It's joke, isn't it?\nAlan  You're holding his shirt. Look It's his initials on the cufflinks.\nEve looks at the cufflinks, aghast.\nEve  PS\nAlan Patrick Sanchez. Also, he's the only one we know who wears cufflinks other \nthan on his wedding day.\nEve  But Alan I mean Why?\n5\n\nAlan  It was an accident\nEve  An accident? You mean like a household accident?\nAlan  Something like that, yes\nEve  Well, go on! You were trimming the hedge in the garden, didn't see him peeing \nin the bushes and you cut off his carotid? If it's anything like that, no need to \nworry, it wouldn't be considered a crime. With a good lawyer\nAlan  Yeah, no, it didn't happen ex",
+        "word_count": 475,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.765,
+        "secondary_emotion": "surprise",
+        "secondary_score": 0.118,
+        "all_scores": {
+          "joy": 0.059,
+          "sadness": 0.0,
+          "anger": 0.059,
+          "fear": 0.0,
+          "surprise": 0.118,
+          "disgust": 0.0,
+          "neutral": 0.765
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "timing": {
+        "start_time": 448,
+        "end_time": 572,
+        "duration": 124
+      },
+      "content": {
+        "text": "ly like that\nEve  So how did it happen then?\nAlan  It was more like manslaughter.\nEve  What do you mean?\nAlan  We had a talk.\nEve  A talk? You mean an argument?\nAlan  Yeah, sure An argument\nEve  You had a violent argument, and then?\nAlan Violent enough for me to kill him. Hang on, I feel like I'm already under \ninterrogation.\nEve  I'm sorry Pure force of habit.\nAlan  In any case, I killed him.\nEve is crushed.\nEve  And it's all my fault\nAlan  What?\nEve  Well, indirectly, but still\nAlan  How is it your fault?\nEve I won't let you down, Alan. Crimes of passion have a low conviction rate, you \nknow.\nAlan  A crime of passion? Do you mean do you think that Patrick and I?\nEve  You killed him because I slept with him, didn't you?\nAlan (bewildered)  You slept with Patrick?\nA moment of hesitation.\nEve  That's not why you killed him?\nAlan  I didn't know you slept with him!\n6\n\nEve  Oh, it was a long time ago\nAlan  How long ago?\nEve  I can't even remember Maybe six months give or take\nAlan  You call that a long time ago Next you'll tell there's a statute of limitations?\nEve  It was an accident.\nAlan  But of course a household accident?\nEve  It wasn't even an affair, Alan It was only one time. I wasn't even in love with \nhim\nAlan Oh good, I feel much better already Knowing my wife sleeps with men she \ndoesn't love.\nEve Not men! Just Patrick, I swear. It was a misunderstanding! I mean, Patrick! \nSeriously, can you see me with Patrick!\nAlan  Steady, don't forget he's my best friend.\nEve  Don't forget you killed him\nAlan  So how did it happen, then?\nEve  It was a misunderstanding.\nAlan  I see A sort of accidental adultery\nEve  Ex",
+        "word_count": 312,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.401,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.401,
+          "sadness": 0.221,
+          "anger": 0.159,
+          "disgust": 0.095,
+          "neutral": 0.067
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "timing": {
+        "start_time": 574,
+        "end_time": 654,
+        "duration": 80
+      },
+      "content": {
+        "text": "ly!\nAlan  I've never heard a more fucked up excuse. Is that your legal defense strategy?\nEve Hang on, let's each stick to our roles. You committed a crime, not me. So now \nyou're the one who's going to have to deal with the police.\nAlan  Because you're planning on calling the police?\nEve  Why, what do you suggest we do?\nAlan I was planning on calling the police. Until now. But now that I know Patrick \nis your lover no one will believe the accidental manslaughter theory!\nEve So this is my fault? And stop calling him my lover. We only slept together \nonce!\nAlan Doesn't matter, it will still look like revenge. Premeditated, too. I'm going \naway for life!\nEve  We'll tell them\nAlan  What, about your accidental adultery?\nEve  Hey! At least I didn't kill anyone!\n7\n\nA beat.\nAlan  So, what do we do?\nEve  What do you mean, we?\nAlan I thought we were in this together? You cheat on me with my best friend, and \nafter I kill him you'd wash your hands of it?\nEve  But you didn't know I slept with him when you killed him!\nAlan  Let's not split hairs.\nEve",
+        "word_count": 200,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.662,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.662,
+          "fear": 0.157,
+          "disgust": 0.059,
+          "surprise": 0.046,
+          "neutral": 0.043
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "timing": {
+        "start_time": 656,
+        "end_time": 1141,
+        "duration": 485
+      },
+      "content": {
+        "text": "ually, why did you kill him?\nAlan  It's really stupid.\nEve  I'm listening\nAlan  Well Okay So he said he really didn't like my last play.\nEve  Your last play? Hiroshima?\nAlan  Okay, maybe it wasn't my best one.\nEve  It bombed.\nAlan  Very kind of you to remind me \nEve I told you it needed a different title And you killed him for that? Because he \ntold you he didn't like a play that everyone thought was shitty?\nAlan I think it rekindled the rivalry weve had for years. Patrick and I have always \ncompetedfor everything, including girls. I remember once in secondary school\nEve  Whatever. What happened?\nAlan  It came to blows. He slipped and hit his head on a corner of the table.\nEve The amount of blood on his shirt would indicate a sharp object was involved, \nrather than blunt force trauma.\nAlan Blood was pouring out of every orifice. Eyes, nose, ears. He convulsed for 15 \nminutes at least. And then nothing.\nEve  And you didn't think you should call 999?\nAlan You know what it's like, I say 15 minutes but maybe it was just a few minutes \nor even a few seconds, who knows. I was panicked. I froze. I didn't realise what was \nhappening. When I decided to call for help, it was already too late ( The doorbell \nrings. Alan looks worried.) You think that's them now?\nEve  Who? The ambulance?\nAlan  The police!\nEve  If you didn't call them\n8\n\nAlan  The neighbours might have heard something.\nEve  Oh wait, it must be Emma\nAlan  Emma? Patrick's wife? How would she already know?\nEve  She doesn't know. She called me an hour ago. I completely forgot. She said she \nwanted to talk to me about something important. I told her to stop by\nAlan  We shouldn't let her in.\nEve  She's going to find that strange. I told her I'd be home.\nAlan  You're right OK, you answer the door. I'll hide in the kitchen.\nEve  We should tell her everything, don't you think? Get it over with\nAlan Tell her what? That the body of her husband is lying on the kitchen floor in a \npool of blood? Do you really think it's the best way to break it to her that she's a \nwidow?\nThe doorbell rings again.\nEve  OK, I won't be long, we'll figure it out after.\nAlan  Just make sure she doesn't come in the kitchen.\nAlan goes to hide in the kitchen. Eve goes to the front door, after tucking the shirt \nback under the cushion.\nEve  Coming!\nEve returns with Emma.\nEmma  I'm sorry to drop by at such short notice. Patrick isn't here, is he?\nEve  Patrick? Why on Earth would he no, why?\nEmma I thought I saw his bike downstairs, never mind. Nothing looks more like a \nbike than another bike, don't you think?\nEve  Yes Sure\nEmma  And Alan?\nEve Yes, yes, he's here, but he's working. On his new play. And you know him, \nwhen he's writing\nEmma I understand Especially since his last play was such a failure What was \nit called again?\nEve  Hiroshima.\nEmma  That's right. No wonder it bombed. \nEve  Surely that's not what you wanted to talk to me about\n9\n\nEmma I'm really sorry to bother you. I know it's not the right time, but it's \nimportant.\nEve But of course! It's no bother at all, that's what friends are for Do you want \nsomething to drink?\nEmma  No thank you I'm OK\nEve Good(Emma looks at her, surprised.) No, I mean Please, sit down \n(Emma is about to sit on the sofa, next to the cushion hiding the shirt.) Err no, why \ndon't you sit over there.\nEve points Emma to a stool or a low bean bag that looks uncomfortable.\nEmma (sitting down)  OK\nEve It's just that, these sofas, you know what they're like It's easy to fall asleep. \nI'm a little tired and I want to be really present for you (She grabs a seat similar \nto Emma's and sits down.) So, what is it that you wanted to tell me that's so \nimportant?\nEmma So You're not going to believe this I just found out Patrick was \ncheating on me.\nEve  Really? And you didn't know?\nEmma  Well no. Why, did you?\nEve  But of course not! I mean And do you know who with?\nEmma  Not really.\nEve  Oh good, that's good\nEmma  What do you mean, good?\nEve  No, I mean, wouldn't it be worse if you knew who it was?\nEmma  I don't know\nEve And it doesn't even really matter, right? What matters is that he's cheating on \nyou.\nEmma Yes Well yes, you're right. But it would be worse if he cheated with \nsomeone I know.\nEve  Yeah\nEmma Can you imagine? Finding out your husband is cheating on you with your \nbest friend?\nEve  What? What are you talking about?\nEmma  No, don't worry. I could never do that to you.\nEve  Thank you.\n10\n\nEmma  So anyway, it's over. I'm divorcing him.\nEve Hang on, wait a minute Isn't it a little early to make such a decision? Maybe \nit was an accident\nEmma An accident? What do you mean? Do you think people hit on each other by \nmistake? Absentmindedly? And when things get hot and heavy, they just call the \ninsurance company and let them sort it out?\nEve  No, of course not, but\nEmma And then, when he comes home, the guy casually says to his wife: oh, by \nthe way, I meant to tell you, I had a little accident, I rear-ended the neighbour's wife.\nEve  He rear-ended the neighbour's wife?\nEmma No, but I'm just saying! It's an example. Are you sure you're OK? This story \nseems to be upsetting you more than me.\nEve I'm worried about you. As a couple you were so When we said Patrick and \nEmma, it was\nEmma  Like saying Alan and Eve.\nEve  So now when you tell me you're breaking up\nEmma  Goes to show Nothing lasts forever.\nEve  That's true, even Adam and Eve couldn't get their happy ever after.\nEmma Well, in any case, I'm never sleeping under the same roof as that bastard \never again. \nEve  I understand, of course\nEmma  And I can count on you for my divorce, right?\nEve Are you sure? I don't know if Im friends with you both, it could become \nawkward.\nEmma  Are you kidding? You're my friend! Patrick is more Alan's friend. We were \nfriends long before we met them! \nEve  That's true\nEmma  Animals, every last one of them Well, not Alan of course.\nEve  For sure.\nEmma  Although, they are two sides of the same coin, you know\nEve  Come on Not all men I assure you that Alan \nEmma Oh just you wait, when I serve him the divorce papers he won't know what \nhit him. After all, you're a killer, right?\n11\n\nEve  Pardon?\nEmma  As a lawyer! You're a killer, aren't you? At least, that's your reputation.\nEve  It is?\nEmma  Paloma told me. You know, you handled her divorce.\nEve  I did?\nEmma Yes, remember? She was married to a dentist. Big pr",
+        "word_count": 1213,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.733,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.2,
+        "all_scores": {
+          "joy": 0.0,
+          "sadness": 0.0,
+          "anger": 0.067,
+          "fear": 0.2,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.733
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "timing": {
+        "start_time": 1143,
+        "end_time": 1190,
+        "duration": 47
+      },
+      "content": {
+        "text": "ice in Belgravia. \nApparently, dental work was only one of the reasons his patients opened their \nmouths. Anyway, long story short, apparently you left him with nothing.\nEve That's an exaggeration And that's not what lawyers are for, you know A \ndivorce is first and foremost the failure of a life partnership. Lawyers are there to \nmake the separation less painful\nEmma Come on, don't be so modest. I know you're a killer. And let me tell you, I \nwant you to bleed Patrick dry.\nAlan returns, wearing a blood-stained apron.\nAlan  Hello.\nEmma  I thought you were writing your next successful play?\nAlan  I was also doing some cooking at the same time\nEmma  Really\nAlan Fun f",
+        "word_count": 119,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.502,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.502,
+          "fear": 0.22,
+          "disgust": 0.101,
+          "neutral": 0.092,
+          "anger": 0.052
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "timing": {
+        "start_time": 1192,
+        "end_time": 1278,
+        "duration": 86
+      },
+      "content": {
+        "text": ", writing and cooking have a lot in common Both require good \ningredients. A proven recipe. A little salt. A little spice. Then you let it simmer \nEmma I see I didn't know you were a foodie as well What's your signature \ndish?\nAlan  Deer burgers.\nEve His famous secret recipe. No one's allowed in the kitchen when he's preparing \nit.\nAlan  And you, how are you?\nEve  Patrick is no longer with us I mean, Emma She's no longer with Patrick\nAlan  No?\nEmma I just found out the bastard was cheating on me. Did you know anything \nabout it?\nAlan  Me? But of course not! Why would I know anything about it?\nEmma Bros before hos, don't think I don't know what it's like. Always ready to \nprovide an alibi. Or a guest room\n12\n\nAlan I promise, Emma, it wasn't like that Come on! We're friends. How can you \nthink that I\nEmma I'm sorry, I'm letting the emotions get the better of me I don't know what \nI'm saying anymore.\nEve Do you want to stay here for a bit, until you feel good enough to go home? \nAnd we can talk again in the morning, with clear heads. What do you think?\nEmma  Home? I told you, it's out of the question!",
+        "word_count": 217,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.274,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.274,
+          "neutral": 0.272,
+          "surprise": 0.192,
+          "anger": 0.156,
+          "sadness": 0.054
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "timing": {
+        "start_time": 1280,
+        "end_time": 1457,
+        "duration": 177
+      },
+      "content": {
+        "text": "ually, since you're both here, I \nwant to ask you a favour\nAlan  Yes?\nEmma  Would you mind if I slept here tonight?\nEve  Well\nEmma I'll find a solution tomorrow Or I'll go and stay with my mother. But \ntonight, right now ( She starts to sob) I need to feel supported And you're my \nonly friends\nEve walks towards her to give her a hug.\nEve  Yes, of course \nEmma I knew I could count on you I can't face talking to my mother right now. \nShe hated Patrick. She always said he was a womaniser. Unfortunately, she was right, \nof course. But I can't bear her preaching to me right now. But with you \nEve  But of course, we're here for you. Aren't we, Alan?\nEmma  You're true friends. It means so much to me\nEmma leans into Eve for a hug.\nEve  Don't worry about it It's not that bad Well, I hope it isn't\nAlan  Right, I'll leave you girls to it, that deer meat isn't going to grind itself\nEve watches him leave, horrified.\nEmma I swear, if he was standing right there in front of me, I don't think I could \ncontrol myself I'm having burger meat fantasies of my own right now. Fucking \nanimal.\nEve  Come on, don't say that\nEmma (wiping her tears )  I am so sorry to drag you into this.\nEve  Are you feeling better?\nEmma  A little I think I'll take that drink now\nEve  Err Yes What would you like?\n13\n\nEmma  A glass of tap water will be fine. Don't get up, I'll get it from the kitchen.\nEve  No!\nEmma (surprised)  Oh right, I forgot the secret recipe for the deer burgers.\nEve  You need something stronger, trust me.\nEmma  I don't know if\nEve  I'll have one with you. I need a drink too.\nEmma  You do?\nEve removes a bottle and two glasses from a cabinet. She fills the glasses and raises \nhers for a toast.\nEve  We're stronger than that, aren't we? ( Breaking down) We'll get through this\nShe bursts into tears and now it's Emma's turn to walk towards her to console her.\nEmma I knew you were a friend but I really had no idea it would affect you that \nmuch\nEve gets a hold of herself.\nEve  Let's toast. It won't make Patrick come back but we'll feel less tense.\nShe empties her glass in one gulp. Emma decides to do the same.\nEmma  Wow Strong enough to raise the dead\nEve  If only\nEmma  What is it?\nEve  Potato liqueur.\nEmma Oh yes, it's We can really taste the",
+        "word_count": 443,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.625,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.125,
+        "all_scores": {
+          "joy": 0.0,
+          "sadness": 0.062,
+          "anger": 0.062,
+          "fear": 0.125,
+          "surprise": 0.125,
+          "disgust": 0.0,
+          "neutral": 0.625
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "timing": {
+        "start_time": 1459,
+        "end_time": 1613,
+        "duration": 154
+      },
+      "content": {
+        "text": "ually, it doesn't taste of \nanything, does it?\nEve  No.\nEmma  But it does clear out the old airways\nEve (absentmindedly)  Yes\nSilence.\nEmma  How could I have been so fucking stupid?\nEve  Pardon?\nEmma  With Patrick! I didn't see anything coming\nEve He might come back Maybe this is all just a nightmare, any moment now \nwe'll all wake up.\n14\n\nEmma I really don't think so Remember when you asked me if I knew who it \nwas?\nEve  Who?\nEmma  The one Patrick cheated with!\nEve  Oh yes, and do you?\nEmma  More like who they are\nEve  How do you mean?\nEmma I guessed the password for his so-called work laptop, and I accidentally \nstumbled on his dating site account\nEve  A dating site?\nEmma TwoNightStands.com He's not cheating on me with a woman, Eve, but \nwith hundreds of them!\nEve  No?\nEmma He's a full-on sex addict, I tell you. Old ones, young ones, fat ones, thin \nones, blondes, brunettes He's not picky, that's for sure. Anything in a skirt.\nEve  Really?\nEmma  I am discovering a whole new side to him And their pussies\nEve  Oh because he also takes pictures of\nEmma No, I mean their cats. On their profile pictures. They all have cats. He \nhates cats.\nEve  Of course. That would be too far, there are limits, after all.\nEmma  Yeah well, Patrick's pushed the limits so far they're more like a horizon.\nEve  Really?\nEmma You should see his chat history Good grief I'm not joking when I say \nI'm discovering a whole new side to him. Because with me, it was always rather plain \nvanilla \nEve  Yes, with me as well I mean, with Alan.\nEmma  You should be careful. You think you know them, and then one day\nWe hear the sound of an electric knife, or hedge trimmer, or chain saw\nEve  He's trimming the hedges\nEmma  For the garnish?\nThe sound increases in volume and intensity.\n15\n\nEve  Maybe I should go and have a look I'll let you find the guest room\nEmma  Of course. Don't worry, I know the way Thanks again, for everything.\nEmma leaves. Alan returns.\nAlan  Where did she go?\nEve  I strangled her and dumped the body in the tub until we decide what to do n",
+        "word_count": 386,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.8,
+        "secondary_emotion": "sadness",
+        "secondary_score": 0.067,
+        "all_scores": {
+          "joy": 0.0,
+          "sadness": 0.067,
+          "anger": 0.067,
+          "fear": 0.067,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.8
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "timing": {
+        "start_time": 1615,
+        "end_time": 1843,
+        "duration": 228
+      },
+      "content": {
+        "text": "Might as well get rid of all annoying witnesses.\nAlan  You didn't?\nEve Of course not! What about you? What on earth is going on? What's all this \nnoise?\nAlan  I couldn't leave him in the middle of the kitchen floor.\nEve  So what did you do?\nAlan I stuffed him in the freezer. Just until we decide what we want to do with the \nbody.\nEve  And then you decided to do some yard work? In the kitchen?\nAlan  No, but He wouldn't fit in one piece\nEve Oh dear God I can't believe this How did we get here, Alan? That's it, I'm \ncalling the cops.\nShe takes out her mobile.\nAlan  Do you want to send me to prison?\nEve  That's where criminals belong, isn't it?\nAlan  But I keep telling you, it was an accident.\nShe changes her mind.\nEve  Are you sure he's dead?\nAlan Do you mean, am I sure he was really dead before I cut him in three pieces \nwith the hedge trimmer?\nEve  I'll take Things I Ever thought I'd hear from the man I married, Alex.\nAlan Remember our vows For better or for worse You should have thought \nabout that before.\nEve  Before what?\nAlan  Before cheating on me with Patrick\nEve You've lost your mind, Alan. You need help. You said so yourself, it was \ninvoluntary manslaughter. We'll plead temporary insanity.\n16\n\nEve calls the police.\nAlan  Don't do that\nEve  It's the only solution, trust me.\nAlan  You'll be charged as an accomplice.\nEve  How so?\nAlan  His wife is here and you haven't told her anything.\nEve  But why would I have helped you kill him?\nAlan  Because he was cheating on you too! You wanted revenge.\nEve  What do you mean, he cheated on me?\nAlan  I overheard you talking earlier. I knew about his account on that website\nEve  So you knew everything?\nAlan You know, when it comes to getting laid, men like to brag Makes you \nwonder if they don't cheat on their wives just so they can boast about it with their \nfriends. Must be their hunter-gatherer instinct: hunt the women then gather round \nwith their friends to swap stories.\nEve  And you didn't tell me?\nAlan Why would you need to know? It would only have made you uncomfortable \nwith Emma \nEve I see, so you wanted to protect me. Regardless, that doesn't give me a reason to \nkill Patrick.\nAlan  Really?\nEve  Why would I have killed him?\nAlan  Jealousy, of course. Just like Emma\nEve  What are you talking about now\nAlan You thought you were the only one. You couldn't bear the idea that you were \njust one among many. And when I told you I wanted to kill him, you offered to help. \nWith him dead, there would be no trace of your transgression. \nEve  You are completely out of your mind, Alan!\nAlan We both are. Birds of a feather and all that. I can just picture the headlines: \nEvil couple dismember best friend's husband's body and store it in freezer while \ndining with the widow in the next room.\nEve You're not thinking of telling that version of the story to the police, are you? \nJust to drag me along with you? It's monstrous!\n17\n\nAlan But I won't have to say anything! That's what the judge will think. Even if I \nmaintain that I was",
+        "word_count": 572,
+        "type": "screenplay_scene",
+        "header": "ext.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.8,
+        "secondary_emotion": "joy",
+        "secondary_score": 0.2,
+        "all_scores": {
+          "joy": 0.2,
+          "sadness": 0.0,
+          "anger": 0.0,
+          "fear": 0.0,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.8
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "timing": {
+        "start_time": 1845,
+        "end_time": 1885,
+        "duration": 40
+      },
+      "content": {
+        "text": "ing alone, he'll think I'm trying to protect you.\nShe seems uncertain.\nEve  You think?\nAlan Either way, it'll be the end of your career. No one will want their divorce \nhandled by someone who dismembers her lovers with a hedge trimmer.\nEve  Unfortunately, you have a point\nAlan And don't forget the part where you'll have to tell the judge that you cheated \non me involuntarily.\nEve  But that part's true, I swear!\nAlan  Involuntary adultery? Run it by me, see if you can convince me \nEve It was that weekend where you were in Liverpool for the premiere of \nHiroshima,",
+        "word_count": 102,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.917,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.917,
+          "anger": 0.033,
+          "neutral": 0.018,
+          "sadness": 0.011,
+          "surprise": 0.008
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "timing": {
+        "start_time": 1887,
+        "end_time": 2036,
+        "duration": 149
+      },
+      "content": {
+        "text": "ually. I had to drive to Brighton to be in court, but the trial got \npostponed.\nAlan  You can just say that you didn't want to witness the flop in person\nEve Either way, we were both meant to be away. So the house was supposed to be \nempty.\nAlan Patrick had asked me for my keys, so he would have somewhere to take one \nof his lovers. So it was you?\nEve  Of course not! I came home during the night. I didn't know you had let him use \nthe house and our marital bed, to shag one of his floozies!\nAlan  It's the only double bed in the house So?\nEve  So I went to bed immediately after coming home.\nAlan  With Patrick\nEve I knew there was someone in the bed, but I thought it was you! I thought \nmaybe you decided to come home right after the play ended. I knew it would flop so I \nwasn't surprised\nAlan  Thank you for the vote of no confidence\nEve  I was very quiet, I didn't want to wake you up.\nAlan  But in the end your partner woke up nonetheless.\nEve Patrick's tart left at some point during the night. And apparently, he was ready \nfor seconds.\nAlan  So you were subbed in, is that it? You came in at half time\n18\n\nEmma He must have thought I was her. It's only the next morning that I realised he \nwasn't you. Although, I did think something was off.\nAlan  Why, because it was better?\nEve Of course not Let's just say it was different And I couldn't figure out why \nyou insisted on calling me Alexandra69.\nAlan  He pulled out all the stops, is that it?\nEve  It's just that I forgot what it was like\nAlan  Go on, add insult to injury\nEmma returns.\nEmma I'm sorry Could you lend me a toothbrush? I left in such a hurry. I hadn't \nplanned\nAlan Sure, just remember, try not to jump in the wrong bed tonight You never \nknow\nEmma  Err, sure\nAlan  I'll leave you to it You must have lots to talk about Compare notes\nHe leaves.\nEmma  Whatever did he mean?\nEve  I have no idea",
+        "word_count": 373,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.733,
+        "secondary_emotion": "surprise",
+        "secondary_score": 0.133,
+        "all_scores": {
+          "joy": 0.067,
+          "sadness": 0.0,
+          "anger": 0.067,
+          "fear": 0.0,
+          "surprise": 0.133,
+          "disgust": 0.0,
+          "neutral": 0.733
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "timing": {
+        "start_time": 2038,
+        "end_time": 2171,
+        "duration": 133
+      },
+      "content": {
+        "text": "ually, I do\nEmma  What?\nEve  He's accusing me of cheating on him.\nEmma  And is it true?\nEve  It was an involuntary adultery.\nEmma  Involuntary adultery? Is that a joke?\nEve  No.\nEmma  Okay\nEve I came home one night. There was a man in my bed. It's only the next morning \nthat I realised it wasn't my husband.\nEmma  Are you fucking kidding me?\nEve  Absolutely not.\nEmma  Eve, no one is going to believe this. Certainly not your husband\nEve  You're right. It's totally unrealistic.\nEmma  It's shame, though. Can you imagine? Guilt-free pleasure.\n19\n\nEve  And without consequences\nEmma  Was is worth it?\nEve  I\nEmma Cheating without knowing, is not really cheating. (They both burst into \nnervous laughter, but Emma stops abruptly. ) But if Patrick ever told me a story \nthat stupid he'd really be taking me for a fucking idiot\nEve Yes, of course But Don't you think that part of being a couple means \nbeing able to forgive the other person?\nEmma  Forgive? I'd kill him, believe me.\nEve  A figure of speech, I imagine.\nEmma  You've never wanted to kill someone?\nEve  Well\nEmma  If Alan cheated on you, for example, could you kill him?\nEve  Why? Do you know something I don't?\nEmma  No, no, of course not\nEve  So you've never cheated on Patrick then?\nEmma  No Well That depends on what you mean by cheating.\nEve  Is that so?\nEmma  I mean, technically\nEve  I see Do blowjobs count, that kind of thing?\nAlan returns.\nAlan  It'll be a few minutes. I spilled the beans.\nEve  Spilled the beans? So you've decided to confess everything?\nAlan  No, I meant the beans for dinner\nEmma  Oh, that's right the deer burgers\nEve  I'll go freshen up\nEve leaves. Embarrassed silence.\nEmma  You didn't tell her?\nAlan  Tell her what?\nEmma  Our little indiscretion, on New Years Eve.\nAlan  But of course not! Why do you ask?\n20\n\nEmma  I don't know She's",
+        "word_count": 333,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.727,
+        "secondary_emotion": "joy",
+        "secondary_score": 0.182,
+        "all_scores": {
+          "joy": 0.182,
+          "sadness": 0.0,
+          "anger": 0.0,
+          "fear": 0.091,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.727
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "timing": {
+        "start_time": 2173,
+        "end_time": 2240,
+        "duration": 67
+      },
+      "content": {
+        "text": "ing weird\nAlan  That's not why, don't worry about it.\nEmma No, but because we've never spoken about it I was a little drunk. You \ntoo It didn't mean anything, right? It was just an accident.\nAlan  Oh, not you as well What it is with you both and your accidents\nEmma  I'm sorry for bringing it up, I shouldn't have\nAlan  Don't worry, it's already forgotten\nEve returns, looking a little out of sorts.\nEve  So, let's eat this deer then.\nThe doorbell rings.\nAlan  Who could that be?\nEve  The police?\nEmma, puzzled by their strange behaviour, looks at them, worried.\nAlan  I'll get it If I'm not back in five minutes, call my lawyer\nEve glances at Emma with a meaningful look, to reassure her.\nEve  A private joke.\nEmma  OK\nEve  Do you like deer meat?\nEmma  Yes, well\nAlan returns with a package.\nAlan  It's the sushi delivery.\nEve  Oh right, I completely forgot.\nEmma  You ordered sushi as well?\nEmbarrassed silence.\nBlack.\n21",
+        "word_count": 169,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.552,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.552,
+          "surprise": 0.23,
+          "neutral": 0.121,
+          "sadness": 0.048,
+          "disgust": 0.024
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_018",
+      "timing": {
+        "start_time": 2242,
+        "end_time": 2267,
+        "duration": 25
+      },
+      "content": {
+        "text": "2\nEmma  Your burgers are really excellent, Alan. Congratulations.\nAlan Thank you I apologise for the lead shot that almost broke your tooth. It \ndoesn't matter how careful you are picking them out, there's always a couple left.\nEmma It's not that easy to remove all trace of a crime, is it? I had no idea you were \na hunter\nEve  Me neither,",
+        "word_count": 63,
+        "type": "screenplay_scene",
+        "header": "Act",
+        "location": "Act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.367,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.367,
+          "sadness": 0.175,
+          "neutral": 0.172,
+          "anger": 0.097,
+          "surprise": 0.094
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_019",
+      "timing": {
+        "start_time": 2269,
+        "end_time": 2309,
+        "duration": 40
+      },
+      "content": {
+        "text": "ually\nAlan  Well, nowadays it's not something you brag about.\nEmma  So you really killed this poor animal yourself?\nAlan  Oh you know, I'm only starting out I only have a small rifle.\nEmma  Yes, that's very true\nAlan  No I mean, I use a small caliber. Nothing wrong with my rifle\nEmma But a deer, that's quite a large animal. Don't you need a large caliber to \nshoot one?\nAlan  Let's say it was more like an accident.\nEmma  An accident? Well, what do you know\nAlan I was returning from a hunting trip where I didn't catch anything With \nPatrick,",
+        "word_count": 102,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.326,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.326,
+          "surprise": 0.256,
+          "disgust": 0.127,
+          "neutral": 0.124,
+          "anger": 0.113
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_020",
+      "timing": {
+        "start_time": 2311,
+        "end_time": 2341,
+        "duration": 30
+      },
+      "content": {
+        "text": "ually. And on the way back this deer ran across the road, right under the \ncar.\nEmma  Maybe it was a suicidal deer. Looking to end its miserable stag life.\nAlan  Yes, maybe\nEmma  You're really full of hot air\nAlan  Pardon?\nEmma No, I mean, you spend a lot of time outside, getting fresh air hunting, \ngolfing\nEve  You play golf, too?\nAlan  Yes, I've started playing again a little\nEmma And do you",
+        "word_count": 75,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "sadness",
+        "primary_score": 0.769,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "sadness": 0.769,
+          "neutral": 0.086,
+          "fear": 0.061,
+          "surprise": 0.052,
+          "joy": 0.013
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_021",
+      "timing": {
+        "start_time": 2343,
+        "end_time": 2355,
+        "duration": 12
+      },
+      "content": {
+        "text": "ually play with Patrick, or are you just his alibi for when \nhe's romping around with his nymphos?\nAlan  No, no, we really play golf together, I promise. He's very good,",
+        "word_count": 31,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.717,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.717,
+          "surprise": 0.109,
+          "joy": 0.091,
+          "fear": 0.032,
+          "anger": 0.025
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_022",
+      "timing": {
+        "start_time": 2357,
+        "end_time": 2611,
+        "duration": 254
+      },
+      "content": {
+        "text": "ually\n22\n\nEmma Yes And from what he tells me, the 18 holes in Epping Forest is worth \nthe trip \nEve You should take me with you one of these days, Alan. I'd love to try a little \ngolf, too.\nEmma And you'll have to give me that burger recipe. Oh no, that's right that's \nalso a secret.\nEmbarrassed silence.\nEve  Does anyone want more beans?\nEmma  No thank you really I can't stomach anything else\nAlan  If you want to go and rest your head, don't mind us.\nEmma With everything that's happened I don't think I'll be able to sleep for a \nwhile but it's nice to know that in these horrible times you can count on your \nfriends.\nEve  Consider this your home, Emma\nAlan  Dessert, anyone?\nEve  We have Cornettos in the freezer\nEmma  Thank you, I'm fine I'll go wash my hands, if I may\nShe gets up.\nAlan  Use the bathroom, the kitchen is rather messy\nShe leaves. Alan helps himself to another burger.\nEve  Nice to see you taking this so well I see it hasn't spoiled your appetite\nAlan  Starving myself to death wouldn't change anything.\nEve  Why did you tell her you were a hunter?\nAlan I don't know It just came out. I had to find something to keep her from \ngoing in the kitchen.\nEve And what's with these burgers? What are they made of? Or is it better if I don't \nask?\nAlan  No, no That's really deer meat Organic, free-range deer meat\nEve Also, we'll have to talk about this golf thing later, because it sounds fishy to \nme\nAlan  Of course, I have nothing to hide\nEve Except for a body So I'll ask you one more time: is this a joke? Because if it \nis, it's in really poor taste. May I remind you that the widow is in the room next door.\n23\n\nAlan Go check in the freezer yourself if you want. But be warned: it's not a pretty \nsight.\nEve  You're right See no evil Hear no evil\nAlan You won't be able to say you didn't see or hear anything We're not talking \nabout frozen babies, shoved among Tupperware of frozen leftovers. This is a 6-foot-\ntall man split in three 2-foot segments \nEve You're a monster Preventing the lawful burial of a body, do you know what \nthat gets you? Do you want me to spend the best years of my life in prison?\nAlan  Mutually assured destruction, Eve. If I fall, you fall. You have to help me!\nEmma returns.\nEmma  I'm going to call him.\nEve  I don't think that's a good idea.\nEmma  I'm going to have break up with him at some point! \nEve  You sure you don't want to think about it a little longer?\nEmma  All the thinking's been done. I'll never forgive him for what he did to me.\nAlan  Sure, but talking to him can wait until tomorrow, no?\nEmma If I don't come home tonight, he's going to wonder what happened. He \nmight even call the police.\nEve  Ah yes, in that case Maybe you should let him know.\nAlan  Given the state he's in I don't think he'll call the police, but sure\nEmma  The state he's in?\nAlan I mean He might already suspect that you know, and feel uncomfortable \nabout the situation.\nEve  Don't you think it'd be better if you went home? Tomorrow is another day\nEmma  I'll never be able to sleep under the same roof as this mother fucker again.\nEve  You think you're in the right state of mind to talk to him?\nEmma Look, I'm not going to discuss how we split our assets or who gets custody \nof the dog. I just want to tell him to cont",
+        "word_count": 636,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.786,
+        "secondary_emotion": "joy",
+        "secondary_score": 0.071,
+        "all_scores": {
+          "joy": 0.071,
+          "sadness": 0.0,
+          "anger": 0.071,
+          "fear": 0.0,
+          "surprise": 0.0,
+          "disgust": 0.071,
+          "neutral": 0.786
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_023",
+      "timing": {
+        "start_time": 2613,
+        "end_time": 2638,
+        "duration": 25
+      },
+      "content": {
+        "text": "my lawyer. Aka you.\nAlan  Oh, so you're going to handle their divorce?\nEve  I don't know Yes Emma asked me\nAlan  Right So if you insist on calling him now do you want to be left alone?\nEve  If you want, you call him from the\n24\n\nAlan  Not the kitchen.\nEmma  You don't have to leave, I'd like you to stay",
+        "word_count": 63,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.38,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "neutral": 0.38,
+          "sadness": 0.215,
+          "fear": 0.174,
+          "surprise": 0.145,
+          "anger": 0.048
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_024",
+      "timing": {
+        "start_time": 2640,
+        "end_time": 2740,
+        "duration": 100
+      },
+      "content": {
+        "text": "ually.\nShe calls Patrick on her mobile. We hear a phone ringing in the next room.\nEmma  That's weird, it sounds like it's ringing next door\nAlan  Must be mine.\nEmma  Aren't you going to get it?\nAlan  Yes, yes, sure\nHe leaves, Eve gives him a puzzled look.\nEmma  He's not picking up\nEve  Well I'm not surprised.\nEmma  Why do you say that?\nEve If he saw you were calling, and if he knows why you're calling him, and he \nprobably isn't going to pick up.\nEmma It's him Patrick? I know everything. What do you think? Oh please, don't \npretend you don't know what I'm talking about. Yes, your 18 th hole, that's right. \nWhat's your username on TwoNightStands.com again? Oh yes, Patrick327. Hard to \nbelieve there are 326 other mother fuckers with the same loser first name. You piece \nof shit! Is that all you have to say? You little fucker. It's over, Patrick327. Next time \nyou want to talk to me, talk to my lawyer. And guess what? You've already met her, \nit's Eve. Yes, Eve! That's right, Alan's wife, your best mate. Didn't see that one \ncoming, did you? Have a good night, you piece of shit! (She puts her mobile away. ) \nRight, that's done. I feel better now I got it all out\nEve is aghast.\nEve  Who was that?\nEmma  What do you mean, who was that? Him! Who do you think?\nEve  Patrick? What did he say?\nEmma Not very much,",
+        "word_count": 251,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "surprise",
+        "primary_score": 0.863,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "surprise": 0.863,
+          "neutral": 0.044,
+          "anger": 0.036,
+          "disgust": 0.026,
+          "fear": 0.019
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_025",
+      "timing": {
+        "start_time": 2742,
+        "end_time": 3031,
+        "duration": 289
+      },
+      "content": {
+        "text": "ually. What could he say? He sounded strange. I think \nI'm going to take an aspirin I feel a headache coming on Can I get a glass of \nwater from the bathroom?\nEve  Of course.\nEmma  Bastard\nEmma leaves. Alan returns.\nAlan  Are you OK? What happened?\nEve  You really took me for a ride, didn't you?\n25\n\nAlan  What?\nEve  Emma. She just spoke to Patrick on the phone.\nAlan  It was me.\nEve  What?\nAlan Patrick's mobile! It was in his pocket so of course, it's still there now I \npicked up when she called, to avoid raising suspicions\nEve  Really? So that's why she said he had a strange voice.\nAlan  I did like they do on the telly. I covered the speaker with a handkerchief.\nEve  You are certifiably insane\nAlan But now we have an alibi. I couldn't have killed him an hour ago if she just \nspoke to him on the phone.\nEve Unless the police decide to trace the location of the call and find that it came \nfrom our kitchen.\nAlan  Do you think they'll look that closely?\nEve  This is a serious crime. They might.\nSilence. Alan pretends to be on the verge of tears.\nAlan If you knew how much I'm sorry If only I could go back in time, just an \nhour Unfortunately that's not possible\nEve  Did you really kill him because he didn't like your play?\nA beat.\nAlan  Yes Among other things\nEve  What other things?\nA beat.\nAlan  He told me he slept with you.\nEve  I see Why didn't you tell me before?\nAlan  I wanted to see if you would tell me first\nEve  So you didn't believe him either when he told you it was a misunderstanding.\nAlan  He didn't tell me it was a misunderstanding. That's the problem\nEve  Mother fucker I'm going to kill him!\nAlan I've already done that I'm only asking you to help me get rid of the body. If \nyou love me Do you love me?\nEve  Of course I love you. How do you not know that?\n26\n\nAlan  I do know that.\nEve  What about me? Do you believe me, that I slept with him by mistake?\nAlan  I'm trying You have to agree that's more difficult\nEve  What can I do to prove how much I love you\nAlan You've already done enough. But you're right, there is zero chance of me not \ngoing to prison. And I don't want to be the reason you're going down with me. I'll call \nthe police.\nEve  No, wait!\nAlan  What?\nEve  I don't want you to go to prison for years and years.\nAlan  So what do we do?\nEve  I'll help you get rid of Patrick\nAlan  How do we do that?\nEve You know, as a lawyer, I've had many clients share trade secrets with me over \nthe years. Including a few foolproof ways to fit a six-foot-long body through the drain \nof a bath tub, after a night soaking in a bath of acid.\nAlan  I see\nEve  But first we have to get rid of her.\nAlan  Get rid of her?\nEve  She can't be here running around!\nAlan  Oh, you scared me\nEmma returns.\nEmma  What's with the faces? Is there a problem?\nEve  No, no, of course not.\nEmma  I tried lying down a bit, but I can't sleep.\nAlan  How about we open a bottle of something to take the edge off?\nEmma I don't know if I can, I just took some pills I don't think you can mix \nthem?\nEve  Come on, one small drink after dinner never hurt anyone.\nEmma You know what, why not? It'll help digest the deer Tasty, but a little rich, \nno?\nEve pours three glasses and discretely slips a pill in one of them.\n27\n\nAlan  Oh, you're going for the lighter fluid again, good choice\nEmma  Potato liqueur\nEve  A specialty from Sodgibbon.\nEmma  Sodgibbon?\nAlan Eve has an uncle there. A man of the cloth. He distills it at night in the illegal \nstill he setup in the church crypt.\nEmma, miles away, isn't really listening.\nEmma  I wonder where he could have met his lovers.\nAlan  There's plenty of hotels everywhere.\nEmma He was so stingy. I doubt it. In f",
+        "word_count": 724,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.846,
+        "secondary_emotion": "joy",
+        "secondary_score": 0.077,
+        "all_scores": {
+          "joy": 0.077,
+          "sadness": 0.077,
+          "anger": 0.0,
+          "fear": 0.0,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.846
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_026",
+      "timing": {
+        "start_time": 3033,
+        "end_time": 3211,
+        "duration": 178
+      },
+      "content": {
+        "text": ", I'm certain he used that site only so he \nwouldn't have to pay for prozzies. Because trust me, I saw the pictures of his bimbos, \nclearly he wasn't going for their looks\nEve  Thanks\nEmma looks at her, intrigued.\nAlan  Why did you use the past tense?\nEmma  Pardon?\nEve  You said: he was so stingy.\nEmma  Because he's dead to me.\nEve  Come on, don't say that\nEmma Either that, or he had a friend who let him use his flat Men are quick to \nhave each other's backs in those cases, aren't they. Present company excepted, of \ncourse, Alan\nAlan tops her glass.\nAlan  Come on, stop thinking about it Have another drink instead.\nEmma I don't know what's Just a few moments ago I couldn't sleep, but now I'm \ncrashing I think I'll go lie down\nShe falls to the ground.\nAlan  Looks like the headache pills kicked in, in the end\nEve  More like the sleeping pill I spiked her drink with.\nAlan  You didn't? \nEve  Now we have all the time we need to get rid of the body.\nAlan  Hers?\n28\n\nEve No, Patrick's! Help me take her to the guest room. She's going to sleep until \ntomorrow morning and when she wakes up, she'll be officially widowed.\nAlan  We even spared her the complications of a nasty divorce.\nEve  So really, we're doing her a favour.\nThey drag her by her feet backstage and return immediately.\nAlan  And for Patrick, what do we do?\nEve  A tub full of acid will take too long.\nAlan  Especially if Emma wants to take a shower tomorrow morning\nEve  You're right\nAlan We'll bag Patrick in three bin bags. And we'll take him for a walk in the \nforest\nEve Or a zoo. I saw that in a film once We throw him in the lion's enclosure and \nBob's your uncle.\nAlan How do you propose we walk past security at London Zoo with three large \nbin bags?\nEve  We could take him at night?\nAlan  Hampstead Heath will do just fine. I have a shovel in the shed outside.\nEve  And for Patrick, do you want help?\nAlan  I've already done most of it, I'll finish it. It's just too messy\nEve  As you wish\nHe leaves.\nEve I hope I'm not making a mistake Anyway it's too late now. Another one, \nfor the road\nShe pours herself another glass and gulps it down. Her mobile rings.\nEve Hello (Stunned) Patrick? If this is a joke it's really not funny. Is that you \nAlan? Sorry Patrick, is that really you? No, no, of course I'm not surprised, but \nWell, a little",
+        "word_count": 447,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.929,
+        "secondary_emotion": "disgust",
+        "secondary_score": 0.071,
+        "all_scores": {
+          "joy": 0.0,
+          "sadness": 0.0,
+          "anger": 0.0,
+          "fear": 0.0,
+          "surprise": 0.0,
+          "disgust": 0.071,
+          "neutral": 0.929
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_027",
+      "timing": {
+        "start_time": 3213,
+        "end_time": 3449,
+        "duration": 236
+      },
+      "content": {
+        "text": "ually Oh, you left your mobile here. Yes, he told me about your \ndiscussion. But why did you have to go and tell him? Anyway, now it's done I \nguess he had to know, eventually OK, I'll tell him Right. Thanks for calling. By \nthe way, have you spoken with Emma? Yes, I think she may suspect something. Yes, \nsomething like that OK, bye Patrick (S he hangs up) Mother fucker He really \nhad me going\nAlan returns with bulging bin bags.\nEve (not giving anything away )  So, that's it? It's done?\n29\n\nAlan Yes. Took me longer than I thought, the frozen pieces had started to stick to \nthe sides of the freezer I had to use an ice pick\nEve Poor Patrick I'm feeling all sorts of emotions seeing him like that, bundled \nlike the recycling on pick up day\nAlan  I don't know how to thank you. This is an incredible proof of love.\nEve  Does that mean I am forgiven for this involuntary adultery?\nAlan  Of course You've showed me how much you love me.\nEve And I forgive you for putting our best friend in my bed without telling me, \nOK?\nAlan  There's two more bags.\nEve  I'll help you\nAlan  Are you sure?\nEve  For better or for worse remember?\nThey leave. Emma enters, in a trance.\nEmma  Is anyone here? Where did I put my phone? \nShe looks at the bin bags with curiosity. Looking for her mobile, she lifts a cushion \non the sofa and finds the shirt covered in blood with cufflinks Intrigued, she slowly \ncomes out of her torpor. She opens one of the bin bags and closes it immediately, \nhorrified The other two arrive with two more bags.\nAlan  Emma, what are you doing here?\nEve  I thought you were asleep?\nEmma  No I mean, yes I just came looking for my mobile\nAlan  We were just taking the rubbish out\nEmma  I'm going back to bed. Don't mind me\nShe leaves, visibly scared.\nAlan  You think she suspects something?\nEve  Maybe we should wack her off too?\nAlan  I didn't know you were ready to kill for me. I'm almost scared\nEve (exhilarated)  You know that Tammy Wynette song? Stand by your man! \n(Singing) Doin' things that you don't understand. But if you love him you'll forgive \nhim. Even though he's hard to understand.\nAlan (worried)  Listen, I need to tell you something\nEve  Don't tell me you killed someone else!\n30\n\nAlan  No, that's the thing I mean, yes, but\nEve Poor Patrick He was a friend, you know. I'd like to say one last goodbye. \nWhich bag is the head in?\nAlan  I wouldn't do that if I were you\nEve  I think we need to talk, don't you think?\nAlan  OK, it's not Patrick in the bin bags.\nEve  What do you mean, not Patrick? You killed someone else?\nAlan  No, I mean, I didn't kill anyone How could you even believe such a thing?\nEve I don't know what I believe anymore (She opens one of the bags and her \nsmile freezes.) No This is horrific So you really killed someone?\nAlan  Of course not! I mean yes, but\nEve  What's this I'm looking at?\nAlan  The deer\nEve The deer? But Alan, you're not a hunter Or is that another thing you kept \nfrom me?\nAlan  I don't hunt, don't worry. But the story about the deer, that's true.\nEve  No kidding I'd love to hear it\nAlan  I was with Patrick,",
+        "word_count": 590,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.8,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.133,
+        "all_scores": {
+          "joy": 0.067,
+          "sadness": 0.0,
+          "anger": 0.0,
+          "fear": 0.133,
+          "surprise": 0.0,
+          "disgust": 0.0,
+          "neutral": 0.8
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_028",
+      "timing": {
+        "start_time": 3451,
+        "end_time": 3557,
+        "duration": 106
+      },
+      "content": {
+        "text": "ually. We had just finished playing golf.\nEve  Oh yes, golf, I forgot Let me guess, somewhere between the seventeenth and \nthe eighteenth hole, you killed a deer with a golf ball?\nAlan We were on our way home. As we drove through Epping Forest, we hit a \ndeer. We almost died, if you must know. Because hitting a 200-pound animal at sixty \nmiles an hour causes a lot of damage even when you're driving a large 4x4.\nEve  Yes, I can imagine\nAlan  We ended in the ditch Patrick had a mild concussion.\nEve  And then?\nAlan  Since he was still alive, I decided to take him to the vet.\nEve  Patrick?\nAlan The deer! We put him in the boot. But when we got to the vet, he had died of \nhis wounds.\nEve  Who?\nAlan  The deer!\n31\n\nEve  Oh, right\nAlan Since he was already in the car, we didn't know what to do with him. That's \nwhen Patrick had the idea to turn it into mince\nEve  A great idea But why this whole rigmarole?\nAlan  While we were cutting it up, Patrick confessed that he slept with you\nEve Clearly something must have inspired him as he was butchering the deer \nAnd what did he tell you? Because unlike me, he knew he was in his best friend's \nbed.\nAlan  Yes, that's why he was feeling guilty. It was weighing on his conscience.\nEve  His conscience? Patrick?\nAlan You're right, looking back I think he may have just wanted to humiliate me \nAll the while hiding behind the f",
+        "word_count": 265,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.507,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.507,
+          "surprise": 0.224,
+          "disgust": 0.074,
+          "neutral": 0.071,
+          "anger": 0.061
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_029",
+      "timing": {
+        "start_time": 3559,
+        "end_time": 3566,
+        "duration": 7
+      },
+      "content": {
+        "text": "that it was an involuntary adultery like you \nsay.\nEve  And then?\nAlan Eventually he admitted he knew ex",
+        "word_count": 19,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "fear",
+        "primary_score": 0.452,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "fear": 0.452,
+          "neutral": 0.212,
+          "anger": 0.113,
+          "sadness": 0.098,
+          "surprise": 0.057
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_030",
+      "timing": {
+        "start_time": 3568,
+        "end_time": 3627,
+        "duration": 59
+      },
+      "content": {
+        "text": "ly what he was doing and that in all \nprobability, so did you\nEve  The bastard I swear that\nAlan  Anyway, it came to blows.\nEve  So the blood on your shirt\nAlan  No, that's the deer, when we put him in the boot\nEve  I see\nAlan  Then we made up. I gave him one of my shirts and he left.\nEve  And then?\nAlan When you came home, I was angry at you. Because you hadn't told me. I felt \nbetrayed. Cheated.\nEve  I'm sorry. But I swear that I didn't know that he\nAlan That's when I had an idea. It just popped in my head. Cutting up this poor \nanimal made me lose my sense of reality. I found a recipe in Woman's Own.\nEve  Woman's Own?\nAlan To get back at you. I told you I killed him. To see how you'd re",
+        "word_count": 148,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.871,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.871,
+          "disgust": 0.057,
+          "sadness": 0.04,
+          "neutral": 0.014,
+          "surprise": 0.008
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_031",
+      "timing": {
+        "start_time": 3629,
+        "end_time": 3807,
+        "duration": 178
+      },
+      "content": {
+        "text": ". After that, \none thing lead to another\nWe hear a police siren. Eve sees the shirt sticking out from one of the bin bags.\nEve  Emma She saw the bags and the shirt She must have called the police\n32\n\nSomeone knocks violently on the door. Emma enters, holding a large knife.\nEmma  Don't come near me, bunch of sickos\nEve  Calm down, we can explain. It was just a stupid joke\nAlan  It's okay, it's not Patrick in the bin bags.\nEmma  Don't move, or I shoot!\nAlan  That's a knife\nEve  Let me open one, look, you can see for yourself.\nShe shows her the contents of one of the bin bags.\nEmma  Oh my God, what is that?\nAlan  It's a deer! Look! All that hair.\nEmma  Patrick also had a lot of hair!\nEve  Not that much\nEmma  How would you know?\nOff  Police!\nAlan  You called them, it's best if you talk to them.\nEve  It might be tricky\nEmma  OK\nEmma leaves.\nAlan  I'm sorry. I was stupid. But I felt betrayed\nEve It's my fault I should have told you right after it happened. But I didn't think \nyou'd believe me, you know\nAlan  We were both foolish.\nEve Goes to show, sweeping things under the carpet is never a good solution It \nalways comes back blowing in your face \nAlan  Agreed. That's why you should also tell her.\nEve  Who?\nAlan  Emma! For Patrick.\nEve  It doesn't matter, he cheats on her with anything in a skirt.\nAlan  Yes, but you're her best friend\nEmma returns.\nEmma  Everything's sorted, they're gone. I'm sorry, I don't know what took me.\n33\n\nEve  We're all a little confused, tonight It must be the full moon\nEmma  I didn't know it was a full moon.\nEve  If it isn't, it sure feels like it should be.\nAlan  I'll leave you to it, I think you have things to talk about\nAlan leaves.\nEmma  What does he mean?\nA beat.\nEve  I slept with Patrick.\nEmma  What?\nEve  I swear, it was totally involuntary.\nEmma  So that story you told me earlier, that was you and Patrick?\nEve  I wanted to tell you for a while, but I didn't know how.\nEmma  But how is that even possible?\nEve  Alan, that bastard, let him use our marital bed for his trysts\nEmma Yes, that makes sense And I don't want to know more You're my best \nfriend after all, right?\nEve  Thank you, Emma.\nEmma  We all make mistakes, especially when we've had too much to drink.\nEve  I was stone cold sober.\nEmma  Yes well, that's not the po",
+        "word_count": 445,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.867,
+        "secondary_emotion": "anger",
+        "secondary_score": 0.067,
+        "all_scores": {
+          "joy": 0.0,
+          "sadness": 0.0,
+          "anger": 0.067,
+          "fear": 0.0,
+          "surprise": 0.0,
+          "disgust": 0.067,
+          "neutral": 0.867
+        },
+        "method": "keyword"
+      }
+    },
+    {
+      "scene_id": "scene_032",
+      "timing": {
+        "start_time": 3809,
+        "end_time": 3816,
+        "duration": 7
+      },
+      "content": {
+        "text": "Patrick is the bastard here. Good thing he's not \nin my field of vision right now, I could",
+        "word_count": 18,
+        "type": "screenplay_scene",
+        "header": "int.",
+        "location": "UNKNOWN"
+      },
+      "emotion": {
+        "primary_emotion": "anger",
+        "primary_score": 0.797,
+        "secondary_emotion": null,
+        "secondary_score": 0,
+        "all_scores": {
+          "anger": 0.797,
+          "disgust": 0.131,
+          "sadness": 0.026,
+          "fear": 0.022,
+          "neutral": 0.016
+        },
+        "method": "ml"
+      }
+    },
+    {
+      "scene_id": "scene_033",
+      "timing": {
+        "start_time": 3818,
+        "end_time": 4332,
+        "duration": 514
+      },
+      "content": {
+        "text": "ually kill him!\nEve Don't worry, you don't just up and kill someone But if you need a lawyer, \nI'm here for you For your divorce, I mean\nEmma Thank you Right, I think I better go. You must have things to talk about, \ntoo I'll spend the night at my mother's. I'll tell her I locked myself out.\nEve  Take care of yourself Tomorrow is another day For everyone\nEmma leaves. Alan returns. They sit on the sofa and remain silent for a while.\nAlan  Was it really involuntary?\nEve  Let's say voluntarily involuntary, then.\nAlan  Alright, I'll pretend to believe you.\nThey embrace.\n34\n\nEve  On the plus side, my sex drive got a boost\nAlan  Yes, I noticed. I wonder what it was.\nEve  We should do this more often.\nAlan  Do what? More blind dates in our marital bed?\nEve Why? Do you have other friends who come to our flat for their sleazy \nhookups?\nAlan I was thinking the other way around. You must have friends who cheat on \ntheir husbands I'm one behind, not that anyone's counting\nEve  Sorry, all my friends are faithful\nThey kiss.\nBlack.\n35\n\nEpilogue\nThree suitcases are lined up against the wall in the living room. Alan comes in from \nthe street, and removes his raincoat.\nAlan  Honey! Are you there?\nEve arrives.\nEve  So, how'd it go?\nAlan They love the play. They want to setup a stage production after the summer \nholidays.\nEve  What? But that's amazing!\nAlan  And they found the perfect title.\nEve  An Innocent Little Murder  Sounds better than Hiroshima, doesn't it?\nAlan  Probably because it rings so true\nEve  Almost\nThey kiss.\nAlan  So in the end, all is well that ends well.\nEve  I always believed in you Even when your stories were obviously tall tales.\nAlan  In the end, this ordeal has brought us closer together. I promise I'll never lie to \nyou again.\nEve  And I promise I won't keep anything from you.\nAlan notices the suitcases.\nAlan (worried)  What's with the suitcases? Are you leaving me? After what you just \nsaid, I thought\nEve They're Emma's. She asked if she could spend the night here. I don't think it \nwent very well with Patrick She didn't have anywhere to go.\nAlan  She's such a pain in the ass\nEve  We owe her that much\nAlan  OK But just for one night\nThe doorbell rings.\nEve  That must be her\nAlan  OK, I'll get the champagne.\nEve  To celebrate Emma's divorce?\n36\n\nAlan  To celebrate my play finding a producer! We'll just have to celebrate with her.\nAlan leaves. Eve goes to open the door and returns with Emma.\nEve  You don't look OK. Did you have an argument?\nEmma  Listen, Eve I think I made a big mistake\nEve  You're scaring me, Emma What kind of mistake?\nEmma  I think I killed Patrick.\nEve  Come on, I've heard that one before. Try something else!\nEmma We had a talk, the two of us. It escalated quickly. I told him to leave the \nhouse immediately.\nEve  And then.\nEmma  Then well he went to pack his bags. That's when things sort of took a turn \nfor the worse.\nEve  Sort of?\nEmma  I was cutting a roast chicken With a knife in my hand and  I got carried \naway.\nEve  Where is he? In hospital?\nEmma Unfortunately it was too late to get help. I just wanted to scare him. He \nstepped towards me to dare me. I raised my arm in a reflex and I cut his carotid\nEve  Oh my God The nightmare continues. So, but where is he?\nEmma points to the suitcases with her eyes.\nEmma  Err, well In the suitcases\nEve  No?\nEmma  I'm going to be in need of your counsel, Eve.\nEve My counsel? You mean as a lawyer? Don't get your hopes up, Emma. Even a \nkiller lawyer like me There's no way we can pass this for a household accident\nEmma I was thinking more about passing it through the drain after a night in a \nbathtub full of acid\nEve  I'm going to have to talk to Alan about this\nAlan returns, looking delighted, waiving a bottle of champagne.\nAlan  Champagne!\nThe two women look at him, dumbstruck.\nBlack.\n37\n\nAbout the author\nBorn in 1955 in Auvers-sur-Oise (France), Jean-Pierre Martinez was first a drummer \nfor several rock bands before becoming a semiologist in advertising. He then \nbegan a career writing television scripts before turning to theatre and writing \nplays. He has written close to a hundred scripts for television and as many plays, \nsome of which have already become classics ( Friday the 13th,Strip Poker). He is \none of the most produced contemporary playwrights in France and in other \nfrancophone countries. Several of his plays are also available in Spanish and \nEnglish, and are regularly produced in the United States and Latin America.\nAmateur and professional theatre groups looking for plays to perform can download \nJean-Pierre Martinez's plays for free from his website La Comediathèque \n(https://comediatheque.net/ ). However, public productions are subject to SACD \nfiling.\n38\n\nOther plays by the same author translated in English\nComedies for 2\nEuroStar\nHeads and Tails\nHim and Her\nIs there a pilot in the audience?\nLast chance encounter\nNew Year's Eve at the Morgue\nNot even dead\nPreliminaries\nRunning on empty\nThe Costa Mucho Castaways\nThe Joker\nThe Rope\nThe Window across the \ncourtyard\nComedies for 3\nA brief moment of eternity\nA simple business dinner\nAn innocent little murder\nCheaters\nCrash Zone\nFragile, Handle with care\nFriday the 13th\nMénage à trois\nOne small step for a woman, \none giant leap backward \nfor Mankind\nThe Way of ChanceComedies for 4\nA Cuckoo's nest\nA hell of a night\nA Skeleton in the Closet\nBack to stage\nBed and Breakfast\nCasket for two\nCrisis and Punishment\nDéjà vu\nFamily Portrait\nFamily Tree\nFour stars\nFriday the 13th\nGay friendly \nHow to get rid of your best \nfriends\nIs there a critic in the audience?\nIs there an author in the \naudience?\nJust a moment before the end of \nthe world\nLovestruck at Swindlemore \nHall\nOne marriage out of two\nPerfect In-laws\nQuarantine\nStrip Poker\nSurviving Mankind\nThe Deal\nThe Fishbowl\nThe Perfect Son-in-Law\nThe Pyramids\nThe Smell of Money\nThe Tourists\nComedies for 5 to 6\nAll's well that starts badly\nChristmas Eve at the Police \nStation\nCrisis and Punishment\nCritical but Stable\nIn lieu of flowers...\nKing of Fools\nTraffic Jam on Graveyard Lane Comedies for 7 or more\nAt the bar counter\nBackstage Comedy\nBlue Flamingos\nCheck to the Kings\nChristmas Eve at the Police \nStation\nFalse exit\nIn flagrante delirium\nJust like a Christmas movie\nMiracle at Saint Mary Juana \nAbbey\nMusic does not always soothe \nthe savage beasts\nNeighbours'Day\nNicotine\nOf Vegetables and Books\nOffside\nOpen Hearts\nReality Show\nSave our Savings\nSpecial Dedication\nStories and Prehistories\nThe House of Our Dreams\nThe Jackpot\nThe Performance is not \ncancelled\nThe Worst Village in England\nWelcome aboard!\nWhite Coats, Dark Humour\nCollection of sketches\nEnough is Enough\nEthan and Eve\nFor real and for fun\nHim and Her\nKiller Sketches\nLost time Chronicles\nOpen Hearts\nSidewalk Chronicles\nStage Briefs\nStories to die for\nMonologues\nHappy Dogs\nLike a fish in the air\n39\n\nAll of Jean-Pierre Martinez's plays are available \nto download for free from his websites: \nhttps://comediatheque.net/\nhttps://jeanpierremartinez.net\nThis text is protected under copyright laws. \nCriminal copyright infringement will be investigated \nand may result in a maximum penalty of up to 3 years in prison \nand a EUR 300.000 fine.\nParis  May 2020\n La Comédiathèque - ISBN 978-2-37705-441-1\nhttps://comediatheque.net/\nPlay available for free download \n40",
+        "word_count": 1287,
+        "type": "screenplay_scene",
+        "header": "act",
+        "location": "act"
+      },
+      "emotion": {
+        "primary_emotion": "neutral",
+        "primary_score": 0.714,
+        "secondary_emotion": "fear",
+        "secondary_score": 0.143,
+        "all_scores": {
+          "joy": 0.071,
+          "sadness": 0.0,
+          "anger": 0.0,
+          "fear": 0.143,
+          "surprise": 0.071,
+          "disgust": 0.0,
+          "neutral": 0.714
+        },
+        "method": "keyword"
+      }
+    }
+  ]
+}

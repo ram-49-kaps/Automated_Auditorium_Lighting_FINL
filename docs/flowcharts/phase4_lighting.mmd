@@ -1,0 +1,35 @@
+flowchart TD
+    INPUT(["scene_data dict"]) --> EXT["Extract:\nemotion, text, scene_id, time_window"]
+    EXT --> CHECK{"use_llm +\nAPI key +\nLangChain?"}
+
+    CHECK --> |"yes"| LLM_PATH
+    CHECK --> |"no"| RULE_PATH
+
+    subgraph LLM_PATH["LLM Generation Path"]
+        CTX["retriever.build_context_for_llm\n(emotion, scene_text)"]
+        CTX --> CHAIN["LangChain Chain:\nChatPromptTemplate\n→ ChatOpenAI (temp=0)\n→ PydanticOutputParser"]
+        CHAIN --> PARSE["Parse → LightingInstruction"]
+        PARSE --> INJECT["Inject TimeWindow\n+ metadata"]
+    end
+
+    LLM_PATH --> |"success"| VALIDATE
+    LLM_PATH -.-> |"exception +\nFALLBACK_TO_RULES"| RULE_PATH
+
+    subgraph RULE_PATH["Rule-Based Generation Path"]
+        PAL["retriever.retrieve_palette\n(emotion)"]
+        PAL --> GROUPS["_build_group_instructions"]
+        GROUPS --> FW["front_wash:\nprimary color, full intensity"]
+        GROUPS --> BL["back_light:\ncomplementary, 70% intensity"]
+        GROUPS --> SF["side_fill:\naccent color (if effects)"]
+        FW --> ASM["Assemble\nLightingInstruction"]
+        BL --> ASM
+        SF --> ASM
+    end
+
+    RULE_PATH --> VALIDATE
+    VALIDATE["Validate:\ngroup_id present\nintensity ∈ 0..1\nschema check"]
+    VALIDATE --> OUT(["LightingInstruction dict"])
+
+    style LLM_PATH fill:#c05621,stroke:#fbd38d,color:#fff
+    style RULE_PATH fill:#744210,stroke:#fbd38d,color:#fff
+    style OUT fill:#276749,stroke:#68d391,color:#fff

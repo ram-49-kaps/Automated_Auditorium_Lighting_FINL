@@ -1,0 +1,1659 @@
+{
+  "metadata": {
+    "source_file": "Script-7.txt",
+    "source_format": ".txt",
+    "genre": "drama",
+    "total_scenes": 16,
+    "total_duration_formatted": "00:46:44",
+    "dominant_emotion": "unease",
+    "emotion_distribution": {
+      "tension": 1,
+      "unease": 4,
+      "anger": 4,
+      "neutral": 1,
+      "anxiety": 1,
+      "fury": 1,
+      "resignation": 2,
+      "sadness": 2
+    },
+    "narrative_context": "The narrative arc of this script opens with a tense atmosphere as Kabir’s discovery of Anaya’s secret relationship with Vikram sets the stage for a dramatic confrontation. The emotional tension builds as Kabir confronts Anaya, leading to a pivotal rooftop scene where their trust is severely shaken. The mood shifts from cautious hope to rising anxiety as Kabir’s anger and hurt become palpable, creating a sense of impending conflict.\n\nIn the apartment, the mood transitions from tense dialogue to a dramatic power struggle, as Kabir’s emotions escalate from hurt to fury. The confrontation reaches a climax with a final, cold goodbye, leaving a heavy, melancholic atmosphere in its wake. Kabir’s voiceover at the end of the scene reveals the lasting impact of Anaya’s actions, underscoring the emotional weight of their separation.\n\nThe lighting design should reflect the emotional trajectory of the scenes. For the rooftop scene, a low, harsh lighting with stark shadows can emphasize the tension and the emotional strain between Kabir and Anaya. As the confrontation escalates in the apartment, the lighting should shift to a more intense, contrasting palette, with sharp, cold colors to reflect the power struggle and the rising anger. The final scene should be bathed in a cool, desaturated light, with dimmer, softer tones to convey the coldness and finality of their goodbye. The voiceover at the end can be accompanied by a soft, ambient light to create a sense of lingering sadness and reflection."
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 0.0,
+        "end": 0
+      },
+      "duration": 0.0,
+      "text": "BETRAYAL LOVE SCRIPT\nTitle: “THE WAY YOU LIED SOFTLY”\n\nGenre: Romance / Betrayal / Psychological Drama\nEstimated Duration: ~48 minutes\n\nFADE IN:",
+      "location": null,
+      "emotion": {
+        "primary": "tension",
+        "primary_confidence": 0.8,
+        "secondary": "anticipation",
+        "secondary_confidence": 0.2,
+        "accent": "neutral",
+        "accent_confidence": 0.5,
+        "energy_level": 0.7,
+        "valence": -0.3
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_002",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2.0,
+        "end": 120
+      },
+      "duration": 118.0,
+      "text": "EXT. CITY SKYLINE – NIGHT\n\n[Approx. Timestamp: 00:00:00]\n\nRain drapes the city in shadow. Neon signs blur. Streetlights flicker like tired witnesses.\n\nA lone apartment window glows faintly.\n",
+      "location": "CITY SKYLINE",
+      "emotion": {
+        "primary": "unease",
+        "primary_confidence": 0.7,
+        "secondary": "anticipation",
+        "secondary_confidence": 0.3,
+        "accent": "tension",
+        "accent_confidence": 0.2,
+        "energy_level": 0.55,
+        "valence": -0.25
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_003",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 120,
+        "end": 300
+      },
+      "duration": 180,
+      "text": "INT. APARTMENT – NIGHT\n\n[00:02:00]\n\nKABIR (31, investigative journalist) types furiously. Coffee cold. Eyes restless.\n\nANAYA (28, elegant, unreadable) watches him from the doorway.\n\nANAYA\nYou’re home early.\n\nKABIR\nDidn’t want the night to end without you.\n\nShe smiles — practiced, perfect.\n\nCUT TO:",
+      "location": "APARTMENT",
+      "emotion": {
+        "primary": "unease",
+        "primary_confidence": 0.8,
+        "secondary": "anticipation",
+        "secondary_confidence": 0.6,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 0.55,
+        "valence": -0.25
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_004",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 300,
+        "end": 510
+      },
+      "duration": 210,
+      "text": "INT. BEDROOM – LATER\n\n[00:05:00]\n\nLow lamp light. Warm but fragile.\n\nThey lie together.\n\nKABIR\nDo you ever think about how we started?\n\nANAYA\nToo much.\n\nKABIR\nI fell because you looked honest.\n\nA pause.\n\nANAYA\nAnd now?\n\nKABIR\nNow I trust you.\n\nHer eyes flicker — just for a second.\n\nCUT TO:",
+      "location": "BEDROOM – LATER",
+      "emotion": {
+        "primary": "unease",
+        "primary_confidence": 0.9,
+        "secondary": "longing",
+        "secondary_confidence": 0.6,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 0.55,
+        "valence": -0.25
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_005",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 510,
+        "end": 720
+      },
+      "duration": 210,
+      "text": "EXT. CAFÉ – EVENING\n\n[00:08:30]\n\nDim amber lights. Rain streaks the windows.\n\nAnaya sits across from VIKRAM (35, corporate strategist, confident).\n\nTheir hands touch.\n\nVIKRAM\nYou said he wouldn’t find out.\n\nANAYA\n(lowered voice)\nHe won’t. He believes in people.\n\nVikram smirks.\n\nCUT TO:",
+      "location": "CAFÉ – EVENING",
+      "emotion": {
+        "primary": "unease",
+        "primary_confidence": 0.8,
+        "secondary": "longing",
+        "secondary_confidence": 0.6,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 0.55,
+        "valence": -0.25
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_006",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 720,
+        "end": 870
+      },
+      "duration": 150,
+      "text": "INT. APARTMENT – NIGHT\n\n[00:12:00]\n\nKabir returns home. The apartment is quiet.\n\nHe notices Anaya’s phone vibrating.\n\nA message flashes:\n\n“Did you tell him?”\n\nKabir freezes.\n",
+      "location": "APARTMENT",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.9,
+        "secondary": "unease",
+        "secondary_confidence": 0.7,
+        "accent": "longing",
+        "accent_confidence": 0.4,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_007",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 870,
+        "end": 1080
+      },
+      "duration": 210,
+      "text": "INT. APARTMENT – CONTINUOUS\n\n[00:14:30]\n\nAnaya enters.\n\nANAYA\nYou look pale.\n\nKABIR\nWho’s Vikram?\n\nSilence swells.\n\nANAYA\nA colleague.\n\nKABIR\nWhy does your colleague text like a lover?\n\nShe exhales slowly.\n\nANAYA\nBecause… sometimes I get tired of waiting.\n\nCUT TO:",
+      "location": "APARTMENT",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.8,
+        "secondary": "unease",
+        "secondary_confidence": 0.6,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_008",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1080,
+        "end": 1290
+      },
+      "duration": 210,
+      "text": "EXT. ROOFTOP – NIGHT\n\n[00:18:00]\n\nWind howls. City lights pulse below.\n\nKABIR\nI gave you everything honest in me.\n\nANAYA\nAnd you buried yourself in work.\n\nKABIR\nSo you replaced me?\n\nANAYA\nI chose certainty.\n\nDark clouds roll in.\n\nCUT TO:",
+      "location": "ROOFTOP",
+      "emotion": {
+        "primary": "neutral",
+        "primary_confidence": 0.332,
+        "secondary": "fear",
+        "secondary_confidence": 0.261,
+        "accent": "anger",
+        "accent_confidence": 0.186,
+        "energy_level": 0.3,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir and Anaya’s relationship is tested as Kabir discovers Anaya’s secret relationship with Vikram. Tension builds as Kabir confronts Anaya, leading to a dramatic rooftop scene where their trust is severely shaken."
+    },
+    {
+      "scene_id": "scene_009",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1290,
+        "end": 1530
+      },
+      "duration": 240,
+      "text": "INT. NEWSROOM – NIGHT\n\n[00:21:30]\n\nKabir stares at a confidential file.\n\nCompany logo: VIKRAM’S FIRM.\n\nThe investigation he’s been chasing for months — corporate corruption.\n\nNames. Payments.\n\nAnaya’s name appears.\n\nKabir’s breath catches.\n\nCUT TO:",
+      "location": "NEWSROOM",
+      "emotion": {
+        "primary": "anxiety",
+        "primary_confidence": 0.85,
+        "secondary": "fear",
+        "secondary_confidence": 0.65,
+        "accent": "determination",
+        "accent_confidence": 0.45,
+        "energy_level": 0.65,
+        "valence": -0.4
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_010",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1530,
+        "end": 1740
+      },
+      "duration": 210,
+      "text": "INT. APARTMENT – STORMY NIGHT\n\n[00:25:30]\n\nLights flicker. Thunder outside.\n\nAnaya enters to find Kabir waiting.\n\nFiles spread across the table.\n\nKABIR\nYou weren’t just cheating.\n\nShe doesn’t deny it.\n\nANAYA\nI was protecting myself.\n\nKABIR\nBy destroying the truth?\n\nANAYA\nTruth doesn’t pay rent. Love doesn’t buy safety.\n\nCUT TO:",
+      "location": "APARTMENT – STORMY NIGHT",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.9,
+        "secondary": "betrayal",
+        "secondary_confidence": 0.7,
+        "accent": "tension",
+        "accent_confidence": 0.6,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [
+        "Lights flicker"
+      ],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_011",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1740,
+        "end": 1980
+      },
+      "duration": 240,
+      "text": "INT. APARTMENT – ESCALATION\n\n[00:29:00]\n\nVoices rise.\n\nKABIR\nYou used me.\n\nANAYA\nYou needed to believe in something pure. I needed power.\n\nSilence.\n\nThe lights go out.\n\nOnly streetlight shadows remain.\n\nCUT TO:",
+      "location": "APARTMENT – ESCALATION",
+      "emotion": {
+        "primary": "fury",
+        "primary_confidence": 0.85,
+        "secondary": "betrayal",
+        "secondary_confidence": 0.7,
+        "accent": "desperation",
+        "accent_confidence": 0.4,
+        "energy_level": 1.0,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_012",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1980,
+        "end": 2190
+      },
+      "duration": 210,
+      "text": "EXT. STREET – NIGHT\n\n[00:33:00]\n\nRain pours harder.\n\nAnaya stands under a streetlamp, soaked.\n\nKabir watches from across the road.\n\nANAYA\n(shouting)\nIf you publish, I lose everything!\n\nKABIR\nAnd if I don’t, I lose myself.\n\nThunder cracks.\n\nCUT TO:",
+      "location": "STREET",
+      "emotion": {
+        "primary": "resignation",
+        "primary_confidence": 0.8,
+        "secondary": "tension",
+        "secondary_confidence": 0.6,
+        "accent": "melancholy",
+        "accent_confidence": 0.4,
+        "energy_level": 0.2,
+        "valence": -0.5
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_013",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2190,
+        "end": 2370
+      },
+      "duration": 180,
+      "text": "INT. NEWSROOM – DAWN\n\n[00:36:30]\n\nKabir’s finger hovers over “PUBLISH”.\n\nFlashbacks:\n\nHer smile\n\nTheir laughter\n\nHer lie\n\nHe clicks.\n\nCUT TO:",
+      "location": "NEWSROOM",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.9,
+        "secondary": "tension",
+        "secondary_confidence": 0.7,
+        "accent": "hurt",
+        "accent_confidence": 0.6,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_014",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2370,
+        "end": 2550
+      },
+      "duration": 180,
+      "text": "EXT. APARTMENT – MORNING\n\n[00:39:30]\n\nPolice cars. Reporters.\n\nAnaya watches from the balcony — hollow.\n\nKabir walks away without looking back.\n\nCUT TO:",
+      "location": "APARTMENT – MORNING",
+      "emotion": {
+        "primary": "sadness",
+        "primary_confidence": 0.8,
+        "secondary": "tension",
+        "secondary_confidence": 0.4,
+        "accent": "resignation",
+        "accent_confidence": 0.2,
+        "energy_level": 0.3,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_015",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2550,
+        "end": 2790
+      },
+      "duration": 240,
+      "text": "EXT. COURT STEPS – DAY\n\n[00:42:30]\n\nAnaya is led away.\n\nShe sees Kabir in the distance.\n\nTheir eyes meet.\n\nNo anger.\n\nOnly absence.\n\nFINAL SHOT:",
+      "location": "COURT STEPS",
+      "emotion": {
+        "primary": "sadness",
+        "primary_confidence": 0.9,
+        "secondary": "longing",
+        "secondary_confidence": 0.6,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 0.3,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    },
+    {
+      "scene_id": "scene_016",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2790,
+        "end": 2806.0
+      },
+      "duration": 16.0,
+      "text": "EXT. CITY – SUNSET\n\n[00:46:30]\n\nThe city glows in cold blue and fading amber.\n\nKabir stands alone, notebook in hand.\n\nVoiceover (soft, broken):\n\nKABIR (V.O.)\nYou didn’t break my heart…\nYou taught me how silence lies.\n\nFADE TO BLACK.\nEND.",
+      "location": "CITY – SUNSET",
+      "emotion": {
+        "primary": "resignation",
+        "primary_confidence": 0.8,
+        "secondary": "longing",
+        "secondary_confidence": 0.4,
+        "accent": "sadness",
+        "accent_confidence": 0.2,
+        "energy_level": 0.2,
+        "valence": -0.5
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "Kabir discovers Anaya’s betrayal, leading to a heated confrontation in their apartment. The mood shifts from tense dialogue to a dramatic power struggle, culminating in a final, cold goodbye. Kabir’s voiceover reveals the lasting impact of Anaya’s actions."
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "tension",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 33.599999999999994,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.159999999999997,
+            "color": "steel_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 23.519999999999996,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 16.799999999999997,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.079999999999998,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": false
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "unease",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 16.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 9.6,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 11.2,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 8.0,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 4.8,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "unease",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 13.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.8,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 9.1,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.9,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "unease",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "unease",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 12.0,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 7.199999999999999,
+            "color": "dark_blue",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 8.399999999999999,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 6.0,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 3.5999999999999996,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 72.0,
+            "color": "purple",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 43.199999999999996,
+            "color": "purple",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 50.4,
+            "color": "purple",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 36.0,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.599999999999998,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 83.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 49.8,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 58.099999999999994,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 41.5,
+            "color": "deep_red",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 24.9,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "neutral",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 37.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 22.2,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 25.9,
+            "color": "warm_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 18.5,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 11.1,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "anxiety",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 23.0,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 13.799999999999999,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 16.099999999999998,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 11.5,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 6.8999999999999995,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 74.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 44.4,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 51.8,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 37.0,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.2,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "fury",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 83.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 49.8,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 58.099999999999994,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 41.5,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 24.9,
+            "color": "soft_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "resignation",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 34.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 20.4,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 23.799999999999997,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 17.0,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 10.2,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 76.0,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 45.6,
+            "color": "red",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 53.199999999999996,
+            "color": "red",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 38.0,
+            "color": "dim",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.8,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 17.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 12.5,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "sadness",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 9.0,
+            "color": "lavender",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "lavender",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 7.5,
+            "color": "blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 4.5,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "resignation",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 12.6,
+            "color": "cold_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 14.7,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 10.5,
+            "color": "cyan",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 6.3,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    }
+  ]
+}

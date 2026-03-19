@@ -1,0 +1,29 @@
+flowchart TD
+    INPUT(["lighting_instructions[]"]) --> LAUNCH["SimulationLauncher"]
+    LAUNCH --> EXPORT["InstructionExporter"]
+    EXPORT --> JSON["Write\nlighting_instructions.json"]
+
+    JSON --> WS["Start WebSocket Backend\n(port 8765)"]
+    JSON --> HTTP["Start HTTP Server\n(port 8081)"]
+
+    WS --> CTRL["test_controller.py\n(reads JSON)"]
+    CTRL --> PROTO["External Simulation\nPrototype"]
+
+    HTTP --> FRONT["Three.js Frontend\n(module_1/)"]
+
+    PROTO <--> |"WebSocket"| BROWSER["Browser:\n3D Stage View"]
+    FRONT --> BROWSER
+
+    subgraph RENDER["Real-Time 3D Rendering"]
+        S1["Stage geometry +\nfixture positions"]
+        S2["DMX channel\nmapping"]
+        S3["Live color/intensity\nplayback"]
+    end
+
+    BROWSER --> RENDER
+
+    LAUNCH -.-> |"Ctrl+C"| STOP["stop() kills\nall processes"]
+
+    style LAUNCH fill:#276749,stroke:#68d391,color:#fff
+    style PROTO fill:#2f855a,stroke:#9ae6b4,color:#fff
+    style RENDER fill:#22543d,stroke:#68d391,color:#fff

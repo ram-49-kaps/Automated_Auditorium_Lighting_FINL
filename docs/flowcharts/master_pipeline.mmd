@@ -1,0 +1,54 @@
+flowchart TD
+    START(["🎬 Script Input — main.py"]) --> P0["Phase 0: Script Selection"]
+    P0 --> |"script_path"| P1
+
+    subgraph P1["PHASE 1 — Script Parsing & Scene Extraction"]
+        direction TB
+        P1A["1A: Text Acquisition\n(file read / OCR fallback)"]
+        P1B["1B: Immutable Structuring\n(UTF-8, SHA-256, line index)"]
+        P1C1["1C.1: LLM Scene Segmentation\n(Qwen 2.5-7B via HuggingFace)"]
+        P1SNAP["Boundary Snap\nto INT./EXT. markers"]
+        P1C2["1C.2: Timestamp Engine\n(regex + estimation)"]
+        P1D["1D: Validation & Fallback"]
+        P1E["1E: JSON Construction"]
+        P1A --> P1B --> P1C1 --> P1SNAP --> P1C2 --> P1D --> P1E
+    end
+
+    P1 --> |"scenes[]"| LOOP
+
+    subgraph LOOP["PER-SCENE PROCESSING LOOP"]
+        direction TB
+        P2["PHASE 2 — Emotion Analysis\nML model ↔ keyword fallback"]
+        P3["PHASE 3 — RAG Retrieval\nDual FAISS: Auditorium + Semantics"]
+        P4["PHASE 4 — Lighting Decision Engine\nLLM chain ↔ rule-based"]
+        P2 --> |"enriched scene"| P3
+        P3 --> |"rag_context"| P4
+    end
+
+    LOOP --> |"lighting_instructions[]"| P5
+    P5["PHASE 5 — Simulation\nExternal Prototype + Three.js"]
+
+    P5 --> P7
+    subgraph P7["PHASE 7 — Evaluation & Metrics v2"]
+        direction TB
+        L1["Layer 1: Trace Logger\n(SHA-256 hashes)"]
+        L2["Layer 2: Metrics Engine v1\n(coverage, drift, diversity)"]
+        L3["Layer 3: Evaluation Gate v2\n(structural, conflict, coherence, transitions)"]
+        L1 --> L2 --> L3
+    end
+
+    P7 --> DONE(["✅ Pipeline Complete"])
+
+    P2 -.-> |"failure → neutral"| P3
+    P5 -.-> |"optional — skip on failure"| P7
+    P7 -.-> |"non-fatal — log & continue"| DONE
+
+    style P1 fill:#1a365d,stroke:#63b3ed,color:#fff
+    style LOOP fill:#2d3748,stroke:#a0aec0,color:#fff
+    style P7 fill:#2d3748,stroke:#a0aec0,color:#fff
+    style P2 fill:#553c9a,stroke:#b794f4,color:#fff
+    style P3 fill:#2c7a7b,stroke:#81e6d9,color:#fff
+    style P4 fill:#c05621,stroke:#fbd38d,color:#fff
+    style P5 fill:#276749,stroke:#68d391,color:#fff
+    style START fill:#2b6cb0,stroke:#90cdf4,color:#fff
+    style DONE fill:#276749,stroke:#68d391,color:#fff

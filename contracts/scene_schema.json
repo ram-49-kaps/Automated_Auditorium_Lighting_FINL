@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "Scene",
-  "description": "Canonical scene representation produced by Phase 1, enriched by Phase 2.",
+  "description": "Canonical scene representation produced by Phase 1 and optionally enriched later.",
   "type": "object",
   "required": [
     "scene_id",
@@ -12,7 +12,7 @@
   "properties": {
     "scene_id": {
       "type": "string",
-      "description": "Unique scene identifier (e.g. scene_001)"
+      "description": "Unique scene identifier"
     },
     "script_type": {
       "type": "string",
@@ -21,9 +21,9 @@
         "raw_drama",
         "event_schedule",
         "cue_sheet",
-        "mixed"
-      ],
-      "description": "Detected script type"
+        "mixed",
+        "college_event"
+      ]
     },
     "time_window": {
       "type": "object",
@@ -42,81 +42,66 @@
         }
       }
     },
-    "text": {
-      "type": "string",
-      "description": "Raw scene text used for downstream analysis"
-    },
     "location": {
       "type": [
         "string",
         "null"
       ],
-      "description": "Extracted location or stage area"
+      "description": "Optional location or stage area"
+    },
+    "text": {
+      "type": "string",
+      "description": "Raw scene text used for downstream analysis"
     },
     "emotion": {
       "type": [
         "object",
         "null"
       ],
-      "description": "Emotion enrichment added by Phase 2",
+      "description": "Optional emotion enrichment (Phase 2). Supports up to 3 layers: primary, secondary, accent.",
       "properties": {
         "primary": {
-          "type": "string"
-        },
-        "primary_confidence": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1
+          "type": "string",
+          "description": "Dominant emotion driving lighting decisions"
         },
         "secondary": {
           "type": [
             "string",
             "null"
-          ]
-        },
-        "secondary_confidence": {
-          "type": "number"
+          ],
+          "description": "Supporting emotion for blended lighting"
         },
         "accent": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "description": "Subtle tertiary emotion for nuanced cues"
         },
-        "accent_confidence": {
-          "type": "number"
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
         }
       }
     },
     "explicit_lighting": {
       "type": "array",
+      "description": "Verbatim lighting instructions explicitly mentioned in the script",
       "items": {
         "type": "string"
-      },
-      "description": "Verbatim lighting cue matches from the script text"
-    },
-    "dialogue_lines": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "character",
-          "line"
-        ],
-        "properties": {
-          "character": {
-            "type": "string"
-          },
-          "line": {
-            "type": "string"
-          }
-        }
-      },
-      "description": "Structured dialogue extracted from the scene text"
+      }
     },
     "duration": {
       "type": "number",
-      "description": "Duration in seconds"
+      "description": "Scene duration in seconds"
+    },
+    "chunk_summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional dramatic summary of the chunk this scene belongs to (Phase 1C Narrative Memory)"
     }
   },
   "additionalProperties": false

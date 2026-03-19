@@ -1,0 +1,1765 @@
+{
+  "metadata": {
+    "source_file": "Script-8.txt",
+    "source_format": ".txt",
+    "genre": "comedy",
+    "total_scenes": 17,
+    "total_duration_formatted": "00:45:12",
+    "dominant_emotion": "comedic_energy",
+    "emotion_distribution": {
+      "comedic_energy": 5,
+      "surprise": 4,
+      "frustration": 1,
+      "anxiety": 1,
+      "determination": 1,
+      "comedy": 2,
+      "anger": 2,
+      "chaotic_energy": 1
+    },
+    "narrative_context": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene, setting the tone for a night of absurd and comical misadventures. The mood shifts from calm to frenzied as the team's plan for a simple job is met with confusion and disaster. The characters' incompetence and the town's unexpected reaction add to the humor, creating a light-hearted yet chaotic atmosphere. The lighting should start with soft, warm tones to reflect the initial calm and gradually shift to bright, stark lights to capture the frenzied mood.\n\nThe script then transitions to a chaotic wedding procession, where the team's misadventures continue. The mood shifts from the initial chaos to a more dramatic and tense atmosphere as they are mistaken for police at a checkpoint. The lighting should maintain the bright, dramatic tones to reflect the tension and confusion. The scene then moves to a talent show audition gone wrong, leading to a series of absurd events, including a bakery explosion and a fire alarm. The mood shifts to a mix of panic and humor, with the lighting becoming increasingly chaotic and intense to match the escalating chaos.\n\nThe climax of the script occurs in the town square, where the group is both chastised and celebrated. The mood shifts from the previous chaos to a more reflective and bittersweet tone as the characters process their experiences. The lighting should transition from the bright, chaotic lights to softer, warmer tones to reflect the emotional shift.\n\nThe festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere. The mood shifts from the previous reflective tone to a surreal and whimsical one, with the lighting becoming more playful and colorful to match the surreal and absurd elements.\n\nOverall, the emotional arc of the script opens with a calm and hopeful mood, builds to a series of chaotic and comical events, and concludes with a bittersweet and surreal aftermath. The lighting should reflect these shifts, starting with soft, warm tones, transitioning to bright and chaotic lights, and ending with playful and colorful hues to capture the full emotional journey."
+  },
+  "scenes": [
+    {
+      "scene_id": "scene_001",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 0.0,
+        "end": 0
+      },
+      "duration": 0.0,
+      "text": "EXTREME COMEDY SCRIPT\nTitle: “EVERYTHING THAT CAN GO WRONG, DID”\n\nGenre: Extreme Comedy / Slapstick / Absurd\nEstimated Duration: ~45–50 minutes\n\nFADE IN:",
+      "location": null,
+      "emotion": {
+        "primary": "comedic_energy",
+        "primary_confidence": 0.65,
+        "secondary": "",
+        "secondary_confidence": 0.0,
+        "accent": "",
+        "accent_confidence": 0.0,
+        "energy_level": 0.7,
+        "valence": 0.5,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene. The team's plan for a simple job is met with confusion and disaster, leading to a series of absurd and comical events. The mood shifts from calm to frenzied, with the characters' incompetence and the town's unexpected reaction adding to the humor."
+    },
+    {
+      "scene_id": "scene_002",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2.0,
+        "end": 60
+      },
+      "duration": 58.0,
+      "text": "EXT. SMALL TOWN BUS STAND – MORNING\n\n[Approx. Timestamp: 00:00:00]\n\nA peaceful bus stand. Birds chirp. Calm sunlight.\n\nA giant banner reads:\n“WELCOME TO SILENT VALLEY – MOST PEACEFUL TOWN”\n\nImmediately — a LOUD HONK.\n",
+      "location": "SMALL TOWN BUS STAND – MORNING",
+      "emotion": {
+        "primary": "surprise",
+        "primary_confidence": 0.85,
+        "secondary": "comedic_energy",
+        "secondary_confidence": 0.6,
+        "accent": "neutral",
+        "accent_confidence": 0.2,
+        "energy_level": 0.8,
+        "valence": 0.1
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene. The team's plan for a simple job is met with confusion and disaster, leading to a series of absurd and comical events. The mood shifts from calm to frenzied, with the characters' incompetence and the town's unexpected reaction adding to the humor."
+    },
+    {
+      "scene_id": "scene_003",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 60,
+        "end": 240
+      },
+      "duration": 180,
+      "text": "EXT. BUS STAND – CONTINUOUS\n\n[00:01:00]\n\nA bus screeches to a stop.\n\nOut jump:\n\nRAJU (28) – Overconfident, underqualified\n\nBUNTY (30) – Loud, zero awareness\n\nCHINTU (26) – Genius idiot (smart ideas, wrong execution)\n\nPAPPU (35) – Always hungry, always confused\n\nRAJU\nAlright boys. Two days. One job. Easy money.\n\nA cow walks by and immediately STEALS Pappu’s sandwich.\n\nPAPPU\n(emotional)\nIt was my breakfast AND my lunch.\n\nCUT TO:",
+      "location": "BUS STAND",
+      "emotion": {
+        "primary": "frustration",
+        "primary_confidence": 0.8,
+        "secondary": "comedy",
+        "secondary_confidence": 0.7,
+        "accent": "irritation",
+        "accent_confidence": 0.4,
+        "energy_level": 0.75,
+        "valence": -0.5
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene. The team's plan for a simple job is met with confusion and disaster, leading to a series of absurd and comical events. The mood shifts from calm to frenzied, with the characters' incompetence and the town's unexpected reaction adding to the humor."
+    },
+    {
+      "scene_id": "scene_004",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 240,
+        "end": 420
+      },
+      "duration": 180,
+      "text": "EXT. HOTEL “ROYAL PARADISE” – MORNING\n\n[00:04:00]\n\nThe hotel looks… suspiciously broken.\n\nMissing letters:\n“ROYAL PAR_DISE”\n\nThe RECEPTIONIST sleeps standing up.\n\nBUNTY\nFive-star, right?\n\nCeiling fan FALLS.\n\nThey all dodge.\n\nRECEPTIONIST\nFour-and-a-half. Fan under repair.\n\nCUT TO:",
+      "location": "HOTEL “ROYAL PARADISE” – MORNING",
+      "emotion": {
+        "primary": "surprise",
+        "primary_confidence": 0.9,
+        "secondary": "comedy",
+        "secondary_confidence": 0.7,
+        "accent": "frustration",
+        "accent_confidence": 0.4,
+        "energy_level": 0.8,
+        "valence": 0.1
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene. The team's plan for a simple job is met with confusion and disaster, leading to a series of absurd and comical events. The mood shifts from calm to frenzied, with the characters' incompetence and the town's unexpected reaction adding to the humor."
+    },
+    {
+      "scene_id": "scene_005",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 420,
+        "end": 570
+      },
+      "duration": 150,
+      "text": "INT. HOTEL ROOM – MOMENTS LATER\n\n[00:07:00]\n\nOne tiny room. Four beds stacked vertically.\n\nCHINTU\nThis is called vertical optimization.\n\nBunty jumps on a bed.\nThe entire stack COLLAPSES.\n\nBeat.\n\nRAJU\nOkay. Team meeting.\n\nThey sit on the floor.\n\nCUT TO:",
+      "location": "HOTEL ROOM – MOMENTS LATER",
+      "emotion": {
+        "primary": "anxiety",
+        "primary_confidence": 0.8,
+        "secondary": "comedy",
+        "secondary_confidence": 0.6,
+        "accent": "surprise",
+        "accent_confidence": 0.4,
+        "energy_level": 0.65,
+        "valence": -0.4
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script opens with a peaceful bus stand, quickly transitioning to a chaotic hotel scene. The team's plan for a simple job is met with confusion and disaster, leading to a series of absurd and comical events. The mood shifts from calm to frenzied, with the characters' incompetence and the town's unexpected reaction adding to the humor."
+    },
+    {
+      "scene_id": "scene_006",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 570,
+        "end": 750
+      },
+      "duration": 180,
+      "text": "INT. ROOM – PLANNING THE “SIMPLE JOB”\n\n[00:09:30]\n\nRaju draws a plan on a whiteboard.\n\nRAJU\nStep one: disguise.\nStep two: delivery.\nStep three: payment.\n\nPAPPU\nWhere is food in the plan?\n\nRAJU\nAfter.\n\nPAPPU\nThen I quit.\n\nCUT TO:",
+      "location": "ROOM – PLANNING THE “SIMPLE JOB”",
+      "emotion": {
+        "primary": "determination",
+        "primary_confidence": 0.9,
+        "secondary": "comedy",
+        "secondary_confidence": 0.7,
+        "accent": "frustration",
+        "accent_confidence": 0.4,
+        "energy_level": 0.75,
+        "valence": 0.35
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script transitions from a chaotic wedding procession to a mistaken police checkpoint, then to a talent show audition gone wrong. The group's misadventures continue with a bakery explosion and a fire alarm, leading to a dramatic conclusion in the town square where they are both chastised and celebrated."
+    },
+    {
+      "scene_id": "scene_007",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 750,
+        "end": 900
+      },
+      "duration": 150,
+      "text": "EXT. TOWN MARKET – AFTERNOON\n\n[00:12:30]\n\nThey appear in RIDICULOUS DISGUISES:\n\nRaju = fake moustache upside-down\n\nBunty = wedding suit + sunglasses\n\nChintu = lab coat + swimming goggles\n\nPappu = chef hat, no shirt\n\nPeople stare.\n\nBUNTY\nWhose wedding is this?\n\nRAJU\nOurs. With crime.\n\nCUT TO:",
+      "location": "TOWN MARKET – AFTERNOON",
+      "emotion": {
+        "primary": "comedy",
+        "primary_confidence": 0.95,
+        "secondary": "unease",
+        "secondary_confidence": 0.7,
+        "accent": "tension",
+        "accent_confidence": 0.4,
+        "energy_level": 1.0,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script transitions from a chaotic wedding procession to a mistaken police checkpoint, then to a talent show audition gone wrong. The group's misadventures continue with a bakery explosion and a fire alarm, leading to a dramatic conclusion in the town square where they are both chastised and celebrated."
+    },
+    {
+      "scene_id": "scene_008",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 900,
+        "end": 1080
+      },
+      "duration": 180,
+      "text": "EXT. MARKET – CHAOS BEGINS\n\n[00:15:00]\n\nChintu presses a button.\n\nInstead of smoke bomb —\nCOLORED CONFETTI EXPLODES EVERYWHERE\n\nKids cheer.\n\nMusic starts from nowhere.\n\nRAJU\nWHY IS THERE MUSIC?!\n\nA wedding procession joins accidentally.\n\nBunty starts dancing.\n\nBUNTY\nIf life gives music — dance!\n\nCUT TO:",
+      "location": "MARKET – CHAOS BEGINS",
+      "emotion": {
+        "primary": "comedy",
+        "primary_confidence": 0.95,
+        "secondary": "surprise",
+        "secondary_confidence": 0.8,
+        "accent": "euphoria",
+        "accent_confidence": 0.6,
+        "energy_level": 1.0,
+        "valence": 0.0
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script transitions from a chaotic wedding procession to a mistaken police checkpoint, then to a talent show audition gone wrong. The group's misadventures continue with a bakery explosion and a fire alarm, leading to a dramatic conclusion in the town square where they are both chastised and celebrated."
+    },
+    {
+      "scene_id": "scene_009",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1080,
+        "end": 1260
+      },
+      "duration": 180,
+      "text": "EXT. POLICE CHECKPOINT – CONTINUOUS\n\n[00:18:00]\n\nPolice stop them.\n\nPOLICE OFFICER\nWhat’s in the bag?\n\nPappu opens it.\n\nInside:\n— fake wigs\n— rubber chicken\n— disco ball\n— 47 bananas\n\nPOLICE OFFICER\n…why?\n\nPAPPU\nEmergency potassium.\n\nOfficer stares.\n\nLets them go.\n\nCUT TO:",
+      "location": "POLICE CHECKPOINT",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.509,
+        "secondary": "neutral",
+        "secondary_confidence": 0.243,
+        "accent": "disgust",
+        "accent_confidence": 0.091,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script transitions from a chaotic wedding procession to a mistaken police checkpoint, then to a talent show audition gone wrong. The group's misadventures continue with a bakery explosion and a fire alarm, leading to a dramatic conclusion in the town square where they are both chastised and celebrated."
+    },
+    {
+      "scene_id": "scene_010",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1260,
+        "end": 1410
+      },
+      "duration": 150,
+      "text": "INT. BANK (WRONG BUILDING) – AFTERNOON\n\n[00:21:00]\n\nThey storm inside dramatically.\n\nRAJU\nEverybody freeze!\n\nPeople clap.\n\nBANK MANAGER\nFinally! The entertainment arrived!\n\nTurns out:\nThey entered a talent show audition.\n\nBunty is pushed on stage.\n\nMusic BLASTS.\n\nCUT TO:",
+      "location": "BANK (WRONG BUILDING) – AFTERNOON",
+      "emotion": {
+        "primary": "surprise",
+        "primary_confidence": 0.469,
+        "secondary": "neutral",
+        "secondary_confidence": 0.316,
+        "accent": "anger",
+        "accent_confidence": 0.117,
+        "energy_level": 0.8,
+        "valence": 0.1
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The script transitions from a chaotic wedding procession to a mistaken police checkpoint, then to a talent show audition gone wrong. The group's misadventures continue with a bakery explosion and a fire alarm, leading to a dramatic conclusion in the town square where they are both chastised and celebrated."
+    },
+    {
+      "scene_id": "scene_011",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1410,
+        "end": 1620
+      },
+      "duration": 210,
+      "text": "INT. AUDITION HALL – MUSICAL CHAOS\n\n[00:23:30]\n\nBunty dances aggressively.\n\nChintu beatboxes accidentally.\n\nRaju trips, slides across stage.\n\nPappu eats snacks from judges’ table.\n\nJUDGE\nThis is terrible.\n\nAUDIENCE\n(standing ovation)\n\nConfetti cannons fire again.\n\nCUT TO:",
+      "location": "AUDITION HALL – MUSICAL CHAOS",
+      "emotion": {
+        "primary": "chaotic_energy",
+        "primary_confidence": 0.526,
+        "secondary": "disgust",
+        "secondary_confidence": 0.372,
+        "accent": "anger",
+        "accent_confidence": 0.041,
+        "energy_level": 0.95,
+        "valence": 0.4,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_012",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1620,
+        "end": 1770
+      },
+      "duration": 150,
+      "text": "EXT. STREET – RUNNING AWAY\n\n[00:27:00]\n\nThey escape.\n\nSuddenly — REAL CRIMINALS run past.\n\nPolice chase BOTH groups.\n\nRAJU\nWhy are we always included?!\n\nCHINTU\nStatistical bad luck.\n\nThey hide inside a bakery.\n\nCUT TO:",
+      "location": "STREET – RUNNING AWAY",
+      "emotion": {
+        "primary": "surprise",
+        "primary_confidence": 0.557,
+        "secondary": "anger",
+        "secondary_confidence": 0.178,
+        "accent": "fear",
+        "accent_confidence": 0.113,
+        "energy_level": 0.8,
+        "valence": 0.1
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_013",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1770,
+        "end": 1920
+      },
+      "duration": 150,
+      "text": "INT. BAKERY – SLOW MOTION\n\n[00:29:30]\n\nPappu sees cakes.\n\nTime slows.\n\nAngelic music.\n\nPAPPU\nI have arrived.\n\nHe knocks over a shelf.\n\nALL CAKES FALL like dominoes.\n\nCUT TO:",
+      "location": "BAKERY – SLOW MOTION",
+      "emotion": {
+        "primary": "comedic_energy",
+        "primary_confidence": 0.65,
+        "secondary": "surprise",
+        "secondary_confidence": 0.309,
+        "accent": "anger",
+        "accent_confidence": 0.038,
+        "energy_level": 0.7,
+        "valence": 0.5,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_014",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 1920,
+        "end": 2100
+      },
+      "duration": 180,
+      "text": "EXT. BAKERY – CONTINUOUS\n\n[00:32:00]\n\nExplosion of flour.\n\nEveryone white.\n\nThey look at each other.\n\nBunty sneezes —\nLOUD FIRE ALARM\n\nSprinklers ON.\n\nCUT TO:",
+      "location": "BAKERY",
+      "emotion": {
+        "primary": "anger",
+        "primary_confidence": 0.336,
+        "secondary": "neutral",
+        "secondary_confidence": 0.251,
+        "accent": "disgust",
+        "accent_confidence": 0.181,
+        "energy_level": 0.9,
+        "valence": -0.7
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_015",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2100,
+        "end": 2280
+      },
+      "duration": 180,
+      "text": "EXT. TOWN SQUARE – EVENING\n\n[00:35:00]\n\nCompletely soaked.\n\nTown gathers.\n\nMayor approaches.\n\nMAYOR\nYou idiots ruined everything.\n\nPause.\n\nMAYOR (CONT’D)\nBut tourism hasn’t been this good in years.\n\nCrowd cheers.\n\nCUT TO:",
+      "location": "TOWN SQUARE – EVENING",
+      "emotion": {
+        "primary": "comedic_energy",
+        "primary_confidence": 0.65,
+        "secondary": "disgust",
+        "secondary_confidence": 0.164,
+        "accent": "sadness",
+        "accent_confidence": 0.154,
+        "energy_level": 0.7,
+        "valence": 0.5,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_016",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2280,
+        "end": 2700
+      },
+      "duration": 420,
+      "text": "EXT. STAGE – NIGHT\n\n[00:38:00]\n\nBanner:\n“SILENT VALLEY COMEDY FESTIVAL”\n\nThe four are on stage.\n\nSpotlights flash wildly.\n\nRAJU\nWe failed the job.\n\nBUNTY\nBut succeeded in nonsense.\n\nCHINTU\nAccidental success is still success.\n\nPAPPU\nWhere is food?\n\nCrowd laughs uncontrollably.\n\nFINAL SHOT:",
+      "location": "STAGE",
+      "emotion": {
+        "primary": "comedic_energy",
+        "primary_confidence": 0.65,
+        "secondary": "surprise",
+        "secondary_confidence": 0.279,
+        "accent": "anger",
+        "accent_confidence": 0.153,
+        "energy_level": 0.7,
+        "valence": 0.5,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    },
+    {
+      "scene_id": "scene_017",
+      "script_type": "timestamped_drama",
+      "time_window": {
+        "start": 2700,
+        "end": 2714.8
+      },
+      "duration": 14.8,
+      "text": "EXT. TOWN – FIREWORKS\n\n[00:45:00]\n\nFireworks explode randomly — wrong colors, wrong timing.\n\nThe banner falls again.\n\nThe cow from earlier eats it.\n\nVOICEOVER (ALL TOGETHER)\nWe planned nothing…\nAnd that worked perfectly.\n\nFADE TO BLACK.\nEND.",
+      "location": "TOWN – FIREWORKS",
+      "emotion": {
+        "primary": "comedic_energy",
+        "primary_confidence": 0.65,
+        "secondary": "surprise",
+        "secondary_confidence": 0.101,
+        "accent": "anger",
+        "accent_confidence": 0.051,
+        "energy_level": 0.7,
+        "valence": 0.5,
+        "comedy_guard_applied": true
+      },
+      "explicit_lighting": [],
+      "chunk_summary": "The festival's success is celebrated with a chaotic performance and a failed fireworks display. The characters' reactions to the unexpected success add to the comedic tension, while the banner's fall and the cow's intervention create a surreal and absurd atmosphere."
+    }
+  ],
+  "lighting_instructions": [
+    {
+      "scene_id": "scene_001",
+      "emotion": "comedic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 31.5,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 36.75,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 26.25,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.75,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": false
+      }
+    },
+    {
+      "scene_id": "scene_002",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 79.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 47.4,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 55.3,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 39.5,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 23.7,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_003",
+      "emotion": "frustration",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 73.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 43.8,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 51.099999999999994,
+            "color": "warm_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 36.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 21.9,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_004",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 83.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 49.8,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 58.099999999999994,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 41.5,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 24.9,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_005",
+      "emotion": "anxiety",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 32.0,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 19.2,
+            "color": "grey",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 22.4,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 16.0,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.6,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_006",
+      "emotion": "determination",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "warm_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 37.5,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.5,
+            "color": "soft_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_007",
+      "emotion": "comedy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 66.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 39.6,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 46.199999999999996,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 33.0,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 19.8,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_008",
+      "emotion": "comedy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 64.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 38.4,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 44.8,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 32.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 19.2,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_009",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 81.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 48.6,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 56.699999999999996,
+            "color": "warm_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 40.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 24.3,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_010",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 85.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 51.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 59.49999999999999,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 42.5,
+            "color": "steel_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 25.5,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_011",
+      "emotion": "chaotic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 18.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 21.0,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "dark_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 9.0,
+            "color": "soft_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 4.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_012",
+      "emotion": "surprise",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 75.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 52.5,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 37.5,
+            "color": "teal",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 22.5,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.1
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_013",
+      "emotion": "comedic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 50.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 35.0,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 25.0,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.0,
+            "color": "soft_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_014",
+      "emotion": "anger",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 79.0,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 47.4,
+            "color": "warm_amber",
+            "focus_area": "full_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 55.3,
+            "color": "warm_amber",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 39.5,
+            "color": "grey",
+            "focus_area": "center_stage",
+            "color_temperature": "cool"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 23.7,
+            "color": "cool_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "cut",
+            "duration_seconds": 0.5
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_015",
+      "emotion": "comedic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 51.0,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 30.599999999999998,
+            "color": "warm_white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 35.699999999999996,
+            "color": "warm_white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 25.5,
+            "color": "ice_blue",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 15.299999999999999,
+            "color": "soft_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_016",
+      "emotion": "comedic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 46.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 27.599999999999998,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 32.199999999999996,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 23.0,
+            "color": "cold_white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 13.799999999999999,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    },
+    {
+      "scene_id": "scene_017",
+      "emotion": "comedic_energy",
+      "time_window": {
+        "start_time": 0.0,
+        "end_time": 0.0
+      },
+      "groups": [
+        {
+          "group_id": "front_wash",
+          "parameters": {
+            "intensity": 45.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "back_light",
+          "parameters": {
+            "intensity": 27.0,
+            "color": "white",
+            "focus_area": "full_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "side_fill",
+          "parameters": {
+            "intensity": 31.499999999999996,
+            "color": "white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "specials",
+          "parameters": {
+            "intensity": 22.5,
+            "color": "cool_white",
+            "focus_area": "center_stage",
+            "color_temperature": "warm"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        },
+        {
+          "group_id": "ambient",
+          "parameters": {
+            "intensity": 13.5,
+            "color": "warm_white",
+            "focus_area": null,
+            "color_temperature": "neutral"
+          },
+          "transition": {
+            "type": "fade",
+            "duration_seconds": 2.0
+          }
+        }
+      ],
+      "metadata": {
+        "generation_method": "rule_based",
+        "context_aware": true
+      }
+    }
+  ]
+}

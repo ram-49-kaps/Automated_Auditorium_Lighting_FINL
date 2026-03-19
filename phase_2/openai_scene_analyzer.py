@@ -11,7 +11,7 @@ A dual-tier LLM approach optimized for `gpt-4o-mini`:
 import logging
 import time
 from typing import List, Dict, Any, Optional
-from utils.openai_client import openai_json
+from utils.openai_client import llm_json
 
 logger = logging.getLogger("phase_2.openai_scene_analyzer")
 
@@ -43,7 +43,16 @@ def analyze_all_scenes(
     # 3. Translate flat dicts -> V3 Objects
     v3_scenes = []
     for s_dict in scenes:
-        text_content = s_dict.get("content", "")
+        # Handle both dict and string content formats
+        raw_content = s_dict.get("content", "")
+        if isinstance(raw_content, dict):
+            text_content = raw_content.get("text", "")
+        elif isinstance(raw_content, str):
+            text_content = raw_content
+        else:
+            text_content = s_dict.get("text", "")
+        if not text_content:
+            text_content = s_dict.get("text", "")
         # For compatibility, we map an entire scene into a single initial Beat constraint
         beats = [Beat(beat_id="b1", units=[DialogueActionUnit(text=text_content)])]
         v3_scenes.append(V3Scene(scene_id=s_dict.get("scene_id", "unknown"), beats=beats))
@@ -114,7 +123,7 @@ def _extract_global_context(full_script: str) -> Optional[str]:
         "Provide a concise, 2-paragraph narrative summary of the overarching plot and main character arcs."
     )
     sys = "You are a professional dramaturg. Output valid JSON containing a single key: 'global_summary'."
-    res = openai_json(prompt, sys, expected_keys=["global_summary"], temperature=0.1)
+    res = llm_json(prompt, sys, expected_keys=["global_summary"], temperature=0.1)
     if res:
         return res.get("global_summary")
     return None
@@ -127,8 +136,11 @@ def _analyze_single_scene(
     scene_index: int,
     total_scenes: int
 ) -> Dict[str, Any]:
-    scene_text = scene.get("content", "")
-    if not scene_text.strip():
+    raw = scene.get("content", "")
+    scene_text = raw.get("text", "") if isinstance(raw, dict) else raw
+    if not scene_text:
+        scene_text = scene.get("text", "")
+    if not scene_text or not scene_text.strip():
         return _neutral_default(scene)
         
     prompt = (
@@ -150,7 +162,7 @@ def _analyze_single_scene(
     )
     
     sys = "You are an expert script emotion analyst. You MUST output ONLY valid JSON."
-    res = openai_json(
+    res = llm_json(
         prompt, 
         system_prompt=sys, 
         expected_keys=["primary_emotion", "primary_confidence", "scene_summary"],
@@ -158,7 +170,37 @@ def _analyze_single_scene(
     )
 
     if not res:
+        print(f"[{scene.get('scene_id')}] OpenAI emotion failed, attempting local DistilRoBERTa fallback...")
+        try:
+            from phase_2.emotion_analyzer import analyze_emotion
+            fallback_res = analyze_emotion(scene, global_context)
+            if fallback_res and fallback_res.get("emotion"):
+                emo = fallback_res["emotion"]
+                # Skip if it's just the fallback's fallback (neutral)
+                if emo.get("primary") != "neutral" or emo.get("secondary") != "neutral":
+                    print(f"[{scene.get('scene_id')}] Local fallback succeeded: {emo.get('primary')}")
+                    return {
+                        "primary_emotion": emo.get("primary", "neutral"),
+                        "confidence": emo.get("primary_confidence", 0.5),
+                        "secondary_emotions": [],
+                        "sentiment_score": emo.get("primary_confidence", 0.5),
+                        "theatrical_context": {"predicted_theme": emo.get("primary", "neutral"), "confidence": emo.get("primary_confidence", 0.5)},
+                        "primary": emo.get("primary", "neutral"),
+                        "primary_confidence": emo.get("primary_confidence", 0.5),
+                        "secondary": emo.get("secondary"),
+                        "secondary_confidence": emo.get("secondary_confidence", 0.0),
+                        "accent": emo.get("accent"),
+                        "accent_confidence": emo.get("accent_confidence", 0.0),
+                        "narrative_role": "unknown",
+                        "mood_shift": "none",
+                        "scene_id": scene.get("scene_id"),
+                        "scene_summary": f"Locally classified as {emo.get('primary', 'neutral')}."
+                    }
+        except Exception as e:
+            print(f"[{scene.get('scene_id')}] Local fallback failed: {e}")
+            
         return _neutral_default(scene)
+        
     return res
 
 
