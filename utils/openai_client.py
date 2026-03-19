@@ -45,6 +45,12 @@ PROVIDER_REGISTRY = {
         "base_url": None,  # Default OpenAI endpoint
         "supports_json_mode": True,
     },
+    "llama3-": {
+        "name": "groq",
+        "api_key_env": "GROQ_API_KEY",
+        "base_url": "https://api.groq.com/openai/v1",
+        "supports_json_mode": True,
+    },
     "Qwen/": {
         "name": "huggingface",
         "api_key_env": "HF_API_TOKEN",

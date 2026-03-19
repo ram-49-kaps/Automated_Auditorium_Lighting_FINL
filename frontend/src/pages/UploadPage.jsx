@@ -7,6 +7,7 @@ import { FileText, File, Loader2, Rocket, ArrowLeft, AlertTriangle, Cpu, Layers,
 
 // Available LLM models
 const LLM_MODELS = [
+    { value: 'llama3-8b-8192', label: 'Llama 3 (Ultra Fast)', provider: 'Groq', active: true },
     { value: 'rule_based', label: 'Rule-Based (No LLM)', provider: 'Local', active: true },
     { value: 'Qwen/Qwen2.5-7B-Instruct', label: 'Qwen 2.5 7B', provider: 'HuggingFace', active: true },
     { value: 'meta-llama/Llama-3.1-8B-Instruct', label: 'Llama 3.1 8B', provider: 'HuggingFace', active: true },
