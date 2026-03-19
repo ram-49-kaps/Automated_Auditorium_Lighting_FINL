@@ -6,12 +6,8 @@ from typing import Dict, Any, Optional
 from utils.openai_client import llm_json
 
 # Hugging Face imports for local fallback
-try:
-    from transformers import pipeline
-    import torch
-    HF_LOCAL_AVAILABLE = True
-except ImportError:
-    HF_LOCAL_AVAILABLE = False
+# Disabled to prevent OOM killer on 1GB EC2 instances
+HF_LOCAL_AVAILABLE = False
 
 logger = logging.getLogger("phase_2")
 

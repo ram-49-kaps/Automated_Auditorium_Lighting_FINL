@@ -6,13 +6,18 @@ Exposes the Auditorium and Semantics knowledge bases to the rest of the system.
 import os
 from typing import Dict, List, Any
 from langchain_community.vectorstores import FAISS
-from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 # Define paths relative to this file
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RAG_DIR = os.path.join(BASE_DIR, "rag")
 AUDITORIUM_INDEX = os.path.join(RAG_DIR, "auditorium")
 SEMANTICS_INDEX = os.path.join(RAG_DIR, "lighting_semantics")
+
+# ensure env vars
+from dotenv import load_dotenv
+load_dotenv(os.path.join(BASE_DIR, "../../.env"))
 
 class Phase3Retriever:
     """
@@ -22,9 +27,27 @@ class Phase3Retriever:
     
     def __init__(self):
         print("📥 Initializing Phase 3 RAG Engine...")
-        self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-        self.auditorium_db = self._load_index(AUDITORIUM_INDEX)
-        self.semantics_db = self._load_index(SEMANTICS_INDEX)
+        hf_token = os.environ.get("HF_API_TOKEN")
+        if hf_token:
+            print("☁️ Using HuggingFace Inference API for embeddings")
+            self.embeddings = HuggingFaceInferenceAPIEmbeddings(
+                api_key=hf_token, model_name="sentence-transformers/all-MiniLM-L6-v2"
+            )
+        else:
+            print("⚠️ HF_API_TOKEN missing, falling back to local embeddings (could cause OOM)")
+            try:
+                from langchain_huggingface import HuggingFaceEmbeddings
+                self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+            except ImportError:
+                print("❌ SentenceTransformers not found, RAG disabled")
+                self.embeddings = None
+                
+        if self.embeddings:
+            self.auditorium_db = self._load_index(AUDITORIUM_INDEX)
+            self.semantics_db = self._load_index(SEMANTICS_INDEX)
+        else:
+            self.auditorium_db = None
+            self.semantics_db = None
         
     def _load_index(self, path: str):
         try:
