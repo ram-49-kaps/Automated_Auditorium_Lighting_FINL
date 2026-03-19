@@ -27,20 +27,13 @@ class Phase3Retriever:
     
     def __init__(self):
         print("📥 Initializing Phase 3 RAG Engine...")
-        hf_token = os.environ.get("HF_API_TOKEN")
-        if hf_token:
-            print("☁️ Using HuggingFace Inference API for embeddings")
-            self.embeddings = HuggingFaceInferenceAPIEmbeddings(
-                api_key=hf_token, model_name="sentence-transformers/all-MiniLM-L6-v2"
-            )
-        else:
-            print("⚠️ HF_API_TOKEN missing, falling back to local embeddings (could cause OOM)")
-            try:
-                from langchain_huggingface import HuggingFaceEmbeddings
-                self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-            except ImportError:
-                print("❌ SentenceTransformers not found, RAG disabled")
-                self.embeddings = None
+        print("💡 Using local SentenceTransformers (all-MiniLM-L6-v2) for embeddings as requested")
+        try:
+            from langchain_huggingface import HuggingFaceEmbeddings
+            self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        except ImportError:
+            print("❌ SentenceTransformers not found, RAG disabled")
+            self.embeddings = None
                 
         if self.embeddings:
             self.auditorium_db = self._load_index(AUDITORIUM_INDEX)

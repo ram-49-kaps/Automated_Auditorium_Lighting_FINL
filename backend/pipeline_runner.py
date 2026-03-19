@@ -716,8 +716,9 @@ async def run_pipeline(job_id: str, filepath: str, ws_callback: Callable[[Dict],
             instruction = engine.generate_instruction(scene_data)
             
             # Phase 4 currently returns a Pydantic object (LightingInstruction)
-            # We need to serialize it to dict for JSON
-            instruction_dict = instruction.dict()
+            # We need to serialize it to dict for JSON safely (handles Enums/datetimes)
+            import json as _json
+            instruction_dict = _json.loads(instruction.json())
             lighting_cues.append(instruction_dict)
 
         await ws_callback({
